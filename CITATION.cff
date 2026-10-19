@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use ViAdminShift, please cite it as below."
 title: "ViAdminShift: A Vietnamese Benchmark for Event-Level Knowledge Updates Built from the 2025 Administrative Reform"
 type: dataset
-version: "1.0"
+version: "1.0.1"
 license: CC-BY-SA-4.0
 repository-code: "https://github.com/LLaammTTeerr/ViAdminShift"
 doi: 10.5281/zenodo.23473403

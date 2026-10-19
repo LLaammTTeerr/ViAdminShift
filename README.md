@@ -432,9 +432,9 @@ administrative use.
   title  = {{ViAdminShift}: A {Vietnamese} Benchmark for Event-Level Knowledge Updates Built from the 2025 Administrative Reform},
   author = {Phan, Binh Nguyen Lam and Nguyen, Thai Anh},
   year   = {2026},
-  note   = {Data version 2025-07-01, release v1.0},
-  doi    = {10.5281/zenodo.23473404},
-  url    = {https://doi.org/10.5281/zenodo.23473404}
+  note   = {Data version 2025-07-01},
+  doi    = {10.5281/zenodo.23473403},
+  url    = {https://doi.org/10.5281/zenodo.23473403}
 }
 ```
 

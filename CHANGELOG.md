@@ -3,7 +3,10 @@
 Data versions are named after the date of the administrative structure they describe. Released versions stay
 available unchanged. Report errors on the repository's issue tracker; confirmed corrections are listed here.
 
-## Version 2025-07-01 (release v1.0)
+## Version 2025-07-01 (releases v1.0, v1.0.1)
+
+v1.0.1 has the same data and code as v1.0, with the datasheet's creators, funding, ethical review, distribution and
+maintenance sections and the archive DOI in the README, `CITATION.cff` and datasheet.
 
 First release: the structure in force on 1 July 2025 ("old" = the structure on 30 June 2025).
 
