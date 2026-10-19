@@ -1,0 +1,25 @@
+\begin{tabular}{@{}l ccccc@{}}
+\toprule
+ & plain & \multicolumn{2}{c}{today is} & \multicolumn{2}{c}{as of} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Model & sys & sys & Q & Q & sys \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{reasoning off}} \\
+DeepSeek-V4.1-Flash & 0/99 & 30/68 & 50/45 & 57/41 & 46/51 \\
+GPT-6 & 0/100 & 9/91 & 85/15 & 82/18 & 39/61 \\
+Kimi-K3 & 2/95 & 0/100 & 10/86 & 32/66 & 1/99 \\
+GPT-6-Luna & 1/99 & 12/88 & 36/64 & 72/19 & 21/79 \\
+GPT-5.6-Terra & 0/100 & 22/78 & 41/56 & 90/10 & 10/90 \\
+HY4 & 8/92 & 22/78 & 20/80 & 30/70 & 21/79 \\
+Claude Sonnet 5.5 & 10/78 & 60/19 & 86/5 & 96/1 & 84/1 \\
+Claude Haiku 5.5 & 0/99 & 1/99 & 5/95 & 14/86 & 4/96 \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{reasoning on}} \\
+GPT-6 & 0/100 & 30/70 & 100/0 & 100/0 & 100/0 \\
+Kimi-K3 & 0/100 & 20/78 & 99/0 & 98/0 & 65/34 \\
+GPT-6-Luna & 0/100 & 71/29 & 100/0 & 100/0 & 99/1 \\
+Claude Opus 5.5 & 0/95 & 4/0 & 100/0 & 100/0 & 75/0 \\
+Claude Fable 5.1 & 0/92 & 90/0 & 100/0 & 100/0 & 100/0 \\
+Muse-Glimmer-30B (Q8)$^\dagger$ & 4/91 & 40/49 & 59/32 & 59/31 & 36/55 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,1426 @@
+{
+ "leaked": {
+  "all": 779,
+  "sub1k": 104
+ },
+ "models": {
+  "Claude-Haiku-5.5": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.7101769911504425,
+     "outdated": 0.0
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.4801980198019802,
+     "outdated": 0.2664266426642664
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.5736961451247166,
+     "outdated": 0.10317460317460317
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.14673913043478262,
+     "outdated": 0.5122282608695652
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 1,
+    "groups_surface_unknown": 28,
+    "t1_acc_if_surface_known": 0.2857142857142857,
+    "t1_acc_if_surface_unknown": 0.21351766513056836
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.08333333333333333,
+     "outdated": 0.6666666666666666
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.22413793103448276,
+     "outdated": 0.6494252873563219
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.17391304347826086,
+     "outdated": 0.5362318840579711
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.38235294117647056,
+     "outdated": 0.11764705882352941
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.37142857142857144,
+     "outdated": 0.6
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.05747126436781609,
+     "outdated": 0.367816091954023
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.13114754098360656,
+     "outdated": 0.5136612021857924
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.2631578947368421,
+     "outdated": 0.39473684210526316
+    }
+   },
+   "unchanged_correct": 0.78
+  },
+  "Claude-Sonnet-5.5": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.7013274336283186,
+     "outdated": 0.0
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.6327632763276327,
+     "outdated": 0.0702070207020702
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.6179138321995464,
+     "outdated": 0.035147392290249435
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.5416666666666666,
+     "outdated": 0.13134057971014493
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 29,
+    "groups_surface_unknown": 0,
+    "t1_acc_if_surface_known": 0.7953869047619048,
+    "t1_acc_if_surface_unknown": null
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.8333333333333334,
+     "outdated": 0.0
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.7873563218390804,
+     "outdated": 0.20689655172413793
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.8115942028985508,
+     "outdated": 0.14492753623188406
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 1.0,
+     "outdated": 0.0
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.8,
+     "outdated": 0.2
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.1724137931034483,
+     "outdated": 0.11494252873563218
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.3333333333333333,
+     "outdated": 0.09836065573770492
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.9912280701754386,
+     "outdated": 0.0
+    }
+   },
+   "unchanged_correct": 0.8733333333333333
+  },
+  "DeepSeek-V4.1-Flash": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.9756637168141593,
+     "outdated": 0.0
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.5441044104410441,
+     "outdated": 0.4243924392439244
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.8253968253968254,
+     "outdated": 0.14399092970521543
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.18795289855072464,
+     "outdated": 0.6979166666666666
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 15,
+    "groups_surface_unknown": 14,
+    "t1_acc_if_surface_known": 0.3974358974358974,
+    "t1_acc_if_surface_unknown": 0.2367601246105919
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.08333333333333333,
+     "outdated": 0.6666666666666666
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.3218390804597701,
+     "outdated": 0.6379310344827587
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.13043478260869565,
+     "outdated": 0.6811594202898551
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.47058823529411764,
+     "outdated": 0.2647058823529412
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.45714285714285713,
+     "outdated": 0.5428571428571428
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.011494252873563218,
+     "outdated": 0.7931034482758621
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.03278688524590164,
+     "outdated": 0.907103825136612
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.37719298245614036,
+     "outdated": 0.5263157894736842
+    }
+   },
+   "unchanged_correct": 0.9711111111111111
+  },
+  "GPT-6-Luna": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.8805309734513275,
+     "outdated": 0.0
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.581908190819082,
+     "outdated": 0.22007200720072007
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.7789115646258503,
+     "outdated": 0.05555555555555555
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.37907608695652173,
+     "outdated": 0.30932971014492755
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 29,
+    "groups_surface_unknown": 0,
+    "t1_acc_if_surface_known": 0.5669642857142857,
+    "t1_acc_if_surface_unknown": null
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.9166666666666666,
+     "outdated": 0.08333333333333333
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.5689655172413793,
+     "outdated": 0.3333333333333333
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.6666666666666666,
+     "outdated": 0.2753623188405797
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.8529411764705882,
+     "outdated": 0.0
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.7428571428571429,
+     "outdated": 0.17142857142857143
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.16091954022988506,
+     "outdated": 0.25287356321839083
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.273224043715847,
+     "outdated": 0.44808743169398907
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.9122807017543859,
+     "outdated": 0.0
+    }
+   },
+   "unchanged_correct": 0.9111111111111111
+  },
+  "Llama-3.2-3B-Instruct-Q8_0": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.7831858407079646,
+     "outdated": 0.08185840707964602
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.5292529252925292,
+     "outdated": 0.33483348334833485
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.5736961451247166,
+     "outdated": 0.25396825396825395
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.0009057971014492754,
+     "outdated": 0.8804347826086957
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 1,
+    "groups_surface_unknown": 28,
+    "t1_acc_if_surface_known": 0.0,
+    "t1_acc_if_surface_unknown": 0.0007698229407236335
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.0,
+     "outdated": 0.6666666666666666
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.005747126436781609,
+     "outdated": 0.9942528735632183
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.2753623188405797,
+     "outdated": 0.5362318840579711
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.3235294117647059,
+     "outdated": 0.029411764705882353
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.37142857142857144,
+     "outdated": 0.42857142857142855
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.0,
+     "outdated": 0.7471264367816092
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.0,
+     "outdated": 0.8469945355191257
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.008771929824561403,
+     "outdated": 0.7719298245614035
+    }
+   },
+   "unchanged_correct": 0.7644444444444445
+  },
+  "Muse-Glimmer-30B-Q8_0": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.39823008849557523,
+     "outdated": 0.0
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.4018901890189019,
+     "outdated": 0.15616561656165617
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.41723356009070295,
+     "outdated": 0.0873015873015873
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.34692028985507245,
+     "outdated": 0.3125
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 22,
+    "groups_surface_unknown": 7,
+    "t1_acc_if_surface_known": 0.5736894164193868,
+    "t1_acc_if_surface_unknown": 0.2732732732732733
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.5833333333333334,
+     "outdated": 0.25
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.4827586206896552,
+     "outdated": 0.39080459770114945
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.4057971014492754,
+     "outdated": 0.2753623188405797
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.5,
+     "outdated": 0.058823529411764705
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.34285714285714286,
+     "outdated": 0.6
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.034482758620689655,
+     "outdated": 0.367816091954023
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.2568306010928962,
+     "outdated": 0.20218579234972678
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.6228070175438597,
+     "outdated": 0.19298245614035087
+    }
+   },
+   "unchanged_correct": 0.5755555555555556
+  },
+  "Qwen3-1.7B-Q8_0": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.7986725663716814,
+     "outdated": 0.09513274336283185
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.5463546354635463,
+     "outdated": 0.3757875787578758
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.6247165532879818,
+     "outdated": 0.2675736961451247
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.003170289855072464,
+     "outdated": 0.9157608695652174
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 1,
+    "groups_surface_unknown": 28,
+    "t1_acc_if_surface_known": 0.0,
+    "t1_acc_if_surface_unknown": 0.0
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.08333333333333333,
+     "outdated": 0.3333333333333333
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.0,
+     "outdated": 1.0
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.2898550724637681,
+     "outdated": 0.2608695652173913
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.47058823529411764,
+     "outdated": 0.058823529411764705
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.2,
+     "outdated": 0.34285714285714286
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.0,
+     "outdated": 0.8275862068965517
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.00546448087431694,
+     "outdated": 0.8961748633879781
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.02631578947368421,
+     "outdated": 0.5526315789473685
+    }
+   },
+   "unchanged_correct": 0.8711111111111111
+  },
+  "Qwen3-4B-Q8_0": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.8650442477876106,
+     "outdated": 0.13053097345132744
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.5351035103510351,
+     "outdated": 0.34338433843384336
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.6950113378684807,
+     "outdated": 0.2834467120181406
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.001358695652173913,
+     "outdated": 0.875
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 0,
+    "groups_surface_unknown": 29,
+    "t1_acc_if_surface_known": null,
+    "t1_acc_if_surface_unknown": 0.0
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.08333333333333333,
+     "outdated": 0.5833333333333334
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.0,
+     "outdated": 1.0
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.3333333333333333,
+     "outdated": 0.2463768115942029
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.3235294117647059,
+     "outdated": 0.0
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.4,
+     "outdated": 0.5428571428571428
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.0,
+     "outdated": 0.9310344827586207
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.0,
+     "outdated": 0.7158469945355191
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.0,
+     "outdated": 0.6491228070175439
+    }
+   },
+   "unchanged_correct": 0.8844444444444445
+  },
+  "Qwen3.5-2B-Q8_0": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.8584070796460177,
+     "outdated": 0.09513274336283185
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.5414041404140414,
+     "outdated": 0.3730873087308731
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.671201814058957,
+     "outdated": 0.2709750566893424
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.002717391304347826,
+     "outdated": 0.9270833333333334
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 0,
+    "groups_surface_unknown": 29,
+    "t1_acc_if_surface_known": null,
+    "t1_acc_if_surface_unknown": 0.001488095238095238
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.08333333333333333,
+     "outdated": 0.5
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.0,
+     "outdated": 1.0
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.2898550724637681,
+     "outdated": 0.18840579710144928
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.29411764705882354,
+     "outdated": 0.08823529411764706
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.34285714285714286,
+     "outdated": 0.34285714285714286
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.0,
+     "outdated": 0.7931034482758621
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.0,
+     "outdated": 0.9344262295081968
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.03508771929824561,
+     "outdated": 0.9473684210526315
+    }
+   },
+   "unchanged_correct": 0.8733333333333333
+  },
+  "Qwen3.5-4B-Q8_0": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.9137168141592921,
+     "outdated": 0.035398230088495575
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.5436543654365437,
+     "outdated": 0.3838883888388839
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.7097505668934241,
+     "outdated": 0.23809523809523808
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.001358695652173913,
+     "outdated": 0.9451992753623188
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 0,
+    "groups_surface_unknown": 29,
+    "t1_acc_if_surface_known": null,
+    "t1_acc_if_surface_unknown": 0.0
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.0,
+     "outdated": 0.6666666666666666
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.0,
+     "outdated": 1.0
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.2028985507246377,
+     "outdated": 0.34782608695652173
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.38235294117647056,
+     "outdated": 0.058823529411764705
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.4857142857142857,
+     "outdated": 0.4857142857142857
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.0,
+     "outdated": 0.7471264367816092
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.0,
+     "outdated": 0.9562841530054644
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.0,
+     "outdated": 0.9912280701754386
+    }
+   },
+   "unchanged_correct": 0.8911111111111111
+  },
+  "gemma-3-4b-it-Q8_0": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.8495575221238938,
+     "outdated": 0.07964601769911504
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.5315031503150315,
+     "outdated": 0.3775877587758776
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.6689342403628118,
+     "outdated": 0.23015873015873015
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.008152173913043478,
+     "outdated": 0.9107789855072463
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 0,
+    "groups_surface_unknown": 29,
+    "t1_acc_if_surface_known": null,
+    "t1_acc_if_surface_unknown": 0.00818452380952381
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.0,
+     "outdated": 0.5833333333333334
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.011494252873563218,
+     "outdated": 0.9712643678160919
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.2608695652173913,
+     "outdated": 0.2898550724637681
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.2647058823529412,
+     "outdated": 0.058823529411764705
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.2571428571428571,
+     "outdated": 0.4857142857142857
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.0,
+     "outdated": 0.5747126436781609
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.00546448087431694,
+     "outdated": 0.9617486338797814
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.008771929824561403,
+     "outdated": 0.9736842105263158
+    }
+   },
+   "unchanged_correct": 0.8977777777777778
+  },
+  "tiny-aya-global-q8_0": {
+   "n": 7995,
+   "cells": {
+    "kept / kept": {
+     "n": 452,
+     "correct": 0.7323008849557522,
+     "outdated": 0.1084070796460177
+    },
+    "kept / changed": {
+     "n": 2222,
+     "correct": 0.5418541854185418,
+     "outdated": 0.3640864086408641
+    },
+    "merged / kept": {
+     "n": 882,
+     "correct": 0.5839002267573696,
+     "outdated": 0.2789115646258503
+    },
+    "merged / changed": {
+     "n": 2208,
+     "correct": 0.001358695652173913,
+     "outdated": 0.8872282608695652
+    }
+   },
+   "consistency": {
+    "groups_surface_known": 0,
+    "groups_surface_unknown": 29,
+    "t1_acc_if_surface_known": null,
+    "t1_acc_if_surface_unknown": 0.0
+   },
+   "qtype": {
+    "T0_headline": {
+     "n": 12,
+     "correct": 0.0,
+     "outdated": 0.5833333333333334
+    },
+    "T1_membership": {
+     "n": 174,
+     "correct": 0.0,
+     "outdated": 1.0
+    },
+    "T1_newname": {
+     "n": 69,
+     "correct": 0.2028985507246377,
+     "outdated": 0.463768115942029
+    },
+    "T2_composition": {
+     "n": 34,
+     "correct": 0.35294117647058826,
+     "outdated": 0.38235294117647056
+    },
+    "T3_existence": {
+     "n": 35,
+     "correct": 0.4,
+     "outdated": 0.4
+    },
+    "T4_address": {
+     "n": 87,
+     "correct": 0.0,
+     "outdated": 0.7931034482758621
+    },
+    "T5_ward_successor": {
+     "n": 183,
+     "correct": 0.00546448087431694,
+     "outdated": 0.8797814207650273
+    },
+    "T6_reverse": {
+     "n": 114,
+     "correct": 0.0,
+     "outdated": 0.8947368421052632
+    }
+   },
+   "unchanged_correct": 0.8333333333333334
+  }
+ },
+ "leak_effect": {
+  "runs": {
+   "Claude-Haiku-5.5|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.3977812995245642,
+    "acc_kept": 0.4214162348877375
+   },
+   "Claude-Haiku-5.5|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9786053882725833,
+    "acc_kept": 0.9775474956822107
+   },
+   "Claude-Haiku-5.5|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9904912836767037,
+    "acc_kept": 0.9896373056994818
+   },
+   "Claude-Haiku-5.5|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9944532488114105,
+    "acc_kept": 0.9939550949913645
+   },
+   "Claude-Haiku-5.5|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.3732332707942464,
+    "acc_kept": 0.3960643015521064
+   },
+   "Claude-Sonnet-5.5|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7147385103011094,
+    "acc_kept": 0.731433506044905
+   },
+   "Claude-Sonnet-5.5|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9992076069730587,
+    "acc_kept": 0.9991364421416234
+   },
+   "Claude-Sonnet-5.5|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 1.0,
+    "acc_kept": 1.0
+   },
+   "Claude-Sonnet-5.5|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9992076069730587,
+    "acc_kept": 0.9991364421416234
+   },
+   "Claude-Sonnet-5.5|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.65140712945591,
+    "acc_kept": 0.6607538802660754
+   },
+   "DeepSeek-V4.1-Flash|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.47305863708399365,
+    "acc_kept": 0.5051813471502591
+   },
+   "DeepSeek-V4.1-Flash|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9825673534072901,
+    "acc_kept": 0.9810017271157168
+   },
+   "DeepSeek-V4.1-Flash|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.991283676703645,
+    "acc_kept": 0.9905008635578584
+   },
+   "DeepSeek-V4.1-Flash|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9976228209191759,
+    "acc_kept": 0.9974093264248705
+   },
+   "DeepSeek-V4.1-Flash|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.4586616635397123,
+    "acc_kept": 0.5001385809312638
+   },
+   "DeepSeek-V4.1-Flash|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.9861163227016886,
+    "acc_kept": 0.9846175166297118
+   },
+   "DeepSeek-V4.1-Flash|full|rag_mixed+date": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.9948717948717949,
+    "acc_kept": 0.9943181818181818
+   },
+   "DeepSeek-V4.1-Flash|full|rag_new": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.99812382739212,
+    "acc_kept": 0.9979212860310421
+   },
+   "GPT-6-Luna|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.659270998415214,
+    "acc_kept": 0.6813471502590673
+   },
+   "GPT-6-Luna|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9976228209191759,
+    "acc_kept": 0.9974093264248705
+   },
+   "GPT-6-Luna|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9984152139461173,
+    "acc_kept": 0.998272884283247
+   },
+   "GPT-6-Luna|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 1.0,
+    "acc_kept": 1.0
+   },
+   "GPT-6-Luna|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.6006253908692933,
+    "acc_kept": 0.6157150776053215
+   },
+   "Llama-3.2-3B-Instruct-Q8_0|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.312202852614897,
+    "acc_kept": 0.33592400690846286
+   },
+   "Llama-3.2-3B-Instruct-Q8_0|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7345483359746434,
+    "acc_kept": 0.7547495682210709
+   },
+   "Llama-3.2-3B-Instruct-Q8_0|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7646592709984152,
+    "acc_kept": 0.7797927461139896
+   },
+   "Llama-3.2-3B-Instruct-Q8_0|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.8082408874801902,
+    "acc_kept": 0.8255613126079447
+   },
+   "Llama-3.2-3B-Instruct-Q8_0|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.3230769230769231,
+    "acc_kept": 0.35476718403547675
+   },
+   "Llama-3.2-3B-Instruct-Q8_0|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7222013758599124,
+    "acc_kept": 0.7536031042128604
+   },
+   "Llama-3.2-3B-Instruct-Q8_0|full|rag_mixed+date": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7514696685428393,
+    "acc_kept": 0.7792405764966741
+   },
+   "Llama-3.2-3B-Instruct-Q8_0|full|rag_new": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7819887429643527,
+    "acc_kept": 0.8075110864745011
+   },
+   "Muse-Glimmer-30B-Q8_0-full|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.44136291600633915,
+    "acc_kept": 0.45595854922279794
+   },
+   "Muse-Glimmer-30B-Q8_0-full|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9833597464342314,
+    "acc_kept": 0.9818652849740933
+   },
+   "Muse-Glimmer-30B-Q8_0-full|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.40575359599749844,
+    "acc_kept": 0.42114745011086474
+   },
+   "Muse-Glimmer-30B-Q8_0-full|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.9836147592245154,
+    "acc_kept": 0.9818458980044346
+   },
+   "Muse-Glimmer-30B-Q8_0-sub1k|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.44136291600633915,
+    "acc_kept": 0.45595854922279794
+   },
+   "Muse-Glimmer-30B-Q8_0-sub1k|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9833597464342314,
+    "acc_kept": 0.9818652849740933
+   },
+   "Muse-Glimmer-30B-Q8_0-sub1k|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9952456418383518,
+    "acc_kept": 0.9948186528497409
+   },
+   "Muse-Glimmer-30B-Q8_0-sub1k|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9920760697305864,
+    "acc_kept": 0.9913644214162349
+   },
+   "Qwen3-1.7B-Q8_0|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.3549920760697306,
+    "acc_kept": 0.3799654576856649
+   },
+   "Qwen3-1.7B-Q8_0|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7290015847860539,
+    "acc_kept": 0.7659758203799655
+   },
+   "Qwen3-1.7B-Q8_0|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7393026941362916,
+    "acc_kept": 0.7772020725388601
+   },
+   "Qwen3-1.7B-Q8_0|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.8645007923930269,
+    "acc_kept": 0.8782383419689119
+   },
+   "Qwen3-1.7B-Q8_0|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.34196372732958097,
+    "acc_kept": 0.3664079822616408
+   },
+   "Qwen3-1.7B-Q8_0|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.6953095684803002,
+    "acc_kept": 0.7263026607538803
+   },
+   "Qwen3-1.7B-Q8_0|full|rag_mixed+date": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7116948092557849,
+    "acc_kept": 0.74029933481153
+   },
+   "Qwen3-1.7B-Q8_0|full|rag_new": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.8431519699812383,
+    "acc_kept": 0.8579545454545454
+   },
+   "Qwen3-4B-Q8_0|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.3573692551505547,
+    "acc_kept": 0.3860103626943005
+   },
+   "Qwen3-4B-Q8_0|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.757527733755943,
+    "acc_kept": 0.7927461139896373
+   },
+   "Qwen3-4B-Q8_0|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7654516640253566,
+    "acc_kept": 0.8031088082901554
+   },
+   "Qwen3-4B-Q8_0|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.938985736925515,
+    "acc_kept": 0.9455958549222798
+   },
+   "Qwen3-4B-Q8_0|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.34709193245778613,
+    "acc_kept": 0.3826219512195122
+   },
+   "Qwen3-4B-Q8_0|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7420888055034397,
+    "acc_kept": 0.7791019955654102
+   },
+   "Qwen3-4B-Q8_0|full|rag_mixed+date": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7414634146341463,
+    "acc_kept": 0.7804878048780488
+   },
+   "Qwen3-4B-Q8_0|full|rag_new": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.9343339587242027,
+    "acc_kept": 0.9401330376940134
+   },
+   "Qwen3.5-2B-Q8_0|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.3518225039619651,
+    "acc_kept": 0.3799654576856649
+   },
+   "Qwen3.5-2B-Q8_0|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.6608557844690967,
+    "acc_kept": 0.7081174438687392
+   },
+   "Qwen3.5-2B-Q8_0|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.6687797147385103,
+    "acc_kept": 0.7124352331606217
+   },
+   "Qwen3.5-2B-Q8_0|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7662440570522979,
+    "acc_kept": 0.8048359240069085
+   },
+   "Qwen3.5-2B-Q8_0|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.3418386491557223,
+    "acc_kept": 0.375970066518847
+   },
+   "Qwen3.5-2B-Q8_0|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.6173858661663539,
+    "acc_kept": 0.665049889135255
+   },
+   "Qwen3.5-2B-Q8_0|full|rag_mixed+date": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.6161350844277673,
+    "acc_kept": 0.6615853658536586
+   },
+   "Qwen3.5-2B-Q8_0|full|rag_new": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7317073170731707,
+    "acc_kept": 0.7720343680709535
+   },
+   "Qwen3.5-4B-Q8_0|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.3549920760697306,
+    "acc_kept": 0.3842832469775475
+   },
+   "Qwen3.5-4B-Q8_0|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.910459587955626,
+    "acc_kept": 0.9222797927461139
+   },
+   "Qwen3.5-4B-Q8_0|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.93026941362916,
+    "acc_kept": 0.9360967184801382
+   },
+   "Qwen3.5-4B-Q8_0|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.9841521394611727,
+    "acc_kept": 0.9844559585492227
+   },
+   "Qwen3.5-4B-Q8_0|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.35284552845528455,
+    "acc_kept": 0.38871951219512196
+   },
+   "Qwen3.5-4B-Q8_0|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.9069418386491557,
+    "acc_kept": 0.9151884700665188
+   },
+   "Qwen3.5-4B-Q8_0|full|rag_mixed+date": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.9278298936835522,
+    "acc_kept": 0.9323725055432373
+   },
+   "Qwen3.5-4B-Q8_0|full|rag_new": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.9792370231394621,
+    "acc_kept": 0.9812915742793792
+   },
+   "gemma-3-4b-it-Q8_0|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.35340729001584786,
+    "acc_kept": 0.38341968911917096
+   },
+   "gemma-3-4b-it-Q8_0|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7155309033280507,
+    "acc_kept": 0.7392055267702936
+   },
+   "gemma-3-4b-it-Q8_0|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7107765451664025,
+    "acc_kept": 0.7340241796200345
+   },
+   "gemma-3-4b-it-Q8_0|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7472266244057052,
+    "acc_kept": 0.7564766839378239
+   },
+   "gemma-3-4b-it-Q8_0|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.3490931832395247,
+    "acc_kept": 0.3812361419068736
+   },
+   "gemma-3-4b-it-Q8_0|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7033145716072545,
+    "acc_kept": 0.7330931263858093
+   },
+   "gemma-3-4b-it-Q8_0|full|rag_mixed+date": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.6923076923076923,
+    "acc_kept": 0.7245011086474501
+   },
+   "gemma-3-4b-it-Q8_0|full|rag_new": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.7116948092557849,
+    "acc_kept": 0.7296286031042128
+   },
+   "tiny-aya-global-q8_0|sub1k|closed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.3312202852614897,
+    "acc_kept": 0.3592400690846287
+   },
+   "tiny-aya-global-q8_0|sub1k|rag_mixed": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.6164817749603804,
+    "acc_kept": 0.6597582037996546
+   },
+   "tiny-aya-global-q8_0|sub1k|rag_mixed+date": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.6307448494453248,
+    "acc_kept": 0.6744386873920553
+   },
+   "tiny-aya-global-q8_0|sub1k|rag_new": {
+    "n": 1262,
+    "n_kept": 1158,
+    "acc": 0.7131537242472267,
+    "acc_kept": 0.7607944732297064
+   },
+   "tiny-aya-global-q8_0|full|closed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.32958098811757347,
+    "acc_kept": 0.3616962305986696
+   },
+   "tiny-aya-global-q8_0|full|rag_mixed": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.5642276422764227,
+    "acc_kept": 0.604490022172949
+   },
+   "tiny-aya-global-q8_0|full|rag_mixed+date": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.5774859287054409,
+    "acc_kept": 0.6168237250554324
+   },
+   "tiny-aya-global-q8_0|full|rag_new": {
+    "n": 7995,
+    "n_kept": 7216,
+    "acc": 0.6544090056285178,
+    "acc_kept": 0.6960920177383592
+   }
+  },
+  "max": {
+   "sub1k": 4.8,
+   "full": 4.8
+  }
+ }
+}

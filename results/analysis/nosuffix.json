@@ -1,0 +1,110 @@
+{
+ "deepseek-flash__api|sys0": {
+  "suffix": {
+   "n": 80,
+   "old_only": 0.9875,
+   "new_first": 0.0,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 9.0
+  },
+  "no_suffix": {
+   "n": 80,
+   "old_only": 0.9875,
+   "new_first": 0.0,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 61.0
+  }
+ },
+ "gpt-6-luna__orouter|sys0": {
+  "suffix": {
+   "n": 80,
+   "old_only": 0.9875,
+   "new_first": 0.0125,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 9.0
+  },
+  "no_suffix": {
+   "n": 80,
+   "old_only": 0.9375,
+   "new_first": 0.0,
+   "both": 0.05,
+   "mentions_reform": 0.05,
+   "median_chars": 50.5
+  }
+ },
+ "gpt-6-sol__orouter|sys0": {
+  "suffix": {
+   "n": 80,
+   "old_only": 1.0,
+   "new_first": 0.0,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 8.0
+  },
+  "no_suffix": {
+   "n": 80,
+   "old_only": 0.9875,
+   "new_first": 0.0,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 50.0
+  }
+ },
+ "deepseek-flash__api|sys1": {
+  "suffix": {
+   "n": 80,
+   "old_only": 0.675,
+   "new_first": 0.3,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 10.0
+  },
+  "no_suffix": {
+   "n": 80,
+   "old_only": 0.9875,
+   "new_first": 0.0,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 54.0
+  }
+ },
+ "gpt-6-luna__orouter|sys1": {
+  "suffix": {
+   "n": 80,
+   "old_only": 0.8625,
+   "new_first": 0.125,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 10.0
+  },
+  "no_suffix": {
+   "n": 80,
+   "old_only": 0.775,
+   "new_first": 0.025,
+   "both": 0.2125,
+   "mentions_reform": 0.2625,
+   "median_chars": 52.0
+  }
+ },
+ "gpt-6-sol__orouter|sys1": {
+  "suffix": {
+   "n": 80,
+   "old_only": 0.9125,
+   "new_first": 0.0875,
+   "both": 0.0,
+   "mentions_reform": 0.0,
+   "median_chars": 9.0
+  },
+  "no_suffix": {
+   "n": 80,
+   "old_only": 0.9375,
+   "new_first": 0.0,
+   "both": 0.05,
+   "mentions_reform": 0.05,
+   "median_chars": 52.5
+  }
+ }
+}

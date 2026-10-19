@@ -1,0 +1,6080 @@
+{
+  "n_predictions": 31980,
+  "n_unscored_predictions": 0,
+  "models": [
+    "Qwen3.5-4B-Q8_0"
+  ],
+  "by_condition": {
+    "closed": {
+      "all": {
+        "n": 7995,
+        "accuracy": 0.35284552845528455,
+        "outdated_rate": 0.5337085678549093,
+        "accuracy_nodiac": 0.35322076297686056,
+        "outdated_rate_nodiac": 0.5339587242026267,
+        "labels": {
+          "correct": 2821,
+          "outdated": 4267,
+          "other_wrong": 906,
+          "invalid": 1
+        },
+        "labels_nodiac": {
+          "correct": 2824,
+          "outdated": 4269,
+          "other_wrong": 901,
+          "invalid": 1
+        },
+        "match_detail": {
+          "None": 62,
+          "abstain": 1,
+          "address": 580,
+          "address_suffix": 155,
+          "ambiguous": 1,
+          "ambiguous_province_name": 1,
+          "bare": 5320,
+          "exact": 174,
+          "extra_district": 3,
+          "first_segment": 1082,
+          "legacy_name": 5,
+          "level_mismatch": 8,
+          "nodiac": 261,
+          "nodiac:address": 108,
+          "nodiac:address_suffix": 25,
+          "nodiac:extra_district": 2,
+          "nodiac:level_mismatch": 4,
+          "numeric": 2,
+          "relation": 186,
+          "relation_contained": 1,
+          "subject_segment": 14
+        },
+        "truncated": 0,
+        "components": {
+          "ward": {
+            "n": 1200,
+            "accuracy": 0.12833333333333333,
+            "outdated_rate": 0.5925,
+            "labels": {
+              "correct": 154,
+              "outdated": 711,
+              "other_wrong": 335,
+              "invalid": 0
+            }
+          },
+          "province": {
+            "n": 1200,
+            "accuracy": 0.4841666666666667,
+            "outdated_rate": 0.4425,
+            "labels": {
+              "correct": 581,
+              "outdated": 531,
+              "other_wrong": 88,
+              "invalid": 0
+            }
+          },
+          "both_correct_rate": 0.07666666666666666
+        }
+      },
+      "by_qtype": {
+        "T0_headline": {
+          "all": {
+            "n": 12,
+            "accuracy": 0.0,
+            "outdated_rate": 0.6666666666666666,
+            "accuracy_nodiac": 0.0,
+            "outdated_rate_nodiac": 0.6666666666666666,
+            "labels": {
+              "correct": 0,
+              "outdated": 8,
+              "other_wrong": 4,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 0,
+              "outdated": 8,
+              "other_wrong": 4,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 7,
+              "exact": 3,
+              "numeric": 2
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 12,
+              "accuracy": 0.0,
+              "outdated_rate": 0.6666666666666666,
+              "accuracy_nodiac": 0.0,
+              "outdated_rate_nodiac": 0.6666666666666666,
+              "labels": {
+                "correct": 0,
+                "outdated": 8,
+                "other_wrong": 4,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 0,
+                "outdated": 8,
+                "other_wrong": 4,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 7,
+                "exact": 3,
+                "numeric": 2
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T1_membership": {
+          "all": {
+            "n": 2781,
+            "accuracy": 0.5160014383315354,
+            "outdated_rate": 0.48327939590075514,
+            "accuracy_nodiac": 0.5160014383315354,
+            "outdated_rate_nodiac": 0.48327939590075514,
+            "labels": {
+              "correct": 1435,
+              "outdated": 1344,
+              "other_wrong": 2,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 1435,
+              "outdated": 1344,
+              "other_wrong": 2,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 2781
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 129,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 129,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 129,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 129
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 1200,
+              "accuracy": 0.9983333333333333,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.9983333333333333,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 1198,
+                "outdated": 0,
+                "other_wrong": 2,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 1198,
+                "outdated": 0,
+                "other_wrong": 2,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 1200
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 252,
+              "accuracy": 0.42857142857142855,
+              "outdated_rate": 0.5714285714285714,
+              "accuracy_nodiac": 0.42857142857142855,
+              "outdated_rate_nodiac": 0.5714285714285714,
+              "labels": {
+                "correct": 108,
+                "outdated": 144,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 108,
+                "outdated": 144,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 252
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 1200,
+              "accuracy": 0.0,
+              "outdated_rate": 1.0,
+              "accuracy_nodiac": 0.0,
+              "outdated_rate_nodiac": 1.0,
+              "labels": {
+                "correct": 0,
+                "outdated": 1200,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 0,
+                "outdated": 1200,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 1200
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T1_newname": {
+          "all": {
+            "n": 720,
+            "accuracy": 0.2833333333333333,
+            "outdated_rate": 0.18333333333333332,
+            "accuracy_nodiac": 0.2833333333333333,
+            "outdated_rate_nodiac": 0.18333333333333332,
+            "labels": {
+              "correct": 204,
+              "outdated": 132,
+              "other_wrong": 384,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 204,
+              "outdated": 132,
+              "other_wrong": 384,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 720
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 9,
+              "accuracy": 0.2222222222222222,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.2222222222222222,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 2,
+                "outdated": 0,
+                "other_wrong": 7,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 2,
+                "outdated": 0,
+                "other_wrong": 7,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 9
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 171,
+              "accuracy": 0.29239766081871343,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.29239766081871343,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 50,
+                "outdated": 0,
+                "other_wrong": 121,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 50,
+                "outdated": 0,
+                "other_wrong": 121,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 171
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 12,
+              "accuracy": 0.4166666666666667,
+              "outdated_rate": 0.08333333333333333,
+              "accuracy_nodiac": 0.4166666666666667,
+              "outdated_rate_nodiac": 0.08333333333333333,
+              "labels": {
+                "correct": 5,
+                "outdated": 1,
+                "other_wrong": 6,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 5,
+                "outdated": 1,
+                "other_wrong": 6,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 12
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 528,
+              "accuracy": 0.2784090909090909,
+              "outdated_rate": 0.2481060606060606,
+              "accuracy_nodiac": 0.2784090909090909,
+              "outdated_rate_nodiac": 0.2481060606060606,
+              "labels": {
+                "correct": 147,
+                "outdated": 131,
+                "other_wrong": 250,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 147,
+                "outdated": 131,
+                "other_wrong": 250,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 528
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T2_composition": {
+          "all": {
+            "n": 34,
+            "accuracy": 0.38235294117647056,
+            "outdated_rate": 0.058823529411764705,
+            "accuracy_nodiac": 0.38235294117647056,
+            "outdated_rate_nodiac": 0.058823529411764705,
+            "labels": {
+              "correct": 13,
+              "outdated": 2,
+              "other_wrong": 19,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 13,
+              "outdated": 2,
+              "other_wrong": 19,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 34
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 34,
+              "accuracy": 0.38235294117647056,
+              "outdated_rate": 0.058823529411764705,
+              "accuracy_nodiac": 0.38235294117647056,
+              "outdated_rate_nodiac": 0.058823529411764705,
+              "labels": {
+                "correct": 13,
+                "outdated": 2,
+                "other_wrong": 19,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 13,
+                "outdated": 2,
+                "other_wrong": 19,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 34
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T3_existence": {
+          "all": {
+            "n": 308,
+            "accuracy": 0.4642857142857143,
+            "outdated_rate": 0.44155844155844154,
+            "accuracy_nodiac": 0.4642857142857143,
+            "outdated_rate_nodiac": 0.44155844155844154,
+            "labels": {
+              "correct": 143,
+              "outdated": 136,
+              "other_wrong": 29,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 143,
+              "outdated": 136,
+              "other_wrong": 29,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 308
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 123,
+              "accuracy": 0.42276422764227645,
+              "outdated_rate": 0.5203252032520326,
+              "accuracy_nodiac": 0.42276422764227645,
+              "outdated_rate_nodiac": 0.5203252032520326,
+              "labels": {
+                "correct": 52,
+                "outdated": 64,
+                "other_wrong": 7,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 52,
+                "outdated": 64,
+                "other_wrong": 7,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 123
+              },
+              "truncated": 0
+            },
+            "pc0_wc0": {
+              "n": 30,
+              "accuracy": 0.6666666666666666,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.6666666666666666,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 20,
+                "outdated": 0,
+                "other_wrong": 10,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 20,
+                "outdated": 0,
+                "other_wrong": 10,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 30
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 51,
+              "accuracy": 0.5294117647058824,
+              "outdated_rate": 0.47058823529411764,
+              "accuracy_nodiac": 0.5294117647058824,
+              "outdated_rate_nodiac": 0.47058823529411764,
+              "labels": {
+                "correct": 27,
+                "outdated": 24,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 27,
+                "outdated": 24,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 51
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 31,
+              "accuracy": 0.5806451612903226,
+              "outdated_rate": 0.03225806451612903,
+              "accuracy_nodiac": 0.5806451612903226,
+              "outdated_rate_nodiac": 0.03225806451612903,
+              "labels": {
+                "correct": 18,
+                "outdated": 1,
+                "other_wrong": 12,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 18,
+                "outdated": 1,
+                "other_wrong": 12,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 31
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 73,
+              "accuracy": 0.3561643835616438,
+              "outdated_rate": 0.6438356164383562,
+              "accuracy_nodiac": 0.3561643835616438,
+              "outdated_rate_nodiac": 0.6438356164383562,
+              "labels": {
+                "correct": 26,
+                "outdated": 47,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 26,
+                "outdated": 47,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 73
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T4_address": {
+          "all": {
+            "n": 1200,
+            "accuracy": 0.0525,
+            "outdated_rate": 0.6733333333333333,
+            "accuracy_nodiac": 0.0525,
+            "outdated_rate_nodiac": 0.675,
+            "labels": {
+              "correct": 63,
+              "outdated": 808,
+              "other_wrong": 329,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 63,
+              "outdated": 810,
+              "other_wrong": 327,
+              "invalid": 0
+            },
+            "match_detail": {
+              "None": 59,
+              "address": 580,
+              "address_suffix": 155,
+              "extra_district": 3,
+              "legacy_name": 2,
+              "nodiac": 261,
+              "nodiac:address": 108,
+              "nodiac:address_suffix": 25,
+              "nodiac:extra_district": 2,
+              "nodiac:level_mismatch": 4,
+              "relation": 1
+            },
+            "truncated": 0,
+            "components": {
+              "ward": {
+                "n": 1200,
+                "accuracy": 0.12833333333333333,
+                "outdated_rate": 0.5925,
+                "labels": {
+                  "correct": 154,
+                  "outdated": 711,
+                  "other_wrong": 335,
+                  "invalid": 0
+                }
+              },
+              "province": {
+                "n": 1200,
+                "accuracy": 0.4841666666666667,
+                "outdated_rate": 0.4425,
+                "labels": {
+                  "correct": 581,
+                  "outdated": 531,
+                  "other_wrong": 88,
+                  "invalid": 0
+                }
+              },
+              "both_correct_rate": 0.07666666666666666
+            }
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 65,
+              "accuracy": 0.47692307692307695,
+              "outdated_rate": 0.24615384615384617,
+              "accuracy_nodiac": 0.47692307692307695,
+              "outdated_rate_nodiac": 0.24615384615384617,
+              "labels": {
+                "correct": 31,
+                "outdated": 16,
+                "other_wrong": 18,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 31,
+                "outdated": 16,
+                "other_wrong": 18,
+                "invalid": 0
+              },
+              "match_detail": {
+                "address": 31,
+                "address_suffix": 11,
+                "extra_district": 1,
+                "nodiac": 16,
+                "nodiac:address": 3,
+                "nodiac:address_suffix": 2,
+                "nodiac:extra_district": 1
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 65,
+                  "accuracy": 0.7230769230769231,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 47,
+                    "outdated": 0,
+                    "other_wrong": 18,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 65,
+                  "accuracy": 0.8769230769230769,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 57,
+                    "outdated": 0,
+                    "other_wrong": 8,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.7076923076923077
+              }
+            },
+            "pc0_wc1": {
+              "n": 505,
+              "accuracy": 0.007920792079207921,
+              "outdated_rate": 0.7168316831683168,
+              "accuracy_nodiac": 0.007920792079207921,
+              "outdated_rate_nodiac": 0.7188118811881188,
+              "labels": {
+                "correct": 4,
+                "outdated": 362,
+                "other_wrong": 139,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 4,
+                "outdated": 363,
+                "other_wrong": 138,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 29,
+                "address": 246,
+                "address_suffix": 58,
+                "extra_district": 1,
+                "legacy_name": 2,
+                "nodiac": 105,
+                "nodiac:address": 45,
+                "nodiac:address_suffix": 14,
+                "nodiac:level_mismatch": 4,
+                "relation": 1
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 505,
+                  "accuracy": 0.011881188118811881,
+                  "outdated_rate": 0.7128712871287128,
+                  "labels": {
+                    "correct": 6,
+                    "outdated": 360,
+                    "other_wrong": 139,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 505,
+                  "accuracy": 0.9168316831683169,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 463,
+                    "outdated": 0,
+                    "other_wrong": 42,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.007920792079207921
+              }
+            },
+            "pc1_wc0": {
+              "n": 126,
+              "accuracy": 0.2222222222222222,
+              "outdated_rate": 0.5238095238095238,
+              "accuracy_nodiac": 0.2222222222222222,
+              "outdated_rate_nodiac": 0.5238095238095238,
+              "labels": {
+                "correct": 28,
+                "outdated": 66,
+                "other_wrong": 32,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 28,
+                "outdated": 66,
+                "other_wrong": 32,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 3,
+                "address": 67,
+                "address_suffix": 13,
+                "extra_district": 1,
+                "nodiac": 27,
+                "nodiac:address": 12,
+                "nodiac:address_suffix": 2,
+                "nodiac:extra_district": 1
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 126,
+                  "accuracy": 0.7222222222222222,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 91,
+                    "outdated": 0,
+                    "other_wrong": 35,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 126,
+                  "accuracy": 0.42857142857142855,
+                  "outdated_rate": 0.5317460317460317,
+                  "labels": {
+                    "correct": 54,
+                    "outdated": 67,
+                    "other_wrong": 5,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.3333333333333333
+              }
+            },
+            "pc1_wc1": {
+              "n": 504,
+              "accuracy": 0.0,
+              "outdated_rate": 0.7222222222222222,
+              "accuracy_nodiac": 0.0,
+              "outdated_rate_nodiac": 0.7242063492063492,
+              "labels": {
+                "correct": 0,
+                "outdated": 364,
+                "other_wrong": 140,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 0,
+                "outdated": 365,
+                "other_wrong": 139,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 27,
+                "address": 236,
+                "address_suffix": 73,
+                "nodiac": 113,
+                "nodiac:address": 48,
+                "nodiac:address_suffix": 7
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 504,
+                  "accuracy": 0.01984126984126984,
+                  "outdated_rate": 0.6964285714285714,
+                  "labels": {
+                    "correct": 10,
+                    "outdated": 351,
+                    "other_wrong": 143,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 504,
+                  "accuracy": 0.013888888888888888,
+                  "outdated_rate": 0.9206349206349206,
+                  "labels": {
+                    "correct": 7,
+                    "outdated": 464,
+                    "other_wrong": 33,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.0
+              }
+            }
+          }
+        },
+        "T5_ward_successor": {
+          "all": {
+            "n": 2562,
+            "accuracy": 0.2997658079625293,
+            "outdated_rate": 0.6487119437939111,
+            "accuracy_nodiac": 0.3009367681498829,
+            "outdated_rate_nodiac": 0.6487119437939111,
+            "labels": {
+              "correct": 768,
+              "outdated": 1662,
+              "other_wrong": 131,
+              "invalid": 1
+            },
+            "labels_nodiac": {
+              "correct": 771,
+              "outdated": 1662,
+              "other_wrong": 128,
+              "invalid": 1
+            },
+            "match_detail": {
+              "None": 3,
+              "abstain": 1,
+              "ambiguous": 1,
+              "ambiguous_province_name": 1,
+              "bare": 1281,
+              "exact": 2,
+              "first_segment": 1079,
+              "level_mismatch": 8,
+              "relation": 176,
+              "relation_contained": 1,
+              "subject_segment": 9
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 258,
+              "accuracy": 0.9806201550387597,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.9806201550387597,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 253,
+                "outdated": 0,
+                "other_wrong": 5,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 253,
+                "outdated": 0,
+                "other_wrong": 5,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 129,
+                "first_segment": 115,
+                "relation": 9,
+                "subject_segment": 5
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 900,
+              "accuracy": 0.014444444444444444,
+              "outdated_rate": 0.9166666666666666,
+              "accuracy_nodiac": 0.014444444444444444,
+              "outdated_rate_nodiac": 0.9166666666666666,
+              "labels": {
+                "correct": 13,
+                "outdated": 825,
+                "other_wrong": 61,
+                "invalid": 1
+              },
+              "labels_nodiac": {
+                "correct": 13,
+                "outdated": 825,
+                "other_wrong": 61,
+                "invalid": 1
+              },
+              "match_detail": {
+                "abstain": 1,
+                "bare": 450,
+                "exact": 1,
+                "first_segment": 353,
+                "level_mismatch": 3,
+                "relation": 91,
+                "relation_contained": 1
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 504,
+              "accuracy": 0.9722222222222222,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.9781746031746031,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 490,
+                "outdated": 0,
+                "other_wrong": 14,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 493,
+                "outdated": 0,
+                "other_wrong": 11,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 3,
+                "bare": 252,
+                "first_segment": 220,
+                "relation": 25,
+                "subject_segment": 4
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 900,
+              "accuracy": 0.013333333333333334,
+              "outdated_rate": 0.93,
+              "accuracy_nodiac": 0.013333333333333334,
+              "outdated_rate_nodiac": 0.93,
+              "labels": {
+                "correct": 12,
+                "outdated": 837,
+                "other_wrong": 51,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 12,
+                "outdated": 837,
+                "other_wrong": 51,
+                "invalid": 0
+              },
+              "match_detail": {
+                "ambiguous": 1,
+                "ambiguous_province_name": 1,
+                "bare": 450,
+                "exact": 1,
+                "first_segment": 391,
+                "level_mismatch": 5,
+                "relation": 51
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T6_reverse": {
+          "all": {
+            "n": 378,
+            "accuracy": 0.5158730158730159,
+            "outdated_rate": 0.46296296296296297,
+            "accuracy_nodiac": 0.5158730158730159,
+            "outdated_rate_nodiac": 0.46296296296296297,
+            "labels": {
+              "correct": 195,
+              "outdated": 175,
+              "other_wrong": 8,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 195,
+              "outdated": 175,
+              "other_wrong": 8,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 189,
+              "exact": 169,
+              "first_segment": 3,
+              "legacy_name": 3,
+              "relation": 9,
+              "subject_segment": 5
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 378,
+              "accuracy": 0.5158730158730159,
+              "outdated_rate": 0.46296296296296297,
+              "accuracy_nodiac": 0.5158730158730159,
+              "outdated_rate_nodiac": 0.46296296296296297,
+              "labels": {
+                "correct": 195,
+                "outdated": 175,
+                "other_wrong": 8,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 195,
+                "outdated": 175,
+                "other_wrong": 8,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 189,
+                "exact": 169,
+                "first_segment": 3,
+                "legacy_name": 3,
+                "relation": 9,
+                "subject_segment": 5
+              },
+              "truncated": 0
+            }
+          }
+        }
+      },
+      "by_format": {
+        "mcq": {
+          "n": 5320,
+          "accuracy": 0.42951127819548873,
+          "outdated_rate": 0.47518796992481205,
+          "accuracy_nodiac": 0.42951127819548873,
+          "outdated_rate_nodiac": 0.47518796992481205,
+          "labels": {
+            "correct": 2285,
+            "outdated": 2528,
+            "other_wrong": 507,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 2285,
+            "outdated": 2528,
+            "other_wrong": 507,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 5320
+          },
+          "truncated": 0
+        },
+        "short": {
+          "n": 2675,
+          "accuracy": 0.20037383177570092,
+          "outdated_rate": 0.6500934579439253,
+          "accuracy_nodiac": 0.20149532710280374,
+          "outdated_rate_nodiac": 0.6508411214953271,
+          "labels": {
+            "correct": 536,
+            "outdated": 1739,
+            "other_wrong": 399,
+            "invalid": 1
+          },
+          "labels_nodiac": {
+            "correct": 539,
+            "outdated": 1741,
+            "other_wrong": 394,
+            "invalid": 1
+          },
+          "match_detail": {
+            "None": 62,
+            "abstain": 1,
+            "address": 580,
+            "address_suffix": 155,
+            "ambiguous": 1,
+            "ambiguous_province_name": 1,
+            "exact": 174,
+            "extra_district": 3,
+            "first_segment": 1082,
+            "legacy_name": 5,
+            "level_mismatch": 8,
+            "nodiac": 261,
+            "nodiac:address": 108,
+            "nodiac:address_suffix": 25,
+            "nodiac:extra_district": 2,
+            "nodiac:level_mismatch": 4,
+            "numeric": 2,
+            "relation": 186,
+            "relation_contained": 1,
+            "subject_segment": 14
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 1200,
+              "accuracy": 0.12833333333333333,
+              "outdated_rate": 0.5925,
+              "labels": {
+                "correct": 154,
+                "outdated": 711,
+                "other_wrong": 335,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 1200,
+              "accuracy": 0.4841666666666667,
+              "outdated_rate": 0.4425,
+              "labels": {
+                "correct": 581,
+                "outdated": 531,
+                "other_wrong": 88,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.07666666666666666
+          }
+        }
+      },
+      "by_diacritics": {
+        "with": {
+          "n": 7595,
+          "accuracy": 0.36998025016458197,
+          "outdated_rate": 0.5457537853851218,
+          "accuracy_nodiac": 0.3703752468729427,
+          "outdated_rate_nodiac": 0.546017116524029,
+          "labels": {
+            "correct": 2810,
+            "outdated": 4145,
+            "other_wrong": 639,
+            "invalid": 1
+          },
+          "labels_nodiac": {
+            "correct": 2813,
+            "outdated": 4147,
+            "other_wrong": 634,
+            "invalid": 1
+          },
+          "match_detail": {
+            "None": 62,
+            "abstain": 1,
+            "address": 580,
+            "address_suffix": 155,
+            "ambiguous": 1,
+            "ambiguous_province_name": 1,
+            "bare": 5320,
+            "exact": 174,
+            "extra_district": 3,
+            "first_segment": 1082,
+            "legacy_name": 5,
+            "level_mismatch": 8,
+            "numeric": 2,
+            "relation": 186,
+            "relation_contained": 1,
+            "subject_segment": 14
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 800,
+              "accuracy": 0.1675,
+              "outdated_rate": 0.7575,
+              "labels": {
+                "correct": 134,
+                "outdated": 606,
+                "other_wrong": 60,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 800,
+              "accuracy": 0.50125,
+              "outdated_rate": 0.4775,
+              "labels": {
+                "correct": 401,
+                "outdated": 382,
+                "other_wrong": 17,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.1025
+          }
+        },
+        "without": {
+          "n": 400,
+          "accuracy": 0.0275,
+          "outdated_rate": 0.305,
+          "accuracy_nodiac": 0.0275,
+          "outdated_rate_nodiac": 0.305,
+          "labels": {
+            "correct": 11,
+            "outdated": 122,
+            "other_wrong": 267,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 11,
+            "outdated": 122,
+            "other_wrong": 267,
+            "invalid": 0
+          },
+          "match_detail": {
+            "nodiac": 261,
+            "nodiac:address": 108,
+            "nodiac:address_suffix": 25,
+            "nodiac:extra_district": 2,
+            "nodiac:level_mismatch": 4
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 400,
+              "accuracy": 0.05,
+              "outdated_rate": 0.2625,
+              "labels": {
+                "correct": 20,
+                "outdated": 105,
+                "other_wrong": 275,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 400,
+              "accuracy": 0.45,
+              "outdated_rate": 0.3725,
+              "labels": {
+                "correct": 180,
+                "outdated": 149,
+                "other_wrong": 71,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.025
+          }
+        }
+      },
+      "by_qtype_format": {
+        "T0_headline|mcq": {
+          "n": 7,
+          "accuracy": 0.0,
+          "outdated_rate": 0.7142857142857143,
+          "accuracy_nodiac": 0.0,
+          "outdated_rate_nodiac": 0.7142857142857143,
+          "labels": {
+            "correct": 0,
+            "outdated": 5,
+            "other_wrong": 2,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 0,
+            "outdated": 5,
+            "other_wrong": 2,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 7
+          },
+          "truncated": 0
+        },
+        "T0_headline|short": {
+          "n": 5,
+          "accuracy": 0.0,
+          "outdated_rate": 0.6,
+          "accuracy_nodiac": 0.0,
+          "outdated_rate_nodiac": 0.6,
+          "labels": {
+            "correct": 0,
+            "outdated": 3,
+            "other_wrong": 2,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 0,
+            "outdated": 3,
+            "other_wrong": 2,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 3,
+            "numeric": 2
+          },
+          "truncated": 0
+        },
+        "T1_membership|mcq": {
+          "n": 2781,
+          "accuracy": 0.5160014383315354,
+          "outdated_rate": 0.48327939590075514,
+          "accuracy_nodiac": 0.5160014383315354,
+          "outdated_rate_nodiac": 0.48327939590075514,
+          "labels": {
+            "correct": 1435,
+            "outdated": 1344,
+            "other_wrong": 2,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 1435,
+            "outdated": 1344,
+            "other_wrong": 2,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 2781
+          },
+          "truncated": 0
+        },
+        "T1_newname|mcq": {
+          "n": 720,
+          "accuracy": 0.2833333333333333,
+          "outdated_rate": 0.18333333333333332,
+          "accuracy_nodiac": 0.2833333333333333,
+          "outdated_rate_nodiac": 0.18333333333333332,
+          "labels": {
+            "correct": 204,
+            "outdated": 132,
+            "other_wrong": 384,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 204,
+            "outdated": 132,
+            "other_wrong": 384,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 720
+          },
+          "truncated": 0
+        },
+        "T2_composition|mcq": {
+          "n": 34,
+          "accuracy": 0.38235294117647056,
+          "outdated_rate": 0.058823529411764705,
+          "accuracy_nodiac": 0.38235294117647056,
+          "outdated_rate_nodiac": 0.058823529411764705,
+          "labels": {
+            "correct": 13,
+            "outdated": 2,
+            "other_wrong": 19,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 13,
+            "outdated": 2,
+            "other_wrong": 19,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 34
+          },
+          "truncated": 0
+        },
+        "T3_existence|mcq": {
+          "n": 308,
+          "accuracy": 0.4642857142857143,
+          "outdated_rate": 0.44155844155844154,
+          "accuracy_nodiac": 0.4642857142857143,
+          "outdated_rate_nodiac": 0.44155844155844154,
+          "labels": {
+            "correct": 143,
+            "outdated": 136,
+            "other_wrong": 29,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 143,
+            "outdated": 136,
+            "other_wrong": 29,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 308
+          },
+          "truncated": 0
+        },
+        "T4_address|short": {
+          "n": 1200,
+          "accuracy": 0.0525,
+          "outdated_rate": 0.6733333333333333,
+          "accuracy_nodiac": 0.0525,
+          "outdated_rate_nodiac": 0.675,
+          "labels": {
+            "correct": 63,
+            "outdated": 808,
+            "other_wrong": 329,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 63,
+            "outdated": 810,
+            "other_wrong": 327,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 59,
+            "address": 580,
+            "address_suffix": 155,
+            "extra_district": 3,
+            "legacy_name": 2,
+            "nodiac": 261,
+            "nodiac:address": 108,
+            "nodiac:address_suffix": 25,
+            "nodiac:extra_district": 2,
+            "nodiac:level_mismatch": 4,
+            "relation": 1
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 1200,
+              "accuracy": 0.12833333333333333,
+              "outdated_rate": 0.5925,
+              "labels": {
+                "correct": 154,
+                "outdated": 711,
+                "other_wrong": 335,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 1200,
+              "accuracy": 0.4841666666666667,
+              "outdated_rate": 0.4425,
+              "labels": {
+                "correct": 581,
+                "outdated": 531,
+                "other_wrong": 88,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.07666666666666666
+          }
+        },
+        "T5_ward_successor|mcq": {
+          "n": 1281,
+          "accuracy": 0.3044496487119438,
+          "outdated_rate": 0.6432474629195941,
+          "accuracy_nodiac": 0.3044496487119438,
+          "outdated_rate_nodiac": 0.6432474629195941,
+          "labels": {
+            "correct": 390,
+            "outdated": 824,
+            "other_wrong": 67,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 390,
+            "outdated": 824,
+            "other_wrong": 67,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 1281
+          },
+          "truncated": 0
+        },
+        "T5_ward_successor|short": {
+          "n": 1281,
+          "accuracy": 0.29508196721311475,
+          "outdated_rate": 0.6541764246682279,
+          "accuracy_nodiac": 0.297423887587822,
+          "outdated_rate_nodiac": 0.6541764246682279,
+          "labels": {
+            "correct": 378,
+            "outdated": 838,
+            "other_wrong": 64,
+            "invalid": 1
+          },
+          "labels_nodiac": {
+            "correct": 381,
+            "outdated": 838,
+            "other_wrong": 61,
+            "invalid": 1
+          },
+          "match_detail": {
+            "None": 3,
+            "abstain": 1,
+            "ambiguous": 1,
+            "ambiguous_province_name": 1,
+            "exact": 2,
+            "first_segment": 1079,
+            "level_mismatch": 8,
+            "relation": 176,
+            "relation_contained": 1,
+            "subject_segment": 9
+          },
+          "truncated": 0
+        },
+        "T6_reverse|mcq": {
+          "n": 189,
+          "accuracy": 0.5291005291005291,
+          "outdated_rate": 0.4497354497354497,
+          "accuracy_nodiac": 0.5291005291005291,
+          "outdated_rate_nodiac": 0.4497354497354497,
+          "labels": {
+            "correct": 100,
+            "outdated": 85,
+            "other_wrong": 4,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 100,
+            "outdated": 85,
+            "other_wrong": 4,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 189
+          },
+          "truncated": 0
+        },
+        "T6_reverse|short": {
+          "n": 189,
+          "accuracy": 0.5026455026455027,
+          "outdated_rate": 0.47619047619047616,
+          "accuracy_nodiac": 0.5026455026455027,
+          "outdated_rate_nodiac": 0.47619047619047616,
+          "labels": {
+            "correct": 95,
+            "outdated": 90,
+            "other_wrong": 4,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 95,
+            "outdated": 90,
+            "other_wrong": 4,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 169,
+            "first_segment": 3,
+            "legacy_name": 3,
+            "relation": 9,
+            "subject_segment": 5
+          },
+          "truncated": 0
+        }
+      },
+      "consistency": {
+        "n_groups": 53,
+        "n_deep_items": 6543,
+        "surface_acc": 0.39622641509433965,
+        "deep_acc_given_surface": 0.5852566310713055,
+        "deep_acc_given_surface_wrong": 0.15576923076923077,
+        "fully_consistent_rate": 0.018867924528301886,
+        "surface_only_rate": 0.37735849056603776,
+        "deep_only_rate": 0.0
+      }
+    },
+    "rag_mixed": {
+      "all": {
+        "n": 7995,
+        "accuracy": 0.9069418386491557,
+        "outdated_rate": 0.06454033771106941,
+        "accuracy_nodiac": 0.9069418386491557,
+        "outdated_rate_nodiac": 0.06454033771106941,
+        "labels": {
+          "correct": 7251,
+          "outdated": 516,
+          "other_wrong": 228,
+          "invalid": 0
+        },
+        "labels_nodiac": {
+          "correct": 7251,
+          "outdated": 516,
+          "other_wrong": 228,
+          "invalid": 0
+        },
+        "match_detail": {
+          "None": 108,
+          "address": 638,
+          "address_suffix": 10,
+          "ambiguous": 3,
+          "bare": 5320,
+          "exact": 995,
+          "extra_district": 43,
+          "first_segment": 450,
+          "level_mismatch": 2,
+          "nodiac": 40,
+          "nodiac:address": 346,
+          "nodiac:extra_district": 14,
+          "relation": 9,
+          "subject_segment": 17
+        },
+        "truncated": 0,
+        "components": {
+          "ward": {
+            "n": 1200,
+            "accuracy": 0.9141666666666667,
+            "outdated_rate": 0.0825,
+            "labels": {
+              "correct": 1097,
+              "outdated": 99,
+              "other_wrong": 4,
+              "invalid": 0
+            }
+          },
+          "province": {
+            "n": 1200,
+            "accuracy": 0.85,
+            "outdated_rate": 0.14916666666666667,
+            "labels": {
+              "correct": 1020,
+              "outdated": 179,
+              "other_wrong": 1,
+              "invalid": 0
+            }
+          },
+          "both_correct_rate": 0.7991666666666667
+        }
+      },
+      "by_qtype": {
+        "T0_headline": {
+          "all": {
+            "n": 12,
+            "accuracy": 0.75,
+            "outdated_rate": 0.08333333333333333,
+            "accuracy_nodiac": 0.75,
+            "outdated_rate_nodiac": 0.08333333333333333,
+            "labels": {
+              "correct": 9,
+              "outdated": 1,
+              "other_wrong": 2,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 9,
+              "outdated": 1,
+              "other_wrong": 2,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 7,
+              "exact": 5
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 12,
+              "accuracy": 0.75,
+              "outdated_rate": 0.08333333333333333,
+              "accuracy_nodiac": 0.75,
+              "outdated_rate_nodiac": 0.08333333333333333,
+              "labels": {
+                "correct": 9,
+                "outdated": 1,
+                "other_wrong": 2,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 9,
+                "outdated": 1,
+                "other_wrong": 2,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 7,
+                "exact": 5
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T1_membership": {
+          "all": {
+            "n": 2781,
+            "accuracy": 0.9327580007191658,
+            "outdated_rate": 0.06724199928083423,
+            "accuracy_nodiac": 0.9327580007191658,
+            "outdated_rate_nodiac": 0.06724199928083423,
+            "labels": {
+              "correct": 2594,
+              "outdated": 187,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 2594,
+              "outdated": 187,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 2781
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 129,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 129,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 129,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 129
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 1200,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 1200,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 1200,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 1200
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 252,
+              "accuracy": 0.9007936507936508,
+              "outdated_rate": 0.0992063492063492,
+              "accuracy_nodiac": 0.9007936507936508,
+              "outdated_rate_nodiac": 0.0992063492063492,
+              "labels": {
+                "correct": 227,
+                "outdated": 25,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 227,
+                "outdated": 25,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 252
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 1200,
+              "accuracy": 0.865,
+              "outdated_rate": 0.135,
+              "accuracy_nodiac": 0.865,
+              "outdated_rate_nodiac": 0.135,
+              "labels": {
+                "correct": 1038,
+                "outdated": 162,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 1038,
+                "outdated": 162,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 1200
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T1_newname": {
+          "all": {
+            "n": 720,
+            "accuracy": 0.7875,
+            "outdated_rate": 0.2125,
+            "accuracy_nodiac": 0.7875,
+            "outdated_rate_nodiac": 0.2125,
+            "labels": {
+              "correct": 567,
+              "outdated": 153,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 567,
+              "outdated": 153,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 720
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 9,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 9,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 9,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 9
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 171,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 171,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 171,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 171
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 12,
+              "accuracy": 0.6666666666666666,
+              "outdated_rate": 0.3333333333333333,
+              "accuracy_nodiac": 0.6666666666666666,
+              "outdated_rate_nodiac": 0.3333333333333333,
+              "labels": {
+                "correct": 8,
+                "outdated": 4,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 8,
+                "outdated": 4,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 12
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 528,
+              "accuracy": 0.7178030303030303,
+              "outdated_rate": 0.2821969696969697,
+              "accuracy_nodiac": 0.7178030303030303,
+              "outdated_rate_nodiac": 0.2821969696969697,
+              "labels": {
+                "correct": 379,
+                "outdated": 149,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 379,
+                "outdated": 149,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 528
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T2_composition": {
+          "all": {
+            "n": 34,
+            "accuracy": 1.0,
+            "outdated_rate": 0.0,
+            "accuracy_nodiac": 1.0,
+            "outdated_rate_nodiac": 0.0,
+            "labels": {
+              "correct": 34,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 34,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 34
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 34,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 34,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 34,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 34
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T3_existence": {
+          "all": {
+            "n": 308,
+            "accuracy": 0.8409090909090909,
+            "outdated_rate": 0.11363636363636363,
+            "accuracy_nodiac": 0.8409090909090909,
+            "outdated_rate_nodiac": 0.11363636363636363,
+            "labels": {
+              "correct": 259,
+              "outdated": 35,
+              "other_wrong": 14,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 259,
+              "outdated": 35,
+              "other_wrong": 14,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 308
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 123,
+              "accuracy": 0.6585365853658537,
+              "outdated_rate": 0.23577235772357724,
+              "accuracy_nodiac": 0.6585365853658537,
+              "outdated_rate_nodiac": 0.23577235772357724,
+              "labels": {
+                "correct": 81,
+                "outdated": 29,
+                "other_wrong": 13,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 81,
+                "outdated": 29,
+                "other_wrong": 13,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 123
+              },
+              "truncated": 0
+            },
+            "pc0_wc0": {
+              "n": 30,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 30,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 30,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 30
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 51,
+              "accuracy": 0.9607843137254902,
+              "outdated_rate": 0.0392156862745098,
+              "accuracy_nodiac": 0.9607843137254902,
+              "outdated_rate_nodiac": 0.0392156862745098,
+              "labels": {
+                "correct": 49,
+                "outdated": 2,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 49,
+                "outdated": 2,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 51
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 31,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 31,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 31,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 31
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 73,
+              "accuracy": 0.9315068493150684,
+              "outdated_rate": 0.0547945205479452,
+              "accuracy_nodiac": 0.9315068493150684,
+              "outdated_rate_nodiac": 0.0547945205479452,
+              "labels": {
+                "correct": 68,
+                "outdated": 4,
+                "other_wrong": 1,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 68,
+                "outdated": 4,
+                "other_wrong": 1,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 73
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T4_address": {
+          "all": {
+            "n": 1200,
+            "accuracy": 0.7516666666666667,
+            "outdated_rate": 0.0775,
+            "accuracy_nodiac": 0.7516666666666667,
+            "outdated_rate_nodiac": 0.0775,
+            "labels": {
+              "correct": 902,
+              "outdated": 93,
+              "other_wrong": 205,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 902,
+              "outdated": 93,
+              "other_wrong": 205,
+              "invalid": 0
+            },
+            "match_detail": {
+              "None": 108,
+              "address": 638,
+              "address_suffix": 10,
+              "extra_district": 43,
+              "nodiac": 40,
+              "nodiac:address": 346,
+              "nodiac:extra_district": 14,
+              "relation": 1
+            },
+            "truncated": 0,
+            "components": {
+              "ward": {
+                "n": 1200,
+                "accuracy": 0.9141666666666667,
+                "outdated_rate": 0.0825,
+                "labels": {
+                  "correct": 1097,
+                  "outdated": 99,
+                  "other_wrong": 4,
+                  "invalid": 0
+                }
+              },
+              "province": {
+                "n": 1200,
+                "accuracy": 0.85,
+                "outdated_rate": 0.14916666666666667,
+                "labels": {
+                  "correct": 1020,
+                  "outdated": 179,
+                  "other_wrong": 1,
+                  "invalid": 0
+                }
+              },
+              "both_correct_rate": 0.7991666666666667
+            }
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 65,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 65,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 65,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "address": 43,
+                "nodiac:address": 22
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 65,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 65,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 65,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 65,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 1.0
+              }
+            },
+            "pc0_wc1": {
+              "n": 505,
+              "accuracy": 0.7821782178217822,
+              "outdated_rate": 0.10297029702970296,
+              "accuracy_nodiac": 0.7821782178217822,
+              "outdated_rate_nodiac": 0.10297029702970296,
+              "labels": {
+                "correct": 395,
+                "outdated": 52,
+                "other_wrong": 58,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 395,
+                "outdated": 52,
+                "other_wrong": 58,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 2,
+                "address": 292,
+                "address_suffix": 2,
+                "extra_district": 41,
+                "nodiac": 2,
+                "nodiac:address": 153,
+                "nodiac:extra_district": 13
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 505,
+                  "accuracy": 0.8891089108910891,
+                  "outdated_rate": 0.10297029702970296,
+                  "labels": {
+                    "correct": 449,
+                    "outdated": 52,
+                    "other_wrong": 4,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 505,
+                  "accuracy": 0.998019801980198,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 504,
+                    "outdated": 0,
+                    "other_wrong": 1,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.8891089108910891
+              }
+            },
+            "pc1_wc0": {
+              "n": 126,
+              "accuracy": 0.9920634920634921,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.9920634920634921,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 125,
+                "outdated": 0,
+                "other_wrong": 1,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 125,
+                "outdated": 0,
+                "other_wrong": 1,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 1,
+                "address": 77,
+                "address_suffix": 6,
+                "nodiac:address": 42
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 126,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 126,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 126,
+                  "accuracy": 0.9920634920634921,
+                  "outdated_rate": 0.007936507936507936,
+                  "labels": {
+                    "correct": 125,
+                    "outdated": 1,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.9920634920634921
+              }
+            },
+            "pc1_wc1": {
+              "n": 504,
+              "accuracy": 0.628968253968254,
+              "outdated_rate": 0.08134920634920635,
+              "accuracy_nodiac": 0.628968253968254,
+              "outdated_rate_nodiac": 0.08134920634920635,
+              "labels": {
+                "correct": 317,
+                "outdated": 41,
+                "other_wrong": 146,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 317,
+                "outdated": 41,
+                "other_wrong": 146,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 105,
+                "address": 226,
+                "address_suffix": 2,
+                "extra_district": 2,
+                "nodiac": 38,
+                "nodiac:address": 129,
+                "nodiac:extra_district": 1,
+                "relation": 1
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 504,
+                  "accuracy": 0.9067460317460317,
+                  "outdated_rate": 0.09325396825396826,
+                  "labels": {
+                    "correct": 457,
+                    "outdated": 47,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 504,
+                  "accuracy": 0.6468253968253969,
+                  "outdated_rate": 0.3531746031746032,
+                  "labels": {
+                    "correct": 326,
+                    "outdated": 178,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.6349206349206349
+              }
+            }
+          }
+        },
+        "T5_ward_successor": {
+          "all": {
+            "n": 2562,
+            "accuracy": 0.9812646370023419,
+            "outdated_rate": 0.01600312256049961,
+            "accuracy_nodiac": 0.9812646370023419,
+            "outdated_rate_nodiac": 0.01600312256049961,
+            "labels": {
+              "correct": 2514,
+              "outdated": 41,
+              "other_wrong": 7,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 2514,
+              "outdated": 41,
+              "other_wrong": 7,
+              "invalid": 0
+            },
+            "match_detail": {
+              "ambiguous": 3,
+              "bare": 1281,
+              "exact": 822,
+              "first_segment": 443,
+              "level_mismatch": 2,
+              "relation": 6,
+              "subject_segment": 5
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 258,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 258,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 258,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 129,
+                "exact": 52,
+                "first_segment": 77
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 900,
+              "accuracy": 0.98,
+              "outdated_rate": 0.014444444444444444,
+              "accuracy_nodiac": 0.98,
+              "outdated_rate_nodiac": 0.014444444444444444,
+              "labels": {
+                "correct": 882,
+                "outdated": 13,
+                "other_wrong": 5,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 882,
+                "outdated": 13,
+                "other_wrong": 5,
+                "invalid": 0
+              },
+              "match_detail": {
+                "ambiguous": 3,
+                "bare": 450,
+                "exact": 419,
+                "first_segment": 25,
+                "level_mismatch": 1,
+                "relation": 2
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 504,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 504,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 504,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 252,
+                "exact": 66,
+                "first_segment": 181,
+                "relation": 1,
+                "subject_segment": 4
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 900,
+              "accuracy": 0.9666666666666667,
+              "outdated_rate": 0.03111111111111111,
+              "accuracy_nodiac": 0.9666666666666667,
+              "outdated_rate_nodiac": 0.03111111111111111,
+              "labels": {
+                "correct": 870,
+                "outdated": 28,
+                "other_wrong": 2,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 870,
+                "outdated": 28,
+                "other_wrong": 2,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 450,
+                "exact": 285,
+                "first_segment": 160,
+                "level_mismatch": 1,
+                "relation": 3,
+                "subject_segment": 1
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T6_reverse": {
+          "all": {
+            "n": 378,
+            "accuracy": 0.9841269841269841,
+            "outdated_rate": 0.015873015873015872,
+            "accuracy_nodiac": 0.9841269841269841,
+            "outdated_rate_nodiac": 0.015873015873015872,
+            "labels": {
+              "correct": 372,
+              "outdated": 6,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 372,
+              "outdated": 6,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 189,
+              "exact": 168,
+              "first_segment": 7,
+              "relation": 2,
+              "subject_segment": 12
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 378,
+              "accuracy": 0.9841269841269841,
+              "outdated_rate": 0.015873015873015872,
+              "accuracy_nodiac": 0.9841269841269841,
+              "outdated_rate_nodiac": 0.015873015873015872,
+              "labels": {
+                "correct": 372,
+                "outdated": 6,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 372,
+                "outdated": 6,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 189,
+                "exact": 168,
+                "first_segment": 7,
+                "relation": 2,
+                "subject_segment": 12
+              },
+              "truncated": 0
+            }
+          }
+        }
+      },
+      "by_format": {
+        "mcq": {
+          "n": 5320,
+          "accuracy": 0.9210526315789473,
+          "outdated_rate": 0.07593984962406015,
+          "accuracy_nodiac": 0.9210526315789473,
+          "outdated_rate_nodiac": 0.07593984962406015,
+          "labels": {
+            "correct": 4900,
+            "outdated": 404,
+            "other_wrong": 16,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 4900,
+            "outdated": 404,
+            "other_wrong": 16,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 5320
+          },
+          "truncated": 0
+        },
+        "short": {
+          "n": 2675,
+          "accuracy": 0.8788785046728972,
+          "outdated_rate": 0.041869158878504675,
+          "accuracy_nodiac": 0.8788785046728972,
+          "outdated_rate_nodiac": 0.041869158878504675,
+          "labels": {
+            "correct": 2351,
+            "outdated": 112,
+            "other_wrong": 212,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 2351,
+            "outdated": 112,
+            "other_wrong": 212,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 108,
+            "address": 638,
+            "address_suffix": 10,
+            "ambiguous": 3,
+            "exact": 995,
+            "extra_district": 43,
+            "first_segment": 450,
+            "level_mismatch": 2,
+            "nodiac": 40,
+            "nodiac:address": 346,
+            "nodiac:extra_district": 14,
+            "relation": 9,
+            "subject_segment": 17
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 1200,
+              "accuracy": 0.9141666666666667,
+              "outdated_rate": 0.0825,
+              "labels": {
+                "correct": 1097,
+                "outdated": 99,
+                "other_wrong": 4,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 1200,
+              "accuracy": 0.85,
+              "outdated_rate": 0.14916666666666667,
+              "labels": {
+                "correct": 1020,
+                "outdated": 179,
+                "other_wrong": 1,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.7991666666666667
+          }
+        }
+      },
+      "by_diacritics": {
+        "with": {
+          "n": 7595,
+          "accuracy": 0.9182356813693219,
+          "outdated_rate": 0.05885450954575379,
+          "accuracy_nodiac": 0.9182356813693219,
+          "outdated_rate_nodiac": 0.05885450954575379,
+          "labels": {
+            "correct": 6974,
+            "outdated": 447,
+            "other_wrong": 174,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 6974,
+            "outdated": 447,
+            "other_wrong": 174,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 108,
+            "address": 638,
+            "address_suffix": 10,
+            "ambiguous": 3,
+            "bare": 5320,
+            "exact": 995,
+            "extra_district": 43,
+            "first_segment": 450,
+            "level_mismatch": 2,
+            "relation": 9,
+            "subject_segment": 17
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 800,
+              "accuracy": 0.96625,
+              "outdated_rate": 0.03125,
+              "labels": {
+                "correct": 773,
+                "outdated": 25,
+                "other_wrong": 2,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 800,
+              "accuracy": 0.85375,
+              "outdated_rate": 0.145,
+              "labels": {
+                "correct": 683,
+                "outdated": 116,
+                "other_wrong": 1,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.835
+          }
+        },
+        "without": {
+          "n": 400,
+          "accuracy": 0.6925,
+          "outdated_rate": 0.1725,
+          "accuracy_nodiac": 0.6925,
+          "outdated_rate_nodiac": 0.1725,
+          "labels": {
+            "correct": 277,
+            "outdated": 69,
+            "other_wrong": 54,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 277,
+            "outdated": 69,
+            "other_wrong": 54,
+            "invalid": 0
+          },
+          "match_detail": {
+            "nodiac": 40,
+            "nodiac:address": 346,
+            "nodiac:extra_district": 14
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 400,
+              "accuracy": 0.81,
+              "outdated_rate": 0.185,
+              "labels": {
+                "correct": 324,
+                "outdated": 74,
+                "other_wrong": 2,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 400,
+              "accuracy": 0.8425,
+              "outdated_rate": 0.1575,
+              "labels": {
+                "correct": 337,
+                "outdated": 63,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.7275
+          }
+        }
+      },
+      "by_qtype_format": {
+        "T0_headline|mcq": {
+          "n": 7,
+          "accuracy": 0.5714285714285714,
+          "outdated_rate": 0.14285714285714285,
+          "accuracy_nodiac": 0.5714285714285714,
+          "outdated_rate_nodiac": 0.14285714285714285,
+          "labels": {
+            "correct": 4,
+            "outdated": 1,
+            "other_wrong": 2,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 4,
+            "outdated": 1,
+            "other_wrong": 2,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 7
+          },
+          "truncated": 0
+        },
+        "T0_headline|short": {
+          "n": 5,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 5,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 5,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 5
+          },
+          "truncated": 0
+        },
+        "T1_membership|mcq": {
+          "n": 2781,
+          "accuracy": 0.9327580007191658,
+          "outdated_rate": 0.06724199928083423,
+          "accuracy_nodiac": 0.9327580007191658,
+          "outdated_rate_nodiac": 0.06724199928083423,
+          "labels": {
+            "correct": 2594,
+            "outdated": 187,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 2594,
+            "outdated": 187,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 2781
+          },
+          "truncated": 0
+        },
+        "T1_newname|mcq": {
+          "n": 720,
+          "accuracy": 0.7875,
+          "outdated_rate": 0.2125,
+          "accuracy_nodiac": 0.7875,
+          "outdated_rate_nodiac": 0.2125,
+          "labels": {
+            "correct": 567,
+            "outdated": 153,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 567,
+            "outdated": 153,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 720
+          },
+          "truncated": 0
+        },
+        "T2_composition|mcq": {
+          "n": 34,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 34,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 34,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 34
+          },
+          "truncated": 0
+        },
+        "T3_existence|mcq": {
+          "n": 308,
+          "accuracy": 0.8409090909090909,
+          "outdated_rate": 0.11363636363636363,
+          "accuracy_nodiac": 0.8409090909090909,
+          "outdated_rate_nodiac": 0.11363636363636363,
+          "labels": {
+            "correct": 259,
+            "outdated": 35,
+            "other_wrong": 14,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 259,
+            "outdated": 35,
+            "other_wrong": 14,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 308
+          },
+          "truncated": 0
+        },
+        "T4_address|short": {
+          "n": 1200,
+          "accuracy": 0.7516666666666667,
+          "outdated_rate": 0.0775,
+          "accuracy_nodiac": 0.7516666666666667,
+          "outdated_rate_nodiac": 0.0775,
+          "labels": {
+            "correct": 902,
+            "outdated": 93,
+            "other_wrong": 205,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 902,
+            "outdated": 93,
+            "other_wrong": 205,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 108,
+            "address": 638,
+            "address_suffix": 10,
+            "extra_district": 43,
+            "nodiac": 40,
+            "nodiac:address": 346,
+            "nodiac:extra_district": 14,
+            "relation": 1
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 1200,
+              "accuracy": 0.9141666666666667,
+              "outdated_rate": 0.0825,
+              "labels": {
+                "correct": 1097,
+                "outdated": 99,
+                "other_wrong": 4,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 1200,
+              "accuracy": 0.85,
+              "outdated_rate": 0.14916666666666667,
+              "labels": {
+                "correct": 1020,
+                "outdated": 179,
+                "other_wrong": 1,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.7991666666666667
+          }
+        },
+        "T5_ward_successor|mcq": {
+          "n": 1281,
+          "accuracy": 0.9812646370023419,
+          "outdated_rate": 0.01873536299765808,
+          "accuracy_nodiac": 0.9812646370023419,
+          "outdated_rate_nodiac": 0.01873536299765808,
+          "labels": {
+            "correct": 1257,
+            "outdated": 24,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 1257,
+            "outdated": 24,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 1281
+          },
+          "truncated": 0
+        },
+        "T5_ward_successor|short": {
+          "n": 1281,
+          "accuracy": 0.9812646370023419,
+          "outdated_rate": 0.01327088212334114,
+          "accuracy_nodiac": 0.9812646370023419,
+          "outdated_rate_nodiac": 0.01327088212334114,
+          "labels": {
+            "correct": 1257,
+            "outdated": 17,
+            "other_wrong": 7,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 1257,
+            "outdated": 17,
+            "other_wrong": 7,
+            "invalid": 0
+          },
+          "match_detail": {
+            "ambiguous": 3,
+            "exact": 822,
+            "first_segment": 443,
+            "level_mismatch": 2,
+            "relation": 6,
+            "subject_segment": 5
+          },
+          "truncated": 0
+        },
+        "T6_reverse|mcq": {
+          "n": 189,
+          "accuracy": 0.9788359788359788,
+          "outdated_rate": 0.021164021164021163,
+          "accuracy_nodiac": 0.9788359788359788,
+          "outdated_rate_nodiac": 0.021164021164021163,
+          "labels": {
+            "correct": 185,
+            "outdated": 4,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 185,
+            "outdated": 4,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 189
+          },
+          "truncated": 0
+        },
+        "T6_reverse|short": {
+          "n": 189,
+          "accuracy": 0.9894179894179894,
+          "outdated_rate": 0.010582010582010581,
+          "accuracy_nodiac": 0.9894179894179894,
+          "outdated_rate_nodiac": 0.010582010582010581,
+          "labels": {
+            "correct": 187,
+            "outdated": 2,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 187,
+            "outdated": 2,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 168,
+            "first_segment": 7,
+            "relation": 2,
+            "subject_segment": 12
+          },
+          "truncated": 0
+        }
+      },
+      "consistency": {
+        "n_groups": 53,
+        "n_deep_items": 6543,
+        "surface_acc": 0.8867924528301887,
+        "deep_acc_given_surface": 0.9303559206023272,
+        "deep_acc_given_surface_wrong": 0.8197424892703863,
+        "fully_consistent_rate": 0.24528301886792453,
+        "surface_only_rate": 0.6415094339622641,
+        "deep_only_rate": 0.0
+      }
+    },
+    "rag_mixed+date": {
+      "all": {
+        "n": 7995,
+        "accuracy": 0.9278298936835522,
+        "outdated_rate": 0.04878048780487805,
+        "accuracy_nodiac": 0.9278298936835522,
+        "outdated_rate_nodiac": 0.04878048780487805,
+        "labels": {
+          "correct": 7418,
+          "outdated": 390,
+          "other_wrong": 187,
+          "invalid": 0
+        },
+        "labels_nodiac": {
+          "correct": 7418,
+          "outdated": 390,
+          "other_wrong": 187,
+          "invalid": 0
+        },
+        "match_detail": {
+          "None": 85,
+          "address": 664,
+          "address_suffix": 9,
+          "ambiguous": 4,
+          "bare": 5320,
+          "exact": 945,
+          "extra_district": 39,
+          "first_segment": 490,
+          "level_mismatch": 2,
+          "nodiac": 30,
+          "nodiac:address": 358,
+          "nodiac:extra_district": 12,
+          "relation": 10,
+          "subject_segment": 27
+        },
+        "truncated": 1,
+        "components": {
+          "ward": {
+            "n": 1200,
+            "accuracy": 0.9408333333333333,
+            "outdated_rate": 0.058333333333333334,
+            "labels": {
+              "correct": 1129,
+              "outdated": 70,
+              "other_wrong": 1,
+              "invalid": 0
+            }
+          },
+          "province": {
+            "n": 1200,
+            "accuracy": 0.885,
+            "outdated_rate": 0.115,
+            "labels": {
+              "correct": 1062,
+              "outdated": 138,
+              "other_wrong": 0,
+              "invalid": 0
+            }
+          },
+          "both_correct_rate": 0.8491666666666666
+        }
+      },
+      "by_qtype": {
+        "T0_headline": {
+          "all": {
+            "n": 12,
+            "accuracy": 0.8333333333333334,
+            "outdated_rate": 0.08333333333333333,
+            "accuracy_nodiac": 0.8333333333333334,
+            "outdated_rate_nodiac": 0.08333333333333333,
+            "labels": {
+              "correct": 10,
+              "outdated": 1,
+              "other_wrong": 1,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 10,
+              "outdated": 1,
+              "other_wrong": 1,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 7,
+              "exact": 5
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 12,
+              "accuracy": 0.8333333333333334,
+              "outdated_rate": 0.08333333333333333,
+              "accuracy_nodiac": 0.8333333333333334,
+              "outdated_rate_nodiac": 0.08333333333333333,
+              "labels": {
+                "correct": 10,
+                "outdated": 1,
+                "other_wrong": 1,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 10,
+                "outdated": 1,
+                "other_wrong": 1,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 7,
+                "exact": 5
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T1_membership": {
+          "all": {
+            "n": 2781,
+            "accuracy": 0.9658396260338008,
+            "outdated_rate": 0.03416037396619921,
+            "accuracy_nodiac": 0.9658396260338008,
+            "outdated_rate_nodiac": 0.03416037396619921,
+            "labels": {
+              "correct": 2686,
+              "outdated": 95,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 2686,
+              "outdated": 95,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 2781
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 129,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 129,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 129,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 129
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 1200,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 1200,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 1200,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 1200
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 252,
+              "accuracy": 0.9444444444444444,
+              "outdated_rate": 0.05555555555555555,
+              "accuracy_nodiac": 0.9444444444444444,
+              "outdated_rate_nodiac": 0.05555555555555555,
+              "labels": {
+                "correct": 238,
+                "outdated": 14,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 238,
+                "outdated": 14,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 252
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 1200,
+              "accuracy": 0.9325,
+              "outdated_rate": 0.0675,
+              "accuracy_nodiac": 0.9325,
+              "outdated_rate_nodiac": 0.0675,
+              "labels": {
+                "correct": 1119,
+                "outdated": 81,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 1119,
+                "outdated": 81,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 1200
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T1_newname": {
+          "all": {
+            "n": 720,
+            "accuracy": 0.7652777777777777,
+            "outdated_rate": 0.23472222222222222,
+            "accuracy_nodiac": 0.7652777777777777,
+            "outdated_rate_nodiac": 0.23472222222222222,
+            "labels": {
+              "correct": 551,
+              "outdated": 169,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 551,
+              "outdated": 169,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 720
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 9,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 9,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 9,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 9
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 171,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 171,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 171,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 171
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 12,
+              "accuracy": 0.6666666666666666,
+              "outdated_rate": 0.3333333333333333,
+              "accuracy_nodiac": 0.6666666666666666,
+              "outdated_rate_nodiac": 0.3333333333333333,
+              "labels": {
+                "correct": 8,
+                "outdated": 4,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 8,
+                "outdated": 4,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 12
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 528,
+              "accuracy": 0.6875,
+              "outdated_rate": 0.3125,
+              "accuracy_nodiac": 0.6875,
+              "outdated_rate_nodiac": 0.3125,
+              "labels": {
+                "correct": 363,
+                "outdated": 165,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 363,
+                "outdated": 165,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 528
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T2_composition": {
+          "all": {
+            "n": 34,
+            "accuracy": 1.0,
+            "outdated_rate": 0.0,
+            "accuracy_nodiac": 1.0,
+            "outdated_rate_nodiac": 0.0,
+            "labels": {
+              "correct": 34,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 34,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 34
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 34,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 34,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 34,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 34
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T3_existence": {
+          "all": {
+            "n": 308,
+            "accuracy": 0.8376623376623377,
+            "outdated_rate": 0.11688311688311688,
+            "accuracy_nodiac": 0.8376623376623377,
+            "outdated_rate_nodiac": 0.11688311688311688,
+            "labels": {
+              "correct": 258,
+              "outdated": 36,
+              "other_wrong": 14,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 258,
+              "outdated": 36,
+              "other_wrong": 14,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 308
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 123,
+              "accuracy": 0.6260162601626016,
+              "outdated_rate": 0.2601626016260163,
+              "accuracy_nodiac": 0.6260162601626016,
+              "outdated_rate_nodiac": 0.2601626016260163,
+              "labels": {
+                "correct": 77,
+                "outdated": 32,
+                "other_wrong": 14,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 77,
+                "outdated": 32,
+                "other_wrong": 14,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 123
+              },
+              "truncated": 0
+            },
+            "pc0_wc0": {
+              "n": 30,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 30,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 30,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 30
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 51,
+              "accuracy": 0.9803921568627451,
+              "outdated_rate": 0.0196078431372549,
+              "accuracy_nodiac": 0.9803921568627451,
+              "outdated_rate_nodiac": 0.0196078431372549,
+              "labels": {
+                "correct": 50,
+                "outdated": 1,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 50,
+                "outdated": 1,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 51
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 31,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 31,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 31,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 31
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 73,
+              "accuracy": 0.958904109589041,
+              "outdated_rate": 0.0410958904109589,
+              "accuracy_nodiac": 0.958904109589041,
+              "outdated_rate_nodiac": 0.0410958904109589,
+              "labels": {
+                "correct": 70,
+                "outdated": 3,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 70,
+                "outdated": 3,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 73
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T4_address": {
+          "all": {
+            "n": 1200,
+            "accuracy": 0.8066666666666666,
+            "outdated_rate": 0.055,
+            "accuracy_nodiac": 0.8066666666666666,
+            "outdated_rate_nodiac": 0.055,
+            "labels": {
+              "correct": 968,
+              "outdated": 66,
+              "other_wrong": 166,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 968,
+              "outdated": 66,
+              "other_wrong": 166,
+              "invalid": 0
+            },
+            "match_detail": {
+              "None": 85,
+              "address": 664,
+              "address_suffix": 9,
+              "extra_district": 39,
+              "nodiac": 30,
+              "nodiac:address": 358,
+              "nodiac:extra_district": 12,
+              "relation": 3
+            },
+            "truncated": 1,
+            "components": {
+              "ward": {
+                "n": 1200,
+                "accuracy": 0.9408333333333333,
+                "outdated_rate": 0.058333333333333334,
+                "labels": {
+                  "correct": 1129,
+                  "outdated": 70,
+                  "other_wrong": 1,
+                  "invalid": 0
+                }
+              },
+              "province": {
+                "n": 1200,
+                "accuracy": 0.885,
+                "outdated_rate": 0.115,
+                "labels": {
+                  "correct": 1062,
+                  "outdated": 138,
+                  "other_wrong": 0,
+                  "invalid": 0
+                }
+              },
+              "both_correct_rate": 0.8491666666666666
+            }
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 65,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 65,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 65,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "address": 42,
+                "address_suffix": 1,
+                "nodiac:address": 22
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 65,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 65,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 65,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 65,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 1.0
+              }
+            },
+            "pc0_wc1": {
+              "n": 505,
+              "accuracy": 0.8237623762376237,
+              "outdated_rate": 0.07722772277227723,
+              "accuracy_nodiac": 0.8237623762376237,
+              "outdated_rate_nodiac": 0.07722772277227723,
+              "labels": {
+                "correct": 416,
+                "outdated": 39,
+                "other_wrong": 50,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 416,
+                "outdated": 39,
+                "other_wrong": 50,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 1,
+                "address": 296,
+                "address_suffix": 1,
+                "extra_district": 37,
+                "nodiac:address": 156,
+                "nodiac:extra_district": 12,
+                "relation": 2
+              },
+              "truncated": 1,
+              "components": {
+                "ward": {
+                  "n": 505,
+                  "accuracy": 0.9207920792079208,
+                  "outdated_rate": 0.07722772277227723,
+                  "labels": {
+                    "correct": 465,
+                    "outdated": 39,
+                    "other_wrong": 1,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 505,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 505,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.9207920792079208
+              }
+            },
+            "pc1_wc0": {
+              "n": 126,
+              "accuracy": 0.9920634920634921,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.9920634920634921,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 125,
+                "outdated": 0,
+                "other_wrong": 1,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 125,
+                "outdated": 0,
+                "other_wrong": 1,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 1,
+                "address": 79,
+                "address_suffix": 4,
+                "nodiac:address": 42
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 126,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 126,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 126,
+                  "accuracy": 0.9920634920634921,
+                  "outdated_rate": 0.007936507936507936,
+                  "labels": {
+                    "correct": 125,
+                    "outdated": 1,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.9920634920634921
+              }
+            },
+            "pc1_wc1": {
+              "n": 504,
+              "accuracy": 0.7182539682539683,
+              "outdated_rate": 0.05357142857142857,
+              "accuracy_nodiac": 0.7182539682539683,
+              "outdated_rate_nodiac": 0.05357142857142857,
+              "labels": {
+                "correct": 362,
+                "outdated": 27,
+                "other_wrong": 115,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 362,
+                "outdated": 27,
+                "other_wrong": 115,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 83,
+                "address": 247,
+                "address_suffix": 3,
+                "extra_district": 2,
+                "nodiac": 30,
+                "nodiac:address": 138,
+                "relation": 1
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 504,
+                  "accuracy": 0.9384920634920635,
+                  "outdated_rate": 0.061507936507936505,
+                  "labels": {
+                    "correct": 473,
+                    "outdated": 31,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 504,
+                  "accuracy": 0.7281746031746031,
+                  "outdated_rate": 0.2718253968253968,
+                  "labels": {
+                    "correct": 367,
+                    "outdated": 137,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.7222222222222222
+              }
+            }
+          }
+        },
+        "T5_ward_successor": {
+          "all": {
+            "n": 2562,
+            "accuracy": 0.9886807181889149,
+            "outdated_rate": 0.00897736143637783,
+            "accuracy_nodiac": 0.9886807181889149,
+            "outdated_rate_nodiac": 0.00897736143637783,
+            "labels": {
+              "correct": 2533,
+              "outdated": 23,
+              "other_wrong": 6,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 2533,
+              "outdated": 23,
+              "other_wrong": 6,
+              "invalid": 0
+            },
+            "match_detail": {
+              "ambiguous": 4,
+              "bare": 1281,
+              "exact": 777,
+              "first_segment": 481,
+              "level_mismatch": 2,
+              "relation": 7,
+              "subject_segment": 10
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 258,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 258,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 258,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 129,
+                "exact": 36,
+                "first_segment": 93
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 900,
+              "accuracy": 0.9877777777777778,
+              "outdated_rate": 0.0077777777777777776,
+              "accuracy_nodiac": 0.9877777777777778,
+              "outdated_rate_nodiac": 0.0077777777777777776,
+              "labels": {
+                "correct": 889,
+                "outdated": 7,
+                "other_wrong": 4,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 889,
+                "outdated": 7,
+                "other_wrong": 4,
+                "invalid": 0
+              },
+              "match_detail": {
+                "ambiguous": 4,
+                "bare": 450,
+                "exact": 415,
+                "first_segment": 26,
+                "relation": 5
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 504,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 504,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 504,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 252,
+                "exact": 35,
+                "first_segment": 209,
+                "relation": 1,
+                "subject_segment": 7
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 900,
+              "accuracy": 0.98,
+              "outdated_rate": 0.017777777777777778,
+              "accuracy_nodiac": 0.98,
+              "outdated_rate_nodiac": 0.017777777777777778,
+              "labels": {
+                "correct": 882,
+                "outdated": 16,
+                "other_wrong": 2,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 882,
+                "outdated": 16,
+                "other_wrong": 2,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 450,
+                "exact": 291,
+                "first_segment": 153,
+                "level_mismatch": 2,
+                "relation": 1,
+                "subject_segment": 3
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T6_reverse": {
+          "all": {
+            "n": 378,
+            "accuracy": 1.0,
+            "outdated_rate": 0.0,
+            "accuracy_nodiac": 1.0,
+            "outdated_rate_nodiac": 0.0,
+            "labels": {
+              "correct": 378,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 378,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 189,
+              "exact": 163,
+              "first_segment": 9,
+              "subject_segment": 17
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 378,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 378,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 378,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 189,
+                "exact": 163,
+                "first_segment": 9,
+                "subject_segment": 17
+              },
+              "truncated": 0
+            }
+          }
+        }
+      },
+      "by_format": {
+        "mcq": {
+          "n": 5320,
+          "accuracy": 0.937218045112782,
+          "outdated_rate": 0.05996240601503759,
+          "accuracy_nodiac": 0.937218045112782,
+          "outdated_rate_nodiac": 0.05996240601503759,
+          "labels": {
+            "correct": 4986,
+            "outdated": 319,
+            "other_wrong": 15,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 4986,
+            "outdated": 319,
+            "other_wrong": 15,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 5320
+          },
+          "truncated": 0
+        },
+        "short": {
+          "n": 2675,
+          "accuracy": 0.9091588785046729,
+          "outdated_rate": 0.026542056074766354,
+          "accuracy_nodiac": 0.9091588785046729,
+          "outdated_rate_nodiac": 0.026542056074766354,
+          "labels": {
+            "correct": 2432,
+            "outdated": 71,
+            "other_wrong": 172,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 2432,
+            "outdated": 71,
+            "other_wrong": 172,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 85,
+            "address": 664,
+            "address_suffix": 9,
+            "ambiguous": 4,
+            "exact": 945,
+            "extra_district": 39,
+            "first_segment": 490,
+            "level_mismatch": 2,
+            "nodiac": 30,
+            "nodiac:address": 358,
+            "nodiac:extra_district": 12,
+            "relation": 10,
+            "subject_segment": 27
+          },
+          "truncated": 1,
+          "components": {
+            "ward": {
+              "n": 1200,
+              "accuracy": 0.9408333333333333,
+              "outdated_rate": 0.058333333333333334,
+              "labels": {
+                "correct": 1129,
+                "outdated": 70,
+                "other_wrong": 1,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 1200,
+              "accuracy": 0.885,
+              "outdated_rate": 0.115,
+              "labels": {
+                "correct": 1062,
+                "outdated": 138,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.8491666666666666
+          }
+        }
+      },
+      "by_diacritics": {
+        "with": {
+          "n": 7595,
+          "accuracy": 0.9371955233706386,
+          "outdated_rate": 0.04371296905859118,
+          "accuracy_nodiac": 0.9371955233706386,
+          "outdated_rate_nodiac": 0.04371296905859118,
+          "labels": {
+            "correct": 7118,
+            "outdated": 332,
+            "other_wrong": 145,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 7118,
+            "outdated": 332,
+            "other_wrong": 145,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 85,
+            "address": 664,
+            "address_suffix": 9,
+            "ambiguous": 4,
+            "bare": 5320,
+            "exact": 945,
+            "extra_district": 39,
+            "first_segment": 490,
+            "level_mismatch": 2,
+            "relation": 10,
+            "subject_segment": 27
+          },
+          "truncated": 1,
+          "components": {
+            "ward": {
+              "n": 800,
+              "accuracy": 0.9875,
+              "outdated_rate": 0.01125,
+              "labels": {
+                "correct": 790,
+                "outdated": 9,
+                "other_wrong": 1,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 800,
+              "accuracy": 0.88875,
+              "outdated_rate": 0.11125,
+              "labels": {
+                "correct": 711,
+                "outdated": 89,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.88375
+          }
+        },
+        "without": {
+          "n": 400,
+          "accuracy": 0.75,
+          "outdated_rate": 0.145,
+          "accuracy_nodiac": 0.75,
+          "outdated_rate_nodiac": 0.145,
+          "labels": {
+            "correct": 300,
+            "outdated": 58,
+            "other_wrong": 42,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 300,
+            "outdated": 58,
+            "other_wrong": 42,
+            "invalid": 0
+          },
+          "match_detail": {
+            "nodiac": 30,
+            "nodiac:address": 358,
+            "nodiac:extra_district": 12
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 400,
+              "accuracy": 0.8475,
+              "outdated_rate": 0.1525,
+              "labels": {
+                "correct": 339,
+                "outdated": 61,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 400,
+              "accuracy": 0.8775,
+              "outdated_rate": 0.1225,
+              "labels": {
+                "correct": 351,
+                "outdated": 49,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.78
+          }
+        }
+      },
+      "by_qtype_format": {
+        "T0_headline|mcq": {
+          "n": 7,
+          "accuracy": 0.7142857142857143,
+          "outdated_rate": 0.14285714285714285,
+          "accuracy_nodiac": 0.7142857142857143,
+          "outdated_rate_nodiac": 0.14285714285714285,
+          "labels": {
+            "correct": 5,
+            "outdated": 1,
+            "other_wrong": 1,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 5,
+            "outdated": 1,
+            "other_wrong": 1,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 7
+          },
+          "truncated": 0
+        },
+        "T0_headline|short": {
+          "n": 5,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 5,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 5,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 5
+          },
+          "truncated": 0
+        },
+        "T1_membership|mcq": {
+          "n": 2781,
+          "accuracy": 0.9658396260338008,
+          "outdated_rate": 0.03416037396619921,
+          "accuracy_nodiac": 0.9658396260338008,
+          "outdated_rate_nodiac": 0.03416037396619921,
+          "labels": {
+            "correct": 2686,
+            "outdated": 95,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 2686,
+            "outdated": 95,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 2781
+          },
+          "truncated": 0
+        },
+        "T1_newname|mcq": {
+          "n": 720,
+          "accuracy": 0.7652777777777777,
+          "outdated_rate": 0.23472222222222222,
+          "accuracy_nodiac": 0.7652777777777777,
+          "outdated_rate_nodiac": 0.23472222222222222,
+          "labels": {
+            "correct": 551,
+            "outdated": 169,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 551,
+            "outdated": 169,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 720
+          },
+          "truncated": 0
+        },
+        "T2_composition|mcq": {
+          "n": 34,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 34,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 34,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 34
+          },
+          "truncated": 0
+        },
+        "T3_existence|mcq": {
+          "n": 308,
+          "accuracy": 0.8376623376623377,
+          "outdated_rate": 0.11688311688311688,
+          "accuracy_nodiac": 0.8376623376623377,
+          "outdated_rate_nodiac": 0.11688311688311688,
+          "labels": {
+            "correct": 258,
+            "outdated": 36,
+            "other_wrong": 14,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 258,
+            "outdated": 36,
+            "other_wrong": 14,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 308
+          },
+          "truncated": 0
+        },
+        "T4_address|short": {
+          "n": 1200,
+          "accuracy": 0.8066666666666666,
+          "outdated_rate": 0.055,
+          "accuracy_nodiac": 0.8066666666666666,
+          "outdated_rate_nodiac": 0.055,
+          "labels": {
+            "correct": 968,
+            "outdated": 66,
+            "other_wrong": 166,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 968,
+            "outdated": 66,
+            "other_wrong": 166,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 85,
+            "address": 664,
+            "address_suffix": 9,
+            "extra_district": 39,
+            "nodiac": 30,
+            "nodiac:address": 358,
+            "nodiac:extra_district": 12,
+            "relation": 3
+          },
+          "truncated": 1,
+          "components": {
+            "ward": {
+              "n": 1200,
+              "accuracy": 0.9408333333333333,
+              "outdated_rate": 0.058333333333333334,
+              "labels": {
+                "correct": 1129,
+                "outdated": 70,
+                "other_wrong": 1,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 1200,
+              "accuracy": 0.885,
+              "outdated_rate": 0.115,
+              "labels": {
+                "correct": 1062,
+                "outdated": 138,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.8491666666666666
+          }
+        },
+        "T5_ward_successor|mcq": {
+          "n": 1281,
+          "accuracy": 0.9859484777517564,
+          "outdated_rate": 0.01405152224824356,
+          "accuracy_nodiac": 0.9859484777517564,
+          "outdated_rate_nodiac": 0.01405152224824356,
+          "labels": {
+            "correct": 1263,
+            "outdated": 18,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 1263,
+            "outdated": 18,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 1281
+          },
+          "truncated": 0
+        },
+        "T5_ward_successor|short": {
+          "n": 1281,
+          "accuracy": 0.9914129586260734,
+          "outdated_rate": 0.0039032006245121,
+          "accuracy_nodiac": 0.9914129586260734,
+          "outdated_rate_nodiac": 0.0039032006245121,
+          "labels": {
+            "correct": 1270,
+            "outdated": 5,
+            "other_wrong": 6,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 1270,
+            "outdated": 5,
+            "other_wrong": 6,
+            "invalid": 0
+          },
+          "match_detail": {
+            "ambiguous": 4,
+            "exact": 777,
+            "first_segment": 481,
+            "level_mismatch": 2,
+            "relation": 7,
+            "subject_segment": 10
+          },
+          "truncated": 0
+        },
+        "T6_reverse|mcq": {
+          "n": 189,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 189,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 189,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 189
+          },
+          "truncated": 0
+        },
+        "T6_reverse|short": {
+          "n": 189,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 189,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 189,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 163,
+            "first_segment": 9,
+            "subject_segment": 17
+          },
+          "truncated": 0
+        }
+      },
+      "consistency": {
+        "n_groups": 53,
+        "n_deep_items": 6543,
+        "surface_acc": 1.0,
+        "deep_acc_given_surface": 0.945590707626471,
+        "deep_acc_given_surface_wrong": null,
+        "fully_consistent_rate": 0.24528301886792453,
+        "surface_only_rate": 0.7547169811320755,
+        "deep_only_rate": 0.0
+      }
+    },
+    "rag_new": {
+      "all": {
+        "n": 7995,
+        "accuracy": 0.9792370231394621,
+        "outdated_rate": 0.00450281425891182,
+        "accuracy_nodiac": 0.9792370231394621,
+        "outdated_rate_nodiac": 0.00450281425891182,
+        "labels": {
+          "correct": 7829,
+          "outdated": 36,
+          "other_wrong": 130,
+          "invalid": 0
+        },
+        "labels_nodiac": {
+          "correct": 7829,
+          "outdated": 36,
+          "other_wrong": 130,
+          "invalid": 0
+        },
+        "match_detail": {
+          "None": 35,
+          "address": 702,
+          "address_suffix": 24,
+          "bare": 5320,
+          "exact": 1064,
+          "extra_district": 39,
+          "first_segment": 406,
+          "nodiac": 11,
+          "nodiac:address": 370,
+          "nodiac:extra_district": 19,
+          "relation": 5
+        },
+        "truncated": 0,
+        "components": {
+          "ward": {
+            "n": 1200,
+            "accuracy": 0.9966666666666667,
+            "outdated_rate": 0.0033333333333333335,
+            "labels": {
+              "correct": 1196,
+              "outdated": 4,
+              "other_wrong": 0,
+              "invalid": 0
+            }
+          },
+          "province": {
+            "n": 1200,
+            "accuracy": 0.9625,
+            "outdated_rate": 0.0375,
+            "labels": {
+              "correct": 1155,
+              "outdated": 45,
+              "other_wrong": 0,
+              "invalid": 0
+            }
+          },
+          "both_correct_rate": 0.9591666666666666
+        }
+      },
+      "by_qtype": {
+        "T0_headline": {
+          "all": {
+            "n": 12,
+            "accuracy": 1.0,
+            "outdated_rate": 0.0,
+            "accuracy_nodiac": 1.0,
+            "outdated_rate_nodiac": 0.0,
+            "labels": {
+              "correct": 12,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 12,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 7,
+              "exact": 5
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 12,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 12,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 12,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 7,
+                "exact": 5
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T1_membership": {
+          "all": {
+            "n": 2781,
+            "accuracy": 0.996044588277598,
+            "outdated_rate": 0.003955411722402014,
+            "accuracy_nodiac": 0.996044588277598,
+            "outdated_rate_nodiac": 0.003955411722402014,
+            "labels": {
+              "correct": 2770,
+              "outdated": 11,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 2770,
+              "outdated": 11,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 2781
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 129,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 129,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 129,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 129
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 1200,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 1200,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 1200,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 1200
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 252,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 252,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 252,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 252
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 1200,
+              "accuracy": 0.9908333333333333,
+              "outdated_rate": 0.009166666666666667,
+              "accuracy_nodiac": 0.9908333333333333,
+              "outdated_rate_nodiac": 0.009166666666666667,
+              "labels": {
+                "correct": 1189,
+                "outdated": 11,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 1189,
+                "outdated": 11,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 1200
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T1_newname": {
+          "all": {
+            "n": 720,
+            "accuracy": 0.9972222222222222,
+            "outdated_rate": 0.002777777777777778,
+            "accuracy_nodiac": 0.9972222222222222,
+            "outdated_rate_nodiac": 0.002777777777777778,
+            "labels": {
+              "correct": 718,
+              "outdated": 2,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 718,
+              "outdated": 2,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 720
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 9,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 9,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 9,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 9
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 171,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 171,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 171,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 171
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 12,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 12,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 12,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 12
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 528,
+              "accuracy": 0.9962121212121212,
+              "outdated_rate": 0.003787878787878788,
+              "accuracy_nodiac": 0.9962121212121212,
+              "outdated_rate_nodiac": 0.003787878787878788,
+              "labels": {
+                "correct": 526,
+                "outdated": 2,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 526,
+                "outdated": 2,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 528
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T2_composition": {
+          "all": {
+            "n": 34,
+            "accuracy": 1.0,
+            "outdated_rate": 0.0,
+            "accuracy_nodiac": 1.0,
+            "outdated_rate_nodiac": 0.0,
+            "labels": {
+              "correct": 34,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 34,
+              "outdated": 0,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 34
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 34,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 34,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 34,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 34
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T3_existence": {
+          "all": {
+            "n": 308,
+            "accuracy": 0.8603896103896104,
+            "outdated_rate": 0.05519480519480519,
+            "accuracy_nodiac": 0.8603896103896104,
+            "outdated_rate_nodiac": 0.05519480519480519,
+            "labels": {
+              "correct": 265,
+              "outdated": 17,
+              "other_wrong": 26,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 265,
+              "outdated": 17,
+              "other_wrong": 26,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 308
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 123,
+              "accuracy": 0.7723577235772358,
+              "outdated_rate": 0.13821138211382114,
+              "accuracy_nodiac": 0.7723577235772358,
+              "outdated_rate_nodiac": 0.13821138211382114,
+              "labels": {
+                "correct": 95,
+                "outdated": 17,
+                "other_wrong": 11,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 95,
+                "outdated": 17,
+                "other_wrong": 11,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 123
+              },
+              "truncated": 0
+            },
+            "pc0_wc0": {
+              "n": 30,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 30,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 30,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 30
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 51,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 51,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 51,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 51
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 31,
+              "accuracy": 0.5161290322580645,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.5161290322580645,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 16,
+                "outdated": 0,
+                "other_wrong": 15,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 16,
+                "outdated": 0,
+                "other_wrong": 15,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 31
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 73,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 73,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 73,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 73
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T4_address": {
+          "all": {
+            "n": 1200,
+            "accuracy": 0.9108333333333334,
+            "outdated_rate": 0.0025,
+            "accuracy_nodiac": 0.9108333333333334,
+            "outdated_rate_nodiac": 0.0025,
+            "labels": {
+              "correct": 1093,
+              "outdated": 3,
+              "other_wrong": 104,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 1093,
+              "outdated": 3,
+              "other_wrong": 104,
+              "invalid": 0
+            },
+            "match_detail": {
+              "None": 35,
+              "address": 702,
+              "address_suffix": 24,
+              "extra_district": 39,
+              "nodiac": 11,
+              "nodiac:address": 370,
+              "nodiac:extra_district": 19
+            },
+            "truncated": 0,
+            "components": {
+              "ward": {
+                "n": 1200,
+                "accuracy": 0.9966666666666667,
+                "outdated_rate": 0.0033333333333333335,
+                "labels": {
+                  "correct": 1196,
+                  "outdated": 4,
+                  "other_wrong": 0,
+                  "invalid": 0
+                }
+              },
+              "province": {
+                "n": 1200,
+                "accuracy": 0.9625,
+                "outdated_rate": 0.0375,
+                "labels": {
+                  "correct": 1155,
+                  "outdated": 45,
+                  "other_wrong": 0,
+                  "invalid": 0
+                }
+              },
+              "both_correct_rate": 0.9591666666666666
+            }
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 65,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 65,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 65,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "address": 36,
+                "address_suffix": 7,
+                "nodiac:address": 22
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 65,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 65,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 65,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 65,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 1.0
+              }
+            },
+            "pc0_wc1": {
+              "n": 505,
+              "accuracy": 0.8831683168316832,
+              "outdated_rate": 0.005940594059405941,
+              "accuracy_nodiac": 0.8831683168316832,
+              "outdated_rate_nodiac": 0.005940594059405941,
+              "labels": {
+                "correct": 446,
+                "outdated": 3,
+                "other_wrong": 56,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 446,
+                "outdated": 3,
+                "other_wrong": 56,
+                "invalid": 0
+              },
+              "match_detail": {
+                "address": 299,
+                "extra_district": 38,
+                "nodiac:address": 150,
+                "nodiac:extra_district": 18
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 505,
+                  "accuracy": 0.994059405940594,
+                  "outdated_rate": 0.005940594059405941,
+                  "labels": {
+                    "correct": 502,
+                    "outdated": 3,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 505,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 505,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.994059405940594
+              }
+            },
+            "pc1_wc0": {
+              "n": 126,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 126,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 126,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "address": 67,
+                "address_suffix": 17,
+                "nodiac:address": 42
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 126,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 126,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 126,
+                  "accuracy": 1.0,
+                  "outdated_rate": 0.0,
+                  "labels": {
+                    "correct": 126,
+                    "outdated": 0,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 1.0
+              }
+            },
+            "pc1_wc1": {
+              "n": 504,
+              "accuracy": 0.9047619047619048,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 0.9047619047619048,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 456,
+                "outdated": 0,
+                "other_wrong": 48,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 456,
+                "outdated": 0,
+                "other_wrong": 48,
+                "invalid": 0
+              },
+              "match_detail": {
+                "None": 35,
+                "address": 300,
+                "extra_district": 1,
+                "nodiac": 11,
+                "nodiac:address": 156,
+                "nodiac:extra_district": 1
+              },
+              "truncated": 0,
+              "components": {
+                "ward": {
+                  "n": 504,
+                  "accuracy": 0.998015873015873,
+                  "outdated_rate": 0.001984126984126984,
+                  "labels": {
+                    "correct": 503,
+                    "outdated": 1,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "province": {
+                  "n": 504,
+                  "accuracy": 0.9107142857142857,
+                  "outdated_rate": 0.08928571428571429,
+                  "labels": {
+                    "correct": 459,
+                    "outdated": 45,
+                    "other_wrong": 0,
+                    "invalid": 0
+                  }
+                },
+                "both_correct_rate": 0.9087301587301587
+              }
+            }
+          }
+        },
+        "T5_ward_successor": {
+          "all": {
+            "n": 2562,
+            "accuracy": 0.9996096799375488,
+            "outdated_rate": 0.00039032006245121,
+            "accuracy_nodiac": 0.9996096799375488,
+            "outdated_rate_nodiac": 0.00039032006245121,
+            "labels": {
+              "correct": 2561,
+              "outdated": 1,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 2561,
+              "outdated": 1,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 1281,
+              "exact": 892,
+              "first_segment": 389
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "pc0_wc0": {
+              "n": 258,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 258,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 258,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 129,
+                "exact": 28,
+                "first_segment": 101
+              },
+              "truncated": 0
+            },
+            "pc0_wc1": {
+              "n": 900,
+              "accuracy": 0.9988888888888889,
+              "outdated_rate": 0.0011111111111111111,
+              "accuracy_nodiac": 0.9988888888888889,
+              "outdated_rate_nodiac": 0.0011111111111111111,
+              "labels": {
+                "correct": 899,
+                "outdated": 1,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 899,
+                "outdated": 1,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 450,
+                "exact": 424,
+                "first_segment": 26
+              },
+              "truncated": 0
+            },
+            "pc1_wc0": {
+              "n": 504,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 504,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 504,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 252,
+                "exact": 54,
+                "first_segment": 198
+              },
+              "truncated": 0
+            },
+            "pc1_wc1": {
+              "n": 900,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "accuracy_nodiac": 1.0,
+              "outdated_rate_nodiac": 0.0,
+              "labels": {
+                "correct": 900,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 900,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 450,
+                "exact": 386,
+                "first_segment": 64
+              },
+              "truncated": 0
+            }
+          }
+        },
+        "T6_reverse": {
+          "all": {
+            "n": 378,
+            "accuracy": 0.9947089947089947,
+            "outdated_rate": 0.005291005291005291,
+            "accuracy_nodiac": 0.9947089947089947,
+            "outdated_rate_nodiac": 0.005291005291005291,
+            "labels": {
+              "correct": 376,
+              "outdated": 2,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "labels_nodiac": {
+              "correct": 376,
+              "outdated": 2,
+              "other_wrong": 0,
+              "invalid": 0
+            },
+            "match_detail": {
+              "bare": 189,
+              "exact": 167,
+              "first_segment": 17,
+              "relation": 5
+            },
+            "truncated": 0
+          },
+          "cells": {
+            "na": {
+              "n": 378,
+              "accuracy": 0.9947089947089947,
+              "outdated_rate": 0.005291005291005291,
+              "accuracy_nodiac": 0.9947089947089947,
+              "outdated_rate_nodiac": 0.005291005291005291,
+              "labels": {
+                "correct": 376,
+                "outdated": 2,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "labels_nodiac": {
+                "correct": 376,
+                "outdated": 2,
+                "other_wrong": 0,
+                "invalid": 0
+              },
+              "match_detail": {
+                "bare": 189,
+                "exact": 167,
+                "first_segment": 17,
+                "relation": 5
+              },
+              "truncated": 0
+            }
+          }
+        }
+      },
+      "by_format": {
+        "mcq": {
+          "n": 5320,
+          "accuracy": 0.9890977443609023,
+          "outdated_rate": 0.006015037593984963,
+          "accuracy_nodiac": 0.9890977443609023,
+          "outdated_rate_nodiac": 0.006015037593984963,
+          "labels": {
+            "correct": 5262,
+            "outdated": 32,
+            "other_wrong": 26,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 5262,
+            "outdated": 32,
+            "other_wrong": 26,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 5320
+          },
+          "truncated": 0
+        },
+        "short": {
+          "n": 2675,
+          "accuracy": 0.959626168224299,
+          "outdated_rate": 0.0014953271028037382,
+          "accuracy_nodiac": 0.959626168224299,
+          "outdated_rate_nodiac": 0.0014953271028037382,
+          "labels": {
+            "correct": 2567,
+            "outdated": 4,
+            "other_wrong": 104,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 2567,
+            "outdated": 4,
+            "other_wrong": 104,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 35,
+            "address": 702,
+            "address_suffix": 24,
+            "exact": 1064,
+            "extra_district": 39,
+            "first_segment": 406,
+            "nodiac": 11,
+            "nodiac:address": 370,
+            "nodiac:extra_district": 19,
+            "relation": 5
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 1200,
+              "accuracy": 0.9966666666666667,
+              "outdated_rate": 0.0033333333333333335,
+              "labels": {
+                "correct": 1196,
+                "outdated": 4,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 1200,
+              "accuracy": 0.9625,
+              "outdated_rate": 0.0375,
+              "labels": {
+                "correct": 1155,
+                "outdated": 45,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.9591666666666666
+          }
+        }
+      },
+      "by_diacritics": {
+        "with": {
+          "n": 7595,
+          "accuracy": 0.9824884792626728,
+          "outdated_rate": 0.0043449637919684,
+          "accuracy_nodiac": 0.9824884792626728,
+          "outdated_rate_nodiac": 0.0043449637919684,
+          "labels": {
+            "correct": 7462,
+            "outdated": 33,
+            "other_wrong": 100,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 7462,
+            "outdated": 33,
+            "other_wrong": 100,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 35,
+            "address": 702,
+            "address_suffix": 24,
+            "bare": 5320,
+            "exact": 1064,
+            "extra_district": 39,
+            "first_segment": 406,
+            "relation": 5
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 800,
+              "accuracy": 1.0,
+              "outdated_rate": 0.0,
+              "labels": {
+                "correct": 800,
+                "outdated": 0,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 800,
+              "accuracy": 0.95625,
+              "outdated_rate": 0.04375,
+              "labels": {
+                "correct": 765,
+                "outdated": 35,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.95625
+          }
+        },
+        "without": {
+          "n": 400,
+          "accuracy": 0.9175,
+          "outdated_rate": 0.0075,
+          "accuracy_nodiac": 0.9175,
+          "outdated_rate_nodiac": 0.0075,
+          "labels": {
+            "correct": 367,
+            "outdated": 3,
+            "other_wrong": 30,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 367,
+            "outdated": 3,
+            "other_wrong": 30,
+            "invalid": 0
+          },
+          "match_detail": {
+            "nodiac": 11,
+            "nodiac:address": 370,
+            "nodiac:extra_district": 19
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 400,
+              "accuracy": 0.99,
+              "outdated_rate": 0.01,
+              "labels": {
+                "correct": 396,
+                "outdated": 4,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 400,
+              "accuracy": 0.975,
+              "outdated_rate": 0.025,
+              "labels": {
+                "correct": 390,
+                "outdated": 10,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.965
+          }
+        }
+      },
+      "by_qtype_format": {
+        "T0_headline|mcq": {
+          "n": 7,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 7,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 7,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 7
+          },
+          "truncated": 0
+        },
+        "T0_headline|short": {
+          "n": 5,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 5,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 5,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 5
+          },
+          "truncated": 0
+        },
+        "T1_membership|mcq": {
+          "n": 2781,
+          "accuracy": 0.996044588277598,
+          "outdated_rate": 0.003955411722402014,
+          "accuracy_nodiac": 0.996044588277598,
+          "outdated_rate_nodiac": 0.003955411722402014,
+          "labels": {
+            "correct": 2770,
+            "outdated": 11,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 2770,
+            "outdated": 11,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 2781
+          },
+          "truncated": 0
+        },
+        "T1_newname|mcq": {
+          "n": 720,
+          "accuracy": 0.9972222222222222,
+          "outdated_rate": 0.002777777777777778,
+          "accuracy_nodiac": 0.9972222222222222,
+          "outdated_rate_nodiac": 0.002777777777777778,
+          "labels": {
+            "correct": 718,
+            "outdated": 2,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 718,
+            "outdated": 2,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 720
+          },
+          "truncated": 0
+        },
+        "T2_composition|mcq": {
+          "n": 34,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 34,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 34,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 34
+          },
+          "truncated": 0
+        },
+        "T3_existence|mcq": {
+          "n": 308,
+          "accuracy": 0.8603896103896104,
+          "outdated_rate": 0.05519480519480519,
+          "accuracy_nodiac": 0.8603896103896104,
+          "outdated_rate_nodiac": 0.05519480519480519,
+          "labels": {
+            "correct": 265,
+            "outdated": 17,
+            "other_wrong": 26,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 265,
+            "outdated": 17,
+            "other_wrong": 26,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 308
+          },
+          "truncated": 0
+        },
+        "T4_address|short": {
+          "n": 1200,
+          "accuracy": 0.9108333333333334,
+          "outdated_rate": 0.0025,
+          "accuracy_nodiac": 0.9108333333333334,
+          "outdated_rate_nodiac": 0.0025,
+          "labels": {
+            "correct": 1093,
+            "outdated": 3,
+            "other_wrong": 104,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 1093,
+            "outdated": 3,
+            "other_wrong": 104,
+            "invalid": 0
+          },
+          "match_detail": {
+            "None": 35,
+            "address": 702,
+            "address_suffix": 24,
+            "extra_district": 39,
+            "nodiac": 11,
+            "nodiac:address": 370,
+            "nodiac:extra_district": 19
+          },
+          "truncated": 0,
+          "components": {
+            "ward": {
+              "n": 1200,
+              "accuracy": 0.9966666666666667,
+              "outdated_rate": 0.0033333333333333335,
+              "labels": {
+                "correct": 1196,
+                "outdated": 4,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "province": {
+              "n": 1200,
+              "accuracy": 0.9625,
+              "outdated_rate": 0.0375,
+              "labels": {
+                "correct": 1155,
+                "outdated": 45,
+                "other_wrong": 0,
+                "invalid": 0
+              }
+            },
+            "both_correct_rate": 0.9591666666666666
+          }
+        },
+        "T5_ward_successor|mcq": {
+          "n": 1281,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 1281,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 1281,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 1281
+          },
+          "truncated": 0
+        },
+        "T5_ward_successor|short": {
+          "n": 1281,
+          "accuracy": 0.9992193598750976,
+          "outdated_rate": 0.00078064012490242,
+          "accuracy_nodiac": 0.9992193598750976,
+          "outdated_rate_nodiac": 0.00078064012490242,
+          "labels": {
+            "correct": 1280,
+            "outdated": 1,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 1280,
+            "outdated": 1,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 892,
+            "first_segment": 389
+          },
+          "truncated": 0
+        },
+        "T6_reverse|mcq": {
+          "n": 189,
+          "accuracy": 0.9894179894179894,
+          "outdated_rate": 0.010582010582010581,
+          "accuracy_nodiac": 0.9894179894179894,
+          "outdated_rate_nodiac": 0.010582010582010581,
+          "labels": {
+            "correct": 187,
+            "outdated": 2,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 187,
+            "outdated": 2,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "bare": 189
+          },
+          "truncated": 0
+        },
+        "T6_reverse|short": {
+          "n": 189,
+          "accuracy": 1.0,
+          "outdated_rate": 0.0,
+          "accuracy_nodiac": 1.0,
+          "outdated_rate_nodiac": 0.0,
+          "labels": {
+            "correct": 189,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "labels_nodiac": {
+            "correct": 189,
+            "outdated": 0,
+            "other_wrong": 0,
+            "invalid": 0
+          },
+          "match_detail": {
+            "exact": 167,
+            "first_segment": 17,
+            "relation": 5
+          },
+          "truncated": 0
+        }
+      },
+      "consistency": {
+        "n_groups": 53,
+        "n_deep_items": 6543,
+        "surface_acc": 0.9622641509433962,
+        "deep_acc_given_surface": 0.9814432989690721,
+        "deep_acc_given_surface_wrong": 0.9915966386554622,
+        "fully_consistent_rate": 0.4339622641509434,
+        "surface_only_rate": 0.5283018867924528,
+        "deep_only_rate": 0.018867924528301886
+      }
+    }
+  }
+}

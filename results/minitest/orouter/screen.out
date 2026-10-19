@@ -1,0 +1,9 @@
+results/minitest/orouter/preds_cue3_gpt-5.6-terra.jsonl: reform/absorbed correct 1.00 (n=80)
+results/minitest/orouter/preds_cue3_hy4-preview.jsonl: reform/absorbed correct 0.95 (n=80)
+results/minitest/orouter/preds_cue3_gemini-4-argon.jsonl: reform/absorbed correct 0.03 (n=80)
+results/minitest/orouter/preds_cue3_gpt-6-luna.jsonl: reform/absorbed correct 1.00 (n=80)
+results/minitest/orouter/preds_cue3_longcat-2.0.jsonl: reform/absorbed correct 0.03 (n=80)
+results/minitest/orouter/preds_cue3_mistral-large-4-0.jsonl: reform/absorbed correct 0.29 (n=80)
+results/minitest/orouter/preds_cue3_step-5-preview.jsonl: reform/absorbed correct 0.85 (n=80)
+results/minitest/orouter/preds_cue3_grok-4.7.jsonl: reform/absorbed correct 0.95 (n=80)
+SCREEN_DONE

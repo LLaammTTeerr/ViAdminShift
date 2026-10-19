@@ -1,0 +1,46 @@
+10:11:01 done kimi-k3 preds_sys1_kimi-k3__orouter.jsonl T1np_ward_province:absorbed
+Terminated                 python3 scripts/minitest.py run --items $I/$4 --url $URL --api-key-env OPENROUTER_TOKEN --model $1 --extra "$2" --max-tokens $3 --par 4 --rpm 19 --out $5 ${6:+--only $6} ${7:+--system "$7"} >> $L 2>&1
+10:12:58 FAIL step-5-preview preds_cue3_step-5-preview.jsonl 
+Terminated                 python3 scripts/minitest.py run --items $I/$4 --url $URL --api-key-env OPENROUTER_TOKEN --model $1 --extra "$2" --max-tokens $3 --par 4 --rpm 19 --out $5 ${6:+--only $6} ${7:+--system "$7"} >> $L 2>&1
+10:13:04 FAIL step-5-preview preds_cue3np_step-5-preview.jsonl 
+Terminated                 python3 scripts/agent_date.py run $1 --paper --rpm 19 >> $L 2>&1
+10:14:37 FAIL kimi-k3 agent
+10:35:21 done gpt-6-luna preds_cue3_gpt-6-luna.jsonl 
+10:35:21 done gpt-5.6-terra preds_cue3_gpt-5.6-terra.jsonl 
+10:35:22 done hy4-preview preds_cue3_hy4-preview.jsonl 
+10:46:13 done grok-4.7 preds_cue3_grok-4.7.jsonl 
+10:54:16 done gpt-6-luna preds_cue3np_gpt-6-luna.jsonl 
+10:54:17 done gpt-5.6-terra preds_cue3np_gpt-5.6-terra.jsonl 
+10:54:18 done hy4-preview preds_cue3np_hy4-preview.jsonl 
+10:58:28 done gpt-5.6-terra preds_sys0_gpt-5.6-terra__orouter.jsonl T1np_ward_province:absorbed
+10:58:29 done hy4-preview preds_sys0_hy4-preview__orouter.jsonl T1np_ward_province:absorbed
+10:58:29 done gpt-6-luna preds_sys0_gpt-6-luna__orouter.jsonl T1np_ward_province:absorbed
+11:02:39 done gpt-5.6-terra preds_sys1_gpt-5.6-terra__orouter.jsonl T1np_ward_province:absorbed
+11:02:41 done gpt-6-luna preds_sys1_gpt-6-luna__orouter.jsonl T1np_ward_province:absorbed
+11:02:41 done hy4-preview preds_sys1_hy4-preview__orouter.jsonl T1np_ward_province:absorbed
+11:06:50 done gpt-5.6-terra preds_sys0q_gpt-5.6-terra__orouter.jsonl T1np_ward_province:absorbed
+11:06:52 done gpt-6-luna preds_sys0q_gpt-6-luna__orouter.jsonl T1np_ward_province:absorbed
+11:06:52 done hy4-preview preds_sys0q_hy4-preview__orouter.jsonl T1np_ward_province:absorbed
+11:09:09 done grok-4.7 preds_cue3np_grok-4.7.jsonl 
+11:11:01 done gpt-5.6-terra preds_sys0qm_gpt-5.6-terra__orouter.jsonl T1np_ward_province:absorbed
+11:11:04 done hy4-preview preds_sys0qm_hy4-preview__orouter.jsonl T1np_ward_province:absorbed
+11:11:04 done gpt-6-luna preds_sys0qm_gpt-6-luna__orouter.jsonl T1np_ward_province:absorbed
+11:15:13 done gpt-5.6-terra preds_sysasof_gpt-5.6-terra__orouter.jsonl T1np_ward_province:absorbed
+11:15:15 done gpt-6-luna preds_sysasof_gpt-6-luna__orouter.jsonl T1np_ward_province:absorbed
+11:15:15 done hy4-preview preds_sysasof_hy4-preview__orouter.jsonl T1np_ward_province:absorbed
+11:19:23 done gpt-5.6-terra preds_sys0_gpt-5.6-terra__orouter.jsonl T1_ward_province:absorbed
+11:19:26 done gpt-6-luna preds_sys0_gpt-6-luna__orouter.jsonl T1_ward_province:absorbed
+11:19:27 done hy4-preview preds_sys0_hy4-preview__orouter.jsonl T1_ward_province:absorbed
+11:23:35 done gpt-5.6-terra preds_sys1_gpt-5.6-terra__orouter.jsonl T1_ward_province:absorbed
+11:23:37 done gpt-6-luna preds_sys1_gpt-6-luna__orouter.jsonl T1_ward_province:absorbed
+11:23:38 done hy4-preview preds_sys1_hy4-preview__orouter.jsonl T1_ward_province:absorbed
+11:27:46 done gpt-5.6-terra preds_sys2025_gpt-5.6-terra__orouter.jsonl T1_ward_province:absorbed
+11:27:48 done gpt-6-luna preds_sys2025_gpt-6-luna__orouter.jsonl T1_ward_province:absorbed
+11:27:51 done hy4-preview preds_sys2025_hy4-preview__orouter.jsonl T1_ward_province:absorbed
+11:31:57 done gpt-5.6-terra preds_q2025_gpt-5.6-terra__orouter.jsonl T1_ward_province:absorbed
+11:32:00 done gpt-6-luna preds_q2025_gpt-6-luna__orouter.jsonl T1_ward_province:absorbed
+11:32:02 done hy4-preview preds_q2025_hy4-preview__orouter.jsonl T1_ward_province:absorbed
+12:22:27 done gpt-5.6-terra agent
+12:22:35 done hy4-preview agent
+12:30:15 done gpt-6-luna agent
+12:30:15 ORouter_MORE_DONE

@@ -1,0 +1,178 @@
+{
+  "items": "data/benchmark/items.jsonl",
+  "contexts": "data/benchmark/contexts.jsonl",
+  "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+  "limit": null,
+  "qtypes": null,
+  "argv": [
+    "viadmin.eval.runner",
+    "--backend",
+    "openai",
+    "--base-url",
+    "http://127.0.0.1:8201/v1",
+    "--model",
+    "Llama-3.2-3B-Instruct-Q8_0",
+    "--template-kwargs",
+    "--concurrency",
+    "8",
+    "--conditions",
+    "rag_mixed+date",
+    "--out",
+    "bench/Llama-3.2-3B-Instruct-Q8_0"
+  ],
+  "backend": {
+    "backend": "openai",
+    "model": "Llama-3.2-3B-Instruct-Q8_0",
+    "base_url": "http://127.0.0.1:8201/v1",
+    "template_kwargs": true,
+    "enable_thinking": false,
+    "extra_body": {}
+  },
+  "conditions": [
+    "rag_mixed+date"
+  ],
+  "prompt_version": "v1",
+  "today": "2026-10-13",
+  "passage_fields": [
+    "text"
+  ],
+  "max_new_tokens": {
+    "mcq": 16,
+    "short": 64
+  },
+  "n_items": 7995,
+  "previous_runs": [
+    {
+      "items": "data/benchmark/items.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "http://127.0.0.1:8201/v1",
+        "--model",
+        "Llama-3.2-3B-Instruct-Q8_0",
+        "--template-kwargs",
+        "--concurrency",
+        "8",
+        "--conditions",
+        "closed",
+        "--out",
+        "bench/Llama-3.2-3B-Instruct-Q8_0"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "Llama-3.2-3B-Instruct-Q8_0",
+        "base_url": "http://127.0.0.1:8201/v1",
+        "template_kwargs": true,
+        "enable_thinking": false,
+        "extra_body": {}
+      },
+      "conditions": [
+        "closed"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 16,
+        "short": 64
+      },
+      "n_items": 7995
+    },
+    {
+      "items": "data/benchmark/items.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "http://127.0.0.1:8201/v1",
+        "--model",
+        "Llama-3.2-3B-Instruct-Q8_0",
+        "--template-kwargs",
+        "--concurrency",
+        "8",
+        "--conditions",
+        "rag_mixed",
+        "--out",
+        "bench/Llama-3.2-3B-Instruct-Q8_0"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "Llama-3.2-3B-Instruct-Q8_0",
+        "base_url": "http://127.0.0.1:8201/v1",
+        "template_kwargs": true,
+        "enable_thinking": false,
+        "extra_body": {}
+      },
+      "conditions": [
+        "rag_mixed"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 16,
+        "short": 64
+      },
+      "n_items": 7995
+    },
+    {
+      "items": "data/benchmark/items.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "http://127.0.0.1:8201/v1",
+        "--model",
+        "Llama-3.2-3B-Instruct-Q8_0",
+        "--template-kwargs",
+        "--concurrency",
+        "8",
+        "--conditions",
+        "rag_new",
+        "--out",
+        "bench/Llama-3.2-3B-Instruct-Q8_0"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "Llama-3.2-3B-Instruct-Q8_0",
+        "base_url": "http://127.0.0.1:8201/v1",
+        "template_kwargs": true,
+        "enable_thinking": false,
+        "extra_body": {}
+      },
+      "conditions": [
+        "rag_new"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 16,
+        "short": 64
+      },
+      "n_items": 7995
+    }
+  ]
+}

@@ -1,0 +1,928 @@
+{
+ "deepseek-v4-flash|omni": {
+  "T6 prov absorbed": {
+   "none": {
+    "n": 26,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 25,
+    "acc": 0.36,
+    "outdated": 0.64,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 28,
+    "acc": 0.8214285714285714,
+    "outdated": 0.07142857142857142,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.10714285714285714,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.36,
+    "lo": 0.2,
+    "hi": 0.56,
+    "n": 25
+   },
+   "d_date_new1st": {
+    "delta": 0.36,
+    "lo": 0.2,
+    "hi": 0.56,
+    "n": 25
+   },
+   "d_reform": {
+    "delta": 0.8,
+    "lo": 0.64,
+    "hi": 0.96,
+    "n": 25
+   },
+   "d_reform_new1st": {
+    "delta": 0.8,
+    "lo": 0.64,
+    "hi": 0.96,
+    "n": 25
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 32,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 33,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 33,
+    "acc": 0.9393939393939394,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.06060606060606061,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 32
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 32
+   },
+   "d_reform": {
+    "delta": -0.0625,
+    "lo": -0.15625,
+    "hi": 0.0,
+    "n": 32
+   },
+   "d_reform_new1st": {
+    "delta": -0.0625,
+    "lo": -0.15625,
+    "hi": 0.0,
+    "n": 32
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 9,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 10,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 10,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 9
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 9
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 9
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 9
+   }
+  },
+  "T6 prov kept merged": {
+   "none": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 23,
+    "acc": 0.9130434782608695,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.08695652173913043,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform": {
+    "delta": -0.08695652173913043,
+    "lo": -0.21739130434782608,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform_new1st": {
+    "delta": -0.08695652173913043,
+    "lo": -0.21739130434782608,
+    "hi": 0.0,
+    "n": 23
+   }
+  },
+  "T1 ward absorbed": {
+   "none": {
+    "n": 41,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 43,
+    "acc": 0.5813953488372093,
+    "outdated": 0.3953488372093023,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.023255813953488372,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 41,
+    "acc": 0.6829268292682927,
+    "outdated": 0.3170731707317073,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.5609756097560976,
+    "lo": 0.4146341463414634,
+    "hi": 0.7073170731707317,
+    "n": 41
+   },
+   "d_date_new1st": {
+    "delta": 0.5609756097560976,
+    "lo": 0.4146341463414634,
+    "hi": 0.7073170731707317,
+    "n": 41
+   },
+   "d_reform": {
+    "delta": 0.6578947368421053,
+    "lo": 0.5263157894736842,
+    "hi": 0.8157894736842105,
+    "n": 38
+   },
+   "d_reform_new1st": {
+    "delta": 0.6578947368421053,
+    "lo": 0.5263157894736842,
+    "hi": 0.8157894736842105,
+    "n": 38
+   }
+  },
+  "_meta": {
+   "n": 302,
+   "empty": 0.0,
+   "hidden_all": 0.0,
+   "valid": true,
+   "knows": true,
+   "kept_max_abs_d": 0.0625,
+   "kept_ok": true
+  }
+ },
+ "glm-5.2|omni": {
+  "T6 prov absorbed": {
+   "none": {
+    "n": 29,
+    "acc": 0.13793103448275862,
+    "outdated": 0.8620689655172413,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 29,
+    "acc": 0.7931034482758621,
+    "outdated": 0.1724137931034483,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.034482758620689655,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 29,
+    "acc": 0.8275862068965517,
+    "outdated": 0.06896551724137931,
+    "both_new": 0.0,
+    "both_old": 0.06896551724137931,
+    "other": 0.034482758620689655,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.6551724137931034,
+    "lo": 0.4827586206896552,
+    "hi": 0.8275862068965517,
+    "n": 29
+   },
+   "d_date_new1st": {
+    "delta": 0.6551724137931034,
+    "lo": 0.4827586206896552,
+    "hi": 0.8275862068965517,
+    "n": 29
+   },
+   "d_reform": {
+    "delta": 0.6896551724137931,
+    "lo": 0.5172413793103449,
+    "hi": 0.8620689655172413,
+    "n": 29
+   },
+   "d_reform_new1st": {
+    "delta": 0.6896551724137931,
+    "lo": 0.5172413793103449,
+    "hi": 0.8620689655172413,
+    "n": 29
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 34,
+    "acc": 0.9117647058823529,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.08823529411764706,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 34,
+    "acc": 0.9705882352941176,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.029411764705882353,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": -0.08823529411764706,
+    "lo": -0.20588235294117646,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_date_new1st": {
+    "delta": -0.08823529411764706,
+    "lo": -0.20588235294117646,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform": {
+    "delta": -0.029411764705882353,
+    "lo": -0.08823529411764706,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform_new1st": {
+    "delta": -0.029411764705882353,
+    "lo": -0.08823529411764706,
+    "hi": 0.0,
+    "n": 34
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 11,
+    "acc": 0.8181818181818182,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.18181818181818182,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": -0.18181818181818182,
+    "lo": -0.45454545454545453,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_date_new1st": {
+    "delta": -0.18181818181818182,
+    "lo": -0.45454545454545453,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   }
+  },
+  "T6 prov kept merged": {
+   "none": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 23,
+    "acc": 0.9565217391304348,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.043478260869565216,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 23,
+    "acc": 0.9565217391304348,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.043478260869565216,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": -0.043478260869565216,
+    "lo": -0.13043478260869565,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_date_new1st": {
+    "delta": -0.043478260869565216,
+    "lo": -0.13043478260869565,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform": {
+    "delta": -0.043478260869565216,
+    "lo": -0.13043478260869565,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform_new1st": {
+    "delta": -0.043478260869565216,
+    "lo": -0.13043478260869565,
+    "hi": 0.0,
+    "n": 23
+   }
+  },
+  "T1 ward absorbed": {
+   "none": {
+    "n": 56,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 57,
+    "acc": 0.3333333333333333,
+    "outdated": 0.6666666666666666,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 55,
+    "acc": 0.5636363636363636,
+    "outdated": 0.38181818181818183,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.05454545454545454,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.32142857142857145,
+    "lo": 0.19642857142857142,
+    "hi": 0.44642857142857145,
+    "n": 56
+   },
+   "d_date_new1st": {
+    "delta": 0.32142857142857145,
+    "lo": 0.19642857142857142,
+    "hi": 0.44642857142857145,
+    "n": 56
+   },
+   "d_reform": {
+    "delta": 0.5555555555555556,
+    "lo": 0.42592592592592593,
+    "hi": 0.7037037037037037,
+    "n": 54
+   },
+   "d_reform_new1st": {
+    "delta": 0.5555555555555556,
+    "lo": 0.42592592592592593,
+    "hi": 0.7037037037037037,
+    "n": 54
+   }
+  },
+  "_meta": {
+   "n": 357,
+   "empty": 0.0,
+   "hidden_all": 0.0,
+   "valid": true,
+   "knows": true,
+   "kept_max_abs_d": 0.029411764705882353,
+   "kept_ok": true
+  }
+ },
+ "gpt-5.6-sol|omni": {
+  "T6 prov absorbed": {
+   "reform": {
+    "n": 3,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 1,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 3,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 1,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 2,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   }
+  },
+  "T6 prov kept merged": {
+   "reform": {
+    "n": 1,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   }
+  },
+  "T1 ward absorbed": {
+   "none": {
+    "n": 32,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   }
+  },
+  "_meta": {
+   "n": 39,
+   "empty": 0.0,
+   "hidden_all": 0.0,
+   "valid": true,
+   "knows": false,
+   "kept_max_abs_d": 0.0,
+   "kept_ok": true
+  }
+ },
+ "gpt-6.1-sol|omni": {
+  "T6 prov absorbed": {
+   "none": {
+    "n": 26,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 25,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 24
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 24
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 17,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 10,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 27,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 7
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 7
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 13
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 13
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 7,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 3,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 8,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 2
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 2
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 6
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 6
+   }
+  },
+  "T6 prov kept merged": {
+   "none": {
+    "n": 10,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 7,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 19,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 5
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 5
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 7
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 7
+   }
+  },
+  "T1 ward absorbed": {
+   "none": {
+    "n": 2,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 1,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   }
+  },
+  "_meta": {
+   "n": 131,
+   "empty": 0.0,
+   "hidden_all": 0.0,
+   "valid": true,
+   "knows": true,
+   "kept_max_abs_d": 0.0,
+   "kept_ok": true
+  }
+ },
+ "grok-4.6|omni": {
+  "_meta": {
+   "n": 0,
+   "empty": 0.0,
+   "hidden_all": 0.0,
+   "valid": true,
+   "knows": false,
+   "kept_max_abs_d": null,
+   "kept_ok": false
+  }
+ }
+}

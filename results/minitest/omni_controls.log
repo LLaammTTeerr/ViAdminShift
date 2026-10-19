@@ -1,0 +1,21 @@
+gpt-6-sol 0/303 8s
+kimi-k3 0/303 14s
+glm-5.3 0/303 17s
+gpt-6-sol 50/303 72s
+glm-5.3 50/303 91s
+kimi-k3 50/303 122s
+gpt-6-sol 100/303 140s
+glm-5.3 100/303 176s
+gpt-6-sol 150/303 206s
+kimi-k3 100/303 226s
+glm-5.3 150/303 243s
+gpt-6-sol 200/303 267s
+glm-5.3 200/303 307s
+gpt-6-sol 250/303 330s
+kimi-k3 150/303 335s
+glm-5.3 250/303 378s
+gpt-6-sol 300/303 396s
+glm-5.3 300/303 459s
+kimi-k3 200/303 464s
+kimi-k3 250/303 577s
+request refused by the provider

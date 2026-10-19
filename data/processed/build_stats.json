@@ -1,0 +1,191 @@
+{
+ "registry_type_conflicts": [
+  {
+   "code": "13369",
+   "name": "Xã Tiên Sơn",
+   "cap": "Xã"
+  },
+  {
+   "code": "15061",
+   "name": "Thị trấn Ngọc Lặc",
+   "cap": "Xã"
+  },
+  {
+   "code": "27046",
+   "name": "Phường 5",
+   "cap": "Xã"
+  },
+  {
+   "code": "27076",
+   "name": "Phường 15",
+   "cap": "Xã"
+  }
+ ],
+ "nso_data_rows": 10571,
+ "nso_rows_without_old_ward": [
+  {
+   "new_ward_code": "11948",
+   "new_ward_name": "Đặc khu Bạch Long Vĩ",
+   "old_ward_name": "",
+   "note": "Sắp xếp toàn bộ huyện Bạch Long Vĩ thành đặc khu Bạch Long Vĩ",
+   "old_district_name": "Huyện Bạch Long Vĩ"
+  },
+  {
+   "new_ward_code": "14698",
+   "new_ward_name": "Xã Kim Đông",
+   "old_ward_name": "Khu vực bãi bồi ven biển do huyện Kim Sơn quản lý",
+   "note": "Nhập toàn bộ",
+   "old_district_name": "Huyện Kim Sơn"
+  },
+  {
+   "new_ward_code": "19742",
+   "new_ward_name": "Đặc khu Cồn Cỏ",
+   "old_ward_name": "",
+   "note": "Sắp xếp toàn bộ huyện Cồn Cỏ thành đặc khu Cồn Cỏ",
+   "old_district_name": "Huyện Cồn Cỏ"
+  },
+  {
+   "new_ward_code": "20333",
+   "new_ward_name": "Đặc khu Hoàng Sa",
+   "old_ward_name": "",
+   "note": "Sắp xếp toàn bộ huyện Hoàng Sa thành đặc khu Hoàng Sa",
+   "old_district_name": "Huyện Hoàng Sa"
+  },
+  {
+   "new_ward_code": "21548",
+   "new_ward_name": "Đặc khu Lý Sơn",
+   "old_ward_name": "",
+   "note": "Sắp xếp toàn bộ huyện Lý Sơn thành đặc khu Lý Sơn",
+   "old_district_name": "Huyện Lý Sơn"
+  },
+  {
+   "new_ward_code": "26732",
+   "new_ward_name": "Đặc khu Côn Đảo",
+   "old_ward_name": "",
+   "note": "Sắp xếp toàn bộ huyện Côn Đảo thành đặc khu Côn Đảo",
+   "old_district_name": "Huyện Côn Đảo"
+  }
+ ],
+ "nso_old_code_fixes": 3,
+ "old_wards_registry": 10035,
+ "old_wards_missing_from_nso": [],
+ "pairs_added_from_resolution": 1,
+ "new_ward_spelling_variants_vs_other_lists": 17,
+ "new_wards": 3321,
+ "new_wards_by_type": {
+  "phường": 687,
+  "xã": 2621,
+  "đặc khu": 13
+ },
+ "old_ward_name_decisions": {
+  "nso": 176,
+  "registry": 3,
+  "registry_manual": 1
+ },
+ "old_wards_with_alt_name": 180,
+ "old_wards_name_not_in_resolution_clause": 7,
+ "vnau_old_code_name_mismatch": 0,
+ "uts_records": 10602,
+ "uts_records_unmatched_by_name": 90,
+ "per_old_ward_vs_vnau": {
+  "identical_target_set": 10003,
+  "vnau_subset": 1,
+  "vnau_superset": 31
+ },
+ "vnau_pairs_new_province_disagreement": 0,
+ "pairs": {
+  "nso": 10565,
+  "vnau": 10597,
+  "uts": 10512,
+  "vietaddr": 10554,
+  "nso&vnau": 10564,
+  "nso&uts": 10479,
+  "nso&vietaddr": 10551,
+  "vnau&uts": 10512,
+  "only_vnau": 32,
+  "only_vietaddr": 3,
+  "mapping": 10566,
+  "mapping_not_nso": 1,
+  "nso_not_vietaddr": 14
+ },
+ "mapping_rows": 10566,
+ "change_type": {
+  "merged": 9462,
+  "divided": 972,
+  "unchanged": 127,
+  "renamed": 5
+ },
+ "confidence": {
+  "high": 10566
+ },
+ "is_partial_rows": 972,
+ "partial_flag_vs_nso_note_mismatch": 2,
+ "bando_mentions": {
+  "True": 10546,
+  "False": 10,
+  "None": 10
+ },
+ "cells_rows": {
+  "province_changed=False,ward_changed=False": 43,
+  "province_changed=False,ward_changed=True": 3043,
+  "province_changed=True,ward_changed=False": 84,
+  "province_changed=True,ward_changed=True": 7396
+ },
+ "cells_old_wards": {
+  "province_changed=False,ward_changed=False": 43,
+  "province_changed=False,ward_changed=True": 2745,
+  "province_changed=True,ward_changed=False": 84,
+  "province_changed=True,ward_changed=True": 7163
+ },
+ "change_type_old_wards": {
+  "merged": 9462,
+  "divided": 441,
+  "unchanged": 127,
+  "renamed": 5
+ },
+ "change_type_x_province_changed_rows": {
+  "divided,province_changed=False": 523,
+  "divided,province_changed=True": 449,
+  "merged,province_changed=False": 2519,
+  "merged,province_changed=True": 6943,
+  "renamed,province_changed=False": 1,
+  "renamed,province_changed=True": 4,
+  "unchanged,province_changed=False": 43,
+  "unchanged,province_changed=True": 84
+ },
+ "name_changed_rows": 8728,
+ "province_name_changed_rows": 4009,
+ "cells_rows_by_surface_answer_changed": {
+  "province_changed=False,ward_changed=False,surface_answer_changed=False": 43,
+  "province_changed=False,ward_changed=True,surface_answer_changed=False": 493,
+  "province_changed=False,ward_changed=True,surface_answer_changed=True": 2550,
+  "province_changed=True,ward_changed=False,surface_answer_changed=False": 36,
+  "province_changed=True,ward_changed=False,surface_answer_changed=True": 48,
+  "province_changed=True,ward_changed=True,surface_answer_changed=False": 618,
+  "province_changed=True,ward_changed=True,surface_answer_changed=True": 6778
+ },
+ "merged_but_same_name_rows": 1641,
+ "new_wards_without_old_ward": [
+  "11948",
+  "19742",
+  "20333",
+  "21548",
+  "26732"
+ ],
+ "issues_by_kind": {
+  "nso_old_code_fixed": 3,
+  "nso_old_name_spelling_differs_from_registry": 181,
+  "nso_old_name_differs_code_kept": 3,
+  "nso_old_type_differs_from_registry": 1,
+  "pair_added_from_resolution": 1,
+  "nso_new_ward_name_typo_fixed": 2,
+  "old_ward_name_from_resolution": 176,
+  "old_ward_name_registry_kept": 4,
+  "old_ward_name_not_in_resolution_clause": 7,
+  "uts_record_unmatched": 90,
+  "pair_only_in_vietnamadminunits": 32,
+  "pair_not_in_vietnamadminunits_high": 1,
+  "pair_only_in_vietaddr": 3,
+  "partial_flag_vs_nso_note": 2
+ }
+}

@@ -1,0 +1,1252 @@
+{
+ "Claude-Haiku-5.5|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.3732332707942464,
+   "outdated": 0.3299562226391495
+  },
+  "rag_new": {
+   "n": 1460,
+   "acc": 0.9917808219178083,
+   "outdated": 0.00410958904109589
+  },
+  "rag_mixed": {
+   "n": 1460,
+   "acc": 0.9616438356164384,
+   "outdated": 0.03561643835616438
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.9988235294117647,
+   "outdated": 0.001176470588235294
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.8409090909090909,
+   "outdated": 0.1590909090909091
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.9487179487179487,
+   "outdated": 0.041025641025641026
+  },
+  "rag_mixed+date": {
+   "n": 1460,
+   "acc": 0.9808219178082191,
+   "outdated": 0.017123287671232876
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.9,
+   "outdated": 0.09545454545454546
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.9846153846153847,
+   "outdated": 0.010256410256410256
+  }
+ },
+ "Claude-Haiku-5.5|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.3977812995245642,
+   "outdated": 0.3090332805071315
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.9944532488114105,
+   "outdated": 0.002377179080824089
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.9786053882725833,
+   "outdated": 0.018225039619651346
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.9988235294117647,
+   "outdated": 0.001176470588235294
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.7272727272727273,
+   "outdated": 0.2727272727272727
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.9487179487179487,
+   "outdated": 0.041025641025641026
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.9904912836767037,
+   "outdated": 0.00792393026941363
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.7272727272727273,
+   "outdated": 0.2727272727272727
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.9846153846153847,
+   "outdated": 0.010256410256410256
+  }
+ },
+ "Claude-Sonnet-5.5|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.65140712945591,
+   "outdated": 0.07542213883677298
+  },
+  "rag_new": {
+   "n": 1460,
+   "acc": 0.9993150684931507,
+   "outdated": 0.0006849315068493151
+  },
+  "rag_mixed": {
+   "n": 1460,
+   "acc": 0.9972602739726028,
+   "outdated": 0.002054794520547945
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.9863636363636363,
+   "outdated": 0.00909090909090909
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.9974358974358974,
+   "outdated": 0.002564102564102564
+  },
+  "rag_mixed+date": {
+   "n": 1460,
+   "acc": 0.9993150684931507,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.9954545454545455,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 1.0,
+   "outdated": 0.0
+  }
+ },
+ "Claude-Sonnet-5.5|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.7147385103011094,
+   "outdated": 0.06814580031695722
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.9992076069730587,
+   "outdated": 0.000792393026941363
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.9992076069730587,
+   "outdated": 0.000792393026941363
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.9974358974358974,
+   "outdated": 0.002564102564102564
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 1.0,
+   "outdated": 0.0
+  }
+ },
+ "DeepSeek-V4.1-Flash|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.4586616635397123,
+   "outdated": 0.46729205753596
+  },
+  "rag_new": {
+   "n": 7995,
+   "acc": 0.99812382739212,
+   "outdated": 0.0016260162601626016
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.9861163227016886,
+   "outdated": 0.013883677298311446
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.9363636363636364,
+   "outdated": 0.06363636363636363
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.958985200845666,
+   "outdated": 0.041014799154334036
+  },
+  "rag_mixed+date": {
+   "n": 7995,
+   "acc": 0.9948717948717949,
+   "outdated": 0.004377736085053158
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.9636363636363636,
+   "outdated": 0.03636363636363636
+  },
+  "rag_mixed+date|same": {
+   "n": 2365,
+   "acc": 0.986046511627907,
+   "outdated": 0.011416490486257928
+  }
+ },
+ "DeepSeek-V4.1-Flash|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.47305863708399365,
+   "outdated": 0.4437400950871632
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.9976228209191759,
+   "outdated": 0.001584786053882726
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.9825673534072901,
+   "outdated": 0.017432646592709985
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.8636363636363636,
+   "outdated": 0.13636363636363635
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.9512820512820512,
+   "outdated": 0.04871794871794872
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.991283676703645,
+   "outdated": 0.00792393026941363
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.9090909090909091,
+   "outdated": 0.09090909090909091
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.9769230769230769,
+   "outdated": 0.020512820512820513
+  }
+ },
+ "GPT-6-Luna|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.6006253908692933,
+   "outdated": 0.19299562226391495
+  },
+  "rag_new": {
+   "n": 1460,
+   "acc": 0.9986301369863013,
+   "outdated": 0.0013698630136986301
+  },
+  "rag_mixed": {
+   "n": 1460,
+   "acc": 0.9945205479452055,
+   "outdated": 0.00410958904109589
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.9727272727272728,
+   "outdated": 0.02727272727272727
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.9948717948717949,
+   "outdated": 0.0
+  },
+  "rag_mixed+date": {
+   "n": 1460,
+   "acc": 0.9952054794520548,
+   "outdated": 0.003424657534246575
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.9727272727272728,
+   "outdated": 0.022727272727272728
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.9974358974358974,
+   "outdated": 0.0
+  }
+ },
+ "GPT-6-Luna|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.659270998415214,
+   "outdated": 0.17194928684627575
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.9976228209191759,
+   "outdated": 0.000792393026941363
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.9545454545454546,
+   "outdated": 0.045454545454545456
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.9948717948717949,
+   "outdated": 0.0
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.9984152139461173,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.9545454545454546,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.9974358974358974,
+   "outdated": 0.0
+  }
+ },
+ "Llama-3.2-3B-Instruct-Q8_0|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.3230769230769231,
+   "outdated": 0.48993120700437776
+  },
+  "rag_new": {
+   "n": 7995,
+   "acc": 0.7819887429643527,
+   "outdated": 0.10644152595372107
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.7222013758599124,
+   "outdated": 0.16022514071294558
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.7236598890942699,
+   "outdated": 0.13974121996303143
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.6090909090909091,
+   "outdated": 0.38636363636363635
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.7293868921775899,
+   "outdated": 0.18604651162790697
+  },
+  "rag_mixed+date": {
+   "n": 7995,
+   "acc": 0.7514696685428393,
+   "outdated": 0.14121325828642903
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.7517560073937153,
+   "outdated": 0.12735674676524955
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.7,
+   "outdated": 0.2863636363636364
+  },
+  "rag_mixed+date|same": {
+   "n": 2365,
+   "acc": 0.7556025369978858,
+   "outdated": 0.15940803382663848
+  }
+ },
+ "Llama-3.2-3B-Instruct-Q8_0|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.312202852614897,
+   "outdated": 0.4928684627575277
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.8082408874801902,
+   "outdated": 0.10063391442155309
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.7345483359746434,
+   "outdated": 0.15689381933438987
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.7364705882352941,
+   "outdated": 0.12941176470588237
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.36363636363636365,
+   "outdated": 0.6363636363636364
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.7512820512820513,
+   "outdated": 0.18974358974358974
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.7646592709984152,
+   "outdated": 0.13946117274167988
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.7635294117647059,
+   "outdated": 0.11764705882352941
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.45454545454545453,
+   "outdated": 0.5454545454545454
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.7846153846153846,
+   "outdated": 0.1641025641025641
+  }
+ },
+ "Muse-Glimmer-30B-Q8_0-full|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.40575359599749844,
+   "outdated": 0.20350218886804253
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.9836147592245154,
+   "outdated": 0.009505941213258286
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.9045454545454545,
+   "outdated": 0.09545454545454546
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.9534883720930233,
+   "outdated": 0.023255813953488372
+  }
+ },
+ "Muse-Glimmer-30B-Q8_0-full|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.44136291600633915,
+   "outdated": 0.1901743264659271
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.9833597464342314,
+   "outdated": 0.01347068145800317
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.7727272727272727,
+   "outdated": 0.22727272727272727
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.958974358974359,
+   "outdated": 0.03076923076923077
+  }
+ },
+ "Muse-Glimmer-30B-Q8_0-sub1k|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.44136291600633915,
+   "outdated": 0.1901743264659271
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.9920760697305864,
+   "outdated": 0.001584786053882726
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.9833597464342314,
+   "outdated": 0.01347068145800317
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.7727272727272727,
+   "outdated": 0.22727272727272727
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.958974358974359,
+   "outdated": 0.03076923076923077
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.9952456418383518,
+   "outdated": 0.003169572107765452
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.9846153846153847,
+   "outdated": 0.010256410256410256
+  }
+ },
+ "Qwen3-1.7B-Q8_0|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.34196372732958097,
+   "outdated": 0.5035647279549719
+  },
+  "rag_new": {
+   "n": 7995,
+   "acc": 0.8431519699812383,
+   "outdated": 0.11181988742964352
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.6953095684803002,
+   "outdated": 0.22664165103189493
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.7388170055452865,
+   "outdated": 0.1824399260628466
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.37272727272727274,
+   "outdated": 0.6227272727272727
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.6257928118393234,
+   "outdated": 0.2909090909090909
+  },
+  "rag_mixed+date": {
+   "n": 7995,
+   "acc": 0.7116948092557849,
+   "outdated": 0.20938086303939962
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.7519408502772643,
+   "outdated": 0.16635859519408502
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.40454545454545454,
+   "outdated": 0.5909090909090909
+  },
+  "rag_mixed+date|same": {
+   "n": 2365,
+   "acc": 0.6482029598308668,
+   "outdated": 0.2723044397463002
+  }
+ },
+ "Qwen3-1.7B-Q8_0|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.3549920760697306,
+   "outdated": 0.4762282091917591
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.8645007923930269,
+   "outdated": 0.08874801901743265
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.7290015847860539,
+   "outdated": 0.20206022187004755
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.7576470588235295,
+   "outdated": 0.1623529411764706
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.22727272727272727,
+   "outdated": 0.7727272727272727
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.6948717948717948,
+   "outdated": 0.2564102564102564
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.7393026941362916,
+   "outdated": 0.18541996830427893
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.768235294117647,
+   "outdated": 0.1423529411764706
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.2727272727272727,
+   "outdated": 0.7272727272727273
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.7025641025641025,
+   "outdated": 0.24871794871794872
+  }
+ },
+ "Qwen3-4B-Q8_0|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.34709193245778613,
+   "outdated": 0.4918073796122577
+  },
+  "rag_new": {
+   "n": 7995,
+   "acc": 0.9343339587242027,
+   "outdated": 0.035522201375859916
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.7420888055034397,
+   "outdated": 0.18248905565978737
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.7744916820702403,
+   "outdated": 0.14399260628465804
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.45454545454545453,
+   "outdated": 0.5363636363636364
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.6947145877378436,
+   "outdated": 0.23763213530655392
+  },
+  "rag_mixed+date": {
+   "n": 7995,
+   "acc": 0.7414634146341463,
+   "outdated": 0.174859287054409
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.7628465804066543,
+   "outdated": 0.14528650646950092
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.4863636363636364,
+   "outdated": 0.5
+  },
+  "rag_mixed+date|same": {
+   "n": 2365,
+   "acc": 0.7162790697674418,
+   "outdated": 0.21226215644820295
+  }
+ },
+ "Qwen3-4B-Q8_0|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.3573692551505547,
+   "outdated": 0.46513470681458
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.938985736925515,
+   "outdated": 0.03645007923930269
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.757527733755943,
+   "outdated": 0.17828843106180667
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.7929411764705883,
+   "outdated": 0.12941176470588237
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.36363636363636365,
+   "outdated": 0.6363636363636364
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.7025641025641025,
+   "outdated": 0.258974358974359
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.7654516640253566,
+   "outdated": 0.16798732171156894
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.788235294117647,
+   "outdated": 0.12823529411764706
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.3181818181818182,
+   "outdated": 0.6818181818181818
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.7410256410256411,
+   "outdated": 0.22564102564102564
+  }
+ },
+ "Qwen3.5-2B-Q8_0|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.3418386491557223,
+   "outdated": 0.5193245778611633
+  },
+  "rag_new": {
+   "n": 7995,
+   "acc": 0.7317073170731707,
+   "outdated": 0.2182614133833646
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.6173858661663539,
+   "outdated": 0.34859287054409005
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.6018484288354898,
+   "outdated": 0.3585951940850277
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.5181818181818182,
+   "outdated": 0.4772727272727273
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.6621564482029598,
+   "outdated": 0.31374207188160674
+  },
+  "rag_mixed+date": {
+   "n": 7995,
+   "acc": 0.6161350844277673,
+   "outdated": 0.34709193245778613
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.6033271719038817,
+   "outdated": 0.35508317929759703
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.5136363636363637,
+   "outdated": 0.4818181818181818
+  },
+  "rag_mixed+date|same": {
+   "n": 2365,
+   "acc": 0.6549682875264271,
+   "outdated": 0.31627906976744186
+  }
+ },
+ "Qwen3.5-2B-Q8_0|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.3518225039619651,
+   "outdated": 0.5126782884310618
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.7662440570522979,
+   "outdated": 0.18858954041204437
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.6608557844690967,
+   "outdated": 0.31378763866877973
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.6517647058823529,
+   "outdated": 0.3176470588235294
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.3181818181818182,
+   "outdated": 0.6818181818181818
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.7,
+   "outdated": 0.2846153846153846
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.6687797147385103,
+   "outdated": 0.3050713153724247
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.66,
+   "outdated": 0.30941176470588233
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.36363636363636365,
+   "outdated": 0.6363636363636364
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.7051282051282052,
+   "outdated": 0.27692307692307694
+  }
+ },
+ "Qwen3.5-4B-Q8_0|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.35284552845528455,
+   "outdated": 0.5337085678549093
+  },
+  "rag_new": {
+   "n": 7995,
+   "acc": 0.9792370231394621,
+   "outdated": 0.00450281425891182
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.9069418386491557,
+   "outdated": 0.06454033771106941
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.945286506469501,
+   "outdated": 0.019408502772643253
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.6363636363636364,
+   "outdated": 0.35454545454545455
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.8443974630021142,
+   "outdated": 0.1408033826638478
+  },
+  "rag_mixed+date": {
+   "n": 7995,
+   "acc": 0.9278298936835522,
+   "outdated": 0.04878048780487805
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.9597042513863216,
+   "outdated": 0.012939001848428836
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.6454545454545455,
+   "outdated": 0.3409090909090909
+  },
+  "rag_mixed+date|same": {
+   "n": 2365,
+   "acc": 0.8811839323467231,
+   "outdated": 0.10359408033826638
+  }
+ },
+ "Qwen3.5-4B-Q8_0|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.3549920760697306,
+   "outdated": 0.5237717908082409
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.9841521394611727,
+   "outdated": 0.005546751188589541
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.910459587955626,
+   "outdated": 0.06497622820919176
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.9458823529411765,
+   "outdated": 0.02
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.5454545454545454,
+   "outdated": 0.45454545454545453
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.8538461538461538,
+   "outdated": 0.14102564102564102
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.93026941362916,
+   "outdated": 0.0491283676703645
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.9611764705882353,
+   "outdated": 0.010588235294117647
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.45454545454545453,
+   "outdated": 0.5454545454545454
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.8897435897435897,
+   "outdated": 0.10512820512820513
+  }
+ },
+ "gemma-3-4b-it-Q8_0|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.3490931832395247,
+   "outdated": 0.5161976235146967
+  },
+  "rag_new": {
+   "n": 7995,
+   "acc": 0.7116948092557849,
+   "outdated": 0.22814258911819887
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.7033145716072545,
+   "outdated": 0.2271419637273296
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.6942698706099815,
+   "outdated": 0.23031423290203326
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.6681818181818182,
+   "outdated": 0.3181818181818182
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.7272727272727273,
+   "outdated": 0.21141649048625794
+  },
+  "rag_mixed+date": {
+   "n": 7995,
+   "acc": 0.6923076923076923,
+   "outdated": 0.24115071919949968
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.6835489833641405,
+   "outdated": 0.24473197781885397
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.6909090909090909,
+   "outdated": 0.29545454545454547
+  },
+  "rag_mixed+date|same": {
+   "n": 2365,
+   "acc": 0.7124735729386892,
+   "outdated": 0.22790697674418606
+  }
+ },
+ "gemma-3-4b-it-Q8_0|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.35340729001584786,
+   "outdated": 0.4960380348652932
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.7472266244057052,
+   "outdated": 0.196513470681458
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.7155309033280507,
+   "outdated": 0.21949286846275753
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.711764705882353,
+   "outdated": 0.21058823529411766
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.5,
+   "outdated": 0.5
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.735897435897436,
+   "outdated": 0.2230769230769231
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.7107765451664025,
+   "outdated": 0.22583201267828842
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.7070588235294117,
+   "outdated": 0.21529411764705883
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.5909090909090909,
+   "outdated": 0.4090909090909091
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.7256410256410256,
+   "outdated": 0.23846153846153847
+  }
+ },
+ "tiny-aya-global-q8_0|full": {
+  "closed": {
+   "n": 7995,
+   "acc": 0.32958098811757347,
+   "outdated": 0.516447779862414
+  },
+  "rag_new": {
+   "n": 7995,
+   "acc": 0.6544090056285178,
+   "outdated": 0.133083176985616
+  },
+  "rag_mixed": {
+   "n": 7995,
+   "acc": 0.5642276422764227,
+   "outdated": 0.31957473420888055
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.5654343807763401,
+   "outdated": 0.3123844731977819
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.42272727272727273,
+   "outdated": 0.5590909090909091
+  },
+  "rag_mixed|same": {
+   "n": 2365,
+   "acc": 0.5746300211416491,
+   "outdated": 0.31374207188160674
+  },
+  "rag_mixed+date": {
+   "n": 7995,
+   "acc": 0.5774859287054409,
+   "outdated": 0.30806754221388366
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 5410,
+   "acc": 0.5794824399260629,
+   "outdated": 0.300369685767098
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 220,
+   "acc": 0.42272727272727273,
+   "outdated": 0.5590909090909091
+  },
+  "rag_mixed+date|same": {
+   "n": 2365,
+   "acc": 0.5873150105708245,
+   "outdated": 0.3023255813953488
+  }
+ },
+ "tiny-aya-global-q8_0|sub1k": {
+  "closed": {
+   "n": 1262,
+   "acc": 0.3312202852614897,
+   "outdated": 0.5245641838351822
+  },
+  "rag_new": {
+   "n": 1262,
+   "acc": 0.7131537242472267,
+   "outdated": 0.10855784469096671
+  },
+  "rag_mixed": {
+   "n": 1262,
+   "acc": 0.6164817749603804,
+   "outdated": 0.2765451664025357
+  },
+  "rag_mixed|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.6188235294117647,
+   "outdated": 0.2564705882352941
+  },
+  "rag_mixed|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.3181818181818182,
+   "outdated": 0.6363636363636364
+  },
+  "rag_mixed|same": {
+   "n": 390,
+   "acc": 0.6282051282051282,
+   "outdated": 0.3
+  },
+  "rag_mixed+date": {
+   "n": 1262,
+   "acc": 0.6307448494453248,
+   "outdated": 0.2694136291600634
+  },
+  "rag_mixed+date|new=template/old=wiki": {
+   "n": 850,
+   "acc": 0.6329411764705882,
+   "outdated": 0.25058823529411767
+  },
+  "rag_mixed+date|new=wiki/old=template": {
+   "n": 22,
+   "acc": 0.22727272727272727,
+   "outdated": 0.7272727272727273
+  },
+  "rag_mixed+date|same": {
+   "n": 390,
+   "acc": 0.6487179487179487,
+   "outdated": 0.2846153846153846
+  }
+ }
+}

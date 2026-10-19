@@ -1,0 +1,16 @@
+openai/gpt-6-luna 0/80 1s
+openai/gpt-5.6-terra 0/80 2s
+tencent/hy4-preview 0/80 2s
+meituan/longcat-2.0 0/80 2s
+google/gemini-4-argon 0/80 2s
+mistralai/mistral-large-4-0 0/80 3s
+x-ai/grok-4.7 0/80 7s
+stepfun/step-5-preview 0/80 38s
+openai/gpt-5.6-terra 50/80 159s
+openai/gpt-6-luna 50/80 159s
+tencent/hy4-preview 50/80 160s
+google/gemini-4-argon 50/80 160s
+mistralai/mistral-large-4-0 50/80 160s
+meituan/longcat-2.0 50/80 163s
+stepfun/step-5-preview 50/80 202s
+x-ai/grok-4.7 50/80 239s

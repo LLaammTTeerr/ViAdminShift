@@ -1,0 +1,19 @@
+{
+ "n_items": 7995,
+ "by_qtype": {
+  "T0_headline": 12,
+  "T1_membership": 2781,
+  "T1_newname": 720,
+  "T2_composition": 34,
+  "T3_existence": 308,
+  "T4_address": 1200,
+  "T5_ward_successor": 2562,
+  "T6_reverse": 378
+ },
+ "bad_twins_dropped": [],
+ "sha256": {
+  "items.jsonl": "475032a87d1c5ac372a4cfa2aab20187b5b11e597602547ec3d06def8e99b2a8",
+  "template_passages.jsonl": "310702e83e20f87824d35b02da97c0e7f54709e227919b6e549e641b6dc1e364",
+  "contexts.jsonl": "ede5186cb2e78670612893bdc260bfe9c6d251b811ea927034693c0e56c9d28e"
+ }
+}

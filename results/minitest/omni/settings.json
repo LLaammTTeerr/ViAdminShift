@@ -1,0 +1,286 @@
+{
+ "minimax-m3": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 11,
+   "reasoned": false
+  }
+ },
+ "mimo-v2.6-pro": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 6,
+   "reasoned": false
+  }
+ },
+ "glm-5.3": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 36,
+   "reasoned": true
+  }
+ },
+ "kimi-k3": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 226,
+   "reasoned": true
+  }
+ },
+ "qwen3.8-max": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 194,
+   "reasoned": true
+  }
+ },
+ "gpt-6-sol": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 9,
+   "reasoned": false
+  }
+ },
+ "gemini-3.8-flash": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 244,
+   "reasoned": false
+  }
+ },
+ "claude-opus-5.5": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 84,
+   "reasoned": true
+  }
+ },
+ "grok-4.7": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 612,
+   "reasoned": true
+  }
+ },
+ "muse-spark-1.2": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 407,
+   "reasoned": false
+  }
+ },
+ "glm-5.3-flash": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 128,
+   "reasoned": true
+  }
+ },
+ "kimi-k2.5": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 31,
+   "reasoned": false
+  }
+ },
+ "mimo-v2.6-flash": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 6,
+   "reasoned": false
+  }
+ },
+ "minimax-m2.7": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 715,
+   "reasoned": true
+  }
+ },
+ "qwen3.8-flash": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 114,
+   "reasoned": true
+  }
+ },
+ "qwen3.8-2.4t-a95b": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 208,
+   "reasoned": true
+  }
+ },
+ "gpt-5.5": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 109,
+   "reasoned": false
+  }
+ },
+ "gemini-3.1-pro": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 185,
+   "reasoned": false
+  }
+ },
+ "claude-haiku-4.5": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 14,
+   "reasoned": false
+  }
+ },
+ "claude-sonnet-5.5": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 142,
+   "reasoned": true
+  }
+ },
+ "gpt-oss-120b": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 163,
+   "reasoned": true
+  }
+ },
+ "gemma-4-31b-it": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 6,
+   "reasoned": false
+  }
+ },
+ "deepseek-v4-pro": {
+  "extra": {},
+  "probe": {
+   "finish": "stop",
+   "ctoks": 137,
+   "reasoned": true
+  }
+ },
+ "qwen3.6-27b": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 622,
+   "reasoned": true
+  }
+ }
+}

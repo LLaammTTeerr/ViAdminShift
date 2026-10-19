@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Last-Modified: Thu, 23 Oct 2025 01:28:19 GMT
+Accept-Ranges: bytes
+ETag: "588d4b50bc43dc1:0"
+X-UA-Compatible: IE=EmulateIE8
+Content-Length: 1146952
+

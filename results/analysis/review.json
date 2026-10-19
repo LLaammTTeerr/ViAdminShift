@@ -1,0 +1,1359 @@
+{
+ "Muse-Glimmer-30B-Q8_0-nodate|gpu": {
+  "newname renamed-old": {
+   "none": {
+    "n": 120,
+    "acc": 0.1,
+    "outdated": 0.567,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.1
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.408,
+    "outdated": 0.133,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.408
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.442,
+    "outdated": 0.058,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.442
+   },
+   "d_date": {
+    "delta": 0.30833333333333335,
+    "lo": 0.21666666666666667,
+    "hi": 0.4,
+    "n": 120
+   }
+  },
+  "newname new-only": {
+   "none": {
+    "n": 120,
+    "acc": 0.642,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.642
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.567,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.567
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.55,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.55
+   },
+   "d_date": {
+    "delta": -0.075,
+    "lo": -0.15,
+    "hi": 0.0,
+    "n": 120
+   }
+  },
+  "prefix T1 absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.087,
+    "outdated": 0.887,
+    "new_first": 0.087
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.637,
+    "outdated": 0.225,
+    "new_first": 0.637
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.6,
+    "outdated": 0.225,
+    "new_first": 0.6
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.175,
+    "outdated": 0.787,
+    "new_first": 0.175
+   }
+  },
+  "prefix T1np absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.025,
+    "outdated": 0.938,
+    "new_first": 0.025
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.537,
+    "outdated": 0.35,
+    "new_first": 0.537
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.463,
+    "outdated": 0.4,
+    "new_first": 0.463
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.037,
+    "outdated": 0.938,
+    "new_first": 0.037
+   }
+  },
+  "repeat T1 absorbed": {
+   "none": {
+    "r2": 0.062,
+    "r3": 0.087,
+    "r1": 0.087,
+    "agree3": 0.825,
+    "n": 80
+   },
+   "date": {
+    "r2": 0.65,
+    "r3": 0.662,
+    "r1": 0.637,
+    "agree3": 0.8,
+    "n": 80
+   },
+   "reform": {
+    "r2": 0.725,
+    "r3": 0.75,
+    "r1": 0.7,
+    "agree3": 0.825,
+    "n": 80
+   }
+  }
+ },
+ "Muse-Glimmer-30B-Q8_0|gpu": {
+  "newname renamed-old": {
+   "none": {
+    "n": 120,
+    "acc": 0.35,
+    "outdated": 0.233,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.35
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.417,
+    "outdated": 0.142,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.417
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.5,
+    "outdated": 0.042,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.5
+   },
+   "d_date": {
+    "delta": 0.06666666666666667,
+    "lo": -0.025,
+    "hi": 0.15833333333333333,
+    "n": 120
+   }
+  },
+  "newname new-only": {
+   "none": {
+    "n": 120,
+    "acc": 0.608,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.608
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.542,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.542
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.492,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.492
+   },
+   "d_date": {
+    "delta": -0.06666666666666667,
+    "lo": -0.13333333333333333,
+    "hi": 0.0,
+    "n": 120
+   }
+  },
+  "prefix T1 absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.475,
+    "outdated": 0.375,
+    "new_first": 0.475
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.588,
+    "outdated": 0.25,
+    "new_first": 0.588
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.662,
+    "outdated": 0.25,
+    "new_first": 0.662
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.525,
+    "outdated": 0.362,
+    "new_first": 0.525
+   }
+  },
+  "prefix T1np absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.4,
+    "outdated": 0.5,
+    "new_first": 0.4
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.575,
+    "outdated": 0.312,
+    "new_first": 0.575
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.575,
+    "outdated": 0.325,
+    "new_first": 0.575
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.425,
+    "outdated": 0.438,
+    "new_first": 0.425
+   }
+  },
+  "sysasof T1 absorbed": {
+   "n": 80,
+   "acc": 0.5,
+   "outdated": 0.362
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.362,
+   "outdated": 0.55
+  },
+  "sysasof T6 absorbed": {
+   "n": 29,
+   "acc": 0.655,
+   "outdated": 0.103
+  }
+ },
+ "claude-fable-5-1|claude": {
+  "newname renamed-old": {
+   "none": {
+    "n": 120,
+    "acc": 0.142,
+    "outdated": 0.0,
+    "both_new": 0.775,
+    "both_old": 0.075,
+    "new_first": 0.917
+   },
+   "date": {
+    "n": 120,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 1.0
+   },
+   "reform": {
+    "n": 120,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 1.0
+   },
+   "d_date": {
+    "delta": 0.8583333333333333,
+    "lo": 0.7916666666666666,
+    "hi": 0.9166666666666666,
+    "n": 120
+   }
+  },
+  "newname new-only": {
+   "none": {
+    "n": 120,
+    "acc": 0.975,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.975
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.975,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.975
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.967,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.967
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 120
+   }
+  },
+  "prefix T1 absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.013,
+    "outdated": 0.25,
+    "new_first": 0.05
+   },
+   "date": {
+    "n": 80,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "now": {
+    "n": 80,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.013,
+    "outdated": 0.225,
+    "new_first": 0.1
+   }
+  },
+  "prefix T1np absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.912,
+    "new_first": 0
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.988,
+    "outdated": 0.0,
+    "new_first": 1.001
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.438,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.738,
+    "new_first": 0
+   }
+  },
+  "repeat T1 absorbed": {
+   "none": {
+    "r2": null,
+    "r3": null,
+    "r1": null,
+    "agree3": null,
+    "n": 0
+   },
+   "date": {
+    "r2": null,
+    "r3": null,
+    "r1": null,
+    "agree3": null,
+    "n": 0
+   },
+   "reform": {
+    "r2": null,
+    "r3": null,
+    "r1": null,
+    "agree3": null,
+    "n": 0
+   }
+  },
+  "sysasof T1 absorbed": {
+   "n": 80,
+   "acc": 0.95,
+   "outdated": 0.0
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.062,
+   "outdated": 0.0
+  },
+  "sysasof T6 absorbed": {
+   "n": 29,
+   "acc": 1.0,
+   "outdated": 0.0
+  }
+ },
+ "claude-fable-5-1|claude_none": {
+  "newname renamed-old": {
+   "none": {
+    "n": 120,
+    "acc": 0.108,
+    "outdated": 0.008,
+    "both_new": 0.825,
+    "both_old": 0.058,
+    "new_first": 0.933
+   },
+   "date": {
+    "n": 120,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 1.0
+   },
+   "reform": {
+    "n": 120,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 1.0
+   },
+   "d_date": {
+    "delta": 0.8916666666666667,
+    "lo": 0.8333333333333334,
+    "hi": 0.9416666666666667,
+    "n": 120
+   }
+  },
+  "newname new-only": {
+   "none": {
+    "n": 120,
+    "acc": 0.983,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.983
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.967,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.967
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.975,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.975
+   },
+   "d_date": {
+    "delta": -0.016666666666666666,
+    "lo": -0.041666666666666664,
+    "hi": 0.0,
+    "n": 120
+   }
+  },
+  "prefix T1 absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.013,
+    "outdated": 0.1,
+    "new_first": 0.126
+   },
+   "date": {
+    "n": 80,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "now": {
+    "n": 80,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.2,
+    "new_first": 0.125
+   }
+  },
+  "prefix T1np absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.85,
+    "new_first": 0
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.95,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.325,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.613,
+    "new_first": 0
+   }
+  },
+  "sysasof T1 absorbed": {
+   "n": 80,
+   "acc": 0.887,
+   "outdated": 0.0
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.025,
+   "outdated": 0.0
+  },
+  "sysasof T6 absorbed": {
+   "n": 29,
+   "acc": 1.0,
+   "outdated": 0.0
+  }
+ },
+ "claude-haiku-5-5|claude": {
+  "newname renamed-old": {
+   "none": {
+    "n": 120,
+    "acc": 0.083,
+    "outdated": 0.492,
+    "both_new": 0.0,
+    "both_old": 0.042,
+    "new_first": 0.083
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.183,
+    "outdated": 0.333,
+    "both_new": 0.025,
+    "both_old": 0.033,
+    "new_first": 0.208
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.375,
+    "outdated": 0.133,
+    "both_new": 0.008,
+    "both_old": 0.033,
+    "new_first": 0.383
+   },
+   "d_date": {
+    "delta": 0.1,
+    "lo": 0.025,
+    "hi": 0.175,
+    "n": 120
+   }
+  },
+  "newname new-only": {
+   "none": {
+    "n": 120,
+    "acc": 0.592,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.592
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.633,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.633
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.617,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.617
+   },
+   "d_date": {
+    "delta": 0.041666666666666664,
+    "lo": -0.03333333333333333,
+    "hi": 0.125,
+    "n": 120
+   }
+  },
+  "prefix T1 absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.975,
+    "new_first": 0
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.188,
+    "outdated": 0.675,
+    "new_first": 0.275
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.362,
+    "outdated": 0.35,
+    "new_first": 0.475
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.963,
+    "new_first": 0
+   }
+  },
+  "prefix T1np absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.988,
+    "new_first": 0
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.05,
+    "outdated": 0.9,
+    "new_first": 0.05
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.075,
+    "outdated": 0.875,
+    "new_first": 0.075
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.988,
+    "new_first": 0
+   }
+  },
+  "repeat T1 absorbed": {
+   "none": {
+    "r2": 0.0,
+    "r3": 0.0,
+    "r1": 0.0,
+    "agree3": 0.963,
+    "n": 80
+   },
+   "date": {
+    "r2": 0.275,
+    "r3": 0.275,
+    "r1": 0.188,
+    "agree3": 0.588,
+    "n": 80
+   },
+   "reform": {
+    "r2": 0.787,
+    "r3": 0.8,
+    "r1": 0.75,
+    "agree3": 0.738,
+    "n": 80
+   }
+  },
+  "sysasof T1 absorbed": {
+   "n": 80,
+   "acc": 0.025,
+   "outdated": 0.975
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.037,
+   "outdated": 0.963
+  },
+  "sysasof T6 absorbed": {
+   "n": 29,
+   "acc": 0.034,
+   "outdated": 0.586
+  }
+ },
+ "claude-opus-5-5|claude": {
+  "newname renamed-old": {
+   "none": {
+    "n": 120,
+    "acc": 0.325,
+    "outdated": 0.0,
+    "both_new": 0.525,
+    "both_old": 0.15,
+    "new_first": 0.85
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.983,
+    "outdated": 0.0,
+    "both_new": 0.017,
+    "both_old": 0.0,
+    "new_first": 1.0
+   },
+   "reform": {
+    "n": 120,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 1.0
+   },
+   "d_date": {
+    "delta": 0.6583333333333333,
+    "lo": 0.5666666666666667,
+    "hi": 0.7416666666666667,
+    "n": 120
+   }
+  },
+  "newname new-only": {
+   "none": {
+    "n": 120,
+    "acc": 0.975,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.975
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.992,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.992
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.992,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.992
+   },
+   "d_date": {
+    "delta": 0.016666666666666666,
+    "lo": 0.0,
+    "hi": 0.041666666666666664,
+    "n": 120
+   }
+  },
+  "prefix T1 absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.525,
+    "outdated": 0.037,
+    "new_first": 0.65
+   },
+   "date": {
+    "n": 80,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "now": {
+    "n": 80,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.8,
+    "outdated": 0.0,
+    "new_first": 0.925
+   }
+  },
+  "prefix T1np absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.963,
+    "new_first": 0
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.9,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.875,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.912,
+    "new_first": 0
+   }
+  },
+  "repeat T1 absorbed": {
+   "none": {
+    "r2": 0.476,
+    "r3": null,
+    "r1": null,
+    "agree3": null,
+    "n": 0
+   },
+   "date": {
+    "r2": 1.0,
+    "r3": null,
+    "r1": null,
+    "agree3": null,
+    "n": 0
+   },
+   "reform": {
+    "r2": 1.0,
+    "r3": null,
+    "r1": null,
+    "agree3": null,
+    "n": 0
+   }
+  },
+  "sysasof T1 absorbed": {
+   "n": 80,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.025,
+   "outdated": 0.0
+  },
+  "sysasof T6 absorbed": {
+   "n": 29,
+   "acc": 1.0,
+   "outdated": 0.0
+  }
+ },
+ "claude-sonnet-5-5|claude_nothink": {
+  "newname renamed-old": {
+   "none": {
+    "n": 120,
+    "acc": 0.533,
+    "outdated": 0.183,
+    "both_new": 0.05,
+    "both_old": 0.133,
+    "new_first": 0.583
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.825,
+    "outdated": 0.008,
+    "both_new": 0.033,
+    "both_old": 0.058,
+    "new_first": 0.858
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.775,
+    "outdated": 0.0,
+    "both_new": 0.042,
+    "both_old": 0.1,
+    "new_first": 0.817
+   },
+   "d_date": {
+    "delta": 0.2916666666666667,
+    "lo": 0.20833333333333334,
+    "hi": 0.375,
+    "n": 120
+   }
+  },
+  "newname new-only": {
+   "none": {
+    "n": 120,
+    "acc": 0.867,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.867
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.925,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.925
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.875,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.875
+   },
+   "d_date": {
+    "delta": 0.058333333333333334,
+    "lo": 0.0,
+    "hi": 0.11666666666666667,
+    "n": 120
+   }
+  },
+  "prefix T1 absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.55,
+    "outdated": 0.338,
+    "new_first": 0.575
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.975,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "now": {
+    "n": 80,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "new_first": 1.0
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.613,
+    "outdated": 0.175,
+    "new_first": 0.776
+   }
+  },
+  "prefix T1np absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.113,
+    "outdated": 0.637,
+    "new_first": 0.175
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.95,
+    "outdated": 0.0,
+    "new_first": 0.963
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.912,
+    "outdated": 0.025,
+    "new_first": 0.925
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.163,
+    "outdated": 0.575,
+    "new_first": 0.25
+   }
+  },
+  "repeat T1 absorbed": {
+   "none": {
+    "r2": 0.45,
+    "r3": 0.512,
+    "r1": 0.55,
+    "agree3": 0.562,
+    "n": 80
+   },
+   "date": {
+    "r2": 0.988,
+    "r3": 0.975,
+    "r1": 0.975,
+    "agree3": 0.95,
+    "n": 80
+   },
+   "reform": {
+    "r2": 0.963,
+    "r3": 0.988,
+    "r1": 0.988,
+    "agree3": 0.963,
+    "n": 80
+   }
+  },
+  "sysasof T1 absorbed": {
+   "n": 80,
+   "acc": 0.988,
+   "outdated": 0.0
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.825,
+   "outdated": 0.013
+  },
+  "sysasof T6 absorbed": {
+   "n": 29,
+   "acc": 0.931,
+   "outdated": 0.0
+  }
+ },
+ "deepseek-flash|api": {
+  "newname renamed-old": {
+   "none": {
+    "n": 120,
+    "acc": 0.092,
+    "outdated": 0.817,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.092
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.383,
+    "outdated": 0.35,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.383
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.5,
+    "outdated": 0.258,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.5
+   },
+   "d_date": {
+    "delta": 0.2916666666666667,
+    "lo": 0.20833333333333334,
+    "hi": 0.38333333333333336,
+    "n": 120
+   }
+  },
+  "newname new-only": {
+   "none": {
+    "n": 120,
+    "acc": 0.775,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.775
+   },
+   "date": {
+    "n": 120,
+    "acc": 0.792,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.792
+   },
+   "reform": {
+    "n": 120,
+    "acc": 0.808,
+    "outdated": null,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "new_first": 0.808
+   },
+   "d_date": {
+    "delta": 0.016666666666666666,
+    "lo": -0.05,
+    "hi": 0.08333333333333333,
+    "n": 120
+   }
+  },
+  "prefix T1 absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "new_first": 0
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.45,
+    "outdated": 0.537,
+    "new_first": 0.45
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.1,
+    "outdated": 0.9,
+    "new_first": 0.1
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "new_first": 0
+   }
+  },
+  "prefix T1np absorbed": {
+   "none": {
+    "n": 80,
+    "acc": 0.013,
+    "outdated": 0.975,
+    "new_first": 0.013
+   },
+   "date": {
+    "n": 80,
+    "acc": 0.65,
+    "outdated": 0.3,
+    "new_first": 0.65
+   },
+   "now": {
+    "n": 80,
+    "acc": 0.125,
+    "outdated": 0.85,
+    "new_first": 0.125
+   },
+   "filler": {
+    "n": 80,
+    "acc": 0.0,
+    "outdated": 0.988,
+    "new_first": 0
+   }
+  },
+  "repeat T1 absorbed": {
+   "none": {
+    "r2": 0.0,
+    "r3": 0.0,
+    "r1": 0.0,
+    "agree3": 1.0,
+    "n": 80
+   },
+   "date": {
+    "r2": 0.487,
+    "r3": 0.463,
+    "r1": 0.45,
+    "agree3": 0.925,
+    "n": 80
+   },
+   "reform": {
+    "r2": 0.613,
+    "r3": 0.613,
+    "r1": 0.637,
+    "agree3": 0.975,
+    "n": 80
+   }
+  },
+  "sysasof T1 absorbed": {
+   "n": 80,
+   "acc": 0.325,
+   "outdated": 0.675
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.463,
+   "outdated": 0.512
+  },
+  "sysasof T6 absorbed": {
+   "n": 29,
+   "acc": 0.172,
+   "outdated": 0.828
+  }
+ },
+ "gpt-5.6-terra|orouter": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.1,
+   "outdated": 0.9
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "gpt-5.6-terra|orouter_think": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.237,
+   "outdated": 0.762
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "gpt-6-luna|orouter": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.212,
+   "outdated": 0.787
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "gpt-6-luna|orouter_think": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.988,
+   "outdated": 0.013
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "gpt-6-sol|orouter": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.388,
+   "outdated": 0.613
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "gpt-6-sol|orouter_think": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 1.0,
+   "outdated": 0.0
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "hy4-preview|orouter": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.212,
+   "outdated": 0.787
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "hy4-preview|orouter_think": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.025,
+   "outdated": 0.75
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "kimi-k3|orouter": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.013,
+   "outdated": 0.988
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ },
+ "kimi-k3|orouter_think": {
+  "sysasof T1 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  },
+  "sysasof T1np absorbed": {
+   "n": 80,
+   "acc": 0.637,
+   "outdated": 0.338
+  },
+  "sysasof T6 absorbed": {
+   "n": 0,
+   "acc": null,
+   "outdated": null
+  }
+ }
+}

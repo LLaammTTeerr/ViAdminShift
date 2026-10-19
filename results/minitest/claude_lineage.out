@@ -1,0 +1,49 @@
+21:35:22 done claude-haiku-4-5-20251001 cue3_items.jsonl preds_cue3_claude-haiku-4-5-20251001.jsonl
+21:35:22 NOT-KNOWS claude-haiku-4-5-20251001
+21:37:10 done claude-opus-4-5-20251101 cue3_items.jsonl preds_cue3_claude-opus-4-5-20251101.jsonl
+21:37:10 NOT-KNOWS claude-opus-4-5-20251101
+21:37:13 done claude-opus-4-7 cue3_items.jsonl preds_cue3_claude-opus-4-7.jsonl
+21:37:13 KNOWS claude-opus-4-7
+21:37:33 done claude-sonnet-5 cue3_items.jsonl preds_cue3_claude-sonnet-5.jsonl
+21:37:33 KNOWS claude-sonnet-5
+21:37:47 done claude-opus-5 cue3_items.jsonl preds_cue3_claude-opus-5.jsonl
+21:37:47 KNOWS claude-opus-5
+21:37:53 done claude-sonnet-4-6 cue3_items.jsonl preds_cue3_claude-sonnet-4-6.jsonl
+21:37:53 NOT-KNOWS claude-sonnet-4-6
+21:38:30 done claude-opus-4-6 cue3_items.jsonl preds_cue3_claude-opus-4-6.jsonl
+21:38:30 NOT-KNOWS claude-opus-4-6
+21:40:46 done claude-opus-4-8 cue3_items.jsonl preds_cue3_claude-opus-4-8.jsonl
+21:40:46 KNOWS claude-opus-4-8
+21:41:09 done claude-sonnet-5 cue3np_items.jsonl preds_cue3np_claude-sonnet-5.jsonl
+21:41:30 done claude-opus-5 cue3np_items.jsonl preds_cue3np_claude-opus-5.jsonl
+21:41:39 done claude-opus-4-7 cue3np_items.jsonl preds_cue3np_claude-opus-4-7.jsonl
+21:43:44 done claude-fable-5 cue3_items.jsonl preds_cue3_claude-fable-5.jsonl
+21:43:44 KNOWS claude-fable-5
+21:44:04 done claude-sonnet-5 sysdate_items.jsonl preds_sys0_claude-sonnet-5__claude.jsonl
+21:44:12 done claude-opus-4-7 sysdate_items.jsonl preds_sys0_claude-opus-4-7__claude.jsonl
+21:44:24 done claude-opus-5 sysdate_items.jsonl preds_sys0_claude-opus-5__claude.jsonl
+21:46:54 done claude-opus-4-7 sysdate_items.jsonl preds_sys1_claude-opus-4-7__claude.jsonl
+21:47:13 done claude-sonnet-5 sysdate_items.jsonl preds_sys1_claude-sonnet-5__claude.jsonl
+21:47:16 done claude-opus-5 sysdate_items.jsonl preds_sys1_claude-opus-5__claude.jsonl
+21:48:11 done claude-opus-4-8 cue3np_items.jsonl preds_cue3np_claude-opus-4-8.jsonl
+21:49:49 done claude-opus-4-7 sysdate_q_items.jsonl preds_sys0q_claude-opus-4-7__claude.jsonl
+21:50:17 done claude-opus-5 sysdate_q_items.jsonl preds_sys0q_claude-opus-5__claude.jsonl
+21:50:20 done claude-sonnet-5 sysdate_q_items.jsonl preds_sys0q_claude-sonnet-5__claude.jsonl
+21:51:12 done claude-opus-4-8 sysdate_items.jsonl preds_sys0_claude-opus-4-8__claude.jsonl
+21:51:33 done claude-fable-5 cue3np_items.jsonl preds_cue3np_claude-fable-5.jsonl
+21:52:44 done claude-opus-4-7 sysdate_qm_items.jsonl preds_sys0qm_claude-opus-4-7__claude.jsonl
+21:53:12 done claude-opus-5 sysdate_qm_items.jsonl preds_sys0qm_claude-opus-5__claude.jsonl
+21:53:45 done claude-sonnet-5 sysdate_qm_items.jsonl preds_sys0qm_claude-sonnet-5__claude.jsonl
+21:54:57 done claude-opus-4-8 sysdate_items.jsonl preds_sys1_claude-opus-4-8__claude.jsonl
+21:55:18 done claude-opus-4-7 sysdate_items.jsonl preds_sys2025_claude-opus-4-7__claude.jsonl
+21:56:07 done claude-opus-5 sysdate_items.jsonl preds_sys2025_claude-opus-5__claude.jsonl
+21:56:25 done claude-sonnet-5 sysdate_items.jsonl preds_sys2025_claude-sonnet-5__claude.jsonl
+21:57:28 done claude-fable-5 sysdate_items.jsonl preds_sys0_claude-fable-5__claude.jsonl
+21:59:49 done claude-opus-4-8 sysdate_q_items.jsonl preds_sys0q_claude-opus-4-8__claude.jsonl
+22:03:34 done claude-opus-4-8 sysdate_qm_items.jsonl preds_sys0qm_claude-opus-4-8__claude.jsonl
+22:04:41 done claude-fable-5 sysdate_items.jsonl preds_sys1_claude-fable-5__claude.jsonl
+22:06:38 done claude-opus-4-8 sysdate_items.jsonl preds_sys2025_claude-opus-4-8__claude.jsonl
+22:11:33 done claude-fable-5 sysdate_q_items.jsonl preds_sys0q_claude-fable-5__claude.jsonl
+22:18:37 done claude-fable-5 sysdate_qm_items.jsonl preds_sys0qm_claude-fable-5__claude.jsonl
+22:25:23 done claude-fable-5 sysdate_items.jsonl preds_sys2025_claude-fable-5__claude.jsonl
+LINEAGE_DONE

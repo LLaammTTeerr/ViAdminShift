@@ -1,0 +1,181 @@
+{"id": "H_headline-01", "model": "deepseek-v4-pro", "output": "Tính đến thời điểm hiện tại, Việt Nam có **63 đơn vị hành chính cấp tỉnh**, bao gồm:\n\n- **57 tỉnh**\n- **6 thành phố trực thuộc trung ương** (Hà Nội", "depth": "surface", "qtype": "T0_headline", "gold": ["34"], "old": ["63"], "numeric": true}
+{"id": "H_headline-02", "model": "deepseek-v4-pro", "output": "Tính đến thời điểm hiện tại (tháng 7/2025), Việt Nam có **10.035 đơn vị hành chính cấp xã**, bao gồm:\n\n- **8.193 xã**\n- **1.782 phường**\n- **60", "depth": "surface", "qtype": "T0_headline", "gold": ["3321", "3.321", "3,321"], "old": ["10035", "10.035", "10,035"], "numeric": true}
+{"id": "H_headline-03", "model": "deepseek-v4-pro", "output": "Chính quyền địa phương ở Việt Nam hiện nay được tổ chức theo mô hình **3 cấp**, gồm:\n\n1. **Cấp tỉnh** – bao gồm tỉnh và thành phố trực thuộc trung", "depth": "surface", "qtype": "T0_headline", "gold": ["2"], "old": ["3"], "numeric": true}
+{"id": "H_headline-04", "model": "deepseek-v4-pro", "output": "Tỉnh Bình Dương trước đây thuộc tỉnh **Thủ Dầu Một** (trước năm 1976). \n\nSau năm 1976, tỉnh Thủ Dầu Một hợp nhất với tỉnh Bình Phước và một phần", "depth": "surface", "qtype": "T0_headline", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bình Dương"], "numeric": false}
+{"id": "H_headline-05", "model": "deepseek-v4-pro", "output": "Tỉnh Hà Giang ngày nay trước đây thuộc tỉnh **Hà Tuyên**.\n\nCụ thể, vào ngày 27 tháng 12 năm 1975, tỉnh Hà Giang và tỉnh Tuyên Quang được hợp nhất thành", "depth": "surface", "qtype": "T0_headline", "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"], "numeric": false}
+{"id": "H_headline-06", "model": "deepseek-v4-pro", "output": "Tỉnh Quảng Nam trước đây thuộc tỉnh **Quảng Nam – Đà Nẵng** (giai đoạn 1976–1997). \n\nĐến ngày 1 tháng 1 năm 1997, tỉnh Quảng Nam – Đ", "depth": "surface", "qtype": "T0_headline", "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"], "numeric": false}
+{"id": "H_headline-07", "model": "deepseek-v4-pro", "output": "Tỉnh Kon Tum trước đây (trước năm 1991) thuộc tỉnh **Gia Lai – Kon Tum**.\n\nCụ thể:\n- Từ năm 1975 đến 1991, hai tỉnh Gia Lai và Kon Tum hợp nhất thành tỉnh **", "depth": "surface", "qtype": "T0_headline", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"], "numeric": false}
+{"id": "H_headline-08", "model": "deepseek-v4-pro", "output": "Tỉnh Đắk Nông trước đây thuộc tỉnh Đắk Lắk. \n\nTỉnh Đắk Nông được thành lập vào ngày 1 tháng 1 năm 2004, trên cơ sở tách ra từ tỉnh", "depth": "surface", "qtype": "T0_headline", "gold": ["Tỉnh Lâm Đồng"], "old": ["Tỉnh Đắk Nông"], "numeric": false}
+{"id": "T6_01", "model": "deepseek-v4-pro", "output": "Thành phố Hà Nội", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Thành phố Hà Nội"], "old": [], "group": "01"}
+{"id": "T6_02", "model": "deepseek-v4-pro", "output": "Tỉnh Hà Giang", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"], "group": "02"}
+{"id": "T6_04", "model": "deepseek-v4-pro", "output": "Tỉnh Cao Bằng", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Cao Bằng"], "old": [], "group": "04"}
+{"id": "T6_06", "model": "deepseek-v4-pro", "output": "Tỉnh Bắc Kạn", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Thái Nguyên"], "old": ["Tỉnh Bắc Kạn"], "group": "06"}
+{"id": "T6_08", "model": "deepseek-v4-pro", "output": "Tuyên Quang", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Tuyên Quang"], "old": [], "group": "08"}
+{"id": "T6_10", "model": "deepseek-v4-pro", "output": "Tỉnh Lào Cai", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Lào Cai"], "old": [], "group": "10"}
+{"id": "T6_11", "model": "deepseek-v4-pro", "output": "Tỉnh Điện Biên", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Điện Biên"], "old": [], "group": "11"}
+{"id": "T6_12", "model": "deepseek-v4-pro", "output": "Tỉnh Lào Cai", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Lai Châu"], "old": [], "group": "12"}
+{"id": "T6_14", "model": "deepseek-v4-pro", "output": "Tỉnh Sơn La", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Sơn La"], "old": [], "group": "14"}
+{"id": "T6_15", "model": "deepseek-v4-pro", "output": "Tỉnh Yên Bái", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Lào Cai"], "old": ["Tỉnh Yên Bái"], "group": "15"}
+{"id": "T6_17", "model": "deepseek-v4-pro", "output": "Tỉnh Hòa Bình", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"], "group": "17"}
+{"id": "T6_19", "model": "deepseek-v4-pro", "output": "Tỉnh Thái Nguyên", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Thái Nguyên"], "old": [], "group": "19"}
+{"id": "T6_20", "model": "deepseek-v4-pro", "output": "Tỉnh Lạng Sơn", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Lạng Sơn"], "old": [], "group": "20"}
+{"id": "T6_22", "model": "deepseek-v4-pro", "output": "Thành phố Hải Phòng", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Quảng Ninh"], "old": [], "group": "22"}
+{"id": "T6_24", "model": "deepseek-v4-pro", "output": "Tỉnh Bắc Giang", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Bắc Ninh"], "old": ["Tỉnh Bắc Giang"], "group": "24"}
+{"id": "T6_25", "model": "deepseek-v4-pro", "output": "Phú Thọ", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Phú Thọ"], "old": [], "group": "25"}
+{"id": "T6_26", "model": "deepseek-v4-pro", "output": "Tỉnh Phú Thọ", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"], "group": "26"}
+{"id": "T6_27", "model": "deepseek-v4-pro", "output": "Thành phố Bắc Ninh", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Bắc Ninh"], "old": [], "group": "27"}
+{"id": "T6_30", "model": "deepseek-v4-pro", "output": "Hải Dương", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"], "group": "30"}
+{"id": "T6_31", "model": "deepseek-v4-pro", "output": "Thành phố Hải Phòng", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Thành phố Hải Phòng"], "old": [], "group": "31"}
+{"id": "T6_33", "model": "deepseek-v4-pro", "output": "Hưng Yên", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Hưng Yên"], "old": [], "group": "33"}
+{"id": "T6_34", "model": "deepseek-v4-pro", "output": "Thành phố Hải Phòng", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"], "group": "34"}
+{"id": "T6_35", "model": "deepseek-v4-pro", "output": "Tỉnh Hà Nam", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Hà Nam"], "group": "35"}
+{"id": "T6_36", "model": "deepseek-v4-pro", "output": "Nam Định", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"], "group": "36"}
+{"id": "T6_37", "model": "deepseek-v4-pro", "output": "Tỉnh Ninh Bình", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Ninh Bình"], "old": [], "group": "37"}
+{"id": "T6_38", "model": "deepseek-v4-pro", "output": "Thanh Hóa", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Thanh Hóa"], "old": [], "group": "38"}
+{"id": "T6_40", "model": "deepseek-v4-pro", "output": "Thành phố Hồ Chí Minh", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Nghệ An"], "old": [], "group": "40"}
+{"id": "T6_42", "model": "deepseek-v4-pro", "output": "Tỉnh Nghệ An", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Hà Tĩnh"], "old": [], "group": "42"}
+{"id": "T6_44", "model": "deepseek-v4-pro", "output": "Thành phố Huế", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"], "group": "44"}
+{"id": "T6_45", "model": "deepseek-v4-pro", "output": "Thành phố Huế", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Quảng Trị"], "old": [], "group": "45"}
+{"id": "T6_46", "model": "deepseek-v4-pro", "output": "Thành phố Huế", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Thành phố Huế"], "old": [], "group": "46"}
+{"id": "T6_48", "model": "deepseek-v4-pro", "output": "Đà Nẵng", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Thành phố Đà Nẵng"], "old": [], "group": "48"}
+{"id": "T6_49", "model": "deepseek-v4-pro", "output": "Thành phố Đà Nẵng", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"], "group": "49"}
+{"id": "T6_51", "model": "deepseek-v4-pro", "output": "Quảng Ngãi", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Quảng Ngãi"], "old": [], "group": "51"}
+{"id": "T6_52", "model": "deepseek-v4-pro", "output": "Thành phố Quy Nhơn", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"], "group": "52"}
+{"id": "T6_54", "model": "deepseek-v4-pro", "output": "Tỉnh Phú Yên", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"], "group": "54"}
+{"id": "T6_56", "model": "deepseek-v4-pro", "output": "Khánh Hòa", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Khánh Hòa"], "old": [], "group": "56"}
+{"id": "T6_58", "model": "deepseek-v4-pro", "output": "Tỉnh Khánh Hòa", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Khánh Hòa"], "old": ["Tỉnh Ninh Thuận"], "group": "58"}
+{"id": "T6_60", "model": "deepseek-v4-pro", "output": "Tỉnh Bình Thuận", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Lâm Đồng"], "old": ["Tỉnh Bình Thuận"], "group": "60"}
+{"id": "T6_62", "model": "deepseek-v4-pro", "output": "Tỉnh Kon Tum", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"], "group": "62"}
+{"id": "T6_64", "model": "deepseek-v4-pro", "output": "Gia Lai", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Gia Lai"], "old": [], "group": "64"}
+{"id": "T6_66", "model": "deepseek-v4-pro", "output": "Đắk Lắk", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Đắk Lắk"], "old": [], "group": "66"}
+{"id": "T6_67", "model": "deepseek-v4-pro", "output": "Đắk Nông", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Lâm Đồng"], "old": ["Tỉnh Đắk Nông"], "group": "67"}
+{"id": "T6_68", "model": "deepseek-v4-pro", "output": "Lâm Đồng", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Lâm Đồng"], "old": [], "group": "68"}
+{"id": "T6_70", "model": "deepseek-v4-pro", "output": "Tỉnh Bình Phước", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"], "group": "70"}
+{"id": "T6_72", "model": "deepseek-v4-pro", "output": "Tây Ninh", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Tây Ninh"], "old": [], "group": "72"}
+{"id": "T6_74", "model": "deepseek-v4-pro", "output": "Thành phố Hồ Chí Minh", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bình Dương"], "group": "74"}
+{"id": "T6_75", "model": "deepseek-v4-pro", "output": "Đồng Nai", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Đồng Nai"], "old": [], "group": "75"}
+{"id": "T6_77", "model": "deepseek-v4-pro", "output": "Bà Rịa - Vũng Tàu", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"], "group": "77"}
+{"id": "T6_79", "model": "deepseek-v4-pro", "output": "Thành phố Hồ Chí Minh", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Thành phố Hồ Chí Minh"], "old": [], "group": "79"}
+{"id": "T6_80", "model": "deepseek-v4-pro", "output": "Tỉnh Long An", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Tây Ninh"], "old": ["Tỉnh Long An"], "group": "80"}
+{"id": "T6_82", "model": "deepseek-v4-pro", "output": "Tỉnh Tiền Giang", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"], "group": "82"}
+{"id": "T6_83", "model": "deepseek-v4-pro", "output": "Bến Tre", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"], "group": "83"}
+{"id": "T6_84", "model": "deepseek-v4-pro", "output": "Thành phố Hồ Chí Minh", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"], "group": "84"}
+{"id": "T6_86", "model": "deepseek-v4-pro", "output": "Tỉnh Vĩnh Long", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Vĩnh Long"], "old": [], "group": "86"}
+{"id": "T6_87", "model": "deepseek-v4-pro", "output": "Đồng Tháp", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Đồng Tháp"], "old": [], "group": "87"}
+{"id": "T6_89", "model": "deepseek-v4-pro", "output": "Thành phố Hồ Chí Minh", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh An Giang"], "old": [], "group": "89"}
+{"id": "T6_91", "model": "deepseek-v4-pro", "output": "TP. Phú Quốc", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"], "group": "91"}
+{"id": "T6_92", "model": "deepseek-v4-pro", "output": "TP. Hồ Chí Minh", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Thành phố Cần Thơ"], "old": [], "group": "92"}
+{"id": "T6_93", "model": "deepseek-v4-pro", "output": "Thành phố Cần Thơ", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Hậu Giang"], "group": "93"}
+{"id": "T6_94", "model": "deepseek-v4-pro", "output": "Sóc Trăng", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Sóc Trăng"], "group": "94"}
+{"id": "T6_95", "model": "deepseek-v4-pro", "output": "Cà Mau", "depth": "surface", "qtype": "T6_reverse", "absorbed": true, "gold": ["Tỉnh Cà Mau"], "old": ["Tỉnh Bạc Liêu"], "group": "95"}
+{"id": "T6_96", "model": "deepseek-v4-pro", "output": "Tỉnh Cà Mau", "depth": "surface", "qtype": "T6_reverse", "absorbed": false, "gold": ["Tỉnh Cà Mau"], "old": [], "group": "96"}
+{"id": "C_11119", "model": "deepseek-v4-pro", "output": "Hải Dương", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"], "group": "30"}
+{"id": "C_12718", "model": "deepseek-v4-pro", "output": "Thái Bình", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"], "group": "34"}
+{"id": "C_26574", "model": "deepseek-v4-pro", "output": "Bà Rịa - Vũng Tàu", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"], "group": "77"}
+{"id": "C_31675", "model": "deepseek-v4-pro", "output": "Sóc Trăng", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Sóc Trăng"], "group": "94"}
+{"id": "C_26563", "model": "deepseek-v4-pro", "output": "Thành phố Bà Rịa, tỉnh Bà Rịa - Vũng Tàu.", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"], "group": "77"}
+{"id": "C_29053", "model": "deepseek-v4-pro", "output": "Bến Tre", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"], "group": "83"}
+{"id": "C_30817", "model": "deepseek-v4-pro", "output": "Thành phố Rạch Giá", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"], "group": "91"}
+{"id": "C_31462", "model": "deepseek-v4-pro", "output": "Hậu Giang", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Hậu Giang"], "group": "93"}
+{"id": "C_07717", "model": "deepseek-v4-pro", "output": "Tỉnh Bắc Giang", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Bắc Ninh"], "old": ["Tỉnh Bắc Giang"], "group": "24"}
+{"id": "C_25372", "model": "deepseek-v4-pro", "output": "Bình Phước", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"], "group": "70"}
+{"id": "C_10561", "model": "deepseek-v4-pro", "output": "Hải Dương", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"], "group": "30"}
+{"id": "C_25837", "model": "deepseek-v4-pro", "output": "Bình Dương", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bình Dương"], "group": "74"}
+{"id": "C_05383", "model": "deepseek-v4-pro", "output": "Hòa Bình", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"], "group": "17"}
+{"id": "C_31033", "model": "deepseek-v4-pro", "output": "Thành phố Kiên Giang", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"], "group": "91"}
+{"id": "C_09145", "model": "deepseek-v4-pro", "output": "Vĩnh Phúc", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"], "group": "26"}
+{"id": "C_25267", "model": "deepseek-v4-pro", "output": "Bình Phước", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"], "group": "70"}
+{"id": "C_28168", "model": "deepseek-v4-pro", "output": "Thành phố Hồ Chí Minh", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Tây Ninh"], "old": ["Tỉnh Long An"], "group": "80"}
+{"id": "C_07741", "model": "deepseek-v4-pro", "output": "Tỉnh Bắc Giang", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Bắc Ninh"], "old": ["Tỉnh Bắc Giang"], "group": "24"}
+{"id": "C_05098", "model": "deepseek-v4-pro", "output": "Thành phố Hòa Bình", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"], "group": "17"}
+{"id": "C_02173", "model": "deepseek-v4-pro", "output": "Tỉnh Bắc Kạn", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Thái Nguyên"], "old": ["Tỉnh Bắc Kạn"], "group": "06"}
+{"id": "C_22123", "model": "deepseek-v4-pro", "output": "Phú Yên", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"], "group": "54"}
+{"id": "C_30784", "model": "deepseek-v4-pro", "output": "Thành phố Hà Tiên, tỉnh Kiên Giang", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"], "group": "91"}
+{"id": "C_08929", "model": "deepseek-v4-pro", "output": "Thái Nguyên", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"], "group": "26"}
+{"id": "C_28321", "model": "deepseek-v4-pro", "output": "Tỉnh Tiền Giang", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"], "group": "82"}
+{"id": "C_12778", "model": "deepseek-v4-pro", "output": "Thành phố Thái Bình", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"], "group": "34"}
+{"id": "C_01057", "model": "deepseek-v4-pro", "output": "Xã Pờ Ly Ngài hiện nay thuộc thị xã Hoàng Su Phì, tỉnh Hà Giang.", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"], "group": "02"}
+{"id": "C_20371", "model": "deepseek-v4-pro", "output": "Thành phố Tam Kỳ, tỉnh Quảng Nam.", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"], "group": "49"}
+{"id": "C_05014", "model": "deepseek-v4-pro", "output": "Hà Nội", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"], "group": "17"}
+{"id": "C_29500", "model": "deepseek-v4-pro", "output": "Trà Vinh", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"], "group": "84"}
+{"id": "C_26566", "model": "deepseek-v4-pro", "output": "Thành phố Bà Rịa, tỉnh Bà Rịa - Vũng Tàu.", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"], "group": "77"}
+{"id": "C_23485", "model": "deepseek-v4-pro", "output": "Kon Tum", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"], "group": "62"}
+{"id": "C_00862", "model": "deepseek-v4-pro", "output": "Hà Giang", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"], "group": "02"}
+{"id": "C_12517", "model": "deepseek-v4-pro", "output": "Thái Bình", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"], "group": "34"}
+{"id": "C_29462", "model": "deepseek-v4-pro", "output": "Trà Vinh", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"], "group": "84"}
+{"id": "C_05374", "model": "deepseek-v4-pro", "output": "Hòa Bình", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"], "group": "17"}
+{"id": "C_04399", "model": "deepseek-v4-pro", "output": "Yên Bái", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Lào Cai"], "old": ["Tỉnh Yên Bái"], "group": "15"}
+{"id": "C_31057", "model": "deepseek-v4-pro", "output": "Thành phố U Minh Thượng, tỉnh Kiên Giang.", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"], "group": "91"}
+{"id": "C_28948", "model": "deepseek-v4-pro", "output": "Bến Tre", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"], "group": "83"}
+{"id": "C_29155", "model": "deepseek-v4-pro", "output": "Thành phố Bến Tre", "depth": "compose", "qtype": "T1_membership", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"], "group": "83"}
+{"id": "C_31441", "model": "deepseek-v4-pro", "output": "Hậu Giang", "depth": "compose", "qtype": "T1_membership", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Hậu Giang"], "group": "93"}
+{"id": "N_15043", "model": "deepseek-v4-pro", "output": "Thanh Hóa", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Thanh Hóa"], "old": ["Tỉnh Nam Định"]}
+{"id": "N_24313", "model": "deepseek-v4-pro", "output": "Đắk Lắk", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Đắk Lắk"], "old": []}
+{"id": "N_23851", "model": "deepseek-v4-pro", "output": "Gia Lai", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Gia Lai"], "old": []}
+{"id": "N_06706", "model": "deepseek-v4-pro", "output": "Quảng Ninh", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Quảng Ninh"], "old": []}
+{"id": "N_14857", "model": "deepseek-v4-pro", "output": "Thanh Hóa", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Thanh Hóa"], "old": []}
+{"id": "N_20551", "model": "deepseek-v4-pro", "output": "Quảng Nam", "depth": "deep", "qtype": "T1_newname", "gold": ["Thành phố Đà Nẵng"], "old": []}
+{"id": "N_13336", "model": "deepseek-v4-pro", "output": "Hà Nội", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Ninh Bình"], "old": []}
+{"id": "N_25588", "model": "deepseek-v4-pro", "output": "Tây Ninh", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Tây Ninh"], "old": []}
+{"id": "N_28945", "model": "deepseek-v4-pro", "output": "Tây Ninh", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Tây Ninh"]}
+{"id": "N_29590", "model": "deepseek-v4-pro", "output": "Phường Thanh Đức thuộc tỉnh Đồng Tháp.", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Nghệ An"]}
+{"id": "N_23644", "model": "deepseek-v4-pro", "output": "Gia Lai", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Gia Lai"], "old": []}
+{"id": "N_20900", "model": "deepseek-v4-pro", "output": "Quảng Nam", "depth": "deep", "qtype": "T1_newname", "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"]}
+{"id": "N_23647", "model": "deepseek-v4-pro", "output": "Gia Lai", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Gia Lai"], "old": []}
+{"id": "N_18313", "model": "deepseek-v4-pro", "output": "Hải Phòng", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Hà Tĩnh"], "old": []}
+{"id": "N_05533", "model": "deepseek-v4-pro", "output": "Thái Nguyên", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Thái Nguyên"], "old": []}
+{"id": "N_20014", "model": "deepseek-v4-pro", "output": "Thừa Thiên Huế", "depth": "deep", "qtype": "T1_newname", "gold": ["Thành phố Huế"], "old": []}
+{"id": "N_31258", "model": "deepseek-v4-pro", "output": "Thành phố Cần Thơ", "depth": "deep", "qtype": "T1_newname", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Bến Tre"]}
+{"id": "N_15085", "model": "deepseek-v4-pro", "output": "Thanh Hóa", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Thanh Hóa"], "old": []}
+{"id": "N_24229", "model": "deepseek-v4-pro", "output": "Đắk Lắk", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Đắk Lắk"], "old": []}
+{"id": "N_29143", "model": "deepseek-v4-pro", "output": "Bến Tre", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"]}
+{"id": "N_31951", "model": "deepseek-v4-pro", "output": "Bạc Liêu", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Cà Mau"], "old": ["Tỉnh Bạc Liêu"]}
+{"id": "N_06436", "model": "deepseek-v4-pro", "output": "Đồng Nai", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Lạng Sơn"], "old": ["Tỉnh Đồng Nai"]}
+{"id": "N_23941", "model": "deepseek-v4-pro", "output": "Gia Lai", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Gia Lai"], "old": []}
+{"id": "N_24044", "model": "deepseek-v4-pro", "output": "Gia Lai", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Gia Lai"], "old": []}
+{"id": "N_28210", "model": "deepseek-v4-pro", "output": "Long An", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Tây Ninh"], "old": ["Tỉnh Long An"]}
+{"id": "N_09064", "model": "deepseek-v4-pro", "output": "Hà Nội", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"]}
+{"id": "N_16933", "model": "deepseek-v4-pro", "output": "Tỉnh Quảng Nam", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Nghệ An"], "old": ["Tỉnh Thái Bình"]}
+{"id": "N_11020", "model": "deepseek-v4-pro", "output": "Hà Nội", "depth": "deep", "qtype": "T1_newname", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "N_09292", "model": "deepseek-v4-pro", "output": "Bắc Ninh", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Bắc Ninh"], "old": []}
+{"id": "N_27496", "model": "deepseek-v4-pro", "output": "Hà Nội", "depth": "deep", "qtype": "T1_newname", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Vĩnh Long"]}
+{"id": "N_20569", "model": "deepseek-v4-pro", "output": "Tỉnh Quảng Nam", "depth": "deep", "qtype": "T1_newname", "gold": ["Thành phố Đà Nẵng"], "old": []}
+{"id": "N_14647", "model": "deepseek-v4-pro", "output": "Ninh Bình", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Ninh Bình"], "old": []}
+{"id": "N_21220", "model": "deepseek-v4-pro", "output": "Quảng Ngãi", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Quảng Ngãi"], "old": []}
+{"id": "N_24595", "model": "deepseek-v4-pro", "output": "Đắk Lắk", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Đắk Lắk"], "old": []}
+{"id": "N_15025", "model": "deepseek-v4-pro", "output": "Thanh Hóa", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Thanh Hóa"], "old": []}
+{"id": "N_31675", "model": "deepseek-v4-pro", "output": "Sóc Trăng", "depth": "deep", "qtype": "T1_newname", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Sóc Trăng"]}
+{"id": "N_16234", "model": "deepseek-v4-pro", "output": "Thanh Hóa", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Thanh Hóa"], "old": []}
+{"id": "N_22319", "model": "deepseek-v4-pro", "output": "Tây Ninh", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Đắk Lắk"], "old": []}
+{"id": "N_06211", "model": "deepseek-v4-pro", "output": "Lạng Sơn", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Lạng Sơn"], "old": []}
+{"id": "N_30259", "model": "deepseek-v4-pro", "output": "Thành phố Hồ Chí Minh", "depth": "deep", "qtype": "T1_newname", "gold": ["Tỉnh Đồng Tháp"], "old": ["Thành phố Hồ Chí Minh"]}
+{"id": "S_18628", "model": "deepseek-v4-pro", "output": "Xã Thạch Hưng", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Thạch Lạc"], "old": ["Xã Tượng Sơn"]}
+{"id": "S_20449", "model": "deepseek-v4-pro", "output": "Xã Tr'Hy", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Tây Giang"], "old": ["Xã Lăng"]}
+{"id": "S_09181", "model": "deepseek-v4-pro", "output": "Phường Đại Phúc", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Phường Võ Cường"], "old": ["Phường Đại Phúc"]}
+{"id": "S_20848", "model": "deepseek-v4-pro", "output": "Xã Bình Trung nay thuộc xã Bình Quý.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Thăng Điền"], "old": ["Xã Bình Trung"]}
+{"id": "S_09187", "model": "deepseek-v4-pro", "output": "Phường Suối Hoa", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Phường Kinh Bắc"], "old": ["Phường Suối Hoa"]}
+{"id": "S_31279", "model": "deepseek-v4-pro", "output": "Xã Trường Thành", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Đông Thuận"], "old": ["Xã Đông Bình"]}
+{"id": "S_07528", "model": "deepseek-v4-pro", "output": "Xã Phúc Sơn", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Tân Sơn"], "old": ["Xã Cấm Sơn"]}
+{"id": "S_24846", "model": "deepseek-v4-pro", "output": "Lát", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Phường Lang Biang - Đà Lạt"], "old": ["Thị trấn Lạc Dương"]}
+{"id": "S_14110", "model": "deepseek-v4-pro", "output": "Xã Xuân Tân, huyện Xuân Trường, tỉnh Nam Định", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Xuân Giang"], "old": ["Xã Xuân Tân"]}
+{"id": "S_05077", "model": "deepseek-v4-pro", "output": "Xã Hợp Kim", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Dũng Tiến"], "old": ["Xã Cuối Hạ"]}
+{"id": "S_03118", "model": "deepseek-v4-pro", "output": "Xã Liêm Phú nay thuộc xã Khánh Yên Hạ.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Khánh Yên"], "old": ["Xã Liêm Phú"]}
+{"id": "S_16546", "model": "deepseek-v4-pro", "output": "Xã Quảng Lộc nay thuộc xã Quảng Lộc, thị xã Quảng Xương.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Quảng Bình"], "old": ["Xã Quảng Lộc"]}
+{"id": "S_23389", "model": "deepseek-v4-pro", "output": "Xã Đắk Xú nay thuộc xã Đắk Xú, huyện Ngọc Hồi, tỉnh Kon Tum.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Bờ Y"], "old": ["Xã Đắk Xú"]}
+{"id": "S_22717", "model": "deepseek-v4-pro", "output": "Xã Sơn Thành", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Tây Khánh Sơn"], "old": ["Xã Thành Sơn"]}
+{"id": "S_17662", "model": "deepseek-v4-pro", "output": "Xã Yên Sơn nay thuộc xã Yên Sơn, huyện Đô Lương, tỉnh Nghệ An.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Đô Lương"], "old": ["Xã Yên Sơn"]}
+{"id": "S_14974", "model": "deepseek-v4-pro", "output": "Xã Lâm Xa", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Văn Nho"], "old": ["Xã Kỳ Tân"]}
+{"id": "S_00109", "model": "deepseek-v4-pro", "output": "Phường Bưởi", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Phường Tây Hồ"], "old": ["Phường Bưởi"]}
+{"id": "S_25351", "model": "deepseek-v4-pro", "output": "Xã Phước An nay thuộc xã An Khương.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Tân Quan"], "old": ["Xã Phước An"]}
+{"id": "S_16336", "model": "deepseek-v4-pro", "output": "Xã Tượng Sơn", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Trường Văn"], "old": ["Xã Trường Giang"]}
+{"id": "S_30709", "model": "deepseek-v4-pro", "output": "Xã Định Thành nay thuộc xã Định Thành, huyện Thoại Sơn, tỉnh An Giang.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Định Mỹ"], "old": ["Xã Định Thành"]}
+{"id": "S_01990", "model": "deepseek-v4-pro", "output": "Xã Lục Bình nay thuộc xã Đồng Phúc.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Phủ Thông"], "old": ["Xã Lục Bình"]}
+{"id": "S_08791", "model": "deepseek-v4-pro", "output": "Xã Liễn Sơn", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Thái Hòa"], "old": ["Xã Liễn Sơn"]}
+{"id": "S_05485", "model": "deepseek-v4-pro", "output": "Xã Phúc Hà nay thuộc phường Tích Lương, thành phố Thái Nguyên.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Phường Quyết Thắng"], "old": ["Xã Phúc Hà"]}
+{"id": "S_18892", "model": "deepseek-v4-pro", "output": "Xã Quang Phú", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Phường Đồng Sơn"], "old": ["Xã Nghĩa Ninh"]}
+{"id": "S_28528", "model": "deepseek-v4-pro", "output": "Xã Tân Lý Tây", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Tân Hương"], "old": ["Xã Tân Lý Đông"]}
+{"id": "S_24763", "model": "deepseek-v4-pro", "output": "Xã Quảng Tín", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Quảng Tín"], "old": ["Xã Đắk Ru"]}
+{"id": "S_29725", "model": "deepseek-v4-pro", "output": "Xã Song Phú", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Song Phú"], "old": ["Xã Phú Thịnh"]}
+{"id": "S_17086", "model": "deepseek-v4-pro", "output": "Xã Châu Sơn", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Mường Chọng"], "old": ["Xã Nam Sơn"]}
+{"id": "S_23026", "model": "deepseek-v4-pro", "output": "Xã Phan Tiến nay thuộc xã Phan Tiến, huyện Bắc Bình, tỉnh Bình Thuận.", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Sông Lũy"], "old": ["Xã Phan Tiến"]}
+{"id": "S_09898", "model": "deepseek-v4-pro", "output": "Xã Quốc Oai", "depth": "deep", "qtype": "T5_ward_successor", "gold": ["Xã Quốc Oai"], "old": ["Xã Sài Sơn"]}

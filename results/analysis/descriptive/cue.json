@@ -1,0 +1,1329 @@
+{
+ "deepseek-v4-flash|omni": {
+  "T6 prov absorbed": {
+   "none": {
+    "n": 29,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.10344827586206896
+   },
+   "date": {
+    "n": 29,
+    "acc": 0.3103448275862069,
+    "outdated": 0.6551724137931034,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.034482758620689655,
+    "hidden": 0.13793103448275862
+   },
+   "reform": {
+    "n": 29,
+    "acc": 0.7931034482758621,
+    "outdated": 0.10344827586206896,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.10344827586206896,
+    "hidden": 0.034482758620689655
+   },
+   "d_date": {
+    "delta": 0.3103448275862069,
+    "lo": 0.13793103448275862,
+    "hi": 0.4827586206896552,
+    "n": 29
+   },
+   "d_date_new1st": {
+    "delta": 0.3103448275862069,
+    "lo": 0.13793103448275862,
+    "hi": 0.4827586206896552,
+    "n": 29
+   },
+   "d_reform": {
+    "delta": 0.7931034482758621,
+    "lo": 0.6206896551724138,
+    "hi": 0.9310344827586207,
+    "n": 29
+   },
+   "d_reform_new1st": {
+    "delta": 0.7931034482758621,
+    "lo": 0.6206896551724138,
+    "hi": 0.9310344827586207,
+    "n": 29
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.058823529411764705
+   },
+   "date": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.029411764705882353
+   },
+   "reform": {
+    "n": 34,
+    "acc": 0.9411764705882353,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.058823529411764705,
+    "hidden": 0.029411764705882353
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform": {
+    "delta": -0.058823529411764705,
+    "lo": -0.14705882352941177,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform_new1st": {
+    "delta": -0.058823529411764705,
+    "lo": -0.14705882352941177,
+    "hi": 0.0,
+    "n": 34
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.18181818181818182
+   },
+   "date": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.09090909090909091
+   },
+   "reform": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.09090909090909091
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   }
+  },
+  "T6 prov kept merged": {
+   "none": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 23,
+    "acc": 0.9130434782608695,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.08695652173913043,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform": {
+    "delta": -0.08695652173913043,
+    "lo": -0.21739130434782608,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform_new1st": {
+    "delta": -0.08695652173913043,
+    "lo": -0.21739130434782608,
+    "hi": 0.0,
+    "n": 23
+   }
+  },
+  "T1 ward absorbed": {
+   "none": {
+    "n": 44,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.06818181818181818
+   },
+   "date": {
+    "n": 44,
+    "acc": 0.5681818181818182,
+    "outdated": 0.4090909090909091,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.022727272727272728,
+    "hidden": 0.022727272727272728
+   },
+   "reform": {
+    "n": 43,
+    "acc": 0.6744186046511628,
+    "outdated": 0.32558139534883723,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.046511627906976744
+   },
+   "d_date": {
+    "delta": 0.5681818181818182,
+    "lo": 0.4090909090909091,
+    "hi": 0.7272727272727273,
+    "n": 44
+   },
+   "d_date_new1st": {
+    "delta": 0.5681818181818182,
+    "lo": 0.4090909090909091,
+    "hi": 0.7272727272727273,
+    "n": 44
+   },
+   "d_reform": {
+    "delta": 0.6744186046511628,
+    "lo": 0.5348837209302325,
+    "hi": 0.813953488372093,
+    "n": 43
+   },
+   "d_reform_new1st": {
+    "delta": 0.6744186046511628,
+    "lo": 0.5348837209302325,
+    "hi": 0.813953488372093,
+    "n": 43
+   }
+  },
+  "_meta": {
+   "n": 320,
+   "empty": 0.003125,
+   "hidden_all": 0.05625,
+   "valid": true,
+   "knows": true,
+   "kept_max_abs_d": 0.058823529411764705,
+   "kept_ok": true
+  }
+ },
+ "glm-5.2|omni": {
+  "T6 prov absorbed": {
+   "none": {
+    "n": 29,
+    "acc": 0.13793103448275862,
+    "outdated": 0.8620689655172413,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 29,
+    "acc": 0.7931034482758621,
+    "outdated": 0.1724137931034483,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.034482758620689655,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 29,
+    "acc": 0.8275862068965517,
+    "outdated": 0.06896551724137931,
+    "both_new": 0.0,
+    "both_old": 0.06896551724137931,
+    "other": 0.034482758620689655,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.6551724137931034,
+    "lo": 0.4827586206896552,
+    "hi": 0.8275862068965517,
+    "n": 29
+   },
+   "d_date_new1st": {
+    "delta": 0.6551724137931034,
+    "lo": 0.4827586206896552,
+    "hi": 0.8275862068965517,
+    "n": 29
+   },
+   "d_reform": {
+    "delta": 0.6896551724137931,
+    "lo": 0.5172413793103449,
+    "hi": 0.8620689655172413,
+    "n": 29
+   },
+   "d_reform_new1st": {
+    "delta": 0.6896551724137931,
+    "lo": 0.5172413793103449,
+    "hi": 0.8620689655172413,
+    "n": 29
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 34,
+    "acc": 0.9117647058823529,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.08823529411764706,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 34,
+    "acc": 0.9705882352941176,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.029411764705882353,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": -0.08823529411764706,
+    "lo": -0.20588235294117646,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_date_new1st": {
+    "delta": -0.08823529411764706,
+    "lo": -0.20588235294117646,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform": {
+    "delta": -0.029411764705882353,
+    "lo": -0.08823529411764706,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform_new1st": {
+    "delta": -0.029411764705882353,
+    "lo": -0.08823529411764706,
+    "hi": 0.0,
+    "n": 34
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 11,
+    "acc": 0.8181818181818182,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.18181818181818182,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": -0.18181818181818182,
+    "lo": -0.45454545454545453,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_date_new1st": {
+    "delta": -0.18181818181818182,
+    "lo": -0.45454545454545453,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   }
+  },
+  "T6 prov kept merged": {
+   "none": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 23,
+    "acc": 0.9565217391304348,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.043478260869565216,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 23,
+    "acc": 0.9565217391304348,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.043478260869565216,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": -0.043478260869565216,
+    "lo": -0.13043478260869565,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_date_new1st": {
+    "delta": -0.043478260869565216,
+    "lo": -0.13043478260869565,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform": {
+    "delta": -0.043478260869565216,
+    "lo": -0.13043478260869565,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform_new1st": {
+    "delta": -0.043478260869565216,
+    "lo": -0.13043478260869565,
+    "hi": 0.0,
+    "n": 23
+   }
+  },
+  "T1 ward absorbed": {
+   "none": {
+    "n": 57,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.017543859649122806
+   },
+   "date": {
+    "n": 57,
+    "acc": 0.3333333333333333,
+    "outdated": 0.6666666666666666,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "reform": {
+    "n": 56,
+    "acc": 0.5714285714285714,
+    "outdated": 0.375,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.05357142857142857,
+    "hidden": 0.017857142857142856
+   },
+   "d_date": {
+    "delta": 0.3333333333333333,
+    "lo": 0.21052631578947367,
+    "hi": 0.45614035087719296,
+    "n": 57
+   },
+   "d_date_new1st": {
+    "delta": 0.3333333333333333,
+    "lo": 0.21052631578947367,
+    "hi": 0.45614035087719296,
+    "n": 57
+   },
+   "d_reform": {
+    "delta": 0.5714285714285714,
+    "lo": 0.44642857142857145,
+    "hi": 0.6964285714285714,
+    "n": 56
+   },
+   "d_reform_new1st": {
+    "delta": 0.5714285714285714,
+    "lo": 0.44642857142857145,
+    "hi": 0.6964285714285714,
+    "n": 56
+   }
+  },
+  "_meta": {
+   "n": 359,
+   "empty": 0.0,
+   "hidden_all": 0.005571030640668524,
+   "valid": true,
+   "knows": true,
+   "kept_max_abs_d": 0.029411764705882353,
+   "kept_ok": true
+  }
+ },
+ "gpt-5.6-sol|omni": {
+  "T6 prov absorbed": {
+   "none": {
+    "n": 29,
+    "acc": 0.9310344827586207,
+    "outdated": 0.06896551724137931,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "date": {
+    "n": 29,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 29,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.896551724137931
+   },
+   "d_date": {
+    "delta": 0.06896551724137931,
+    "lo": 0.0,
+    "hi": 0.1724137931034483,
+    "n": 29
+   },
+   "d_date_new1st": {
+    "delta": 0.06896551724137931,
+    "lo": 0.0,
+    "hi": 0.1724137931034483,
+    "n": 29
+   },
+   "d_reform": {
+    "delta": 0.06896551724137931,
+    "lo": 0.0,
+    "hi": 0.1724137931034483,
+    "n": 29
+   },
+   "d_reform_new1st": {
+    "delta": 0.06896551724137931,
+    "lo": 0.0,
+    "hi": 0.1724137931034483,
+    "n": 29
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.9705882352941176
+   },
+   "date": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.9117647058823529
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.9090909090909091
+   },
+   "date": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.8181818181818182
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   }
+  },
+  "T6 prov kept merged": {
+   "none": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "date": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.9565217391304348
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   }
+  },
+  "T1 ward absorbed": {
+   "none": {
+    "n": 32,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 32,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 32,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "d_date": {
+    "delta": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 32
+   },
+   "d_date_new1st": {
+    "delta": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 32
+   },
+   "d_reform": {
+    "delta": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 32
+   },
+   "d_reform_new1st": {
+    "delta": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 32
+   }
+  },
+  "_meta": {
+   "n": 285,
+   "empty": 0.0,
+   "hidden_all": 0.8631578947368421,
+   "valid": true,
+   "knows": true,
+   "kept_max_abs_d": 0.0,
+   "kept_ok": true
+  }
+ },
+ "gpt-6.1-sol|omni": {
+  "T6 prov absorbed": {
+   "none": {
+    "n": 29,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.10344827586206896
+   },
+   "date": {
+    "n": 29,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.13793103448275862
+   },
+   "reform": {
+    "n": 29,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.20689655172413793
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 29
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 29
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 29
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 29
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.5
+   },
+   "date": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.7058823529411765
+   },
+   "reform": {
+    "n": 34,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.20588235294117646
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 34
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.36363636363636365
+   },
+   "date": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.7272727272727273
+   },
+   "reform": {
+    "n": 11,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.2727272727272727
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 11
+   }
+  },
+  "T6 prov kept merged": {
+   "none": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.5652173913043478
+   },
+   "date": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.6956521739130435
+   },
+   "reform": {
+    "n": 23,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.17391304347826086
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 23
+   }
+  },
+  "T1 ward absorbed": {
+   "none": {
+    "n": 2,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "date": {
+    "n": 1,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 1,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 0.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 1
+   }
+  },
+  "_meta": {
+   "n": 193,
+   "empty": 0.0,
+   "hidden_all": 0.32124352331606215,
+   "valid": true,
+   "knows": true,
+   "kept_max_abs_d": 0.0,
+   "kept_ok": true
+  }
+ },
+ "grok-4.6|omni": {
+  "T6 prov absorbed": {
+   "none": {
+    "n": 7,
+    "acc": 0.0,
+    "outdated": 1.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "date": {
+    "n": 7,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 7,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "d_date": {
+    "delta": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 7
+   },
+   "d_date_new1st": {
+    "delta": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 7
+   },
+   "d_reform": {
+    "delta": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 7
+   },
+   "d_reform_new1st": {
+    "delta": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "n": 7
+   }
+  },
+  "T6 prov kept": {
+   "none": {
+    "n": 13,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "date": {
+    "n": 12,
+    "acc": 0.9166666666666666,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.08333333333333333,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 12,
+    "acc": 0.9166666666666666,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.08333333333333333,
+    "hidden": 1.0
+   },
+   "d_date": {
+    "delta": -0.08333333333333333,
+    "lo": -0.25,
+    "hi": 0.0,
+    "n": 12
+   },
+   "d_date_new1st": {
+    "delta": -0.08333333333333333,
+    "lo": -0.25,
+    "hi": 0.0,
+    "n": 12
+   },
+   "d_reform": {
+    "delta": -0.08333333333333333,
+    "lo": -0.25,
+    "hi": 0.0,
+    "n": 12
+   },
+   "d_reform_new1st": {
+    "delta": -0.08333333333333333,
+    "lo": -0.25,
+    "hi": 0.0,
+    "n": 12
+   }
+  },
+  "T6 prov kept unmerged": {
+   "none": {
+    "n": 7,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "date": {
+    "n": 7,
+    "acc": 0.8571428571428571,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.14285714285714285,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 7,
+    "acc": 0.8571428571428571,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.14285714285714285,
+    "hidden": 1.0
+   },
+   "d_date": {
+    "delta": -0.14285714285714285,
+    "lo": -0.42857142857142855,
+    "hi": 0.0,
+    "n": 7
+   },
+   "d_date_new1st": {
+    "delta": -0.14285714285714285,
+    "lo": -0.42857142857142855,
+    "hi": 0.0,
+    "n": 7
+   },
+   "d_reform": {
+    "delta": -0.14285714285714285,
+    "lo": -0.42857142857142855,
+    "hi": 0.0,
+    "n": 7
+   },
+   "d_reform_new1st": {
+    "delta": -0.14285714285714285,
+    "lo": -0.42857142857142855,
+    "hi": 0.0,
+    "n": 7
+   }
+  },
+  "T6 prov kept merged": {
+   "none": {
+    "n": 6,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "date": {
+    "n": 5,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "reform": {
+    "n": 5,
+    "acc": 1.0,
+    "outdated": 0.0,
+    "both_new": 0.0,
+    "both_old": 0.0,
+    "other": 0.0,
+    "hidden": 1.0
+   },
+   "d_date": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 5
+   },
+   "d_date_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 5
+   },
+   "d_reform": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 5
+   },
+   "d_reform_new1st": {
+    "delta": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 5
+   }
+  },
+  "_meta": {
+   "n": 58,
+   "empty": 0.0,
+   "hidden_all": 1.0,
+   "valid": true,
+   "knows": false,
+   "kept_max_abs_d": 0.08333333333333333,
+   "kept_ok": true
+  }
+ }
+}

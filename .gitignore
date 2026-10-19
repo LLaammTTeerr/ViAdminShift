@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+results/*/raw_logs/
+.pytest_cache/
+.env
+data/raw/wiki_cache/
+# Not redistributed: official NSO conversion table and copies of it, and the canonical tables derived from it.
+# Get them with: bash scripts/fetch_sources.sh && uv run python -m viadmin.data.build
+data/raw/nso_conversion/*.xlsx
+data/raw/vietnam_provinces_nso/*.csv
+data/raw/vietnam_provinces_nso/*.json
+data/processed/*.jsonl
+data/raw/ubtvqh_resolutions_hoatieu/html/
+# Every other source file with NSO data or data from a government portal: vietaddr's ward map and unit list
+# (provinces.open-api.vn, generated from the NSO table), the vietnamadminunits data files (GSO lists, scrapes of
+# sapnhap.bando.com.vn and cas.so, tables built from them) and their copy in undertheseanlp/address
+data/raw/vietaddr/*.json
+data/raw/vietnamadminunits/data/raw/
+data/raw/vietnamadminunits/data/processed/
+data/raw/vietnamadminunits/vietnamadminunits/
+data/raw/undertheseanlp_address/mapping.json
+results/gpu_availability.log

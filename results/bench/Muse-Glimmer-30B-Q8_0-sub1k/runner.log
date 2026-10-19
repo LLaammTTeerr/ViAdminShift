@@ -1,0 +1,261 @@
+[runner] 0 done, 1262 pending, model=Muse-Glimmer-30B-Q8_0
+[runner] closed/mcq: 32/1262 (0.47 items/s)
+[runner] closed/mcq: 64/1262 (0.52 items/s)
+[runner] closed/mcq: 96/1262 (0.53 items/s)
+[runner] closed/mcq: 128/1262 (0.59 items/s)
+[runner] closed/mcq: 160/1262 (0.56 items/s)
+[runner] closed/mcq: 192/1262 (0.58 items/s)
+[runner] closed/mcq: 224/1262 (0.58 items/s)
+[runner] closed/mcq: 256/1262 (0.59 items/s)
+[runner] closed/mcq: 288/1262 (0.59 items/s)
+[runner] closed/mcq: 320/1262 (0.59 items/s)
+[runner] closed/mcq: 352/1262 (0.58 items/s)
+[runner] closed/mcq: 384/1262 (0.58 items/s)
+[runner] closed/mcq: 416/1262 (0.59 items/s)
+[runner] closed/mcq: 448/1262 (0.59 items/s)
+[runner] closed/mcq: 480/1262 (0.59 items/s)
+[runner] closed/mcq: 512/1262 (0.58 items/s)
+[runner] closed/mcq: 544/1262 (0.58 items/s)
+[runner] closed/mcq: 576/1262 (0.57 items/s)
+[runner] closed/mcq: 608/1262 (0.57 items/s)
+[runner] closed/mcq: 640/1262 (0.57 items/s)
+[runner] closed/mcq: 672/1262 (0.56 items/s)
+[runner] closed/mcq: 704/1262 (0.56 items/s)
+[runner] closed/mcq: 736/1262 (0.57 items/s)
+[runner] closed/mcq: 768/1262 (0.57 items/s)
+[runner] closed/mcq: 800/1262 (0.57 items/s)
+[runner] closed/mcq: 828/1262 (0.56 items/s)
+[runner] closed/short: 860/1262 (0.56 items/s)
+[runner] closed/short: 892/1262 (0.55 items/s)
+[runner] closed/short: 924/1262 (0.55 items/s)
+[runner] closed/short: 956/1262 (0.54 items/s)
+[runner] closed/short: 988/1262 (0.54 items/s)
+[runner] closed/short: 1020/1262 (0.53 items/s)
+[runner] closed/short: 1052/1262 (0.53 items/s)
+[runner] closed/short: 1084/1262 (0.52 items/s)
+[runner] closed/short: 1116/1262 (0.52 items/s)
+[runner] closed/short: 1148/1262 (0.52 items/s)
+[runner] closed/short: 1180/1262 (0.52 items/s)
+[runner] closed/short: 1212/1262 (0.51 items/s)
+[runner] closed/short: 1244/1262 (0.51 items/s)
+[runner] closed/short: 1262/1262 (0.49 items/s)
+{
+ "closed": {
+  "n": 1262,
+  "accuracy": 0.44136291600633915,
+  "outdated_rate": 0.1901743264659271,
+  "accuracy_nodiac": 0.4421553090332805,
+  "outdated_rate_nodiac": 0.1901743264659271,
+  "labels": {
+   "correct": 557,
+   "outdated": 240,
+   "other_wrong": 462,
+   "invalid": 3
+  },
+  "labels_nodiac": {
+   "correct": 558,
+   "outdated": 240,
+   "other_wrong": 461,
+   "invalid": 3
+  },
+  "match_detail": {
+   "None": 162,
+   "address": 48,
+   "address_suffix": 1,
+   "bare": 828,
+   "empty": 3,
+   "exact": 166,
+   "first_segment": 2,
+   "legacy_name": 1,
+   "nodiac": 29,
+   "nodiac:address": 17,
+   "nodiac:address_suffix": 1,
+   "numeric": 1,
+   "relation": 1,
+   "subject_segment": 2
+  },
+  "truncated": 3,
+  "components": {
+   "ward": {
+    "n": 150,
+    "accuracy": 0.13333333333333333,
+    "outdated_rate": 0.6466666666666666,
+    "labels": {
+     "correct": 20,
+     "outdated": 97,
+     "other_wrong": 33,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 150,
+    "accuracy": 0.6666666666666666,
+    "outdated_rate": 0.14666666666666667,
+    "labels": {
+     "correct": 100,
+     "outdated": 22,
+     "other_wrong": 28,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.1
+  }
+ }
+}
+[runner] 1262 done, 1262 pending, model=Muse-Glimmer-30B-Q8_0
+[runner] rag_mixed/mcq: 32/1262 (0.84 items/s)
+[runner] rag_mixed/mcq: 64/1262 (1.01 items/s)
+[runner] rag_mixed/mcq: 96/1262 (1.07 items/s)
+[runner] rag_mixed/mcq: 128/1262 (1.04 items/s)
+[runner] rag_mixed/mcq: 160/1262 (0.91 items/s)
+[runner] rag_mixed/mcq: 192/1262 (0.93 items/s)
+[runner] rag_mixed/mcq: 224/1262 (0.93 items/s)
+[runner] rag_mixed/mcq: 256/1262 (0.97 items/s)
+[runner] rag_mixed/mcq: 288/1262 (0.96 items/s)
+[runner] rag_mixed/mcq: 320/1262 (0.94 items/s)
+[runner] rag_mixed/mcq: 352/1262 (0.90 items/s)
+[runner] rag_mixed/mcq: 384/1262 (0.90 items/s)
+[runner] rag_mixed/mcq: 416/1262 (0.91 items/s)
+[runner] rag_mixed/mcq: 448/1262 (0.90 items/s)
+[runner] rag_mixed/mcq: 480/1262 (0.92 items/s)
+[runner] rag_mixed/mcq: 512/1262 (0.94 items/s)
+[runner] rag_mixed/mcq: 544/1262 (0.96 items/s)
+[runner] rag_mixed/mcq: 576/1262 (0.97 items/s)
+[runner] rag_mixed/mcq: 608/1262 (0.98 items/s)
+[runner] rag_mixed/mcq: 640/1262 (1.00 items/s)
+[runner] rag_mixed/mcq: 672/1262 (1.00 items/s)
+[runner] rag_mixed/mcq: 704/1262 (1.01 items/s)
+[runner] rag_mixed/mcq: 736/1262 (1.02 items/s)
+[runner] rag_mixed/mcq: 768/1262 (1.03 items/s)
+[runner] rag_mixed/mcq: 800/1262 (1.03 items/s)
+[runner] rag_mixed/mcq: 828/1262 (1.04 items/s)
+[runner] rag_mixed/short: 860/1262 (1.03 items/s)
+[runner] rag_mixed/short: 892/1262 (1.01 items/s)
+[runner] rag_mixed/short: 924/1262 (1.01 items/s)
+[runner] rag_mixed/short: 956/1262 (1.01 items/s)
+[runner] rag_mixed/short: 988/1262 (1.00 items/s)
+[runner] rag_mixed/short: 1020/1262 (0.98 items/s)
+[runner] rag_mixed/short: 1052/1262 (0.97 items/s)
+[runner] rag_mixed/short: 1084/1262 (0.95 items/s)
+[runner] rag_mixed/short: 1116/1262 (0.93 items/s)
+[runner] rag_mixed/short: 1148/1262 (0.93 items/s)
+[runner] rag_mixed/short: 1180/1262 (0.91 items/s)
+[runner] rag_mixed/short: 1212/1262 (0.90 items/s)
+[runner] rag_mixed/short: 1244/1262 (0.89 items/s)
+[runner] rag_mixed/short: 1262/1262 (0.88 items/s)
+{
+ "closed": {
+  "n": 1262,
+  "accuracy": 0.44136291600633915,
+  "outdated_rate": 0.1901743264659271,
+  "accuracy_nodiac": 0.4421553090332805,
+  "outdated_rate_nodiac": 0.1901743264659271,
+  "labels": {
+   "correct": 557,
+   "outdated": 240,
+   "other_wrong": 462,
+   "invalid": 3
+  },
+  "labels_nodiac": {
+   "correct": 558,
+   "outdated": 240,
+   "other_wrong": 461,
+   "invalid": 3
+  },
+  "match_detail": {
+   "None": 162,
+   "address": 48,
+   "address_suffix": 1,
+   "bare": 828,
+   "empty": 3,
+   "exact": 166,
+   "first_segment": 2,
+   "legacy_name": 1,
+   "nodiac": 29,
+   "nodiac:address": 17,
+   "nodiac:address_suffix": 1,
+   "numeric": 1,
+   "relation": 1,
+   "subject_segment": 2
+  },
+  "truncated": 3,
+  "components": {
+   "ward": {
+    "n": 150,
+    "accuracy": 0.13333333333333333,
+    "outdated_rate": 0.6466666666666666,
+    "labels": {
+     "correct": 20,
+     "outdated": 97,
+     "other_wrong": 33,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 150,
+    "accuracy": 0.6666666666666666,
+    "outdated_rate": 0.14666666666666667,
+    "labels": {
+     "correct": 100,
+     "outdated": 22,
+     "other_wrong": 28,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.1
+  }
+ },
+ "rag_mixed": {
+  "n": 1262,
+  "accuracy": 0.9833597464342314,
+  "outdated_rate": 0.01347068145800317,
+  "accuracy_nodiac": 0.9833597464342314,
+  "outdated_rate_nodiac": 0.01347068145800317,
+  "labels": {
+   "correct": 1241,
+   "outdated": 17,
+   "other_wrong": 4,
+   "invalid": 0
+  },
+  "labels_nodiac": {
+   "correct": 1241,
+   "outdated": 17,
+   "other_wrong": 4,
+   "invalid": 0
+  },
+  "match_detail": {
+   "address": 1,
+   "address_suffix": 102,
+   "bare": 828,
+   "exact": 283,
+   "first_segment": 1,
+   "nodiac:address_suffix": 47
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 150,
+    "accuracy": 1.0,
+    "outdated_rate": 0.0,
+    "labels": {
+     "correct": 150,
+     "outdated": 0,
+     "other_wrong": 0,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 150,
+    "accuracy": 1.0,
+    "outdated_rate": 0.0,
+    "labels": {
+     "correct": 150,
+     "outdated": 0,
+     "other_wrong": 0,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 1.0
+  }
+ }
+}

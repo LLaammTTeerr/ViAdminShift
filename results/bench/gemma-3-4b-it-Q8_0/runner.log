@@ -1,0 +1,1636 @@
+[runner] 0 done, 7995 pending, model=gemma-3-4b-it-Q8_0
+[runner] closed/mcq: 32/7995 (12.35 items/s)
+[runner] closed/mcq: 64/7995 (13.53 items/s)
+[runner] closed/mcq: 96/7995 (13.61 items/s)
+[runner] closed/mcq: 128/7995 (13.68 items/s)
+[runner] closed/mcq: 160/7995 (13.79 items/s)
+[runner] closed/mcq: 192/7995 (13.85 items/s)
+[runner] closed/mcq: 224/7995 (13.82 items/s)
+[runner] closed/mcq: 256/7995 (13.84 items/s)
+[runner] closed/mcq: 288/7995 (13.92 items/s)
+[runner] closed/mcq: 320/7995 (13.95 items/s)
+[runner] closed/mcq: 352/7995 (13.99 items/s)
+[runner] closed/mcq: 384/7995 (14.07 items/s)
+[runner] closed/mcq: 416/7995 (14.19 items/s)
+[runner] closed/mcq: 448/7995 (14.18 items/s)
+[runner] closed/mcq: 480/7995 (14.12 items/s)
+[runner] closed/mcq: 512/7995 (14.11 items/s)
+[runner] closed/mcq: 544/7995 (14.14 items/s)
+[runner] closed/mcq: 576/7995 (14.18 items/s)
+[runner] closed/mcq: 608/7995 (14.23 items/s)
+[runner] closed/mcq: 640/7995 (14.23 items/s)
+[runner] closed/mcq: 672/7995 (14.26 items/s)
+[runner] closed/mcq: 704/7995 (14.32 items/s)
+[runner] closed/mcq: 736/7995 (14.29 items/s)
+[runner] closed/mcq: 768/7995 (14.31 items/s)
+[runner] closed/mcq: 800/7995 (14.35 items/s)
+[runner] closed/mcq: 832/7995 (14.36 items/s)
+[runner] closed/mcq: 864/7995 (14.39 items/s)
+[runner] closed/mcq: 896/7995 (14.40 items/s)
+[runner] closed/mcq: 928/7995 (14.42 items/s)
+[runner] closed/mcq: 960/7995 (14.41 items/s)
+[runner] closed/mcq: 992/7995 (14.42 items/s)
+[runner] closed/mcq: 1024/7995 (14.44 items/s)
+[runner] closed/mcq: 1056/7995 (14.45 items/s)
+[runner] closed/mcq: 1088/7995 (14.46 items/s)
+[runner] closed/mcq: 1120/7995 (14.46 items/s)
+[runner] closed/mcq: 1152/7995 (14.45 items/s)
+[runner] closed/mcq: 1184/7995 (14.47 items/s)
+[runner] closed/mcq: 1216/7995 (14.48 items/s)
+[runner] closed/mcq: 1248/7995 (14.48 items/s)
+[runner] closed/mcq: 1280/7995 (14.48 items/s)
+[runner] closed/mcq: 1312/7995 (14.49 items/s)
+[runner] closed/mcq: 1344/7995 (14.50 items/s)
+[runner] closed/mcq: 1376/7995 (14.49 items/s)
+[runner] closed/mcq: 1408/7995 (14.50 items/s)
+[runner] closed/mcq: 1440/7995 (14.51 items/s)
+[runner] closed/mcq: 1472/7995 (14.53 items/s)
+[runner] closed/mcq: 1504/7995 (14.54 items/s)
+[runner] closed/mcq: 1536/7995 (14.54 items/s)
+[runner] closed/mcq: 1568/7995 (14.54 items/s)
+[runner] closed/mcq: 1600/7995 (14.53 items/s)
+[runner] closed/mcq: 1632/7995 (14.51 items/s)
+[runner] closed/mcq: 1664/7995 (14.51 items/s)
+[runner] closed/mcq: 1696/7995 (14.52 items/s)
+[runner] closed/mcq: 1728/7995 (14.53 items/s)
+[runner] closed/mcq: 1760/7995 (14.53 items/s)
+[runner] closed/mcq: 1792/7995 (14.53 items/s)
+[runner] closed/mcq: 1824/7995 (14.54 items/s)
+[runner] closed/mcq: 1856/7995 (14.55 items/s)
+[runner] closed/mcq: 1888/7995 (14.56 items/s)
+[runner] closed/mcq: 1920/7995 (14.57 items/s)
+[runner] closed/mcq: 1952/7995 (14.58 items/s)
+[runner] closed/mcq: 1984/7995 (14.57 items/s)
+[runner] closed/mcq: 2016/7995 (14.58 items/s)
+[runner] closed/mcq: 2048/7995 (14.60 items/s)
+[runner] closed/mcq: 2080/7995 (14.61 items/s)
+[runner] closed/mcq: 2112/7995 (14.61 items/s)
+[runner] closed/mcq: 2144/7995 (14.62 items/s)
+[runner] closed/mcq: 2176/7995 (14.63 items/s)
+[runner] closed/mcq: 2208/7995 (14.64 items/s)
+[runner] closed/mcq: 2240/7995 (14.65 items/s)
+[runner] closed/mcq: 2272/7995 (14.66 items/s)
+[runner] closed/mcq: 2304/7995 (14.66 items/s)
+[runner] closed/mcq: 2336/7995 (14.67 items/s)
+[runner] closed/mcq: 2368/7995 (14.69 items/s)
+[runner] closed/mcq: 2400/7995 (14.68 items/s)
+[runner] closed/mcq: 2432/7995 (14.69 items/s)
+[runner] closed/mcq: 2464/7995 (14.70 items/s)
+[runner] closed/mcq: 2496/7995 (14.71 items/s)
+[runner] closed/mcq: 2528/7995 (14.73 items/s)
+[runner] closed/mcq: 2560/7995 (14.73 items/s)
+[runner] closed/mcq: 2592/7995 (14.74 items/s)
+[runner] closed/mcq: 2624/7995 (14.75 items/s)
+[runner] closed/mcq: 2656/7995 (14.74 items/s)
+[runner] closed/mcq: 2688/7995 (14.75 items/s)
+[runner] closed/mcq: 2720/7995 (14.76 items/s)
+[runner] closed/mcq: 2752/7995 (14.76 items/s)
+[runner] closed/mcq: 2784/7995 (14.77 items/s)
+[runner] closed/mcq: 2816/7995 (14.78 items/s)
+[runner] closed/mcq: 2848/7995 (14.78 items/s)
+[runner] closed/mcq: 2880/7995 (14.79 items/s)
+[runner] closed/mcq: 2912/7995 (14.79 items/s)
+[runner] closed/mcq: 2944/7995 (14.81 items/s)
+[runner] closed/mcq: 2976/7995 (14.81 items/s)
+[runner] closed/mcq: 3008/7995 (14.82 items/s)
+[runner] closed/mcq: 3040/7995 (14.82 items/s)
+[runner] closed/mcq: 3072/7995 (14.84 items/s)
+[runner] closed/mcq: 3104/7995 (14.85 items/s)
+[runner] closed/mcq: 3136/7995 (14.85 items/s)
+[runner] closed/mcq: 3168/7995 (14.86 items/s)
+[runner] closed/mcq: 3200/7995 (14.87 items/s)
+[runner] closed/mcq: 3232/7995 (14.88 items/s)
+[runner] closed/mcq: 3264/7995 (14.89 items/s)
+[runner] closed/mcq: 3296/7995 (14.90 items/s)
+[runner] closed/mcq: 3328/7995 (14.91 items/s)
+[runner] closed/mcq: 3360/7995 (14.91 items/s)
+[runner] closed/mcq: 3392/7995 (14.92 items/s)
+[runner] closed/mcq: 3424/7995 (14.92 items/s)
+[runner] closed/mcq: 3456/7995 (14.93 items/s)
+[runner] closed/mcq: 3488/7995 (14.94 items/s)
+[runner] closed/mcq: 3520/7995 (14.95 items/s)
+[runner] closed/mcq: 3552/7995 (14.96 items/s)
+[runner] closed/mcq: 3584/7995 (14.96 items/s)
+[runner] closed/mcq: 3616/7995 (14.97 items/s)
+[runner] closed/mcq: 3648/7995 (14.97 items/s)
+[runner] closed/mcq: 3680/7995 (14.98 items/s)
+[runner] closed/mcq: 3712/7995 (14.99 items/s)
+[runner] closed/mcq: 3744/7995 (15.00 items/s)
+[runner] closed/mcq: 3776/7995 (14.67 items/s)
+[runner] closed/mcq: 3808/7995 (14.66 items/s)
+[runner] closed/mcq: 3840/7995 (14.67 items/s)
+[runner] closed/mcq: 3872/7995 (14.68 items/s)
+[runner] closed/mcq: 3904/7995 (14.69 items/s)
+[runner] closed/mcq: 3936/7995 (14.70 items/s)
+[runner] closed/mcq: 3968/7995 (14.70 items/s)
+[runner] closed/mcq: 4000/7995 (14.71 items/s)
+[runner] closed/mcq: 4032/7995 (14.72 items/s)
+[runner] closed/mcq: 4064/7995 (14.74 items/s)
+[runner] closed/mcq: 4096/7995 (14.75 items/s)
+[runner] closed/mcq: 4128/7995 (14.76 items/s)
+[runner] closed/mcq: 4160/7995 (14.77 items/s)
+[runner] closed/mcq: 4192/7995 (14.78 items/s)
+[runner] closed/mcq: 4224/7995 (14.79 items/s)
+[runner] closed/mcq: 4256/7995 (14.80 items/s)
+[runner] closed/mcq: 4288/7995 (14.80 items/s)
+[runner] closed/mcq: 4320/7995 (14.81 items/s)
+[runner] closed/mcq: 4352/7995 (14.83 items/s)
+[runner] closed/mcq: 4384/7995 (14.84 items/s)
+[runner] closed/mcq: 4416/7995 (14.85 items/s)
+[runner] closed/mcq: 4448/7995 (14.86 items/s)
+[runner] closed/mcq: 4480/7995 (14.87 items/s)
+[runner] closed/mcq: 4512/7995 (14.88 items/s)
+[runner] closed/mcq: 4544/7995 (14.89 items/s)
+[runner] closed/mcq: 4576/7995 (14.89 items/s)
+[runner] closed/mcq: 4608/7995 (14.91 items/s)
+[runner] closed/mcq: 4640/7995 (14.91 items/s)
+[runner] closed/mcq: 4672/7995 (14.93 items/s)
+[runner] closed/mcq: 4704/7995 (14.94 items/s)
+[runner] closed/mcq: 4736/7995 (14.94 items/s)
+[runner] closed/mcq: 4768/7995 (14.95 items/s)
+[runner] closed/mcq: 4800/7995 (14.96 items/s)
+[runner] closed/mcq: 4832/7995 (14.97 items/s)
+[runner] closed/mcq: 4864/7995 (14.98 items/s)
+[runner] closed/mcq: 4896/7995 (14.99 items/s)
+[runner] closed/mcq: 4928/7995 (14.99 items/s)
+[runner] closed/mcq: 4960/7995 (15.00 items/s)
+[runner] closed/mcq: 4992/7995 (15.01 items/s)
+[runner] closed/mcq: 5024/7995 (15.02 items/s)
+[runner] closed/mcq: 5056/7995 (15.03 items/s)
+[runner] closed/mcq: 5088/7995 (15.04 items/s)
+[runner] closed/mcq: 5120/7995 (15.04 items/s)
+[runner] closed/mcq: 5152/7995 (15.05 items/s)
+[runner] closed/mcq: 5184/7995 (15.06 items/s)
+[runner] closed/mcq: 5216/7995 (15.08 items/s)
+[runner] closed/mcq: 5248/7995 (15.08 items/s)
+[runner] closed/mcq: 5280/7995 (15.09 items/s)
+[runner] closed/mcq: 5312/7995 (15.11 items/s)
+[runner] closed/mcq: 5320/7995 (15.11 items/s)
+[runner] closed/short: 5352/7995 (15.01 items/s)
+[runner] closed/short: 5384/7995 (14.93 items/s)
+[runner] closed/short: 5416/7995 (14.85 items/s)
+[runner] closed/short: 5448/7995 (14.76 items/s)
+[runner] closed/short: 5480/7995 (14.67 items/s)
+[runner] closed/short: 5512/7995 (14.59 items/s)
+[runner] closed/short: 5544/7995 (14.49 items/s)
+[runner] closed/short: 5576/7995 (14.41 items/s)
+[runner] closed/short: 5608/7995 (14.32 items/s)
+[runner] closed/short: 5640/7995 (14.25 items/s)
+[runner] closed/short: 5672/7995 (14.16 items/s)
+[runner] closed/short: 5704/7995 (14.09 items/s)
+[runner] closed/short: 5736/7995 (14.01 items/s)
+[runner] closed/short: 5768/7995 (13.94 items/s)
+[runner] closed/short: 5800/7995 (13.85 items/s)
+[runner] closed/short: 5832/7995 (13.78 items/s)
+[runner] closed/short: 5864/7995 (13.72 items/s)
+[runner] closed/short: 5896/7995 (13.63 items/s)
+[runner] closed/short: 5928/7995 (13.56 items/s)
+[runner] closed/short: 5960/7995 (13.48 items/s)
+[runner] closed/short: 5992/7995 (13.40 items/s)
+[runner] closed/short: 6024/7995 (13.33 items/s)
+[runner] closed/short: 6056/7995 (13.26 items/s)
+[runner] closed/short: 6088/7995 (13.19 items/s)
+[runner] closed/short: 6120/7995 (13.12 items/s)
+[runner] closed/short: 6152/7995 (13.06 items/s)
+[runner] closed/short: 6184/7995 (12.99 items/s)
+[runner] closed/short: 6216/7995 (12.93 items/s)
+[runner] closed/short: 6248/7995 (12.86 items/s)
+[runner] closed/short: 6280/7995 (12.80 items/s)
+[runner] closed/short: 6312/7995 (12.74 items/s)
+[runner] closed/short: 6344/7995 (12.67 items/s)
+[runner] closed/short: 6376/7995 (12.62 items/s)
+[runner] closed/short: 6408/7995 (12.57 items/s)
+[runner] closed/short: 6440/7995 (12.51 items/s)
+[runner] closed/short: 6472/7995 (12.45 items/s)
+[runner] closed/short: 6504/7995 (12.40 items/s)
+[runner] closed/short: 6536/7995 (12.26 items/s)
+[runner] closed/short: 6568/7995 (12.15 items/s)
+[runner] closed/short: 6600/7995 (12.09 items/s)
+[runner] closed/short: 6632/7995 (12.04 items/s)
+[runner] closed/short: 6664/7995 (12.00 items/s)
+[runner] closed/short: 6696/7995 (11.96 items/s)
+[runner] closed/short: 6728/7995 (11.91 items/s)
+[runner] closed/short: 6760/7995 (11.88 items/s)
+[runner] closed/short: 6792/7995 (11.83 items/s)
+[runner] closed/short: 6824/7995 (11.79 items/s)
+[runner] closed/short: 6856/7995 (11.73 items/s)
+[runner] closed/short: 6888/7995 (11.68 items/s)
+[runner] closed/short: 6920/7995 (11.64 items/s)
+[runner] closed/short: 6952/7995 (11.59 items/s)
+[runner] closed/short: 6984/7995 (11.55 items/s)
+[runner] closed/short: 7016/7995 (11.52 items/s)
+[runner] closed/short: 7048/7995 (11.48 items/s)
+[runner] closed/short: 7080/7995 (11.45 items/s)
+[runner] closed/short: 7112/7995 (11.40 items/s)
+[runner] closed/short: 7144/7995 (11.37 items/s)
+[runner] closed/short: 7176/7995 (11.34 items/s)
+[runner] closed/short: 7208/7995 (11.30 items/s)
+[runner] closed/short: 7240/7995 (11.26 items/s)
+[runner] closed/short: 7272/7995 (11.23 items/s)
+[runner] closed/short: 7304/7995 (11.19 items/s)
+[runner] closed/short: 7336/7995 (11.16 items/s)
+[runner] closed/short: 7368/7995 (11.13 items/s)
+[runner] closed/short: 7400/7995 (11.10 items/s)
+[runner] closed/short: 7432/7995 (11.07 items/s)
+[runner] closed/short: 7464/7995 (11.04 items/s)
+[runner] closed/short: 7496/7995 (11.01 items/s)
+[runner] closed/short: 7528/7995 (10.99 items/s)
+[runner] closed/short: 7560/7995 (10.96 items/s)
+[runner] closed/short: 7592/7995 (10.92 items/s)
+[runner] closed/short: 7624/7995 (10.88 items/s)
+[runner] closed/short: 7656/7995 (10.85 items/s)
+[runner] closed/short: 7688/7995 (10.83 items/s)
+[runner] closed/short: 7720/7995 (10.81 items/s)
+[runner] closed/short: 7752/7995 (10.78 items/s)
+[runner] closed/short: 7784/7995 (10.75 items/s)
+[runner] closed/short: 7816/7995 (10.72 items/s)
+[runner] closed/short: 7848/7995 (10.69 items/s)
+[runner] closed/short: 7880/7995 (10.67 items/s)
+[runner] closed/short: 7912/7995 (10.64 items/s)
+[runner] closed/short: 7944/7995 (10.61 items/s)
+[runner] closed/short: 7976/7995 (10.58 items/s)
+[runner] closed/short: 7995/7995 (10.56 items/s)
+{
+ "closed": {
+  "n": 7995,
+  "accuracy": 0.3490931832395247,
+  "outdated_rate": 0.5100687929956222,
+  "accuracy_nodiac": 0.34921826141338336,
+  "outdated_rate_nodiac": 0.510569105691057,
+  "labels": {
+   "correct": 2791,
+   "outdated": 4078,
+   "other_wrong": 1126,
+   "invalid": 0
+  },
+  "labels_nodiac": {
+   "correct": 2792,
+   "outdated": 4082,
+   "other_wrong": 1121,
+   "invalid": 0
+  },
+  "match_detail": {
+   "None": 235,
+   "address": 528,
+   "address_suffix": 1,
+   "ambiguous": 6,
+   "bare": 5320,
+   "exact": 180,
+   "extra_district": 39,
+   "first_segment": 1270,
+   "level_mismatch": 2,
+   "nodiac": 194,
+   "nodiac:address": 191,
+   "nodiac:extra_district": 10,
+   "nodiac:level_mismatch": 5,
+   "numeric": 3,
+   "relation": 10,
+   "relation_contained": 1
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.12333333333333334,
+    "outdated_rate": 0.5375,
+    "labels": {
+     "correct": 148,
+     "outdated": 645,
+     "other_wrong": 407,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.5033333333333333,
+    "outdated_rate": 0.4766666666666667,
+    "labels": {
+     "correct": 604,
+     "outdated": 572,
+     "other_wrong": 24,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.07333333333333333
+  }
+ }
+}
+[runner] 7995 done, 7995 pending, model=gemma-3-4b-it-Q8_0
+[runner] rag_mixed/mcq: 32/7995 (6.73 items/s)
+[runner] rag_mixed/mcq: 64/7995 (6.38 items/s)
+[runner] rag_mixed/mcq: 96/7995 (6.64 items/s)
+[runner] rag_mixed/mcq: 128/7995 (6.65 items/s)
+[runner] rag_mixed/mcq: 160/7995 (6.76 items/s)
+[runner] rag_mixed/mcq: 192/7995 (6.93 items/s)
+[runner] rag_mixed/mcq: 224/7995 (6.81 items/s)
+[runner] rag_mixed/mcq: 256/7995 (6.92 items/s)
+[runner] rag_mixed/mcq: 288/7995 (7.03 items/s)
+[runner] rag_mixed/mcq: 320/7995 (6.33 items/s)
+[runner] rag_mixed/mcq: 352/7995 (6.39 items/s)
+[runner] rag_mixed/mcq: 384/7995 (6.51 items/s)
+[runner] rag_mixed/mcq: 416/7995 (6.58 items/s)
+[runner] rag_mixed/mcq: 448/7995 (6.70 items/s)
+[runner] rag_mixed/mcq: 480/7995 (6.77 items/s)
+[runner] rag_mixed/mcq: 512/7995 (6.83 items/s)
+[runner] rag_mixed/mcq: 544/7995 (6.87 items/s)
+[runner] rag_mixed/mcq: 576/7995 (6.93 items/s)
+[runner] rag_mixed/mcq: 608/7995 (6.96 items/s)
+[runner] rag_mixed/mcq: 640/7995 (7.00 items/s)
+[runner] rag_mixed/mcq: 672/7995 (7.02 items/s)
+[runner] rag_mixed/mcq: 704/7995 (7.04 items/s)
+[runner] rag_mixed/mcq: 736/7995 (7.04 items/s)
+[runner] rag_mixed/mcq: 768/7995 (7.07 items/s)
+[runner] rag_mixed/mcq: 800/7995 (7.10 items/s)
+[runner] rag_mixed/mcq: 832/7995 (7.11 items/s)
+[runner] rag_mixed/mcq: 864/7995 (7.12 items/s)
+[runner] rag_mixed/mcq: 896/7995 (7.12 items/s)
+[runner] rag_mixed/mcq: 928/7995 (7.16 items/s)
+[runner] rag_mixed/mcq: 960/7995 (7.19 items/s)
+[runner] rag_mixed/mcq: 992/7995 (7.20 items/s)
+[runner] rag_mixed/mcq: 1024/7995 (7.19 items/s)
+[runner] rag_mixed/mcq: 1056/7995 (7.22 items/s)
+[runner] rag_mixed/mcq: 1088/7995 (7.20 items/s)
+[runner] rag_mixed/mcq: 1120/7995 (7.21 items/s)
+[runner] rag_mixed/mcq: 1152/7995 (7.22 items/s)
+[runner] rag_mixed/mcq: 1184/7995 (7.23 items/s)
+[runner] rag_mixed/mcq: 1216/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 1248/7995 (7.23 items/s)
+[runner] rag_mixed/mcq: 1280/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 1312/7995 (7.25 items/s)
+[runner] rag_mixed/mcq: 1344/7995 (7.26 items/s)
+[runner] rag_mixed/mcq: 1376/7995 (7.26 items/s)
+[runner] rag_mixed/mcq: 1408/7995 (7.28 items/s)
+[runner] rag_mixed/mcq: 1440/7995 (7.29 items/s)
+[runner] rag_mixed/mcq: 1472/7995 (7.29 items/s)
+[runner] rag_mixed/mcq: 1504/7995 (7.30 items/s)
+[runner] rag_mixed/mcq: 1536/7995 (7.31 items/s)
+[runner] rag_mixed/mcq: 1568/7995 (7.29 items/s)
+[runner] rag_mixed/mcq: 1600/7995 (7.31 items/s)
+[runner] rag_mixed/mcq: 1632/7995 (7.32 items/s)
+[runner] rag_mixed/mcq: 1664/7995 (7.32 items/s)
+[runner] rag_mixed/mcq: 1696/7995 (7.34 items/s)
+[runner] rag_mixed/mcq: 1728/7995 (7.34 items/s)
+[runner] rag_mixed/mcq: 1760/7995 (7.35 items/s)
+[runner] rag_mixed/mcq: 1792/7995 (7.36 items/s)
+[runner] rag_mixed/mcq: 1824/7995 (7.37 items/s)
+[runner] rag_mixed/mcq: 1856/7995 (7.37 items/s)
+[runner] rag_mixed/mcq: 1888/7995 (7.39 items/s)
+[runner] rag_mixed/mcq: 1920/7995 (7.39 items/s)
+[runner] rag_mixed/mcq: 1952/7995 (7.39 items/s)
+[runner] rag_mixed/mcq: 1984/7995 (7.40 items/s)
+[runner] rag_mixed/mcq: 2016/7995 (7.40 items/s)
+[runner] rag_mixed/mcq: 2048/7995 (7.40 items/s)
+[runner] rag_mixed/mcq: 2080/7995 (7.40 items/s)
+[runner] rag_mixed/mcq: 2112/7995 (7.41 items/s)
+[runner] rag_mixed/mcq: 2144/7995 (7.41 items/s)
+[runner] rag_mixed/mcq: 2176/7995 (7.41 items/s)
+[runner] rag_mixed/mcq: 2208/7995 (7.41 items/s)
+[runner] rag_mixed/mcq: 2240/7995 (7.41 items/s)
+[runner] rag_mixed/mcq: 2272/7995 (7.42 items/s)
+[runner] rag_mixed/mcq: 2304/7995 (7.42 items/s)
+[runner] rag_mixed/mcq: 2336/7995 (7.41 items/s)
+[runner] rag_mixed/mcq: 2368/7995 (7.41 items/s)
+[runner] rag_mixed/mcq: 2400/7995 (7.28 items/s)
+[runner] rag_mixed/mcq: 2432/7995 (7.27 items/s)
+[runner] rag_mixed/mcq: 2464/7995 (7.26 items/s)
+[runner] rag_mixed/mcq: 2496/7995 (7.26 items/s)
+[runner] rag_mixed/mcq: 2528/7995 (7.26 items/s)
+[runner] rag_mixed/mcq: 2560/7995 (7.25 items/s)
+[runner] rag_mixed/mcq: 2592/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2624/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2656/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2688/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2720/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2752/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2784/7995 (7.25 items/s)
+[runner] rag_mixed/mcq: 2816/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2848/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2880/7995 (7.23 items/s)
+[runner] rag_mixed/mcq: 2912/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 2944/7995 (7.23 items/s)
+[runner] rag_mixed/mcq: 2976/7995 (7.23 items/s)
+[runner] rag_mixed/mcq: 3008/7995 (7.22 items/s)
+[runner] rag_mixed/mcq: 3040/7995 (7.22 items/s)
+[runner] rag_mixed/mcq: 3072/7995 (7.22 items/s)
+[runner] rag_mixed/mcq: 3104/7995 (7.20 items/s)
+[runner] rag_mixed/mcq: 3136/7995 (7.20 items/s)
+[runner] rag_mixed/mcq: 3168/7995 (7.21 items/s)
+[runner] rag_mixed/mcq: 3200/7995 (7.19 items/s)
+[runner] rag_mixed/mcq: 3232/7995 (7.19 items/s)
+[runner] rag_mixed/mcq: 3264/7995 (7.19 items/s)
+[runner] rag_mixed/mcq: 3296/7995 (7.19 items/s)
+[runner] rag_mixed/mcq: 3328/7995 (7.18 items/s)
+[runner] rag_mixed/mcq: 3360/7995 (7.18 items/s)
+[runner] rag_mixed/mcq: 3392/7995 (7.17 items/s)
+[runner] rag_mixed/mcq: 3424/7995 (7.16 items/s)
+[runner] rag_mixed/mcq: 3456/7995 (7.14 items/s)
+[runner] rag_mixed/mcq: 3488/7995 (7.13 items/s)
+[runner] rag_mixed/mcq: 3520/7995 (7.13 items/s)
+[runner] rag_mixed/mcq: 3552/7995 (7.12 items/s)
+[runner] rag_mixed/mcq: 3584/7995 (7.12 items/s)
+[runner] rag_mixed/mcq: 3616/7995 (7.13 items/s)
+[runner] rag_mixed/mcq: 3648/7995 (7.14 items/s)
+[runner] rag_mixed/mcq: 3680/7995 (7.17 items/s)
+[runner] rag_mixed/mcq: 3712/7995 (7.18 items/s)
+[runner] rag_mixed/mcq: 3744/7995 (7.20 items/s)
+[runner] rag_mixed/mcq: 3776/7995 (7.22 items/s)
+[runner] rag_mixed/mcq: 3808/7995 (7.23 items/s)
+[runner] rag_mixed/mcq: 3840/7995 (7.24 items/s)
+[runner] rag_mixed/mcq: 3872/7995 (7.26 items/s)
+[runner] rag_mixed/mcq: 3904/7995 (7.28 items/s)
+[runner] rag_mixed/mcq: 3936/7995 (7.29 items/s)
+[runner] rag_mixed/mcq: 3968/7995 (7.31 items/s)
+[runner] rag_mixed/mcq: 4000/7995 (7.33 items/s)
+[runner] rag_mixed/mcq: 4032/7995 (7.34 items/s)
+[runner] rag_mixed/mcq: 4064/7995 (7.36 items/s)
+[runner] rag_mixed/mcq: 4096/7995 (7.37 items/s)
+[runner] rag_mixed/mcq: 4128/7995 (7.39 items/s)
+[runner] rag_mixed/mcq: 4160/7995 (7.40 items/s)
+[runner] rag_mixed/mcq: 4192/7995 (7.42 items/s)
+[runner] rag_mixed/mcq: 4224/7995 (7.43 items/s)
+[runner] rag_mixed/mcq: 4256/7995 (7.45 items/s)
+[runner] rag_mixed/mcq: 4288/7995 (7.46 items/s)
+[runner] rag_mixed/mcq: 4320/7995 (7.48 items/s)
+[runner] rag_mixed/mcq: 4352/7995 (7.49 items/s)
+[runner] rag_mixed/mcq: 4384/7995 (7.51 items/s)
+[runner] rag_mixed/mcq: 4416/7995 (7.52 items/s)
+[runner] rag_mixed/mcq: 4448/7995 (7.53 items/s)
+[runner] rag_mixed/mcq: 4480/7995 (7.54 items/s)
+[runner] rag_mixed/mcq: 4512/7995 (7.55 items/s)
+[runner] rag_mixed/mcq: 4544/7995 (7.51 items/s)
+[runner] rag_mixed/mcq: 4576/7995 (7.52 items/s)
+[runner] rag_mixed/mcq: 4608/7995 (7.53 items/s)
+[runner] rag_mixed/mcq: 4640/7995 (7.54 items/s)
+[runner] rag_mixed/mcq: 4672/7995 (7.55 items/s)
+[runner] rag_mixed/mcq: 4704/7995 (7.56 items/s)
+[runner] rag_mixed/mcq: 4736/7995 (7.58 items/s)
+[runner] rag_mixed/mcq: 4768/7995 (7.59 items/s)
+[runner] rag_mixed/mcq: 4800/7995 (7.60 items/s)
+[runner] rag_mixed/mcq: 4832/7995 (7.62 items/s)
+[runner] rag_mixed/mcq: 4864/7995 (7.63 items/s)
+[runner] rag_mixed/mcq: 4896/7995 (7.64 items/s)
+[runner] rag_mixed/mcq: 4928/7995 (7.66 items/s)
+[runner] rag_mixed/mcq: 4960/7995 (7.67 items/s)
+[runner] rag_mixed/mcq: 4992/7995 (7.68 items/s)
+[runner] rag_mixed/mcq: 5024/7995 (7.69 items/s)
+[runner] rag_mixed/mcq: 5056/7995 (7.70 items/s)
+[runner] rag_mixed/mcq: 5088/7995 (7.71 items/s)
+[runner] rag_mixed/mcq: 5120/7995 (7.72 items/s)
+[runner] rag_mixed/mcq: 5152/7995 (7.73 items/s)
+[runner] rag_mixed/mcq: 5184/7995 (7.74 items/s)
+[runner] rag_mixed/mcq: 5216/7995 (7.75 items/s)
+[runner] rag_mixed/mcq: 5248/7995 (7.75 items/s)
+[runner] rag_mixed/mcq: 5280/7995 (7.77 items/s)
+[runner] rag_mixed/mcq: 5312/7995 (7.78 items/s)
+[runner] rag_mixed/mcq: 5320/7995 (7.78 items/s)
+[runner] rag_mixed/short: 5352/7995 (7.79 items/s)
+[runner] rag_mixed/short: 5384/7995 (7.80 items/s)
+[runner] rag_mixed/short: 5416/7995 (7.80 items/s)
+[runner] rag_mixed/short: 5448/7995 (7.81 items/s)
+[runner] rag_mixed/short: 5480/7995 (7.81 items/s)
+[runner] rag_mixed/short: 5512/7995 (7.82 items/s)
+[runner] rag_mixed/short: 5544/7995 (7.82 items/s)
+[runner] rag_mixed/short: 5576/7995 (7.83 items/s)
+[runner] rag_mixed/short: 5608/7995 (7.83 items/s)
+[runner] rag_mixed/short: 5640/7995 (7.84 items/s)
+[runner] rag_mixed/short: 5672/7995 (7.85 items/s)
+[runner] rag_mixed/short: 5704/7995 (7.85 items/s)
+[runner] rag_mixed/short: 5736/7995 (7.85 items/s)
+[runner] rag_mixed/short: 5768/7995 (7.86 items/s)
+[runner] rag_mixed/short: 5800/7995 (7.86 items/s)
+[runner] rag_mixed/short: 5832/7995 (7.86 items/s)
+[runner] rag_mixed/short: 5864/7995 (7.87 items/s)
+[runner] rag_mixed/short: 5896/7995 (7.87 items/s)
+[runner] rag_mixed/short: 5928/7995 (7.87 items/s)
+[runner] rag_mixed/short: 5960/7995 (7.87 items/s)
+[runner] rag_mixed/short: 5992/7995 (7.87 items/s)
+[runner] rag_mixed/short: 6024/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6056/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6088/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6120/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6152/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6184/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6216/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6248/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6280/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6312/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6344/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6376/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6408/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6440/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6472/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6504/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6536/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6568/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6600/7995 (7.86 items/s)
+[runner] rag_mixed/short: 6632/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6664/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6696/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6728/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6760/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6792/7995 (7.85 items/s)
+[runner] rag_mixed/short: 6824/7995 (7.84 items/s)
+[runner] rag_mixed/short: 6856/7995 (7.84 items/s)
+[runner] rag_mixed/short: 6888/7995 (7.80 items/s)
+[runner] rag_mixed/short: 6920/7995 (7.79 items/s)
+[runner] rag_mixed/short: 6952/7995 (7.79 items/s)
+[runner] rag_mixed/short: 6984/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7016/7995 (7.80 items/s)
+[runner] rag_mixed/short: 7048/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7080/7995 (7.80 items/s)
+[runner] rag_mixed/short: 7112/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7144/7995 (7.80 items/s)
+[runner] rag_mixed/short: 7176/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7208/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7240/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7272/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7304/7995 (7.80 items/s)
+[runner] rag_mixed/short: 7336/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7368/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7400/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7432/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7464/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7496/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7528/7995 (7.80 items/s)
+[runner] rag_mixed/short: 7560/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7592/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7624/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7656/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7688/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7720/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7752/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7784/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7816/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7848/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7880/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7912/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7944/7995 (7.79 items/s)
+[runner] rag_mixed/short: 7976/7995 (7.80 items/s)
+[runner] rag_mixed/short: 7995/7995 (7.80 items/s)
+{
+ "closed": {
+  "n": 7995,
+  "accuracy": 0.3490931832395247,
+  "outdated_rate": 0.5100687929956222,
+  "accuracy_nodiac": 0.34921826141338336,
+  "outdated_rate_nodiac": 0.510569105691057,
+  "labels": {
+   "correct": 2791,
+   "outdated": 4078,
+   "other_wrong": 1126,
+   "invalid": 0
+  },
+  "labels_nodiac": {
+   "correct": 2792,
+   "outdated": 4082,
+   "other_wrong": 1121,
+   "invalid": 0
+  },
+  "match_detail": {
+   "None": 235,
+   "address": 528,
+   "address_suffix": 1,
+   "ambiguous": 6,
+   "bare": 5320,
+   "exact": 180,
+   "extra_district": 39,
+   "first_segment": 1270,
+   "level_mismatch": 2,
+   "nodiac": 194,
+   "nodiac:address": 191,
+   "nodiac:extra_district": 10,
+   "nodiac:level_mismatch": 5,
+   "numeric": 3,
+   "relation": 10,
+   "relation_contained": 1
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.12333333333333334,
+    "outdated_rate": 0.5375,
+    "labels": {
+     "correct": 148,
+     "outdated": 645,
+     "other_wrong": 407,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.5033333333333333,
+    "outdated_rate": 0.4766666666666667,
+    "labels": {
+     "correct": 604,
+     "outdated": 572,
+     "other_wrong": 24,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.07333333333333333
+  }
+ },
+ "rag_mixed": {
+  "n": 7995,
+  "accuracy": 0.7033145716072545,
+  "outdated_rate": 0.2271419637273296,
+  "accuracy_nodiac": 0.7034396497811132,
+  "outdated_rate_nodiac": 0.2271419637273296,
+  "labels": {
+   "correct": 5623,
+   "outdated": 1816,
+   "other_wrong": 553,
+   "invalid": 3
+  },
+  "labels_nodiac": {
+   "correct": 5624,
+   "outdated": 1816,
+   "other_wrong": 552,
+   "invalid": 3
+  },
+  "match_detail": {
+   "None": 347,
+   "abstain": 3,
+   "address": 666,
+   "ambiguous": 21,
+   "bare": 5320,
+   "contained": 3,
+   "exact": 85,
+   "first_segment": 1141,
+   "legacy_name": 2,
+   "level_mismatch": 1,
+   "nodiac": 77,
+   "nodiac:address": 322,
+   "nodiac:partial": 1,
+   "partial": 5,
+   "relation": 1
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.9483333333333334,
+    "outdated_rate": 0.03666666666666667,
+    "labels": {
+     "correct": 1138,
+     "outdated": 44,
+     "other_wrong": 18,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.8133333333333334,
+    "outdated_rate": 0.18,
+    "labels": {
+     "correct": 976,
+     "outdated": 216,
+     "other_wrong": 8,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.7883333333333333
+  }
+ }
+}
+[runner] 15990 done, 7995 pending, model=gemma-3-4b-it-Q8_0
+[runner] rag_new/mcq: 32/7995 (12.71 items/s)
+[runner] rag_new/mcq: 64/7995 (14.18 items/s)
+[runner] rag_new/mcq: 96/7995 (14.94 items/s)
+[runner] rag_new/mcq: 128/7995 (14.48 items/s)
+[runner] rag_new/mcq: 160/7995 (14.53 items/s)
+[runner] rag_new/mcq: 192/7995 (14.77 items/s)
+[runner] rag_new/mcq: 224/7995 (14.61 items/s)
+[runner] rag_new/mcq: 256/7995 (14.66 items/s)
+[runner] rag_new/mcq: 288/7995 (14.83 items/s)
+[runner] rag_new/mcq: 320/7995 (14.96 items/s)
+[runner] rag_new/mcq: 352/7995 (14.90 items/s)
+[runner] rag_new/mcq: 384/7995 (14.90 items/s)
+[runner] rag_new/mcq: 416/7995 (15.02 items/s)
+[runner] rag_new/mcq: 448/7995 (15.17 items/s)
+[runner] rag_new/mcq: 480/7995 (14.91 items/s)
+[runner] rag_new/mcq: 512/7995 (15.02 items/s)
+[runner] rag_new/mcq: 544/7995 (15.13 items/s)
+[runner] rag_new/mcq: 576/7995 (15.19 items/s)
+[runner] rag_new/mcq: 608/7995 (15.19 items/s)
+[runner] rag_new/mcq: 640/7995 (15.28 items/s)
+[runner] rag_new/mcq: 672/7995 (15.31 items/s)
+[runner] rag_new/mcq: 704/7995 (15.38 items/s)
+[runner] rag_new/mcq: 736/7995 (15.35 items/s)
+[runner] rag_new/mcq: 768/7995 (15.37 items/s)
+[runner] rag_new/mcq: 800/7995 (15.46 items/s)
+[runner] rag_new/mcq: 832/7995 (15.53 items/s)
+[runner] rag_new/mcq: 864/7995 (15.54 items/s)
+[runner] rag_new/mcq: 896/7995 (15.46 items/s)
+[runner] rag_new/mcq: 928/7995 (15.54 items/s)
+[runner] rag_new/mcq: 960/7995 (15.59 items/s)
+[runner] rag_new/mcq: 992/7995 (15.66 items/s)
+[runner] rag_new/mcq: 1024/7995 (15.66 items/s)
+[runner] rag_new/mcq: 1056/7995 (15.68 items/s)
+[runner] rag_new/mcq: 1088/7995 (15.63 items/s)
+[runner] rag_new/mcq: 1120/7995 (15.65 items/s)
+[runner] rag_new/mcq: 1152/7995 (15.61 items/s)
+[runner] rag_new/mcq: 1184/7995 (15.63 items/s)
+[runner] rag_new/mcq: 1216/7995 (15.63 items/s)
+[runner] rag_new/mcq: 1248/7995 (15.65 items/s)
+[runner] rag_new/mcq: 1280/7995 (15.65 items/s)
+[runner] rag_new/mcq: 1312/7995 (15.64 items/s)
+[runner] rag_new/mcq: 1344/7995 (15.66 items/s)
+[runner] rag_new/mcq: 1376/7995 (15.67 items/s)
+[runner] rag_new/mcq: 1408/7995 (15.69 items/s)
+[runner] rag_new/mcq: 1440/7995 (15.66 items/s)
+[runner] rag_new/mcq: 1472/7995 (15.67 items/s)
+[runner] rag_new/mcq: 1504/7995 (15.71 items/s)
+[runner] rag_new/mcq: 1536/7995 (15.73 items/s)
+[runner] rag_new/mcq: 1568/7995 (15.69 items/s)
+[runner] rag_new/mcq: 1600/7995 (15.72 items/s)
+[runner] rag_new/mcq: 1632/7995 (15.71 items/s)
+[runner] rag_new/mcq: 1664/7995 (15.72 items/s)
+[runner] rag_new/mcq: 1696/7995 (15.75 items/s)
+[runner] rag_new/mcq: 1728/7995 (15.69 items/s)
+[runner] rag_new/mcq: 1760/7995 (15.70 items/s)
+[runner] rag_new/mcq: 1792/7995 (15.73 items/s)
+[runner] rag_new/mcq: 1824/7995 (15.68 items/s)
+[runner] rag_new/mcq: 1856/7995 (15.39 items/s)
+[runner] rag_new/mcq: 1888/7995 (14.98 items/s)
+[runner] rag_new/mcq: 1920/7995 (15.01 items/s)
+[runner] rag_new/mcq: 1952/7995 (14.99 items/s)
+[runner] rag_new/mcq: 1984/7995 (15.03 items/s)
+[runner] rag_new/mcq: 2016/7995 (15.05 items/s)
+[runner] rag_new/mcq: 2048/7995 (15.08 items/s)
+[runner] rag_new/mcq: 2080/7995 (15.07 items/s)
+[runner] rag_new/mcq: 2112/7995 (15.06 items/s)
+[runner] rag_new/mcq: 2144/7995 (15.10 items/s)
+[runner] rag_new/mcq: 2176/7995 (15.13 items/s)
+[runner] rag_new/mcq: 2208/7995 (15.13 items/s)
+[runner] rag_new/mcq: 2240/7995 (15.14 items/s)
+[runner] rag_new/mcq: 2272/7995 (15.13 items/s)
+[runner] rag_new/mcq: 2304/7995 (15.13 items/s)
+[runner] rag_new/mcq: 2336/7995 (15.14 items/s)
+[runner] rag_new/mcq: 2368/7995 (15.14 items/s)
+[runner] rag_new/mcq: 2400/7995 (15.09 items/s)
+[runner] rag_new/mcq: 2432/7995 (15.09 items/s)
+[runner] rag_new/mcq: 2464/7995 (15.10 items/s)
+[runner] rag_new/mcq: 2496/7995 (15.09 items/s)
+[runner] rag_new/mcq: 2528/7995 (15.09 items/s)
+[runner] rag_new/mcq: 2560/7995 (15.08 items/s)
+[runner] rag_new/mcq: 2592/7995 (15.07 items/s)
+[runner] rag_new/mcq: 2624/7995 (15.08 items/s)
+[runner] rag_new/mcq: 2656/7995 (15.07 items/s)
+[runner] rag_new/mcq: 2688/7995 (15.06 items/s)
+[runner] rag_new/mcq: 2720/7995 (15.04 items/s)
+[runner] rag_new/mcq: 2752/7995 (15.03 items/s)
+[runner] rag_new/mcq: 2784/7995 (15.02 items/s)
+[runner] rag_new/mcq: 2816/7995 (15.04 items/s)
+[runner] rag_new/mcq: 2848/7995 (15.04 items/s)
+[runner] rag_new/mcq: 2880/7995 (15.02 items/s)
+[runner] rag_new/mcq: 2912/7995 (15.02 items/s)
+[runner] rag_new/mcq: 2944/7995 (15.03 items/s)
+[runner] rag_new/mcq: 2976/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3008/7995 (15.03 items/s)
+[runner] rag_new/mcq: 3040/7995 (15.03 items/s)
+[runner] rag_new/mcq: 3072/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3104/7995 (15.03 items/s)
+[runner] rag_new/mcq: 3136/7995 (15.02 items/s)
+[runner] rag_new/mcq: 3168/7995 (15.03 items/s)
+[runner] rag_new/mcq: 3200/7995 (15.02 items/s)
+[runner] rag_new/mcq: 3232/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3264/7995 (15.03 items/s)
+[runner] rag_new/mcq: 3296/7995 (15.03 items/s)
+[runner] rag_new/mcq: 3328/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3360/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3392/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3424/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3456/7995 (15.05 items/s)
+[runner] rag_new/mcq: 3488/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3520/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3552/7995 (15.05 items/s)
+[runner] rag_new/mcq: 3584/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3616/7995 (15.03 items/s)
+[runner] rag_new/mcq: 3648/7995 (15.03 items/s)
+[runner] rag_new/mcq: 3680/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3712/7995 (15.04 items/s)
+[runner] rag_new/mcq: 3744/7995 (15.05 items/s)
+[runner] rag_new/mcq: 3776/7995 (15.06 items/s)
+[runner] rag_new/mcq: 3808/7995 (15.06 items/s)
+[runner] rag_new/mcq: 3840/7995 (15.07 items/s)
+[runner] rag_new/mcq: 3872/7995 (15.06 items/s)
+[runner] rag_new/mcq: 3904/7995 (15.06 items/s)
+[runner] rag_new/mcq: 3936/7995 (15.07 items/s)
+[runner] rag_new/mcq: 3968/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4000/7995 (15.09 items/s)
+[runner] rag_new/mcq: 4032/7995 (15.08 items/s)
+[runner] rag_new/mcq: 4064/7995 (15.08 items/s)
+[runner] rag_new/mcq: 4096/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4128/7995 (15.08 items/s)
+[runner] rag_new/mcq: 4160/7995 (15.08 items/s)
+[runner] rag_new/mcq: 4192/7995 (15.08 items/s)
+[runner] rag_new/mcq: 4224/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4256/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4288/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4320/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4352/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4384/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4416/7995 (15.06 items/s)
+[runner] rag_new/mcq: 4448/7995 (15.06 items/s)
+[runner] rag_new/mcq: 4480/7995 (15.06 items/s)
+[runner] rag_new/mcq: 4512/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4544/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4576/7995 (15.07 items/s)
+[runner] rag_new/mcq: 4608/7995 (15.08 items/s)
+[runner] rag_new/mcq: 4640/7995 (15.08 items/s)
+[runner] rag_new/mcq: 4672/7995 (15.09 items/s)
+[runner] rag_new/mcq: 4704/7995 (15.09 items/s)
+[runner] rag_new/mcq: 4736/7995 (15.09 items/s)
+[runner] rag_new/mcq: 4768/7995 (15.10 items/s)
+[runner] rag_new/mcq: 4800/7995 (15.09 items/s)
+[runner] rag_new/mcq: 4832/7995 (15.09 items/s)
+[runner] rag_new/mcq: 4864/7995 (15.09 items/s)
+[runner] rag_new/mcq: 4896/7995 (15.10 items/s)
+[runner] rag_new/mcq: 4928/7995 (15.11 items/s)
+[runner] rag_new/mcq: 4960/7995 (15.11 items/s)
+[runner] rag_new/mcq: 4992/7995 (15.11 items/s)
+[runner] rag_new/mcq: 5024/7995 (15.11 items/s)
+[runner] rag_new/mcq: 5056/7995 (15.11 items/s)
+[runner] rag_new/mcq: 5088/7995 (15.11 items/s)
+[runner] rag_new/mcq: 5120/7995 (15.11 items/s)
+[runner] rag_new/mcq: 5152/7995 (15.12 items/s)
+[runner] rag_new/mcq: 5184/7995 (15.12 items/s)
+[runner] rag_new/mcq: 5216/7995 (15.14 items/s)
+[runner] rag_new/mcq: 5248/7995 (15.14 items/s)
+[runner] rag_new/mcq: 5280/7995 (15.15 items/s)
+[runner] rag_new/mcq: 5312/7995 (15.15 items/s)
+[runner] rag_new/mcq: 5320/7995 (15.16 items/s)
+[runner] rag_new/short: 5352/7995 (15.14 items/s)
+[runner] rag_new/short: 5384/7995 (15.11 items/s)
+[runner] rag_new/short: 5416/7995 (15.08 items/s)
+[runner] rag_new/short: 5448/7995 (15.05 items/s)
+[runner] rag_new/short: 5480/7995 (15.03 items/s)
+[runner] rag_new/short: 5512/7995 (15.00 items/s)
+[runner] rag_new/short: 5544/7995 (14.97 items/s)
+[runner] rag_new/short: 5576/7995 (14.94 items/s)
+[runner] rag_new/short: 5608/7995 (14.92 items/s)
+[runner] rag_new/short: 5640/7995 (14.91 items/s)
+[runner] rag_new/short: 5672/7995 (14.89 items/s)
+[runner] rag_new/short: 5704/7995 (14.87 items/s)
+[runner] rag_new/short: 5736/7995 (14.85 items/s)
+[runner] rag_new/short: 5768/7995 (14.83 items/s)
+[runner] rag_new/short: 5800/7995 (14.80 items/s)
+[runner] rag_new/short: 5832/7995 (14.77 items/s)
+[runner] rag_new/short: 5864/7995 (14.52 items/s)
+[runner] rag_new/short: 5896/7995 (14.50 items/s)
+[runner] rag_new/short: 5928/7995 (14.47 items/s)
+[runner] rag_new/short: 5960/7995 (14.43 items/s)
+[runner] rag_new/short: 5992/7995 (14.41 items/s)
+[runner] rag_new/short: 6024/7995 (14.38 items/s)
+[runner] rag_new/short: 6056/7995 (14.35 items/s)
+[runner] rag_new/short: 6088/7995 (14.33 items/s)
+[runner] rag_new/short: 6120/7995 (14.29 items/s)
+[runner] rag_new/short: 6152/7995 (14.27 items/s)
+[runner] rag_new/short: 6184/7995 (14.24 items/s)
+[runner] rag_new/short: 6216/7995 (14.22 items/s)
+[runner] rag_new/short: 6248/7995 (14.20 items/s)
+[runner] rag_new/short: 6280/7995 (14.17 items/s)
+[runner] rag_new/short: 6312/7995 (14.14 items/s)
+[runner] rag_new/short: 6344/7995 (14.13 items/s)
+[runner] rag_new/short: 6376/7995 (14.11 items/s)
+[runner] rag_new/short: 6408/7995 (14.09 items/s)
+[runner] rag_new/short: 6440/7995 (14.07 items/s)
+[runner] rag_new/short: 6472/7995 (14.05 items/s)
+[runner] rag_new/short: 6504/7995 (14.03 items/s)
+[runner] rag_new/short: 6536/7995 (14.00 items/s)
+[runner] rag_new/short: 6568/7995 (13.98 items/s)
+[runner] rag_new/short: 6600/7995 (13.96 items/s)
+[runner] rag_new/short: 6632/7995 (13.93 items/s)
+[runner] rag_new/short: 6664/7995 (13.92 items/s)
+[runner] rag_new/short: 6696/7995 (13.89 items/s)
+[runner] rag_new/short: 6728/7995 (13.87 items/s)
+[runner] rag_new/short: 6760/7995 (13.85 items/s)
+[runner] rag_new/short: 6792/7995 (13.82 items/s)
+[runner] rag_new/short: 6824/7995 (13.79 items/s)
+[runner] rag_new/short: 6856/7995 (13.78 items/s)
+[runner] rag_new/short: 6888/7995 (13.75 items/s)
+[runner] rag_new/short: 6920/7995 (13.74 items/s)
+[runner] rag_new/short: 6952/7995 (13.72 items/s)
+[runner] rag_new/short: 6984/7995 (13.70 items/s)
+[runner] rag_new/short: 7016/7995 (13.68 items/s)
+[runner] rag_new/short: 7048/7995 (13.66 items/s)
+[runner] rag_new/short: 7080/7995 (13.63 items/s)
+[runner] rag_new/short: 7112/7995 (13.62 items/s)
+[runner] rag_new/short: 7144/7995 (13.60 items/s)
+[runner] rag_new/short: 7176/7995 (13.58 items/s)
+[runner] rag_new/short: 7208/7995 (13.55 items/s)
+[runner] rag_new/short: 7240/7995 (13.54 items/s)
+[runner] rag_new/short: 7272/7995 (13.52 items/s)
+[runner] rag_new/short: 7304/7995 (13.51 items/s)
+[runner] rag_new/short: 7336/7995 (13.49 items/s)
+[runner] rag_new/short: 7368/7995 (13.47 items/s)
+[runner] rag_new/short: 7400/7995 (13.45 items/s)
+[runner] rag_new/short: 7432/7995 (13.43 items/s)
+[runner] rag_new/short: 7464/7995 (13.42 items/s)
+[runner] rag_new/short: 7496/7995 (13.40 items/s)
+[runner] rag_new/short: 7528/7995 (13.38 items/s)
+[runner] rag_new/short: 7560/7995 (13.38 items/s)
+[runner] rag_new/short: 7592/7995 (13.36 items/s)
+[runner] rag_new/short: 7624/7995 (13.35 items/s)
+[runner] rag_new/short: 7656/7995 (13.34 items/s)
+[runner] rag_new/short: 7688/7995 (13.32 items/s)
+[runner] rag_new/short: 7720/7995 (13.29 items/s)
+[runner] rag_new/short: 7752/7995 (13.27 items/s)
+[runner] rag_new/short: 7784/7995 (13.25 items/s)
+[runner] rag_new/short: 7816/7995 (13.24 items/s)
+[runner] rag_new/short: 7848/7995 (13.20 items/s)
+[runner] rag_new/short: 7880/7995 (13.18 items/s)
+[runner] rag_new/short: 7912/7995 (13.14 items/s)
+[runner] rag_new/short: 7944/7995 (13.11 items/s)
+[runner] rag_new/short: 7976/7995 (13.08 items/s)
+[runner] rag_new/short: 7995/7995 (13.05 items/s)
+{
+ "closed": {
+  "n": 7995,
+  "accuracy": 0.3490931832395247,
+  "outdated_rate": 0.5100687929956222,
+  "accuracy_nodiac": 0.34921826141338336,
+  "outdated_rate_nodiac": 0.510569105691057,
+  "labels": {
+   "correct": 2791,
+   "outdated": 4078,
+   "other_wrong": 1126,
+   "invalid": 0
+  },
+  "labels_nodiac": {
+   "correct": 2792,
+   "outdated": 4082,
+   "other_wrong": 1121,
+   "invalid": 0
+  },
+  "match_detail": {
+   "None": 235,
+   "address": 528,
+   "address_suffix": 1,
+   "ambiguous": 6,
+   "bare": 5320,
+   "exact": 180,
+   "extra_district": 39,
+   "first_segment": 1270,
+   "level_mismatch": 2,
+   "nodiac": 194,
+   "nodiac:address": 191,
+   "nodiac:extra_district": 10,
+   "nodiac:level_mismatch": 5,
+   "numeric": 3,
+   "relation": 10,
+   "relation_contained": 1
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.12333333333333334,
+    "outdated_rate": 0.5375,
+    "labels": {
+     "correct": 148,
+     "outdated": 645,
+     "other_wrong": 407,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.5033333333333333,
+    "outdated_rate": 0.4766666666666667,
+    "labels": {
+     "correct": 604,
+     "outdated": 572,
+     "other_wrong": 24,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.07333333333333333
+  }
+ },
+ "rag_mixed": {
+  "n": 7995,
+  "accuracy": 0.7033145716072545,
+  "outdated_rate": 0.2271419637273296,
+  "accuracy_nodiac": 0.7034396497811132,
+  "outdated_rate_nodiac": 0.2271419637273296,
+  "labels": {
+   "correct": 5623,
+   "outdated": 1816,
+   "other_wrong": 553,
+   "invalid": 3
+  },
+  "labels_nodiac": {
+   "correct": 5624,
+   "outdated": 1816,
+   "other_wrong": 552,
+   "invalid": 3
+  },
+  "match_detail": {
+   "None": 347,
+   "abstain": 3,
+   "address": 666,
+   "ambiguous": 21,
+   "bare": 5320,
+   "contained": 3,
+   "exact": 85,
+   "first_segment": 1141,
+   "legacy_name": 2,
+   "level_mismatch": 1,
+   "nodiac": 77,
+   "nodiac:address": 322,
+   "nodiac:partial": 1,
+   "partial": 5,
+   "relation": 1
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.9483333333333334,
+    "outdated_rate": 0.03666666666666667,
+    "labels": {
+     "correct": 1138,
+     "outdated": 44,
+     "other_wrong": 18,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.8133333333333334,
+    "outdated_rate": 0.18,
+    "labels": {
+     "correct": 976,
+     "outdated": 216,
+     "other_wrong": 8,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.7883333333333333
+  }
+ },
+ "rag_new": {
+  "n": 7995,
+  "accuracy": 0.7119449656035022,
+  "outdated_rate": 0.22814258911819887,
+  "accuracy_nodiac": 0.7119449656035022,
+  "outdated_rate_nodiac": 0.22814258911819887,
+  "labels": {
+   "correct": 5692,
+   "outdated": 1824,
+   "other_wrong": 463,
+   "invalid": 16
+  },
+  "labels_nodiac": {
+   "correct": 5692,
+   "outdated": 1824,
+   "other_wrong": 463,
+   "invalid": 16
+  },
+  "match_detail": {
+   "None": 195,
+   "abstain": 16,
+   "address": 776,
+   "ambiguous": 33,
+   "bare": 5320,
+   "contained": 9,
+   "exact": 83,
+   "first_segment": 1140,
+   "legacy_name": 3,
+   "level_mismatch": 17,
+   "nodiac": 14,
+   "nodiac:address": 386,
+   "partial": 1,
+   "relation": 2
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.9975,
+    "outdated_rate": 0.0,
+    "labels": {
+     "correct": 1197,
+     "outdated": 0,
+     "other_wrong": 3,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.9708333333333333,
+    "outdated_rate": 0.0275,
+    "labels": {
+     "correct": 1165,
+     "outdated": 33,
+     "other_wrong": 2,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.9683333333333334
+  }
+ }
+}
+[runner] 23985 done, 7995 pending, model=gemma-3-4b-it-Q8_0
+[runner] rag_mixed+date/mcq: 32/7995 (7.41 items/s)
+[runner] rag_mixed+date/mcq: 64/7995 (7.42 items/s)
+[runner] rag_mixed+date/mcq: 96/7995 (7.74 items/s)
+[runner] rag_mixed+date/mcq: 128/7995 (7.92 items/s)
+[runner] rag_mixed+date/mcq: 160/7995 (8.08 items/s)
+[runner] rag_mixed+date/mcq: 192/7995 (8.25 items/s)
+[runner] rag_mixed+date/mcq: 224/7995 (8.07 items/s)
+[runner] rag_mixed+date/mcq: 256/7995 (8.18 items/s)
+[runner] rag_mixed+date/mcq: 288/7995 (8.23 items/s)
+[runner] rag_mixed+date/mcq: 320/7995 (8.19 items/s)
+[runner] rag_mixed+date/mcq: 352/7995 (8.22 items/s)
+[runner] rag_mixed+date/mcq: 384/7995 (7.91 items/s)
+[runner] rag_mixed+date/mcq: 416/7995 (7.45 items/s)
+[runner] rag_mixed+date/mcq: 448/7995 (7.60 items/s)
+[runner] rag_mixed+date/mcq: 480/7995 (7.61 items/s)
+[runner] rag_mixed+date/mcq: 512/7995 (7.70 items/s)
+[runner] rag_mixed+date/mcq: 544/7995 (7.75 items/s)
+[runner] rag_mixed+date/mcq: 576/7995 (7.79 items/s)
+[runner] rag_mixed+date/mcq: 608/7995 (7.87 items/s)
+[runner] rag_mixed+date/mcq: 640/7995 (7.91 items/s)
+[runner] rag_mixed+date/mcq: 672/7995 (7.92 items/s)
+[runner] rag_mixed+date/mcq: 704/7995 (7.96 items/s)
+[runner] rag_mixed+date/mcq: 736/7995 (7.98 items/s)
+[runner] rag_mixed+date/mcq: 768/7995 (8.02 items/s)
+[runner] rag_mixed+date/mcq: 800/7995 (8.07 items/s)
+[runner] rag_mixed+date/mcq: 832/7995 (8.05 items/s)
+[runner] rag_mixed+date/mcq: 864/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 896/7995 (8.08 items/s)
+[runner] rag_mixed+date/mcq: 928/7995 (8.12 items/s)
+[runner] rag_mixed+date/mcq: 960/7995 (8.11 items/s)
+[runner] rag_mixed+date/mcq: 992/7995 (8.11 items/s)
+[runner] rag_mixed+date/mcq: 1024/7995 (8.12 items/s)
+[runner] rag_mixed+date/mcq: 1056/7995 (8.13 items/s)
+[runner] rag_mixed+date/mcq: 1088/7995 (8.13 items/s)
+[runner] rag_mixed+date/mcq: 1120/7995 (8.16 items/s)
+[runner] rag_mixed+date/mcq: 1152/7995 (8.16 items/s)
+[runner] rag_mixed+date/mcq: 1184/7995 (8.18 items/s)
+[runner] rag_mixed+date/mcq: 1216/7995 (8.19 items/s)
+[runner] rag_mixed+date/mcq: 1248/7995 (8.18 items/s)
+[runner] rag_mixed+date/mcq: 1280/7995 (8.20 items/s)
+[runner] rag_mixed+date/mcq: 1312/7995 (8.22 items/s)
+[runner] rag_mixed+date/mcq: 1344/7995 (8.22 items/s)
+[runner] rag_mixed+date/mcq: 1376/7995 (8.22 items/s)
+[runner] rag_mixed+date/mcq: 1408/7995 (8.25 items/s)
+[runner] rag_mixed+date/mcq: 1440/7995 (8.25 items/s)
+[runner] rag_mixed+date/mcq: 1472/7995 (8.26 items/s)
+[runner] rag_mixed+date/mcq: 1504/7995 (8.26 items/s)
+[runner] rag_mixed+date/mcq: 1536/7995 (8.25 items/s)
+[runner] rag_mixed+date/mcq: 1568/7995 (8.25 items/s)
+[runner] rag_mixed+date/mcq: 1600/7995 (8.28 items/s)
+[runner] rag_mixed+date/mcq: 1632/7995 (8.27 items/s)
+[runner] rag_mixed+date/mcq: 1664/7995 (8.28 items/s)
+[runner] rag_mixed+date/mcq: 1696/7995 (8.31 items/s)
+[runner] rag_mixed+date/mcq: 1728/7995 (8.29 items/s)
+[runner] rag_mixed+date/mcq: 1760/7995 (8.30 items/s)
+[runner] rag_mixed+date/mcq: 1792/7995 (8.31 items/s)
+[runner] rag_mixed+date/mcq: 1824/7995 (8.29 items/s)
+[runner] rag_mixed+date/mcq: 1856/7995 (8.29 items/s)
+[runner] rag_mixed+date/mcq: 1888/7995 (8.29 items/s)
+[runner] rag_mixed+date/mcq: 1920/7995 (8.30 items/s)
+[runner] rag_mixed+date/mcq: 1952/7995 (8.30 items/s)
+[runner] rag_mixed+date/mcq: 1984/7995 (8.30 items/s)
+[runner] rag_mixed+date/mcq: 2016/7995 (8.31 items/s)
+[runner] rag_mixed+date/mcq: 2048/7995 (8.31 items/s)
+[runner] rag_mixed+date/mcq: 2080/7995 (8.29 items/s)
+[runner] rag_mixed+date/mcq: 2112/7995 (8.31 items/s)
+[runner] rag_mixed+date/mcq: 2144/7995 (8.31 items/s)
+[runner] rag_mixed+date/mcq: 2176/7995 (8.32 items/s)
+[runner] rag_mixed+date/mcq: 2208/7995 (8.33 items/s)
+[runner] rag_mixed+date/mcq: 2240/7995 (8.33 items/s)
+[runner] rag_mixed+date/mcq: 2272/7995 (8.33 items/s)
+[runner] rag_mixed+date/mcq: 2304/7995 (8.34 items/s)
+[runner] rag_mixed+date/mcq: 2336/7995 (8.33 items/s)
+[runner] rag_mixed+date/mcq: 2368/7995 (8.31 items/s)
+[runner] rag_mixed+date/mcq: 2400/7995 (8.31 items/s)
+[runner] rag_mixed+date/mcq: 2432/7995 (8.30 items/s)
+[runner] rag_mixed+date/mcq: 2464/7995 (8.29 items/s)
+[runner] rag_mixed+date/mcq: 2496/7995 (8.28 items/s)
+[runner] rag_mixed+date/mcq: 2528/7995 (8.28 items/s)
+[runner] rag_mixed+date/mcq: 2560/7995 (8.27 items/s)
+[runner] rag_mixed+date/mcq: 2592/7995 (8.26 items/s)
+[runner] rag_mixed+date/mcq: 2624/7995 (8.25 items/s)
+[runner] rag_mixed+date/mcq: 2656/7995 (8.24 items/s)
+[runner] rag_mixed+date/mcq: 2688/7995 (8.10 items/s)
+[runner] rag_mixed+date/mcq: 2720/7995 (8.11 items/s)
+[runner] rag_mixed+date/mcq: 2752/7995 (8.11 items/s)
+[runner] rag_mixed+date/mcq: 2784/7995 (8.10 items/s)
+[runner] rag_mixed+date/mcq: 2816/7995 (8.10 items/s)
+[runner] rag_mixed+date/mcq: 2848/7995 (8.09 items/s)
+[runner] rag_mixed+date/mcq: 2880/7995 (8.09 items/s)
+[runner] rag_mixed+date/mcq: 2912/7995 (8.09 items/s)
+[runner] rag_mixed+date/mcq: 2944/7995 (8.08 items/s)
+[runner] rag_mixed+date/mcq: 2976/7995 (8.08 items/s)
+[runner] rag_mixed+date/mcq: 3008/7995 (8.07 items/s)
+[runner] rag_mixed+date/mcq: 3040/7995 (8.07 items/s)
+[runner] rag_mixed+date/mcq: 3072/7995 (8.07 items/s)
+[runner] rag_mixed+date/mcq: 3104/7995 (8.05 items/s)
+[runner] rag_mixed+date/mcq: 3136/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3168/7995 (8.07 items/s)
+[runner] rag_mixed+date/mcq: 3200/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3232/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3264/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3296/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3328/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3360/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3392/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3424/7995 (8.06 items/s)
+[runner] rag_mixed+date/mcq: 3456/7995 (8.05 items/s)
+[runner] rag_mixed+date/mcq: 3488/7995 (8.04 items/s)
+[runner] rag_mixed+date/mcq: 3520/7995 (8.04 items/s)
+[runner] rag_mixed+date/mcq: 3552/7995 (8.03 items/s)
+[runner] rag_mixed+date/mcq: 3584/7995 (8.03 items/s)
+[runner] rag_mixed+date/mcq: 3616/7995 (8.02 items/s)
+[runner] rag_mixed+date/mcq: 3648/7995 (8.02 items/s)
+[runner] rag_mixed+date/mcq: 3680/7995 (8.03 items/s)
+[runner] rag_mixed+date/mcq: 3712/7995 (8.02 items/s)
+[runner] rag_mixed+date/mcq: 3744/7995 (8.03 items/s)
+[runner] rag_mixed+date/mcq: 3776/7995 (8.02 items/s)
+[runner] rag_mixed+date/mcq: 3808/7995 (8.01 items/s)
+[runner] rag_mixed+date/mcq: 3840/7995 (8.01 items/s)
+[runner] rag_mixed+date/mcq: 3872/7995 (8.01 items/s)
+[runner] rag_mixed+date/mcq: 3904/7995 (8.01 items/s)
+[runner] rag_mixed+date/mcq: 3936/7995 (8.00 items/s)
+[runner] rag_mixed+date/mcq: 3968/7995 (8.01 items/s)
+[runner] rag_mixed+date/mcq: 4000/7995 (8.01 items/s)
+[runner] rag_mixed+date/mcq: 4032/7995 (7.99 items/s)
+[runner] rag_mixed+date/mcq: 4064/7995 (8.00 items/s)
+[runner] rag_mixed+date/mcq: 4096/7995 (7.99 items/s)
+[runner] rag_mixed+date/mcq: 4128/7995 (7.98 items/s)
+[runner] rag_mixed+date/mcq: 4160/7995 (7.98 items/s)
+[runner] rag_mixed+date/mcq: 4192/7995 (7.98 items/s)
+[runner] rag_mixed+date/mcq: 4224/7995 (7.98 items/s)
+[runner] rag_mixed+date/mcq: 4256/7995 (7.97 items/s)
+[runner] rag_mixed+date/mcq: 4288/7995 (7.97 items/s)
+[runner] rag_mixed+date/mcq: 4320/7995 (7.97 items/s)
+[runner] rag_mixed+date/mcq: 4352/7995 (7.96 items/s)
+[runner] rag_mixed+date/mcq: 4384/7995 (7.97 items/s)
+[runner] rag_mixed+date/mcq: 4416/7995 (7.96 items/s)
+[runner] rag_mixed+date/mcq: 4448/7995 (7.95 items/s)
+[runner] rag_mixed+date/mcq: 4480/7995 (7.95 items/s)
+[runner] rag_mixed+date/mcq: 4512/7995 (7.95 items/s)
+[runner] rag_mixed+date/mcq: 4544/7995 (7.96 items/s)
+[runner] rag_mixed+date/mcq: 4576/7995 (7.96 items/s)
+[runner] rag_mixed+date/mcq: 4608/7995 (7.95 items/s)
+[runner] rag_mixed+date/mcq: 4640/7995 (7.96 items/s)
+[runner] rag_mixed+date/mcq: 4672/7995 (7.96 items/s)
+[runner] rag_mixed+date/mcq: 4704/7995 (7.95 items/s)
+[runner] rag_mixed+date/mcq: 4736/7995 (7.95 items/s)
+[runner] rag_mixed+date/mcq: 4768/7995 (7.95 items/s)
+[runner] rag_mixed+date/mcq: 4800/7995 (7.91 items/s)
+[runner] rag_mixed+date/mcq: 4832/7995 (7.89 items/s)
+[runner] rag_mixed+date/mcq: 4864/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 4896/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 4928/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 4960/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 4992/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 5024/7995 (7.89 items/s)
+[runner] rag_mixed+date/mcq: 5056/7995 (7.89 items/s)
+[runner] rag_mixed+date/mcq: 5088/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 5120/7995 (7.89 items/s)
+[runner] rag_mixed+date/mcq: 5152/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 5184/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 5216/7995 (7.89 items/s)
+[runner] rag_mixed+date/mcq: 5248/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 5280/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 5312/7995 (7.88 items/s)
+[runner] rag_mixed+date/mcq: 5320/7995 (7.88 items/s)
+[runner] rag_mixed+date/short: 5352/7995 (7.87 items/s)
+[runner] rag_mixed+date/short: 5384/7995 (7.86 items/s)
+[runner] rag_mixed+date/short: 5416/7995 (7.85 items/s)
+[runner] rag_mixed+date/short: 5448/7995 (7.84 items/s)
+[runner] rag_mixed+date/short: 5480/7995 (7.83 items/s)
+[runner] rag_mixed+date/short: 5512/7995 (7.82 items/s)
+[runner] rag_mixed+date/short: 5544/7995 (7.81 items/s)
+[runner] rag_mixed+date/short: 5576/7995 (7.80 items/s)
+[runner] rag_mixed+date/short: 5608/7995 (7.79 items/s)
+[runner] rag_mixed+date/short: 5640/7995 (7.78 items/s)
+[runner] rag_mixed+date/short: 5672/7995 (7.78 items/s)
+[runner] rag_mixed+date/short: 5704/7995 (7.77 items/s)
+[runner] rag_mixed+date/short: 5736/7995 (7.76 items/s)
+[runner] rag_mixed+date/short: 5768/7995 (7.76 items/s)
+[runner] rag_mixed+date/short: 5800/7995 (7.74 items/s)
+[runner] rag_mixed+date/short: 5832/7995 (7.73 items/s)
+[runner] rag_mixed+date/short: 5864/7995 (7.73 items/s)
+[runner] rag_mixed+date/short: 5896/7995 (7.72 items/s)
+[runner] rag_mixed+date/short: 5928/7995 (7.70 items/s)
+[runner] rag_mixed+date/short: 5960/7995 (7.69 items/s)
+[runner] rag_mixed+date/short: 5992/7995 (7.68 items/s)
+[runner] rag_mixed+date/short: 6024/7995 (7.66 items/s)
+[runner] rag_mixed+date/short: 6056/7995 (7.65 items/s)
+[runner] rag_mixed+date/short: 6088/7995 (7.64 items/s)
+[runner] rag_mixed+date/short: 6120/7995 (7.63 items/s)
+[runner] rag_mixed+date/short: 6152/7995 (7.62 items/s)
+[runner] rag_mixed+date/short: 6184/7995 (7.60 items/s)
+[runner] rag_mixed+date/short: 6216/7995 (7.60 items/s)
+[runner] rag_mixed+date/short: 6248/7995 (7.59 items/s)
+[runner] rag_mixed+date/short: 6280/7995 (7.57 items/s)
+[runner] rag_mixed+date/short: 6312/7995 (7.55 items/s)
+[runner] rag_mixed+date/short: 6344/7995 (7.55 items/s)
+[runner] rag_mixed+date/short: 6376/7995 (7.53 items/s)
+[runner] rag_mixed+date/short: 6408/7995 (7.53 items/s)
+[runner] rag_mixed+date/short: 6440/7995 (7.52 items/s)
+[runner] rag_mixed+date/short: 6472/7995 (7.51 items/s)
+[runner] rag_mixed+date/short: 6504/7995 (7.50 items/s)
+[runner] rag_mixed+date/short: 6536/7995 (7.49 items/s)
+[runner] rag_mixed+date/short: 6568/7995 (7.48 items/s)
+[runner] rag_mixed+date/short: 6600/7995 (7.42 items/s)
+[runner] rag_mixed+date/short: 6632/7995 (7.41 items/s)
+[runner] rag_mixed+date/short: 6664/7995 (7.40 items/s)
+[runner] rag_mixed+date/short: 6696/7995 (7.39 items/s)
+[runner] rag_mixed+date/short: 6728/7995 (7.38 items/s)
+[runner] rag_mixed+date/short: 6760/7995 (7.37 items/s)
+[runner] rag_mixed+date/short: 6792/7995 (7.36 items/s)
+[runner] rag_mixed+date/short: 6824/7995 (7.35 items/s)
+[runner] rag_mixed+date/short: 6856/7995 (7.34 items/s)
+[runner] rag_mixed+date/short: 6888/7995 (7.33 items/s)
+[runner] rag_mixed+date/short: 6920/7995 (7.32 items/s)
+[runner] rag_mixed+date/short: 6952/7995 (7.32 items/s)
+[runner] rag_mixed+date/short: 6984/7995 (7.31 items/s)
+[runner] rag_mixed+date/short: 7016/7995 (7.31 items/s)
+[runner] rag_mixed+date/short: 7048/7995 (7.30 items/s)
+[runner] rag_mixed+date/short: 7080/7995 (7.28 items/s)
+[runner] rag_mixed+date/short: 7112/7995 (7.28 items/s)
+[runner] rag_mixed+date/short: 7144/7995 (7.27 items/s)
+[runner] rag_mixed+date/short: 7176/7995 (7.26 items/s)
+[runner] rag_mixed+date/short: 7208/7995 (7.25 items/s)
+[runner] rag_mixed+date/short: 7240/7995 (7.24 items/s)
+[runner] rag_mixed+date/short: 7272/7995 (7.24 items/s)
+[runner] rag_mixed+date/short: 7304/7995 (7.23 items/s)
+[runner] rag_mixed+date/short: 7336/7995 (7.23 items/s)
+[runner] rag_mixed+date/short: 7368/7995 (7.22 items/s)
+[runner] rag_mixed+date/short: 7400/7995 (7.21 items/s)
+[runner] rag_mixed+date/short: 7432/7995 (7.20 items/s)
+[runner] rag_mixed+date/short: 7464/7995 (7.19 items/s)
+[runner] rag_mixed+date/short: 7496/7995 (7.19 items/s)
+[runner] rag_mixed+date/short: 7528/7995 (7.18 items/s)
+[runner] rag_mixed+date/short: 7560/7995 (7.17 items/s)
+[runner] rag_mixed+date/short: 7592/7995 (7.17 items/s)
+[runner] rag_mixed+date/short: 7624/7995 (7.17 items/s)
+[runner] rag_mixed+date/short: 7656/7995 (7.16 items/s)
+[runner] rag_mixed+date/short: 7688/7995 (7.15 items/s)
+[runner] rag_mixed+date/short: 7720/7995 (7.15 items/s)
+[runner] rag_mixed+date/short: 7752/7995 (7.14 items/s)
+[runner] rag_mixed+date/short: 7784/7995 (7.13 items/s)
+[runner] rag_mixed+date/short: 7816/7995 (7.12 items/s)
+[runner] rag_mixed+date/short: 7848/7995 (7.12 items/s)
+[runner] rag_mixed+date/short: 7880/7995 (7.11 items/s)
+[runner] rag_mixed+date/short: 7912/7995 (7.11 items/s)
+[runner] rag_mixed+date/short: 7944/7995 (7.10 items/s)
+[runner] rag_mixed+date/short: 7976/7995 (7.10 items/s)
+[runner] rag_mixed+date/short: 7995/7995 (7.09 items/s)
+{
+ "closed": {
+  "n": 7995,
+  "accuracy": 0.3490931832395247,
+  "outdated_rate": 0.5100687929956222,
+  "accuracy_nodiac": 0.34921826141338336,
+  "outdated_rate_nodiac": 0.510569105691057,
+  "labels": {
+   "correct": 2791,
+   "outdated": 4078,
+   "other_wrong": 1126,
+   "invalid": 0
+  },
+  "labels_nodiac": {
+   "correct": 2792,
+   "outdated": 4082,
+   "other_wrong": 1121,
+   "invalid": 0
+  },
+  "match_detail": {
+   "None": 235,
+   "address": 528,
+   "address_suffix": 1,
+   "ambiguous": 6,
+   "bare": 5320,
+   "exact": 180,
+   "extra_district": 39,
+   "first_segment": 1270,
+   "level_mismatch": 2,
+   "nodiac": 194,
+   "nodiac:address": 191,
+   "nodiac:extra_district": 10,
+   "nodiac:level_mismatch": 5,
+   "numeric": 3,
+   "relation": 10,
+   "relation_contained": 1
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.12333333333333334,
+    "outdated_rate": 0.5375,
+    "labels": {
+     "correct": 148,
+     "outdated": 645,
+     "other_wrong": 407,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.5033333333333333,
+    "outdated_rate": 0.4766666666666667,
+    "labels": {
+     "correct": 604,
+     "outdated": 572,
+     "other_wrong": 24,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.07333333333333333
+  }
+ },
+ "rag_mixed": {
+  "n": 7995,
+  "accuracy": 0.7033145716072545,
+  "outdated_rate": 0.2271419637273296,
+  "accuracy_nodiac": 0.7034396497811132,
+  "outdated_rate_nodiac": 0.2271419637273296,
+  "labels": {
+   "correct": 5623,
+   "outdated": 1816,
+   "other_wrong": 553,
+   "invalid": 3
+  },
+  "labels_nodiac": {
+   "correct": 5624,
+   "outdated": 1816,
+   "other_wrong": 552,
+   "invalid": 3
+  },
+  "match_detail": {
+   "None": 347,
+   "abstain": 3,
+   "address": 666,
+   "ambiguous": 21,
+   "bare": 5320,
+   "contained": 3,
+   "exact": 85,
+   "first_segment": 1141,
+   "legacy_name": 2,
+   "level_mismatch": 1,
+   "nodiac": 77,
+   "nodiac:address": 322,
+   "nodiac:partial": 1,
+   "partial": 5,
+   "relation": 1
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.9483333333333334,
+    "outdated_rate": 0.03666666666666667,
+    "labels": {
+     "correct": 1138,
+     "outdated": 44,
+     "other_wrong": 18,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.8133333333333334,
+    "outdated_rate": 0.18,
+    "labels": {
+     "correct": 976,
+     "outdated": 216,
+     "other_wrong": 8,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.7883333333333333
+  }
+ },
+ "rag_mixed+date": {
+  "n": 7995,
+  "accuracy": 0.6923076923076923,
+  "outdated_rate": 0.24115071919949968,
+  "accuracy_nodiac": 0.6924327704815509,
+  "outdated_rate_nodiac": 0.24115071919949968,
+  "labels": {
+   "correct": 5535,
+   "outdated": 1928,
+   "other_wrong": 527,
+   "invalid": 5
+  },
+  "labels_nodiac": {
+   "correct": 5536,
+   "outdated": 1928,
+   "other_wrong": 526,
+   "invalid": 5
+  },
+  "match_detail": {
+   "None": 332,
+   "abstain": 5,
+   "address": 671,
+   "ambiguous": 15,
+   "bare": 5320,
+   "contained": 6,
+   "exact": 73,
+   "extra_district": 1,
+   "first_segment": 1167,
+   "level_mismatch": 2,
+   "nodiac": 64,
+   "nodiac:address": 336,
+   "partial": 3
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.9225,
+    "outdated_rate": 0.058333333333333334,
+    "labels": {
+     "correct": 1107,
+     "outdated": 70,
+     "other_wrong": 23,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.8308333333333333,
+    "outdated_rate": 0.16583333333333333,
+    "labels": {
+     "correct": 997,
+     "outdated": 199,
+     "other_wrong": 4,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.7866666666666666
+  }
+ },
+ "rag_new": {
+  "n": 7995,
+  "accuracy": 0.7119449656035022,
+  "outdated_rate": 0.22814258911819887,
+  "accuracy_nodiac": 0.7119449656035022,
+  "outdated_rate_nodiac": 0.22814258911819887,
+  "labels": {
+   "correct": 5692,
+   "outdated": 1824,
+   "other_wrong": 463,
+   "invalid": 16
+  },
+  "labels_nodiac": {
+   "correct": 5692,
+   "outdated": 1824,
+   "other_wrong": 463,
+   "invalid": 16
+  },
+  "match_detail": {
+   "None": 195,
+   "abstain": 16,
+   "address": 776,
+   "ambiguous": 33,
+   "bare": 5320,
+   "contained": 9,
+   "exact": 83,
+   "first_segment": 1140,
+   "legacy_name": 3,
+   "level_mismatch": 17,
+   "nodiac": 14,
+   "nodiac:address": 386,
+   "partial": 1,
+   "relation": 2
+  },
+  "truncated": 0,
+  "components": {
+   "ward": {
+    "n": 1200,
+    "accuracy": 0.9975,
+    "outdated_rate": 0.0,
+    "labels": {
+     "correct": 1197,
+     "outdated": 0,
+     "other_wrong": 3,
+     "invalid": 0
+    }
+   },
+   "province": {
+    "n": 1200,
+    "accuracy": 0.9708333333333333,
+    "outdated_rate": 0.0275,
+    "labels": {
+     "correct": 1165,
+     "outdated": 33,
+     "other_wrong": 2,
+     "invalid": 0
+    }
+   },
+   "both_correct_rate": 0.9683333333333334
+  }
+ }
+}

@@ -1,0 +1,19 @@
+09:10:38 done kimi-k3 sys0 T1np_ward_province:absorbed
+09:10:39 done gpt-6-sol sys0 T1np_ward_province:absorbed
+09:14:51 done gpt-6-sol sys1 T1np_ward_province:absorbed
+09:19:02 done gpt-6-sol sys0q T1np_ward_province:absorbed
+09:23:13 done gpt-6-sol sys0qm T1np_ward_province:absorbed
+09:24:32 FAIL kimi-k3 sys1 T1np_ward_province:absorbed
+09:27:25 done gpt-6-sol sysasof T1np_ward_province:absorbed
+09:28:43 done kimi-k3 sys0q T1np_ward_province:absorbed
+09:31:36 done gpt-6-sol sys0 T1_ward_province:absorbed
+09:32:55 done kimi-k3 sys0qm T1np_ward_province:absorbed
+09:35:47 done gpt-6-sol sys1 T1_ward_province:absorbed
+09:37:06 done kimi-k3 sysasof T1np_ward_province:absorbed
+09:39:58 done gpt-6-sol sys2025 T1_ward_province:absorbed
+09:41:17 done kimi-k3 sys0 T1_ward_province:absorbed
+09:44:09 done gpt-6-sol q2025 T1_ward_province:absorbed
+09:45:28 done kimi-k3 sys1 T1_ward_province:absorbed
+09:49:39 done kimi-k3 sys2025 T1_ward_province:absorbed
+09:53:49 done kimi-k3 q2025 T1_ward_province:absorbed
+10:09:39 FAIL kimi-k3 agent

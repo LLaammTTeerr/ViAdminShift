@@ -1,0 +1,74 @@
+{
+ "minimax-m3": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 10,
+   "reasoned": false
+  }
+ },
+ "gpt-6-sol": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 37,
+   "reasoned": false
+  }
+ },
+ "glm-5.3": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 41,
+   "reasoned": true
+  }
+ },
+ "claude-opus-5.5": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 115,
+   "reasoned": true
+  }
+ },
+ "muse-spark-1.2": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 396,
+   "reasoned": false
+  }
+ },
+ "kimi-k3": {
+  "extra": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "probe": {
+   "finish": "stop",
+   "ctoks": 280,
+   "reasoned": true
+  }
+ }
+}

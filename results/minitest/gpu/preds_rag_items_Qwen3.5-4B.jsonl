@@ -1,0 +1,400 @@
+{"id": "R_25804_T1_compose_new", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "new", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bình Dương"]}
+{"id": "R_25804_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bình Dương"]}
+{"id": "R_25804_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bình Dương"]}
+{"id": "R_25804_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bình Dương"]}
+{"id": "R_25804_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bình Dương"]}
+{"id": "R_25804_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Long Hòa", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Long Hòa"], "old": ["Xã Long Tân"]}
+{"id": "R_25804_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Long Hòa", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Long Hòa"], "old": ["Xã Long Tân"]}
+{"id": "R_25804_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Long Hòa", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Long Hòa"], "old": ["Xã Long Tân"]}
+{"id": "R_25804_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Long Hòa", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Long Hòa"], "old": ["Xã Long Tân"]}
+{"id": "R_25804_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Long Hòa", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Long Hòa"], "old": ["Xã Long Tân"]}
+{"id": "R_04678_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Lào Cai", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Lào Cai"], "old": ["Tỉnh Yên Bái"]}
+{"id": "R_04678_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Lào Cai", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Lào Cai"], "old": ["Tỉnh Yên Bái"]}
+{"id": "R_04678_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Lào Cai", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Lào Cai"], "old": ["Tỉnh Yên Bái"]}
+{"id": "R_04678_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Lào Cai", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Lào Cai"], "old": ["Tỉnh Yên Bái"]}
+{"id": "R_04678_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Lào Cai", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Lào Cai"], "old": ["Tỉnh Yên Bái"]}
+{"id": "R_04678_T5_successor_new", "model": "Qwen3.5-4B", "output": "Phường Cầu Thia", "depth": "new", "qtype": "T5_successor", "gold": ["Phường Cầu Thia"], "old": ["Xã Hạnh Sơn"]}
+{"id": "R_04678_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Phường Cầu Thia", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Phường Cầu Thia"], "old": ["Xã Hạnh Sơn"]}
+{"id": "R_04678_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Phường Cầu Thia", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Phường Cầu Thia"], "old": ["Xã Hạnh Sơn"]}
+{"id": "R_04678_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Phường Cầu Thia", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Phường Cầu Thia"], "old": ["Xã Hạnh Sơn"]}
+{"id": "R_04678_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Phường Cầu Thia", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Phường Cầu Thia"], "old": ["Xã Hạnh Sơn"]}
+{"id": "R_19240_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19240_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Quảng Trị", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19240_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19240_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19240_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19240_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Trường Ninh", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Trường Ninh"], "old": ["Xã An Ninh"]}
+{"id": "R_19240_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Trường Ninh", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Trường Ninh"], "old": ["Xã An Ninh"]}
+{"id": "R_19240_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Trường Ninh", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Trường Ninh"], "old": ["Xã An Ninh"]}
+{"id": "R_19240_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Trường Ninh", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Trường Ninh"], "old": ["Xã An Ninh"]}
+{"id": "R_19240_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Trường Ninh", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Trường Ninh"], "old": ["Xã An Ninh"]}
+{"id": "R_28132_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Tây Ninh", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Tây Ninh"], "old": ["Tỉnh Long An"]}
+{"id": "R_28132_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tây Ninh", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Tây Ninh"], "old": ["Tỉnh Long An"]}
+{"id": "R_28132_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tây Ninh", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Tây Ninh"], "old": ["Tỉnh Long An"]}
+{"id": "R_28132_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tây Ninh", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Tây Ninh"], "old": ["Tỉnh Long An"]}
+{"id": "R_28132_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tây Ninh", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Tây Ninh"], "old": ["Tỉnh Long An"]}
+{"id": "R_28132_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Mỹ Lệ", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Mỹ Lệ"], "old": ["Xã Tân Trạch"]}
+{"id": "R_28132_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Mỹ Lệ", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Mỹ Lệ"], "old": ["Xã Tân Trạch"]}
+{"id": "R_28132_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Mỹ Lệ", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Mỹ Lệ"], "old": ["Xã Tân Trạch"]}
+{"id": "R_28132_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Mỹ Lệ", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Mỹ Lệ"], "old": ["Xã Tân Trạch"]}
+{"id": "R_28132_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Mỹ Lệ", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Mỹ Lệ"], "old": ["Xã Tân Trạch"]}
+{"id": "R_28270_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28270_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28270_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28270_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28270_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28270_T5_successor_new", "model": "Qwen3.5-4B", "output": "Phường Thới Sơn", "depth": "new", "qtype": "T5_successor", "gold": ["Phường Thới Sơn"], "old": ["Phường 6"]}
+{"id": "R_28270_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Phường Thới Sơn", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Phường Thới Sơn"], "old": ["Phường 6"]}
+{"id": "R_28270_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Phường Thới Sơn", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Phường Thới Sơn"], "old": ["Phường 6"]}
+{"id": "R_28270_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Phường Thới Sơn", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Phường Thới Sơn"], "old": ["Phường 6"]}
+{"id": "R_28270_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Phường Thới Sơn", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Phường Thới Sơn"], "old": ["Phường 6"]}
+{"id": "R_13762_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13762_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13762_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13762_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13762_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13762_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Minh Tân", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Minh Tân"], "old": ["Xã Cộng Hòa"]}
+{"id": "R_13762_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Minh Tân", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Minh Tân"], "old": ["Xã Cộng Hòa"]}
+{"id": "R_13762_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Minh Tân", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Minh Tân"], "old": ["Xã Cộng Hòa"]}
+{"id": "R_13762_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Minh Tân", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Minh Tân"], "old": ["Xã Cộng Hòa"]}
+{"id": "R_13762_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Minh Tân", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Minh Tân"], "old": ["Xã Cộng Hòa"]}
+{"id": "R_04870_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04870_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04870_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04870_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04870_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04870_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Quy Đức", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Quy Đức"], "old": ["Xã Trung Thành"]}
+{"id": "R_04870_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Quy Đức", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Quy Đức"], "old": ["Xã Trung Thành"]}
+{"id": "R_04870_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Quy Đức", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Quy Đức"], "old": ["Xã Trung Thành"]}
+{"id": "R_04870_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Quy Đức", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Quy Đức"], "old": ["Xã Trung Thành"]}
+{"id": "R_04870_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Quy Đức", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Quy Đức"], "old": ["Xã Trung Thành"]}
+{"id": "R_23521_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23521_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23521_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23521_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23521_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23521_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Đăk Hà", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Đăk Hà"], "old": ["Xã Hà Mòn"]}
+{"id": "R_23521_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Hà Mòn", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Đăk Hà"], "old": ["Xã Hà Mòn"]}
+{"id": "R_23521_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Đăk Hà", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Đăk Hà"], "old": ["Xã Hà Mòn"]}
+{"id": "R_23521_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Đăk Hà", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Đăk Hà"], "old": ["Xã Hà Mòn"]}
+{"id": "R_23521_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Đăk Hà", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Đăk Hà"], "old": ["Xã Hà Mòn"]}
+{"id": "R_19216_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19216_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Quảng Trị", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19216_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19216_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19216_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19216_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Ninh Châu", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Ninh Châu"], "old": ["Xã Hải Ninh"]}
+{"id": "R_19216_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Hải Ninh", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Ninh Châu"], "old": ["Xã Hải Ninh"]}
+{"id": "R_19216_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Ninh Châu", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Ninh Châu"], "old": ["Xã Hải Ninh"]}
+{"id": "R_19216_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Ninh Châu", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Ninh Châu"], "old": ["Xã Hải Ninh"]}
+{"id": "R_19216_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Ninh Châu", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Ninh Châu"], "old": ["Xã Hải Ninh"]}
+{"id": "R_20851_T1_compose_new", "model": "Qwen3.5-4B", "output": "Thành phố Đà Nẵng", "depth": "new", "qtype": "T1_compose", "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"]}
+{"id": "R_20851_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Thành phố Đà Nẵng", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"]}
+{"id": "R_20851_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Thành phố Đà Nẵng", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"]}
+{"id": "R_20851_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Thành phố Đà Nẵng", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"]}
+{"id": "R_20851_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Thành phố Đà Nẵng", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Thành phố Đà Nẵng"], "old": ["Tỉnh Quảng Nam"]}
+{"id": "R_20851_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Thăng Trường", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Thăng Trường"], "old": ["Xã Bình Nam"]}
+{"id": "R_20851_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Thăng Trường", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Thăng Trường"], "old": ["Xã Bình Nam"]}
+{"id": "R_20851_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Thăng Trường", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Thăng Trường"], "old": ["Xã Bình Nam"]}
+{"id": "R_20851_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Thăng Trường", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Thăng Trường"], "old": ["Xã Bình Nam"]}
+{"id": "R_20851_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Thăng Trường", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Thăng Trường"], "old": ["Xã Bình Nam"]}
+{"id": "R_21721_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21721_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21721_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21721_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21721_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21721_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Ân Tường", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Ân Tường"], "old": ["Xã Ân Tường Tây"]}
+{"id": "R_21721_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Ân Tường Tây", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Ân Tường"], "old": ["Xã Ân Tường Tây"]}
+{"id": "R_21721_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Ân Tường", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Ân Tường"], "old": ["Xã Ân Tường Tây"]}
+{"id": "R_21721_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Ân Tường", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Ân Tường"], "old": ["Xã Ân Tường Tây"]}
+{"id": "R_21721_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Ân Tường", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Ân Tường"], "old": ["Xã Ân Tường Tây"]}
+{"id": "R_01039_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tuyên Quang", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"]}
+{"id": "R_01039_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tuyên Quang", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"]}
+{"id": "R_01039_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tuyên Quang", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"]}
+{"id": "R_01039_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tuyên Quang", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"]}
+{"id": "R_01039_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tuyên Quang", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Tuyên Quang"], "old": ["Tỉnh Hà Giang"]}
+{"id": "R_01039_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã Túng Sán"]}
+{"id": "R_01039_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã Túng Sán"]}
+{"id": "R_01039_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã Túng Sán"]}
+{"id": "R_01039_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã Túng Sán"]}
+{"id": "R_01039_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã Túng Sán"]}
+{"id": "R_01855_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Thái Nguyên", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Thái Nguyên"], "old": ["Tỉnh Bắc Kạn"]}
+{"id": "R_01855_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Thái Nguyên", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Thái Nguyên"], "old": ["Tỉnh Bắc Kạn"]}
+{"id": "R_01855_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Thái Nguyên", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Thái Nguyên"], "old": ["Tỉnh Bắc Kạn"]}
+{"id": "R_01855_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Thái Nguyên", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Thái Nguyên"], "old": ["Tỉnh Bắc Kạn"]}
+{"id": "R_01855_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Thái Nguyên", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Thái Nguyên"], "old": ["Tỉnh Bắc Kạn"]}
+{"id": "R_01855_T5_successor_new", "model": "Qwen3.5-4B", "output": "Phường Bắc Kạn", "depth": "new", "qtype": "T5_successor", "gold": ["Phường Bắc Kạn"], "old": ["Phường Xuất Hóa"]}
+{"id": "R_01855_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Phường Xuất Hóa thuộc đơn vị hành chính cấp xã Phường Bắc Kạn.", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Phường Bắc Kạn"], "old": ["Phường Xuất Hóa"]}
+{"id": "R_01855_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Phường Bắc Kạn", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Phường Bắc Kạn"], "old": ["Phường Xuất Hóa"]}
+{"id": "R_01855_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Phường Bắc Kạn", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Phường Bắc Kạn"], "old": ["Phường Xuất Hóa"]}
+{"id": "R_01855_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Phường Bắc Kạn", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Phường Bắc Kạn"], "old": ["Phường Xuất Hóa"]}
+{"id": "R_05272_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_05272_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_05272_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_05272_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_05272_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_05272_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Thượng Cốc", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Thượng Cốc"], "old": ["Xã Miền Đồi"]}
+{"id": "R_05272_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Thượng Cốc", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Thượng Cốc"], "old": ["Xã Miền Đồi"]}
+{"id": "R_05272_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Thượng Cốc", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Thượng Cốc"], "old": ["Xã Miền Đồi"]}
+{"id": "R_05272_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Thượng Cốc", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Thượng Cốc"], "old": ["Xã Miền Đồi"]}
+{"id": "R_05272_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Thượng Cốc", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Thượng Cốc"], "old": ["Xã Miền Đồi"]}
+{"id": "R_22138_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22138_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22138_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Đắk Lắk", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22138_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22138_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22138_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Ô Loan", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Ô Loan"], "old": ["Xã An Cư"]}
+{"id": "R_22138_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã An Cư", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Ô Loan"], "old": ["Xã An Cư"]}
+{"id": "R_22138_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Ô Loan", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Ô Loan"], "old": ["Xã An Cư"]}
+{"id": "R_22138_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Ô Loan", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Ô Loan"], "old": ["Xã An Cư"]}
+{"id": "R_22138_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Ô Loan", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Ô Loan"], "old": ["Xã An Cư"]}
+{"id": "R_29068_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"]}
+{"id": "R_29068_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"]}
+{"id": "R_29068_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"]}
+{"id": "R_29068_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"]}
+{"id": "R_29068_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Bến Tre"]}
+{"id": "R_29068_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Lộc Thuận", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Lộc Thuận"], "old": ["Xã Vang Quới Đông"]}
+{"id": "R_29068_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Lộc Thuận", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Lộc Thuận"], "old": ["Xã Vang Quới Đông"]}
+{"id": "R_29068_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Lộc Thuận", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Lộc Thuận"], "old": ["Xã Vang Quới Đông"]}
+{"id": "R_29068_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Lộc Thuận", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Lộc Thuận"], "old": ["Xã Vang Quới Đông"]}
+{"id": "R_29068_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Lộc Thuận", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Lộc Thuận"], "old": ["Xã Vang Quới Đông"]}
+{"id": "R_12655_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Hưng Yên", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12655_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Hưng Yên", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12655_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Hưng Yên", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12655_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Hưng Yên", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12655_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Hưng Yên", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12655_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Hưng Hà", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Hưng Hà"], "old": ["Xã Hòa Bình"]}
+{"id": "R_12655_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Hòa Bình", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Hưng Hà"], "old": ["Xã Hòa Bình"]}
+{"id": "R_12655_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Hưng Hà", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Hưng Hà"], "old": ["Xã Hòa Bình"]}
+{"id": "R_12655_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Hưng Hà", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Hưng Hà"], "old": ["Xã Hòa Bình"]}
+{"id": "R_12655_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Hưng Hà", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Hưng Hà"], "old": ["Xã Hòa Bình"]}
+{"id": "R_19288_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19288_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Quảng Trị", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19288_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19288_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Quảng Trị", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19288_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_19288_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Sen Ngư", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Sen Ngư"], "old": ["Xã Hưng Thủy"]}
+{"id": "R_19288_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Sen Ngư", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Sen Ngư"], "old": ["Xã Hưng Thủy"]}
+{"id": "R_19288_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Sen Ngư", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Sen Ngư"], "old": ["Xã Hưng Thủy"]}
+{"id": "R_19288_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Sen Ngư", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Sen Ngư"], "old": ["Xã Hưng Thủy"]}
+{"id": "R_19288_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Sen Ngư", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Sen Ngư"], "old": ["Xã Hưng Thủy"]}
+{"id": "R_04852_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04852_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04852_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04852_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04852_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Hòa Bình"]}
+{"id": "R_04852_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Tân Pheo", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Tân Pheo"], "old": ["Xã Đồng Chum"]}
+{"id": "R_04852_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Tân Pheo", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Tân Pheo"], "old": ["Xã Đồng Chum"]}
+{"id": "R_04852_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Tân Pheo", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Tân Pheo"], "old": ["Xã Đồng Chum"]}
+{"id": "R_04852_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Tân Pheo", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Tân Pheo"], "old": ["Xã Đồng Chum"]}
+{"id": "R_04852_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Tân Pheo", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Tân Pheo"], "old": ["Xã Đồng Chum"]}
+{"id": "R_23353_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23353_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23353_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Quảng Ngãi", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23353_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23353_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Ngãi", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Ngãi"], "old": ["Tỉnh Kon Tum"]}
+{"id": "R_23353_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Đăk Pék", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Đăk Pék"], "old": ["Xã Đắk Pék"]}
+{"id": "R_23353_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Đắk Pék", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Đăk Pék"], "old": ["Xã Đắk Pék"]}
+{"id": "R_23353_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Đắk Pék", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Đăk Pék"], "old": ["Xã Đắk Pék"]}
+{"id": "R_23353_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Đắk Pék", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Đăk Pék"], "old": ["Xã Đắk Pék"]}
+{"id": "R_23353_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Đắk Pék", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Đăk Pék"], "old": ["Xã Đắk Pék"]}
+{"id": "R_18997_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_18997_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_18997_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_18997_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_18997_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Quảng Trị", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Quảng Trị"], "old": ["Tỉnh Quảng Bình"]}
+{"id": "R_18997_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Tuyên Hóa", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Tuyên Hóa"], "old": ["Xã Tiến Hóa"]}
+{"id": "R_18997_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Tiến Hóa", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Tuyên Hóa"], "old": ["Xã Tiến Hóa"]}
+{"id": "R_18997_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Tuyên Hóa", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Tuyên Hóa"], "old": ["Xã Tiến Hóa"]}
+{"id": "R_18997_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Tuyên Hóa", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Tuyên Hóa"], "old": ["Xã Tiến Hóa"]}
+{"id": "R_18997_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Tuyên Hóa", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Tuyên Hóa"], "old": ["Xã Tiến Hóa"]}
+{"id": "R_28309_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28309_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28309_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28309_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28309_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Tháp", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Tháp"], "old": ["Tỉnh Tiền Giang"]}
+{"id": "R_28309_T5_successor_new", "model": "Qwen3.5-4B", "output": "Phường Sơn Qui", "depth": "new", "qtype": "T5_successor", "gold": ["Phường Sơn Qui"], "old": ["Phường Long Hưng"]}
+{"id": "R_28309_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Phường Sơn Qui", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Phường Sơn Qui"], "old": ["Phường Long Hưng"]}
+{"id": "R_28309_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Phường Sơn Qui", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Phường Sơn Qui"], "old": ["Phường Long Hưng"]}
+{"id": "R_28309_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Phường Sơn Qui", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Phường Sơn Qui"], "old": ["Phường Long Hưng"]}
+{"id": "R_28309_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Phường Sơn Qui", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Phường Sơn Qui"], "old": ["Phường Long Hưng"]}
+{"id": "R_25420_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Nai", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25420_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Nai", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25420_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Đồng Nai", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25420_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Nai", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25420_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Đồng Nai", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25420_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Phước Sơn", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Phước Sơn"], "old": ["Xã Thống Nhất"]}
+{"id": "R_25420_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Phước Sơn", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Phước Sơn"], "old": ["Xã Thống Nhất"]}
+{"id": "R_25420_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Phước Sơn", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Phước Sơn"], "old": ["Xã Thống Nhất"]}
+{"id": "R_25420_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Phước Sơn", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Phước Sơn"], "old": ["Xã Thống Nhất"]}
+{"id": "R_25420_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Phước Sơn", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Phước Sơn"], "old": ["Xã Thống Nhất"]}
+{"id": "R_21778_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21778_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Gia Lai", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21778_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21778_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21778_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21778_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Phù Mỹ Nam", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Phù Mỹ Nam"], "old": ["Xã Mỹ Tài"]}
+{"id": "R_21778_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Phù Mỹ Nam", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Phù Mỹ Nam"], "old": ["Xã Mỹ Tài"]}
+{"id": "R_21778_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Phù Mỹ Nam", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Phù Mỹ Nam"], "old": ["Xã Mỹ Tài"]}
+{"id": "R_21778_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Phù Mỹ Nam", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Phù Mỹ Nam"], "old": ["Xã Mỹ Tài"]}
+{"id": "R_21778_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Phù Mỹ Nam", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Phù Mỹ Nam"], "old": ["Xã Mỹ Tài"]}
+{"id": "R_31729_T1_compose_new", "model": "Qwen3.5-4B", "output": "Thành phố Cần Thơ", "depth": "new", "qtype": "T1_compose", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Sóc Trăng"]}
+{"id": "R_31729_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Thành phố Cần Thơ", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Sóc Trăng"]}
+{"id": "R_31729_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Thành phố Cần Thơ", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Sóc Trăng"]}
+{"id": "R_31729_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Thành phố Cần Thơ", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Sóc Trăng"]}
+{"id": "R_31729_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Thành phố Cần Thơ", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Thành phố Cần Thơ"], "old": ["Tỉnh Sóc Trăng"]}
+{"id": "R_31729_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Hòa Tú", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Hòa Tú"], "old": ["Xã Hòa Tú II"]}
+{"id": "R_31729_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Hòa Tú", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Hòa Tú"], "old": ["Xã Hòa Tú II"]}
+{"id": "R_31729_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Hòa Tú", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Hòa Tú"], "old": ["Xã Hòa Tú II"]}
+{"id": "R_31729_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Hòa Tú", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Hòa Tú"], "old": ["Xã Hòa Tú II"]}
+{"id": "R_31729_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Hòa Tú", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Hòa Tú"], "old": ["Xã Hòa Tú II"]}
+{"id": "R_11116_T1_compose_new", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "new", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11116_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11116_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11116_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11116_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11116_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Tứ Kỳ", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Tứ Kỳ"], "old": ["Xã Quang Khải"]}
+{"id": "R_11116_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Quang Khải", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Tứ Kỳ"], "old": ["Xã Quang Khải"]}
+{"id": "R_11116_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Tứ Kỳ", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Tứ Kỳ"], "old": ["Xã Quang Khải"]}
+{"id": "R_11116_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Tứ Kỳ", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Tứ Kỳ"], "old": ["Xã Quang Khải"]}
+{"id": "R_11116_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Tứ Kỳ", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Tứ Kỳ"], "old": ["Xã Quang Khải"]}
+{"id": "R_22168_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22168_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22168_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22168_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22168_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đắk Lắk", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Đắk Lắk"], "old": ["Tỉnh Phú Yên"]}
+{"id": "R_22168_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Tây Sơn", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Tây Sơn"], "old": ["Xã Phước Tân"]}
+{"id": "R_22168_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Tây Sơn", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Tây Sơn"], "old": ["Xã Phước Tân"]}
+{"id": "R_22168_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Tây Sơn", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Tây Sơn"], "old": ["Xã Phước Tân"]}
+{"id": "R_22168_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Tây Sơn", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Tây Sơn"], "old": ["Xã Phước Tân"]}
+{"id": "R_22168_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Tây Sơn", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Tây Sơn"], "old": ["Xã Phước Tân"]}
+{"id": "R_09136_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"]}
+{"id": "R_09136_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"]}
+{"id": "R_09136_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"]}
+{"id": "R_09136_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"]}
+{"id": "R_09136_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Phú Thọ", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Phú Thọ"], "old": ["Tỉnh Vĩnh Phúc"]}
+{"id": "R_09136_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Thổ Tang", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Thổ Tang"], "old": ["Xã Tuân Chính"]}
+{"id": "R_09136_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Thổ Tang", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Thổ Tang"], "old": ["Xã Tuân Chính"]}
+{"id": "R_09136_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Thổ Tang", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Thổ Tang"], "old": ["Xã Tuân Chính"]}
+{"id": "R_09136_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Thổ Tang", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Thổ Tang"], "old": ["Xã Tuân Chính"]}
+{"id": "R_09136_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Thổ Tang", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Thổ Tang"], "old": ["Xã Tuân Chính"]}
+{"id": "R_12580_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Hưng Yên", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12580_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Hưng Yên", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12580_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Hưng Yên", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12580_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Hưng Yên", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12580_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Hưng Yên", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Hưng Yên"], "old": ["Tỉnh Thái Bình"]}
+{"id": "R_12580_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã An Tràng"]}
+{"id": "R_12580_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã An Tràng"]}
+{"id": "R_12580_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã An Tràng"]}
+{"id": "R_12580_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã An Tràng"]}
+{"id": "R_12580_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Tân Tiến", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Tân Tiến"], "old": ["Xã An Tràng"]}
+{"id": "R_21970_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21970_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21970_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21970_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21970_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21970_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Tuy Phước Đông", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Tuy Phước Đông"], "old": ["Xã Phước Sơn"]}
+{"id": "R_21970_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Tuy Phước Đông", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Tuy Phước Đông"], "old": ["Xã Phước Sơn"]}
+{"id": "R_21970_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Tuy Phước Đông", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Tuy Phước Đông"], "old": ["Xã Phước Sơn"]}
+{"id": "R_21970_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Tuy Phước Đông", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Tuy Phước Đông"], "old": ["Xã Phước Sơn"]}
+{"id": "R_21970_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Tuy Phước Đông", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Tuy Phước Đông"], "old": ["Xã Phước Sơn"]}
+{"id": "R_21616_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21616_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Gia Lai", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21616_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Gia Lai", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21616_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21616_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21616_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã An Vinh", "depth": "new", "qtype": "T5_successor", "gold": ["Xã An Vinh"], "old": ["Xã An Dũng"]}
+{"id": "R_21616_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã An Vinh", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã An Vinh"], "old": ["Xã An Dũng"]}
+{"id": "R_21616_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã An Vinh", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã An Vinh"], "old": ["Xã An Dũng"]}
+{"id": "R_21616_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã An Vinh", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã An Vinh"], "old": ["Xã An Dũng"]}
+{"id": "R_21616_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã An Vinh", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã An Vinh"], "old": ["Xã An Dũng"]}
+{"id": "R_29479_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29479_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Trà Vinh", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29479_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29479_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29479_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29479_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Trà Cú", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Trà Cú"], "old": ["Xã Ngãi Xuyên"]}
+{"id": "R_29479_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Trà Cú", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Trà Cú"], "old": ["Xã Ngãi Xuyên"]}
+{"id": "R_29479_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Trà Cú", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Trà Cú"], "old": ["Xã Ngãi Xuyên"]}
+{"id": "R_29479_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Trà Cú", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Trà Cú"], "old": ["Xã Ngãi Xuyên"]}
+{"id": "R_29479_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Trà Cú", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Trà Cú"], "old": ["Xã Ngãi Xuyên"]}
+{"id": "R_30829_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh An Giang", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"]}
+{"id": "R_30829_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Kiên Giang", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"]}
+{"id": "R_30829_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh An Giang", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"]}
+{"id": "R_30829_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh An Giang", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"]}
+{"id": "R_30829_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh An Giang", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh An Giang"], "old": ["Tỉnh Kiên Giang"]}
+{"id": "R_30829_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Hòn Đất", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Hòn Đất"], "old": ["Xã Nam Thái Sơn"]}
+{"id": "R_30829_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Nam Thái Sơn", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Hòn Đất"], "old": ["Xã Nam Thái Sơn"]}
+{"id": "R_30829_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Hòn Đất", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Hòn Đất"], "old": ["Xã Nam Thái Sơn"]}
+{"id": "R_30829_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Hòn Đất", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Hòn Đất"], "old": ["Xã Nam Thái Sơn"]}
+{"id": "R_30829_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Hòn Đất", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Hòn Đất"], "old": ["Xã Nam Thái Sơn"]}
+{"id": "R_26557_T1_compose_new", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "new", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"]}
+{"id": "R_26557_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"]}
+{"id": "R_26557_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"]}
+{"id": "R_26557_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"]}
+{"id": "R_26557_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Thành phố Hồ Chí Minh", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Thành phố Hồ Chí Minh"], "old": ["Tỉnh Bà Rịa - Vũng Tàu"]}
+{"id": "R_26557_T5_successor_new", "model": "Qwen3.5-4B", "output": "Phường Bà Rịa", "depth": "new", "qtype": "T5_successor", "gold": ["Phường Bà Rịa"], "old": ["Phường Long Toàn"]}
+{"id": "R_26557_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Phường Bà Rịa", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Phường Bà Rịa"], "old": ["Phường Long Toàn"]}
+{"id": "R_26557_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Phường Bà Rịa", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Phường Bà Rịa"], "old": ["Phường Long Toàn"]}
+{"id": "R_26557_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Phường Bà Rịa", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Phường Bà Rịa"], "old": ["Phường Long Toàn"]}
+{"id": "R_26557_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Phường Bà Rịa", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Phường Bà Rịa"], "old": ["Phường Long Toàn"]}
+{"id": "R_24750_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Lâm Đồng", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Lâm Đồng"], "old": ["Tỉnh Đắk Nông"]}
+{"id": "R_24750_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Lâm Đồng", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Lâm Đồng"], "old": ["Tỉnh Đắk Nông"]}
+{"id": "R_24750_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Lâm Đồng", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Lâm Đồng"], "old": ["Tỉnh Đắk Nông"]}
+{"id": "R_24750_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Lâm Đồng", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Lâm Đồng"], "old": ["Tỉnh Đắk Nông"]}
+{"id": "R_24750_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Lâm Đồng", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Lâm Đồng"], "old": ["Tỉnh Đắk Nông"]}
+{"id": "R_24750_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Nhân Cơ", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Nhân Cơ"], "old": ["Xã Đắk Wer"]}
+{"id": "R_24750_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Nhân Cơ", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Nhân Cơ"], "old": ["Xã Đắk Wer"]}
+{"id": "R_24750_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Nhân Cơ", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Nhân Cơ"], "old": ["Xã Đắk Wer"]}
+{"id": "R_24750_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Nhân Cơ", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Nhân Cơ"], "old": ["Xã Đắk Wer"]}
+{"id": "R_24750_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Nhân Cơ", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Nhân Cơ"], "old": ["Xã Đắk Wer"]}
+{"id": "R_11005_T1_compose_new", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "new", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11005_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11005_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11005_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11005_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Thành phố Hải Phòng", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Thành phố Hải Phòng"], "old": ["Tỉnh Hải Dương"]}
+{"id": "R_11005_T5_successor_new", "model": "Qwen3.5-4B", "output": "Dựa trên tài liệu 1, khu vực Xã Liên Hồng thuộc đơn vị hành chính cấp xã là **Phường Thạch Khôi**.\n\n*Lưu ý: Tài liệu 1 chỉ đề cập đến Xã Liên Hồng thuộc Thành phố Hải Phòng, không có thông tin nào về Xã Liên Hồng thuộc Thành phố Hải Dương", "depth": "new", "qtype": "T5_successor", "gold": ["Phường Thạch Khôi"], "old": ["Xã Liên Hồng"]}
+{"id": "R_11005_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Phường Thạch Khôi", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Phường Thạch Khôi"], "old": ["Xã Liên Hồng"]}
+{"id": "R_11005_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Phường Thạch Khôi", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Phường Thạch Khôi"], "old": ["Xã Liên Hồng"]}
+{"id": "R_11005_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Phường Thạch Khôi", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Phường Thạch Khôi"], "old": ["Xã Liên Hồng"]}
+{"id": "R_11005_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Phường Thạch Khôi", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Phường Thạch Khôi"], "old": ["Xã Liên Hồng"]}
+{"id": "R_25435_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Nai", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25435_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Nai", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25435_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Nai", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25435_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Nai", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25435_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Đồng Nai", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Đồng Nai"], "old": ["Tỉnh Bình Phước"]}
+{"id": "R_25435_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Nha Bích", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Nha Bích"], "old": ["Xã Minh Lập"]}
+{"id": "R_25435_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Nha Bích", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Nha Bích"], "old": ["Xã Minh Lập"]}
+{"id": "R_25435_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Nha Bích", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Nha Bích"], "old": ["Xã Minh Lập"]}
+{"id": "R_25435_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Nha Bích", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Nha Bích"], "old": ["Xã Minh Lập"]}
+{"id": "R_25435_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Nha Bích", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Nha Bích"], "old": ["Xã Minh Lập"]}
+{"id": "R_29473_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29473_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29473_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29473_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Vĩnh Long", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29473_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Vĩnh Long", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Vĩnh Long"], "old": ["Tỉnh Trà Vinh"]}
+{"id": "R_29473_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Lưu Nghiệp Anh", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Lưu Nghiệp Anh"], "old": ["Xã An Quảng Hữu"]}
+{"id": "R_29473_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Lưu Nghiệp Anh", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Lưu Nghiệp Anh"], "old": ["Xã An Quảng Hữu"]}
+{"id": "R_29473_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Lưu Nghiệp Anh", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Lưu Nghiệp Anh"], "old": ["Xã An Quảng Hữu"]}
+{"id": "R_29473_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Lưu Nghiệp Anh", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Lưu Nghiệp Anh"], "old": ["Xã An Quảng Hữu"]}
+{"id": "R_29473_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Lưu Nghiệp Anh", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Lưu Nghiệp Anh"], "old": ["Xã An Quảng Hữu"]}
+{"id": "R_21820_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21820_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21820_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21820_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21820_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Gia Lai", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Gia Lai"], "old": ["Tỉnh Bình Định"]}
+{"id": "R_21820_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Bình Khê", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Bình Khê"], "old": ["Xã Tây Giang"]}
+{"id": "R_21820_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Bình Khê", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Bình Khê"], "old": ["Xã Tây Giang"]}
+{"id": "R_21820_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Bình Khê", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Bình Khê"], "old": ["Xã Tây Giang"]}
+{"id": "R_21820_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Bình Khê", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Bình Khê"], "old": ["Xã Tây Giang"]}
+{"id": "R_21820_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Bình Khê", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Bình Khê"], "old": ["Xã Tây Giang"]}
+{"id": "R_13954_T1_compose_new", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "new", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13954_T1_compose_mixed_on", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "mixed_on", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13954_T1_compose_mixed_no", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "mixed_no", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13954_T1_compose_dated_on", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "dated_on", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13954_T1_compose_dated_no", "model": "Qwen3.5-4B", "output": "Tỉnh Ninh Bình", "depth": "dated_no", "qtype": "T1_compose", "gold": ["Tỉnh Ninh Bình"], "old": ["Tỉnh Nam Định"]}
+{"id": "R_13954_T5_successor_new", "model": "Qwen3.5-4B", "output": "Xã Quỹ Nhất", "depth": "new", "qtype": "T5_successor", "gold": ["Xã Quỹ Nhất"], "old": ["Xã Nghĩa Lợi"]}
+{"id": "R_13954_T5_successor_mixed_on", "model": "Qwen3.5-4B", "output": "Xã Quỹ Nhất", "depth": "mixed_on", "qtype": "T5_successor", "gold": ["Xã Quỹ Nhất"], "old": ["Xã Nghĩa Lợi"]}
+{"id": "R_13954_T5_successor_mixed_no", "model": "Qwen3.5-4B", "output": "Xã Quỹ Nhất", "depth": "mixed_no", "qtype": "T5_successor", "gold": ["Xã Quỹ Nhất"], "old": ["Xã Nghĩa Lợi"]}
+{"id": "R_13954_T5_successor_dated_on", "model": "Qwen3.5-4B", "output": "Xã Quỹ Nhất", "depth": "dated_on", "qtype": "T5_successor", "gold": ["Xã Quỹ Nhất"], "old": ["Xã Nghĩa Lợi"]}
+{"id": "R_13954_T5_successor_dated_no", "model": "Qwen3.5-4B", "output": "Xã Quỹ Nhất", "depth": "dated_no", "qtype": "T5_successor", "gold": ["Xã Quỹ Nhất"], "old": ["Xã Nghĩa Lợi"]}

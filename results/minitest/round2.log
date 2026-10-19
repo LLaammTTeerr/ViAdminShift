@@ -1,0 +1,104 @@
+1160 to run
+1160 to run
+1160 to run
+500 to run
+0/500 1s
+0/1160 1s
+0/1160 2s
+0/1160 2s
+openai/gpt-6-sol 0/80 3s
+openai/gpt-6-luna 0/80 3s
+200/500 28s
+400/500 54s
+openai/gpt-6-sol 50/80 161s
+openai/gpt-6-luna 50/80 162s
+openai/gpt-6-sol 0/80 4s
+openai/gpt-6-luna 0/80 4s
+openai/gpt-6-sol 50/80 162s
+openai/gpt-6-luna 50/80 161s
+1160 to run
+0/1160 2s
+openai/gpt-6-luna 0/80 3s
+200/1160 632s
+200/1160 633s
+200/1160 635s
+openai/gpt-6-luna 50/80 162s
+openai/gpt-6-luna 0/80 4s
+openai/gpt-6-luna 50/80 163s
+openai/gpt-6-luna 0/80 3s
+200/1160 633s
+openai/gpt-6-luna 50/80 161s
+400/1160 1264s
+400/1160 1264s
+400/1160 1265s
+1160 to run
+0/1160 2s
+400/1160 1265s
+600/1160 1896s
+600/1160 1896s
+600/1160 1897s
+200/1160 634s
+600/1160 1896s
+800/1160 2528s
+800/1160 2528s
+800/1160 2529s
+400/1160 1265s
+800/1160 2528s
+1000/1160 3160s
+1000/1160 3160s
+1000/1160 3161s
+600/1160 1897s
+120 to run
+120 to run
+120 to run
+1000/1160 3160s
+0/120 2s
+0/120 3s
+0/120 12s
+800/1160 2528s
+openai/gpt-5.6-terra 0/80 2s
+tencent/hy4-preview 0/80 15s
+moonshotai/kimi-k3 0/80 9s
+120 to run
+0/120 2s
+openai/gpt-5.6-terra 50/80 160s
+tencent/hy4-preview 50/80 161s
+request refused by the provider
+openai/gpt-5.6-terra 0/80 2s
+request refused by the provider
+openai/gpt-5.6-terra 0/80 3s
+request refused by the provider
+openai/gpt-5.6-terra 0/80 3s
+moonshotai/kimi-k3 50/80 271s
+request refused by the provider
+moonshotai/kimi-k3 0/80 6s
+tencent/hy4-preview 0/80 89s
+request refused by the provider
+1000/1160 3159s
+openai/gpt-5.6-terra 50/80 161s
+openai/gpt-5.6-terra 0/80 2s
+tencent/hy4-preview 50/80 355s
+openai/gpt-5.6-terra 50/80 159s
+tencent/hy4-preview 0/80 75s
+120 to run
+0/120 1s
+1200 to run
+0/1200 2s
+tencent/hy4-preview 50/80 914s
+200/1200 720s
+tencent/hy4-preview 0/80 113s
+400/1200 1426s
+tencent/hy4-preview 50/80 558s
+tencent/hy4-preview 0/80 85s
+tencent/hy4-preview 50/80 403s
+600/1200 2289s
+800/1200 3289s
+1000/1200 3993s
+moonshotai/kimi-k3 0/25 5s
+moonshotai/kimi-k3 0/79 7s
+moonshotai/kimi-k3 50/79 491s
+openai/gpt-5.6-terra 0/1 2s
+openai/gpt-5.6-terra 0/78 7s
+openai/gpt-5.6-terra 50/78 182s
+openai/gpt-5.6-terra 0/77 3s
+openai/gpt-5.6-terra 50/77 173s

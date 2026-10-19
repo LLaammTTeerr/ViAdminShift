@@ -1,0 +1,161 @@
+openai/gpt-5.6-terra 0/469 1s
+openai/gpt-6-luna 0/469 1s
+stepfun/step-5-preview 0/469 2s
+tencent/hy4-preview 0/469 3s
+moonshotai/kimi-k3 0/6 3s
+x-ai/grok-4.7 0/469 6s
+739 to run
+0/739 1s
+stepfun/step-5-preview 0/360 2s
+openai/gpt-5.6-terra 50/469 160s
+tencent/hy4-preview 50/469 160s
+openai/gpt-6-luna 50/469 162s
+x-ai/grok-4.7 50/469 233s
+openai/gpt-6-luna 100/469 317s
+openai/gpt-5.6-terra 100/469 317s
+tencent/hy4-preview 100/469 318s
+openai/gpt-6-luna 150/469 475s
+openai/gpt-5.6-terra 150/469 475s
+tencent/hy4-preview 150/469 475s
+x-ai/grok-4.7 100/469 510s
+openai/gpt-5.6-terra 200/469 633s
+openai/gpt-6-luna 200/469 633s
+tencent/hy4-preview 200/469 633s
+x-ai/grok-4.7 150/469 751s
+openai/gpt-5.6-terra 250/469 791s
+openai/gpt-6-luna 250/469 791s
+tencent/hy4-preview 250/469 792s
+openai/gpt-6-luna 300/469 949s
+openai/gpt-5.6-terra 300/469 949s
+tencent/hy4-preview 300/469 951s
+x-ai/grok-4.7 200/469 985s
+openai/gpt-6-luna 350/469 1107s
+openai/gpt-5.6-terra 350/469 1107s
+tencent/hy4-preview 350/469 1108s
+326 to run
+671 to run
+request error; the item was retried
+request error; the item was retried
+326 to run
+671 to run
+0/671 2s
+0/326 2s
+x-ai/grok-4.7 250/469 1214s
+openai/gpt-6-luna 400/469 1265s
+tencent/hy4-preview 400/469 1265s
+openai/gpt-5.6-terra 400/469 1265s
+openai/gpt-5.6-terra 450/469 1422s
+openai/gpt-6-luna 450/469 1422s
+tencent/hy4-preview 450/469 1423s
+x-ai/grok-4.7 300/469 1469s
+openai/gpt-6-luna 0/360 1s
+openai/gpt-5.6-terra 0/360 2s
+tencent/hy4-preview 0/360 2s
+openai/gpt-5.6-terra 50/360 159s
+openai/gpt-6-luna 50/360 160s
+tencent/hy4-preview 50/360 160s
+x-ai/grok-4.7 350/469 1644s
+openai/gpt-6-luna 100/360 317s
+openai/gpt-5.6-terra 100/360 317s
+tencent/hy4-preview 100/360 318s
+200/326 633s
+200/671 633s
+x-ai/grok-4.7 400/469 1918s
+openai/gpt-6-luna 150/360 475s
+openai/gpt-5.6-terra 150/360 475s
+tencent/hy4-preview 150/360 478s
+x-ai/grok-4.7 450/469 2044s
+openai/gpt-6-luna 200/360 633s
+openai/gpt-5.6-terra 200/360 633s
+tencent/hy4-preview 200/360 635s
+x-ai/grok-4.7 0/360 4s
+openai/gpt-6-luna 250/360 791s
+openai/gpt-5.6-terra 250/360 791s
+tencent/hy4-preview 250/360 791s
+x-ai/grok-4.7 50/360 209s
+openai/gpt-5.6-terra 300/360 949s
+openai/gpt-6-luna 300/360 950s
+tencent/hy4-preview 300/360 950s
+400/671 1265s
+x-ai/grok-4.7 100/360 432s
+openai/gpt-5.6-terra 350/360 1107s
+openai/gpt-6-luna 350/360 1107s
+tencent/hy4-preview 350/360 1109s
+openai/gpt-5.6-terra 0/80 1s
+openai/gpt-6-luna 0/80 1s
+tencent/hy4-preview 0/80 6s
+x-ai/grok-4.7 150/360 605s
+openai/gpt-5.6-terra 50/80 160s
+openai/gpt-6-luna 50/80 160s
+tencent/hy4-preview 50/80 160s
+openai/gpt-5.6-terra 0/80 2s
+tencent/hy4-preview 0/80 1s
+openai/gpt-6-luna 0/80 1s
+x-ai/grok-4.7 200/360 803s
+openai/gpt-5.6-terra 50/80 159s
+openai/gpt-6-luna 50/80 159s
+tencent/hy4-preview 50/80 160s
+600/671 1896s
+x-ai/grok-4.7 250/360 971s
+openai/gpt-5.6-terra 0/80 2s
+openai/gpt-6-luna 0/80 2s
+tencent/hy4-preview 0/80 2s
+openai/gpt-5.6-terra 50/80 159s
+openai/gpt-6-luna 50/80 159s
+x-ai/grok-4.7 300/360 1147s
+tencent/hy4-preview 50/80 160s
+openai/gpt-5.6-terra 0/80 2s
+openai/gpt-6-luna 0/80 1s
+tencent/hy4-preview 0/80 2s
+x-ai/grok-4.7 350/360 1336s
+openai/gpt-5.6-terra 50/80 159s
+openai/gpt-6-luna 50/80 161s
+tencent/hy4-preview 50/80 160s
+openai/gpt-5.6-terra 0/80 1s
+openai/gpt-6-luna 0/80 2s
+tencent/hy4-preview 0/80 2s
+openai/gpt-5.6-terra 50/80 159s
+openai/gpt-6-luna 50/80 159s
+tencent/hy4-preview 50/80 160s
+openai/gpt-5.6-terra 0/80 1s
+openai/gpt-6-luna 0/80 1s
+tencent/hy4-preview 0/80 2s
+openai/gpt-5.6-terra 50/80 159s
+openai/gpt-6-luna 50/80 159s
+tencent/hy4-preview 50/80 160s
+openai/gpt-5.6-terra 0/80 2s
+openai/gpt-6-luna 0/80 1s
+tencent/hy4-preview 0/80 2s
+openai/gpt-5.6-terra 50/80 159s
+openai/gpt-6-luna 50/80 159s
+tencent/hy4-preview 50/80 160s
+openai/gpt-5.6-terra 0/80 1s
+openai/gpt-6-luna 0/80 1s
+tencent/hy4-preview 0/80 1s
+openai/gpt-5.6-terra 50/80 159s
+openai/gpt-6-luna 50/80 159s
+tencent/hy4-preview 50/80 160s
+openai/gpt-5.6-terra 0/80 1s
+openai/gpt-6-luna 0/80 1s
+tencent/hy4-preview 0/80 2s
+openai/gpt-5.6-terra 50/80 160s
+openai/gpt-6-luna 50/80 159s
+tencent/hy4-preview 50/80 160s
+960 to run
+0/960 1s
+960 to run
+0/960 1s
+960 to run
+0/960 2s
+200/960 633s
+200/960 634s
+200/960 747s
+400/960 1265s
+400/960 1265s
+400/960 1470s
+600/960 1896s
+600/960 1897s
+600/960 2194s
+800/960 2528s
+800/960 2528s
+800/960 2926s

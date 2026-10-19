@@ -1,0 +1,70 @@
+{
+ "default: cutoff 2026-01 + today 2026-10-13": {
+  "T6": {
+   "n": 29,
+   "correct": 0.5862068965517241,
+   "outdated": 0.1724137931034483
+  },
+  "T1": {
+   "n": 80,
+   "correct": 0.475,
+   "outdated": 0.375
+  },
+  "T1np": {
+   "n": 80,
+   "correct": 0.4,
+   "outdated": 0.5
+  }
+ },
+ "no date, no cutoff": {
+  "T6": {
+   "n": 29,
+   "correct": 0.6206896551724138,
+   "outdated": 0.20689655172413793
+  },
+  "T1": {
+   "n": 80,
+   "correct": 0.0875,
+   "outdated": 0.8875
+  },
+  "T1np": {
+   "n": 80,
+   "correct": 0.025,
+   "outdated": 0.9375
+  }
+ },
+ "cutoff 2026-01 only": {
+  "T6": {
+   "n": 29,
+   "correct": 0.6896551724137931,
+   "outdated": 0.13793103448275862
+  },
+  "T1": {
+   "n": 80,
+   "correct": 0.4875,
+   "outdated": 0.3875
+  },
+  "T1np": {
+   "n": 80,
+   "correct": 0.2875,
+   "outdated": 0.65
+  }
+ },
+ "today = 2025-01-01 (pre-reform)": {
+  "T6": {
+   "n": 29,
+   "correct": 0.06896551724137931,
+   "outdated": 0.3793103448275862
+  },
+  "T1": {
+   "n": 80,
+   "correct": 0.0125,
+   "outdated": 0.9875
+  },
+  "T1np": {
+   "n": 80,
+   "correct": 0.0,
+   "outdated": 0.9875
+  }
+ }
+}

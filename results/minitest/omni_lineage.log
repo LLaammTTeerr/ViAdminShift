@@ -1,0 +1,32 @@
+gpt-5.6-sol 0/549 6s
+glm-5.2 0/549 6s
+deepseek-v4-flash 0/549 7s
+gpt-6.1-sol 0/549 14s
+grok-4.6 0/549 28s
+glm-5.2 50/549 76s
+gpt-5.6-sol 50/549 88s
+deepseek-v4-flash 50/549 97s
+gpt-6.1-sol 50/549 138s
+glm-5.2 100/549 145s
+deepseek-v4-flash 100/549 162s
+gpt-5.6-sol 100/549 172s
+glm-5.2 150/549 215s
+deepseek-v4-flash 150/549 236s
+gpt-6.1-sol 100/549 278s
+gpt-5.6-sol 150/549 287s
+glm-5.2 200/549 293s
+deepseek-v4-flash 200/549 323s
+glm-5.2 250/549 362s
+gpt-5.6-sol 200/549 376s
+deepseek-v4-flash 250/549 410s
+gpt-6.1-sol 150/549 419s
+glm-5.2 300/549 430s
+gpt-5.6-sol 250/549 456s
+deepseek-v4-flash 300/549 488s
+grok-4.6 50/549 501s
+glm-5.2 350/549 509s
+request refused by the provider
+request refused by the provider
+request refused by the provider
+request refused by the provider
+request refused by the provider

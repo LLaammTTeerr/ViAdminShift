@@ -1,0 +1,112 @@
+{
+  "items": "data/benchmark/items_sub1k.jsonl",
+  "contexts": "data/benchmark/contexts.jsonl",
+  "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+  "limit": null,
+  "qtypes": null,
+  "argv": [
+    "viadmin.eval.runner",
+    "--backend",
+    "openai",
+    "--base-url",
+    "http://127.0.0.1:8131/v1",
+    "--model",
+    "Muse-Glimmer-30B-Q8_0",
+    "--extra-body",
+    "{\"chat_template_kwargs\": {\"reasoning_strength\": \"none\"}}",
+    "--max-new-short",
+    "1024",
+    "--max-new-mcq",
+    "1024",
+    "--items",
+    "data/benchmark/items_sub1k.jsonl",
+    "--concurrency",
+    "32",
+    "--conditions",
+    "rag_mixed",
+    "--out",
+    "bench/Muse-Glimmer-30B-Q8_0-sub1k"
+  ],
+  "backend": {
+    "backend": "openai",
+    "model": "Muse-Glimmer-30B-Q8_0",
+    "base_url": "http://127.0.0.1:8131/v1",
+    "template_kwargs": false,
+    "enable_thinking": false,
+    "extra_body": {
+      "chat_template_kwargs": {
+        "reasoning_strength": "none"
+      }
+    }
+  },
+  "conditions": [
+    "rag_mixed"
+  ],
+  "prompt_version": "v1",
+  "today": "2026-10-13",
+  "passage_fields": [
+    "text"
+  ],
+  "max_new_tokens": {
+    "mcq": 1024,
+    "short": 1024
+  },
+  "n_items": 1262,
+  "previous_runs": [
+    {
+      "items": "data/benchmark/items_sub1k.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "http://127.0.0.1:8131/v1",
+        "--model",
+        "Muse-Glimmer-30B-Q8_0",
+        "--extra-body",
+        "{\"chat_template_kwargs\": {\"reasoning_strength\": \"none\"}}",
+        "--max-new-short",
+        "1024",
+        "--max-new-mcq",
+        "1024",
+        "--items",
+        "data/benchmark/items_sub1k.jsonl",
+        "--concurrency",
+        "32",
+        "--conditions",
+        "closed",
+        "--out",
+        "bench/Muse-Glimmer-30B-Q8_0-sub1k"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "Muse-Glimmer-30B-Q8_0",
+        "base_url": "http://127.0.0.1:8131/v1",
+        "template_kwargs": false,
+        "enable_thinking": false,
+        "extra_body": {
+          "chat_template_kwargs": {
+            "reasoning_strength": "none"
+          }
+        }
+      },
+      "conditions": [
+        "closed"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 1024,
+        "short": 1024
+      },
+      "n_items": 1262
+    }
+  ]
+}

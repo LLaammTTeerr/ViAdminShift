@@ -1,0 +1,265 @@
+Claude-Haiku-5.5|full
+   closed                                     n= 7995  acc=0.37  outdated=0.33
+   rag_new                                    n= 1460  acc=0.99  outdated=0.00
+   rag_mixed                                  n= 1460  acc=0.96  outdated=0.04
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.84  outdated=0.16
+   rag_mixed|same                             n=  390  acc=0.95  outdated=0.04
+   rag_mixed+date                             n= 1460  acc=0.98  outdated=0.02
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.90  outdated=0.10
+   rag_mixed+date|same                        n=  390  acc=0.98  outdated=0.01
+Claude-Haiku-5.5|sub1k
+   closed                                     n= 1262  acc=0.40  outdated=0.31
+   rag_new                                    n= 1262  acc=0.99  outdated=0.00
+   rag_mixed                                  n= 1262  acc=0.98  outdated=0.02
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.73  outdated=0.27
+   rag_mixed|same                             n=  390  acc=0.95  outdated=0.04
+   rag_mixed+date                             n= 1262  acc=0.99  outdated=0.01
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.73  outdated=0.27
+   rag_mixed+date|same                        n=  390  acc=0.98  outdated=0.01
+Claude-Sonnet-5.5|full
+   closed                                     n= 7995  acc=0.65  outdated=0.08
+   rag_new                                    n= 1460  acc=1.00  outdated=0.00
+   rag_mixed                                  n= 1460  acc=1.00  outdated=0.00
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.99  outdated=0.01
+   rag_mixed|same                             n=  390  acc=1.00  outdated=0.00
+   rag_mixed+date                             n= 1460  acc=1.00  outdated=0.00
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=1.00  outdated=0.00
+   rag_mixed+date|same                        n=  390  acc=1.00  outdated=0.00
+Claude-Sonnet-5.5|sub1k
+   closed                                     n= 1262  acc=0.71  outdated=0.07
+   rag_new                                    n= 1262  acc=1.00  outdated=0.00
+   rag_mixed                                  n= 1262  acc=1.00  outdated=0.00
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=   22  acc=1.00  outdated=0.00
+   rag_mixed|same                             n=  390  acc=1.00  outdated=0.00
+   rag_mixed+date                             n= 1262  acc=1.00  outdated=0.00
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=1.00  outdated=0.00
+   rag_mixed+date|same                        n=  390  acc=1.00  outdated=0.00
+DeepSeek-V4.1-Flash|full
+   closed                                     n= 7995  acc=0.46  outdated=0.47
+   rag_new                                    n= 7995  acc=1.00  outdated=0.00
+   rag_mixed                                  n= 7995  acc=0.99  outdated=0.01
+   rag_mixed|new=template/old=wiki            n= 5410  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.94  outdated=0.06
+   rag_mixed|same                             n= 2365  acc=0.96  outdated=0.04
+   rag_mixed+date                             n= 7995  acc=0.99  outdated=0.00
+   rag_mixed+date|new=template/old=wiki       n= 5410  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.96  outdated=0.04
+   rag_mixed+date|same                        n= 2365  acc=0.99  outdated=0.01
+DeepSeek-V4.1-Flash|sub1k
+   closed                                     n= 1262  acc=0.47  outdated=0.44
+   rag_new                                    n= 1262  acc=1.00  outdated=0.00
+   rag_mixed                                  n= 1262  acc=0.98  outdated=0.02
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.86  outdated=0.14
+   rag_mixed|same                             n=  390  acc=0.95  outdated=0.05
+   rag_mixed+date                             n= 1262  acc=0.99  outdated=0.01
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.91  outdated=0.09
+   rag_mixed+date|same                        n=  390  acc=0.98  outdated=0.02
+GPT-6-Luna|full
+   closed                                     n= 7995  acc=0.60  outdated=0.19
+   rag_new                                    n= 1460  acc=1.00  outdated=0.00
+   rag_mixed                                  n= 1460  acc=0.99  outdated=0.00
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.97  outdated=0.03
+   rag_mixed|same                             n=  390  acc=0.99  outdated=0.00
+   rag_mixed+date                             n= 1460  acc=1.00  outdated=0.00
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.97  outdated=0.02
+   rag_mixed+date|same                        n=  390  acc=1.00  outdated=0.00
+GPT-6-Luna|sub1k
+   closed                                     n= 1262  acc=0.66  outdated=0.17
+   rag_new                                    n= 1262  acc=1.00  outdated=0.00
+   rag_mixed                                  n= 1262  acc=1.00  outdated=0.00
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.95  outdated=0.05
+   rag_mixed|same                             n=  390  acc=0.99  outdated=0.00
+   rag_mixed+date                             n= 1262  acc=1.00  outdated=0.00
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.95  outdated=0.00
+   rag_mixed+date|same                        n=  390  acc=1.00  outdated=0.00
+Llama-3.2-3B-Instruct-Q8_0|full
+   closed                                     n= 7995  acc=0.32  outdated=0.49
+   rag_new                                    n= 7995  acc=0.78  outdated=0.11
+   rag_mixed                                  n= 7995  acc=0.72  outdated=0.16
+   rag_mixed|new=template/old=wiki            n= 5410  acc=0.72  outdated=0.14
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.61  outdated=0.39
+   rag_mixed|same                             n= 2365  acc=0.73  outdated=0.19
+   rag_mixed+date                             n= 7995  acc=0.75  outdated=0.14
+   rag_mixed+date|new=template/old=wiki       n= 5410  acc=0.75  outdated=0.13
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.70  outdated=0.29
+   rag_mixed+date|same                        n= 2365  acc=0.76  outdated=0.16
+Llama-3.2-3B-Instruct-Q8_0|sub1k
+   closed                                     n= 1262  acc=0.31  outdated=0.49
+   rag_new                                    n= 1262  acc=0.81  outdated=0.10
+   rag_mixed                                  n= 1262  acc=0.73  outdated=0.16
+   rag_mixed|new=template/old=wiki            n=  850  acc=0.74  outdated=0.13
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.36  outdated=0.64
+   rag_mixed|same                             n=  390  acc=0.75  outdated=0.19
+   rag_mixed+date                             n= 1262  acc=0.76  outdated=0.14
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=0.76  outdated=0.12
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.45  outdated=0.55
+   rag_mixed+date|same                        n=  390  acc=0.78  outdated=0.16
+Muse-Glimmer-30B-Q8_0-full|full
+   closed                                     n= 7995  acc=0.41  outdated=0.20
+   rag_mixed                                  n= 7995  acc=0.98  outdated=0.01
+   rag_mixed|new=template/old=wiki            n= 5410  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.90  outdated=0.10
+   rag_mixed|same                             n= 2365  acc=0.95  outdated=0.02
+Muse-Glimmer-30B-Q8_0-full|sub1k
+   closed                                     n= 1262  acc=0.44  outdated=0.19
+   rag_mixed                                  n= 1262  acc=0.98  outdated=0.01
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.77  outdated=0.23
+   rag_mixed|same                             n=  390  acc=0.96  outdated=0.03
+Muse-Glimmer-30B-Q8_0-sub1k|sub1k
+   closed                                     n= 1262  acc=0.44  outdated=0.19
+   rag_new                                    n= 1262  acc=0.99  outdated=0.00
+   rag_mixed                                  n= 1262  acc=0.98  outdated=0.01
+   rag_mixed|new=template/old=wiki            n=  850  acc=1.00  outdated=0.00
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.77  outdated=0.23
+   rag_mixed|same                             n=  390  acc=0.96  outdated=0.03
+   rag_mixed+date                             n= 1262  acc=1.00  outdated=0.00
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=1.00  outdated=0.00
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=1.00  outdated=0.00
+   rag_mixed+date|same                        n=  390  acc=0.98  outdated=0.01
+Qwen3-1.7B-Q8_0|full
+   closed                                     n= 7995  acc=0.34  outdated=0.50
+   rag_new                                    n= 7995  acc=0.84  outdated=0.11
+   rag_mixed                                  n= 7995  acc=0.70  outdated=0.23
+   rag_mixed|new=template/old=wiki            n= 5410  acc=0.74  outdated=0.18
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.37  outdated=0.62
+   rag_mixed|same                             n= 2365  acc=0.63  outdated=0.29
+   rag_mixed+date                             n= 7995  acc=0.71  outdated=0.21
+   rag_mixed+date|new=template/old=wiki       n= 5410  acc=0.75  outdated=0.17
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.40  outdated=0.59
+   rag_mixed+date|same                        n= 2365  acc=0.65  outdated=0.27
+Qwen3-1.7B-Q8_0|sub1k
+   closed                                     n= 1262  acc=0.35  outdated=0.48
+   rag_new                                    n= 1262  acc=0.86  outdated=0.09
+   rag_mixed                                  n= 1262  acc=0.73  outdated=0.20
+   rag_mixed|new=template/old=wiki            n=  850  acc=0.76  outdated=0.16
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.23  outdated=0.77
+   rag_mixed|same                             n=  390  acc=0.69  outdated=0.26
+   rag_mixed+date                             n= 1262  acc=0.74  outdated=0.19
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=0.77  outdated=0.14
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.27  outdated=0.73
+   rag_mixed+date|same                        n=  390  acc=0.70  outdated=0.25
+Qwen3-4B-Q8_0|full
+   closed                                     n= 7995  acc=0.35  outdated=0.49
+   rag_new                                    n= 7995  acc=0.93  outdated=0.04
+   rag_mixed                                  n= 7995  acc=0.74  outdated=0.18
+   rag_mixed|new=template/old=wiki            n= 5410  acc=0.77  outdated=0.14
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.45  outdated=0.54
+   rag_mixed|same                             n= 2365  acc=0.69  outdated=0.24
+   rag_mixed+date                             n= 7995  acc=0.74  outdated=0.17
+   rag_mixed+date|new=template/old=wiki       n= 5410  acc=0.76  outdated=0.15
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.49  outdated=0.50
+   rag_mixed+date|same                        n= 2365  acc=0.72  outdated=0.21
+Qwen3-4B-Q8_0|sub1k
+   closed                                     n= 1262  acc=0.36  outdated=0.47
+   rag_new                                    n= 1262  acc=0.94  outdated=0.04
+   rag_mixed                                  n= 1262  acc=0.76  outdated=0.18
+   rag_mixed|new=template/old=wiki            n=  850  acc=0.79  outdated=0.13
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.36  outdated=0.64
+   rag_mixed|same                             n=  390  acc=0.70  outdated=0.26
+   rag_mixed+date                             n= 1262  acc=0.77  outdated=0.17
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=0.79  outdated=0.13
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.32  outdated=0.68
+   rag_mixed+date|same                        n=  390  acc=0.74  outdated=0.23
+Qwen3.5-2B-Q8_0|full
+   closed                                     n= 7995  acc=0.34  outdated=0.52
+   rag_new                                    n= 7995  acc=0.73  outdated=0.22
+   rag_mixed                                  n= 7995  acc=0.62  outdated=0.35
+   rag_mixed|new=template/old=wiki            n= 5410  acc=0.60  outdated=0.36
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.52  outdated=0.48
+   rag_mixed|same                             n= 2365  acc=0.66  outdated=0.31
+   rag_mixed+date                             n= 7995  acc=0.62  outdated=0.35
+   rag_mixed+date|new=template/old=wiki       n= 5410  acc=0.60  outdated=0.36
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.51  outdated=0.48
+   rag_mixed+date|same                        n= 2365  acc=0.65  outdated=0.32
+Qwen3.5-2B-Q8_0|sub1k
+   closed                                     n= 1262  acc=0.35  outdated=0.51
+   rag_new                                    n= 1262  acc=0.77  outdated=0.19
+   rag_mixed                                  n= 1262  acc=0.66  outdated=0.31
+   rag_mixed|new=template/old=wiki            n=  850  acc=0.65  outdated=0.32
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.32  outdated=0.68
+   rag_mixed|same                             n=  390  acc=0.70  outdated=0.28
+   rag_mixed+date                             n= 1262  acc=0.67  outdated=0.31
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=0.66  outdated=0.31
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.36  outdated=0.64
+   rag_mixed+date|same                        n=  390  acc=0.71  outdated=0.28
+Qwen3.5-4B-Q8_0|full
+   closed                                     n= 7995  acc=0.35  outdated=0.53
+   rag_new                                    n= 7995  acc=0.98  outdated=0.00
+   rag_mixed                                  n= 7995  acc=0.91  outdated=0.06
+   rag_mixed|new=template/old=wiki            n= 5410  acc=0.95  outdated=0.02
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.64  outdated=0.35
+   rag_mixed|same                             n= 2365  acc=0.84  outdated=0.14
+   rag_mixed+date                             n= 7995  acc=0.93  outdated=0.05
+   rag_mixed+date|new=template/old=wiki       n= 5410  acc=0.96  outdated=0.01
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.65  outdated=0.34
+   rag_mixed+date|same                        n= 2365  acc=0.88  outdated=0.10
+Qwen3.5-4B-Q8_0|sub1k
+   closed                                     n= 1262  acc=0.35  outdated=0.52
+   rag_new                                    n= 1262  acc=0.98  outdated=0.01
+   rag_mixed                                  n= 1262  acc=0.91  outdated=0.06
+   rag_mixed|new=template/old=wiki            n=  850  acc=0.95  outdated=0.02
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.55  outdated=0.45
+   rag_mixed|same                             n=  390  acc=0.85  outdated=0.14
+   rag_mixed+date                             n= 1262  acc=0.93  outdated=0.05
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=0.96  outdated=0.01
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.45  outdated=0.55
+   rag_mixed+date|same                        n=  390  acc=0.89  outdated=0.11
+gemma-3-4b-it-Q8_0|full
+   closed                                     n= 7995  acc=0.35  outdated=0.52
+   rag_new                                    n= 7995  acc=0.71  outdated=0.23
+   rag_mixed                                  n= 7995  acc=0.70  outdated=0.23
+   rag_mixed|new=template/old=wiki            n= 5410  acc=0.69  outdated=0.23
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.67  outdated=0.32
+   rag_mixed|same                             n= 2365  acc=0.73  outdated=0.21
+   rag_mixed+date                             n= 7995  acc=0.69  outdated=0.24
+   rag_mixed+date|new=template/old=wiki       n= 5410  acc=0.68  outdated=0.24
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.69  outdated=0.30
+   rag_mixed+date|same                        n= 2365  acc=0.71  outdated=0.23
+gemma-3-4b-it-Q8_0|sub1k
+   closed                                     n= 1262  acc=0.35  outdated=0.50
+   rag_new                                    n= 1262  acc=0.75  outdated=0.20
+   rag_mixed                                  n= 1262  acc=0.72  outdated=0.22
+   rag_mixed|new=template/old=wiki            n=  850  acc=0.71  outdated=0.21
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.50  outdated=0.50
+   rag_mixed|same                             n=  390  acc=0.74  outdated=0.22
+   rag_mixed+date                             n= 1262  acc=0.71  outdated=0.23
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=0.71  outdated=0.22
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.59  outdated=0.41
+   rag_mixed+date|same                        n=  390  acc=0.73  outdated=0.24
+tiny-aya-global-q8_0|full
+   closed                                     n= 7995  acc=0.33  outdated=0.52
+   rag_new                                    n= 7995  acc=0.65  outdated=0.13
+   rag_mixed                                  n= 7995  acc=0.56  outdated=0.32
+   rag_mixed|new=template/old=wiki            n= 5410  acc=0.57  outdated=0.31
+   rag_mixed|new=wiki/old=template            n=  220  acc=0.42  outdated=0.56
+   rag_mixed|same                             n= 2365  acc=0.57  outdated=0.31
+   rag_mixed+date                             n= 7995  acc=0.58  outdated=0.31
+   rag_mixed+date|new=template/old=wiki       n= 5410  acc=0.58  outdated=0.30
+   rag_mixed+date|new=wiki/old=template       n=  220  acc=0.42  outdated=0.56
+   rag_mixed+date|same                        n= 2365  acc=0.59  outdated=0.30
+tiny-aya-global-q8_0|sub1k
+   closed                                     n= 1262  acc=0.33  outdated=0.52
+   rag_new                                    n= 1262  acc=0.71  outdated=0.11
+   rag_mixed                                  n= 1262  acc=0.62  outdated=0.28
+   rag_mixed|new=template/old=wiki            n=  850  acc=0.62  outdated=0.26
+   rag_mixed|new=wiki/old=template            n=   22  acc=0.32  outdated=0.64
+   rag_mixed|same                             n=  390  acc=0.63  outdated=0.30
+   rag_mixed+date                             n= 1262  acc=0.63  outdated=0.27
+   rag_mixed+date|new=template/old=wiki       n=  850  acc=0.63  outdated=0.25
+   rag_mixed+date|new=wiki/old=template       n=   22  acc=0.23  outdated=0.73
+   rag_mixed+date|same                        n=  390  acc=0.65  outdated=0.28

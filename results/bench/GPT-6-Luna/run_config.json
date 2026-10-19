@@ -1,0 +1,320 @@
+{
+  "items": "data/benchmark/items_rag_sub.jsonl",
+  "contexts": "data/benchmark/contexts.jsonl",
+  "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+  "limit": null,
+  "qtypes": null,
+  "argv": [
+    "viadmin.eval.runner",
+    "--backend",
+    "openai",
+    "--base-url",
+    "https://openrouter.ai/api/v1",
+    "--api-key-env",
+    "OPENROUTER_TOKEN",
+    "--model",
+    "openai/gpt-6-luna",
+    "--extra-body",
+    "{\"reasoning\": {\"enabled\": false}}",
+    "--concurrency",
+    "4",
+    "--conditions",
+    "rag_mixed+date",
+    "--items",
+    "data/benchmark/items_rag_sub.jsonl",
+    "--out",
+    "results/bench/GPT-6-Luna"
+  ],
+  "backend": {
+    "backend": "openai",
+    "model": "openai/gpt-6-luna",
+    "base_url": "https://openrouter.ai/api/v1",
+    "template_kwargs": false,
+    "enable_thinking": false,
+    "extra_body": {
+      "reasoning": {
+        "enabled": false
+      }
+    }
+  },
+  "conditions": [
+    "rag_mixed+date"
+  ],
+  "prompt_version": "v1",
+  "today": "2026-10-13",
+  "passage_fields": [
+    "text"
+  ],
+  "max_new_tokens": {
+    "mcq": 16,
+    "short": 64
+  },
+  "n_items": 1460,
+  "previous_runs": [
+    {
+      "items": "data/benchmark/items.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "https://openrouter.ai/api/v1",
+        "--api-key-env",
+        "OPENROUTER_TOKEN",
+        "--model",
+        "openai/gpt-6-luna",
+        "--extra-body",
+        "{\"reasoning\": {\"enabled\": false}}",
+        "--concurrency",
+        "12",
+        "--conditions",
+        "closed",
+        "--items",
+        "data/benchmark/items.jsonl",
+        "--out",
+        "results/bench/GPT-6-Luna"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "openai/gpt-6-luna",
+        "base_url": "https://openrouter.ai/api/v1",
+        "template_kwargs": false,
+        "enable_thinking": false,
+        "extra_body": {
+          "reasoning": {
+            "enabled": false
+          }
+        }
+      },
+      "conditions": [
+        "closed"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 16,
+        "short": 64
+      },
+      "n_items": 7995
+    },
+    {
+      "items": "data/benchmark/items.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "https://openrouter.ai/api/v1",
+        "--api-key-env",
+        "OPENROUTER_TOKEN",
+        "--model",
+        "openai/gpt-6-luna",
+        "--extra-body",
+        "{\"reasoning\": {\"enabled\": false}}",
+        "--concurrency",
+        "12",
+        "--conditions",
+        "closed",
+        "--items",
+        "data/benchmark/items.jsonl",
+        "--out",
+        "results/bench/GPT-6-Luna"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "openai/gpt-6-luna",
+        "base_url": "https://openrouter.ai/api/v1",
+        "template_kwargs": false,
+        "enable_thinking": false,
+        "extra_body": {
+          "reasoning": {
+            "enabled": false
+          }
+        }
+      },
+      "conditions": [
+        "closed"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 16,
+        "short": 64
+      },
+      "n_items": 7995
+    },
+    {
+      "items": "data/benchmark/items.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "https://openrouter.ai/api/v1",
+        "--api-key-env",
+        "OPENROUTER_TOKEN",
+        "--model",
+        "openai/gpt-6-luna",
+        "--extra-body",
+        "{\"reasoning\": {\"enabled\": false}}",
+        "--concurrency",
+        "4",
+        "--conditions",
+        "closed",
+        "--items",
+        "data/benchmark/items.jsonl",
+        "--out",
+        "results/bench/GPT-6-Luna"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "openai/gpt-6-luna",
+        "base_url": "https://openrouter.ai/api/v1",
+        "template_kwargs": false,
+        "enable_thinking": false,
+        "extra_body": {
+          "reasoning": {
+            "enabled": false
+          }
+        }
+      },
+      "conditions": [
+        "closed"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 16,
+        "short": 64
+      },
+      "n_items": 7995
+    },
+    {
+      "items": "data/benchmark/items_rag_sub.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "https://openrouter.ai/api/v1",
+        "--api-key-env",
+        "OPENROUTER_TOKEN",
+        "--model",
+        "openai/gpt-6-luna",
+        "--extra-body",
+        "{\"reasoning\": {\"enabled\": false}}",
+        "--concurrency",
+        "4",
+        "--conditions",
+        "rag_new",
+        "--items",
+        "data/benchmark/items_rag_sub.jsonl",
+        "--out",
+        "results/bench/GPT-6-Luna"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "openai/gpt-6-luna",
+        "base_url": "https://openrouter.ai/api/v1",
+        "template_kwargs": false,
+        "enable_thinking": false,
+        "extra_body": {
+          "reasoning": {
+            "enabled": false
+          }
+        }
+      },
+      "conditions": [
+        "rag_new"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 16,
+        "short": 64
+      },
+      "n_items": 1460
+    },
+    {
+      "items": "data/benchmark/items_rag_sub.jsonl",
+      "contexts": "data/benchmark/contexts.jsonl",
+      "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+      "limit": null,
+      "qtypes": null,
+      "argv": [
+        "viadmin.eval.runner",
+        "--backend",
+        "openai",
+        "--base-url",
+        "https://openrouter.ai/api/v1",
+        "--api-key-env",
+        "OPENROUTER_TOKEN",
+        "--model",
+        "openai/gpt-6-luna",
+        "--extra-body",
+        "{\"reasoning\": {\"enabled\": false}}",
+        "--concurrency",
+        "4",
+        "--conditions",
+        "rag_mixed",
+        "--items",
+        "data/benchmark/items_rag_sub.jsonl",
+        "--out",
+        "results/bench/GPT-6-Luna"
+      ],
+      "backend": {
+        "backend": "openai",
+        "model": "openai/gpt-6-luna",
+        "base_url": "https://openrouter.ai/api/v1",
+        "template_kwargs": false,
+        "enable_thinking": false,
+        "extra_body": {
+          "reasoning": {
+            "enabled": false
+          }
+        }
+      },
+      "conditions": [
+        "rag_mixed"
+      ],
+      "prompt_version": "v1",
+      "today": "2026-10-13",
+      "passage_fields": [
+        "text"
+      ],
+      "max_new_tokens": {
+        "mcq": 16,
+        "short": 64
+      },
+      "n_items": 1460
+    }
+  ]
+}

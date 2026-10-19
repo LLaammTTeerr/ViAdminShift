@@ -1,0 +1,54 @@
+{
+  "items": "data/probe/probe_all.jsonl",
+  "contexts": "data/benchmark/contexts.jsonl",
+  "passages": "data/wiki/passages.jsonl,data/benchmark/template_passages.jsonl",
+  "limit": null,
+  "qtypes": null,
+  "argv": [
+    "viadmin.eval.runner",
+    "--backend",
+    "openai",
+    "--model",
+    "deepseek-v4-pro",
+    "--base-url",
+    "https://api.deepseek.com",
+    "--api-key-env",
+    "DS_TOKEN",
+    "--extra-body",
+    "{\"thinking\": {\"type\": \"disabled\"}}",
+    "--items",
+    "data/probe/probe_all.jsonl",
+    "--conditions",
+    "closed",
+    "--out",
+    "results/probe_deepseek-v4-pro",
+    "--concurrency",
+    "8"
+  ],
+  "backend": {
+    "backend": "openai",
+    "model": "deepseek-v4-pro",
+    "base_url": "https://api.deepseek.com",
+    "template_kwargs": false,
+    "enable_thinking": false,
+    "extra_body": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "conditions": [
+    "closed"
+  ],
+  "prompt_version": "v1",
+  "today": "2026-10-13",
+  "passage_fields": [
+    "text"
+  ],
+  "max_new_tokens": {
+    "mcq": 16,
+    "short": 64
+  },
+  "n_items": 91,
+  "previous_runs": []
+}
