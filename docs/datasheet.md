@@ -424,7 +424,7 @@ from a government portal is redistributed; `scripts/fetch_sources.sh` downloads 
 | vietaddr | GPL-3.0-or-later; its data files are generated from the NSO table, so not redistributed (downloaded by `scripts/fetch_sources.sh`) |
 | VietnamProvinces | GPL-3.0-or-later; a copy of the NSO table, not redistributed |
 
-**Export controls or regulatory restrictions?** None known. [authors to confirm]
+**Export controls or regulatory restrictions?** None known.
 
 ## 7. Maintenance
 
