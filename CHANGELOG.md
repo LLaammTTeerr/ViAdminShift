@@ -3,7 +3,11 @@
 Data versions are named after the date of the administrative structure they describe. Released versions stay
 available unchanged. Report errors on the repository's issue tracker; confirmed corrections are listed here.
 
-## Version 2025-07-01 (releases v1.0, v1.0.1, v1.0.2)
+## Version 2025-07-01 (releases v1.0, v1.0.1, v1.0.2, v1.0.3)
+
+v1.0.3 has the same data. `results/analysis/nosuffix.json` (brevity-suffix control) is rescored with the current
+scorer, as printed in the paper (six rates change by 1.25 points), and `scripts/score_nosuffix.py` is added to the
+README's rebuild steps.
 
 v1.0.2 has the same data and code as v1.0.1. The datasheet answers the export-controls question (none known), the
 upstream source note no longer gives download dates, and `.zenodo.json` files the archive as a dataset.

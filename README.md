@@ -308,6 +308,7 @@ python3 scripts/analyze_sys.py        # date placement (main and control tables)
 python3 scripts/analyze_review.py     # frame / prefix / repeat controls
 python3 scripts/agent_date.py score   # agent settings
 python3 scripts/analyze_template.py   # Muse-Glimmer chat-template ablation
+python3 scripts/score_nosuffix.py     # brevity-suffix control
 python3 -c "import sys; sys.path.insert(0,'scripts'); import analyze_rag as r; r.main(); r.tex()"  # retrieval table
 python3 scripts/analyze_bench_extra.py  # 2x2 cells and per-question-type tables (run after analyze_rag)
 python3 scripts/clustered_ci.py       # province-clustered intervals and wild cluster tests (run after the above)

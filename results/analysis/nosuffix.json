@@ -28,7 +28,7 @@
   },
   "no_suffix": {
    "n": 80,
-   "old_only": 0.9375,
+   "old_only": 0.95,
    "new_first": 0.0,
    "both": 0.05,
    "mentions_reform": 0.05,
@@ -46,7 +46,7 @@
   },
   "no_suffix": {
    "n": 80,
-   "old_only": 0.9875,
+   "old_only": 1.0,
    "new_first": 0.0,
    "both": 0.0,
    "mentions_reform": 0.0,
@@ -64,7 +64,7 @@
   },
   "no_suffix": {
    "n": 80,
-   "old_only": 0.9875,
+   "old_only": 1.0,
    "new_first": 0.0,
    "both": 0.0,
    "mentions_reform": 0.0,
@@ -74,7 +74,7 @@
  "gpt-6-luna__orouter|sys1": {
   "suffix": {
    "n": 80,
-   "old_only": 0.8625,
+   "old_only": 0.875,
    "new_first": 0.125,
    "both": 0.0,
    "mentions_reform": 0.0,
@@ -84,7 +84,7 @@
    "n": 80,
    "old_only": 0.775,
    "new_first": 0.025,
-   "both": 0.2125,
+   "both": 0.225,
    "mentions_reform": 0.2625,
    "median_chars": 52.0
   }
@@ -100,7 +100,7 @@
   },
   "no_suffix": {
    "n": 80,
-   "old_only": 0.9375,
+   "old_only": 0.95,
    "new_first": 0.0,
    "both": 0.05,
    "mentions_reform": 0.05,
