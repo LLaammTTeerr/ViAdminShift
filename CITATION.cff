@@ -5,6 +5,14 @@ type: dataset
 version: "1.0"
 license: CC-BY-SA-4.0
 repository-code: "https://github.com/LLaammTTeerr/ViAdminShift"
+doi: 10.5281/zenodo.23473403
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23473403
+    description: All versions (resolves to the latest)
+  - type: doi
+    value: 10.5281/zenodo.23473404
+    description: Version 1.0
 abstract: >-
   ViAdminShift is a Vietnamese benchmark built from the administrative reform in force from 1 July 2025 (63 provinces
   merged into 34, districts abolished, 10,035 communes reorganized into 3,321). It contains the benchmark items

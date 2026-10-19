@@ -3,8 +3,7 @@
 This datasheet follows *Datasheets for Datasets* (Gebru et al., 2021). Facts are taken from the repository
 documentation: `docs/SPEC.md`, `docs/data_report.md`, `docs/wiki_report.md`, `docs/benchmark_report.md`,
 `docs/gold_audit.md` and the paper. The coverage numbers in section 2.4 were computed from
-`data/processed/ward_mapping.jsonl` and `data/benchmark/items.jsonl`. Anything not documented in the repository is
-marked **[authors to fill]**.
+`data/processed/ward_mapping.jsonl` and `data/benchmark/items.jsonl`.
 
 Data version: **2025-07-01**, the administrative structure in force on 1 July 2025.
 
@@ -26,9 +25,11 @@ On 1 July 2025 Vietnam reduced its provinces from 63 to 34, abolished the distri
 The design isolates outdated knowledge from missing geographic knowledge through a 2x2 control (province changed ×
 ward changed).
 
-**Who created the dataset, and on behalf of which entity?** [authors to fill]
+**Who created the dataset, and on behalf of which entity?** Phan Binh Nguyen Lam (Faculty of Information Technology,
+University of Science, Vietnam National University, Ho Chi Minh City) and Nguyen Thai Anh (Faculty of Information
+Technology, Van Lang School of Technology, Van Lang University, Ho Chi Minh City), as academic research.
 
-**Who funded the creation of the dataset?** [authors to fill]
+**Who funded the creation of the dataset?** No external funding.
 
 **Any other comments?**
 Per the paper's ethics statement, Claude (Anthropic) was used to help write the data-processing, generation and
@@ -279,7 +280,7 @@ Each source's URL, revision or commit, licence and checksum is in `data/raw/<sou
     the post-reform state;
   - *new* = the last revision before 2026-01-01, kept only if it postdates 2025-07-15.
 
-**Who was involved?** [authors to fill]. No crowd workers were employed. The manual checks and the scorer-validation labels were done by the two authors; the manual-check list was prepared with an AI assistant.
+**Who was involved?** The two authors. No crowd workers were employed. The manual checks and the scorer-validation labels were done by the two authors; the manual-check list was prepared with an AI assistant.
 
 **Over what timeframe?**
 
@@ -287,8 +288,8 @@ Each source's URL, revision or commit, licence and checksum is in `data/raw/<sou
 - Wikipedia revisions range from 2023-05 (old era) to 2025-12 (new era).
 - All sources were retrieved, and all API model calls made, after the reform took effect.
 
-**Were ethical review processes conducted?** [authors to fill]. The data contains no personal data and no human
-subjects.
+**Were ethical review processes conducted?** No; none was required. The data contains no personal data and no human
+subjects, and the only annotators were the two authors.
 
 ## 4. Preprocessing, cleaning and labelling
 
@@ -396,10 +397,10 @@ Consult official sources instead.
 ## 6. Distribution
 
 **How will the dataset be distributed?**
-In this repository: [repository URL — authors to fill], with a versioned release per data version. Archival DOI:
-[authors to fill].
+In this repository: https://github.com/LLaammTTeerr/ViAdminShift, with a versioned release per data version. Each release is archived on Zenodo:
+v1.0 has DOI [10.5281/zenodo.23473404](https://doi.org/10.5281/zenodo.23473404); the DOI [10.5281/zenodo.23473403](https://doi.org/10.5281/zenodo.23473403) always resolves to the latest version.
 
-**When?** [authors to fill], with the paper.
+**When?** Release v1.0, with the paper.
 
 **Licence.**
 
@@ -427,7 +428,7 @@ from a government portal is redistributed; `scripts/fetch_sources.sh` downloads 
 
 ## 7. Maintenance
 
-**Who maintains the dataset? How can they be contacted?** The authors [names to fill], through the issue tracker of
+**Who maintains the dataset? How can they be contacted?** The authors, Phan Binh Nguyen Lam and Nguyen Thai Anh, through the issue tracker of
 the repository.
 
 **Is there an erratum?** Data corrections made during construction are logged in

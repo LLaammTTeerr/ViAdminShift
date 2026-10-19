@@ -2,6 +2,8 @@
 
 **ViAdminShift: A Vietnamese Benchmark for Event-Level Knowledge Updates Built from the 2025 Administrative Reform**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23473403.svg)](https://doi.org/10.5281/zenodo.23473403)
+
 On 1 July 2025 Vietnam reorganised its administrative map:
 
 - 63 provinces and centrally-run cities became **34**.
@@ -431,7 +433,8 @@ administrative use.
   author = {Phan, Binh Nguyen Lam and Nguyen, Thai Anh},
   year   = {2026},
   note   = {Data version 2025-07-01, release v1.0},
-  url    = {https://github.com/LLaammTTeerr/ViAdminShift}
+  doi    = {10.5281/zenodo.23473404},
+  url    = {https://doi.org/10.5281/zenodo.23473404}
 }
 ```
 
