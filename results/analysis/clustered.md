@@ -1,0 +1,1890 @@
+# Province-clustered intervals (percentage points)
+
+Unit: paired unit-level bootstrap (B=2,000). Cluster: paired cluster bootstrap over old provinces (B=10,000). p: Rademacher wild cluster bootstrap (B=10,000). G: provinces, n: units.
+
+## Cue ladder (strict)
+
+### deepseek-flash|api (knower)
+- T6 prov absorbed, date - none: +38 unit [+21, +55] cluster [+21, +55] p=0.001 G=29 n=29
+- T6 prov absorbed, reform - none: +90 unit [+79, +100] cluster [+76, +100] p=0.000 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -3 unit [-9, +0] cluster [-9, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -4 unit [-13, +0] cluster [-13, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +45 unit [+42, +48] cluster [+31, +59] p=0.000 G=29 n=1000
+- T1 ward absorbed, reform - none: +68 unit [+65, +71] cluster [+52, +83] p=0.000 G=29 n=1000
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=337  (not established)
+- T1 ward kept, reform - none: -0 unit [-1, +0] cluster [-1, +0] p=1.000 G=34 n=337  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=140  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=140  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=197  (not established)
+- T1 ward kept merged, reform - none: -1 unit [-2, +0] cluster [-2, +0] p=1.000 G=23 n=197  (not established)
+- T1np absorbed, date - none: +64 unit [+54, +74] cluster [+47, +82] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +60 unit [+49, +70] cluster [+41, +79] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: +1 unit [+0, +1] cluster [+0, +1] p=0.496 G=63 n=592  (not established)
+- T5 succ changed, reform - none: +2 unit [+1, +4] cluster [+1, +4] p=0.005 G=63 n=592
+- T5 succ unchanged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=58 n=300  (not established)
+- T5 succ unchanged, reform - none: -5 unit [-7, -2] cluster [-7, -2] p=0.001 G=58 n=300
+
+### deepseek-v4-pro|api
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +10 unit [+0, +24] cluster [+0, +24] p=0.247 G=29 n=29  (not established)
+- T6 prov kept, date - none: -3 unit [-9, +0] cluster [-9, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -6 unit [-15, +0] cluster [-15, +0] p=0.495 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -4 unit [-13, +0] cluster [-13, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=1000  (not established)
+- T1 ward absorbed, reform - none: +2 unit [+1, +2] cluster [+0, +4] p=0.502 G=29 n=1000  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=337  (not established)
+- T1 ward kept, reform - none: -1 unit [-1, +0] cluster [-2, +0] p=0.503 G=34 n=337  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=140  (not established)
+- T1 ward kept unmerged, reform - none: -1 unit [-2, +0] cluster [-3, +0] p=1.000 G=11 n=140  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=197  (not established)
+- T1 ward kept merged, reform - none: -1 unit [-2, +0] cluster [-2, +0] p=1.000 G=23 n=197  (not established)
+- T1np absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1np absorbed, reform - none: +1 unit [+0, +4] cluster [+0, +5] p=1.000 G=24 n=80  (not established)
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=63 n=592  (not established)
+- T5 succ changed, reform - none: +2 unit [+1, +3] cluster [+1, +3] p=0.003 G=63 n=592
+- T5 succ unchanged, date - none: -4 unit [-6, -2] cluster [-6, -2] p=0.004 G=58 n=300
+- T5 succ unchanged, reform - none: -15 unit [-19, -11] cluster [-20, -11] p=0.000 G=58 n=300
+
+### claude-fable-5-1|claude (knower)
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +99 unit [+98, +100] cluster [+98, +100] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +99 unit [+98, +100] cluster [+98, +100] p=0.000 G=29 n=300
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1np absorbed, date - none: +99 unit [+96, +100] cluster [+96, +100] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +99 unit [+96, +100] cluster [+96, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: -2 unit [-8, +3] cluster [-9, +4] p=0.502 G=61 n=296  (not established)
+- T5 succ changed, reform - none: -1 unit [-7, +4] cluster [-7, +4] p=0.678 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -4 unit [-14, +6] cluster [-14, +5] p=0.387 G=42 n=100  (not established)
+- T5 succ unchanged, reform - none: -2 unit [-12, +8] cluster [-12, +8] p=0.710 G=42 n=100  (not established)
+
+### claude-fable-5|claude (knower)
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +99 unit [+96, +100] cluster [+96, +100] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +99 unit [+96, +100] cluster [+96, +100] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +91 unit [+85, +98] cluster [+85, +97] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +99 unit [+96, +100] cluster [+96, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-haiku-4-5-20251001|claude
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +82 unit [+68, +94] cluster [+68, +94] p=0.000 G=34 n=34
+- T6 prov kept, reform - none: +85 unit [+74, +97] cluster [+74, +97] p=0.000 G=34 n=34
+- T6 prov kept unmerged, date - none: +82 unit [+55, +100] cluster [+55, +100] p=0.004 G=11 n=11
+- T6 prov kept unmerged, reform - none: +82 unit [+55, +100] cluster [+55, +100] p=0.004 G=11 n=11
+- T6 prov kept merged, date - none: +83 unit [+65, +96] cluster [+65, +96] p=0.000 G=23 n=23
+- T6 prov kept merged, reform - none: +87 unit [+74, +100] cluster [+74, +100] p=0.000 G=23 n=23
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-haiku-5-5|claude (knower)
+- T6 prov absorbed, date - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +69 unit [+52, +86] cluster [+52, +86] p=0.000 G=29 n=29
+- T6 prov kept, date - none: +29 unit [+15, +44] cluster [+15, +44] p=0.002 G=34 n=34
+- T6 prov kept, reform - none: +6 unit [-9, +21] cluster [-9, +24] p=0.720 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +43 unit [+22, +65] cluster [+22, +65] p=0.003 G=23 n=23
+- T6 prov kept merged, reform - none: +13 unit [-9, +35] cluster [-9, +35] p=0.464 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +19 unit [+15, +24] cluster [+11, +28] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +77 unit [+72, +82] cluster [+68, +85] p=0.000 G=29 n=300
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept, reform - none: -9 unit [-13, -4] cluster [-17, -3] p=0.015 G=33 n=140
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: -7 unit [-14, -2] cluster [-19, +0] p=0.255 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: -10 unit [-16, -4] cluster [-22, -1] p=0.122 G=22 n=82  (not established)
+- T1np absorbed, date - none: +5 unit [+1, +10] cluster [+0, +14] p=0.505 G=24 n=80  (not established)
+- T1np absorbed, reform - none: +28 unit [+18, +38] cluster [+15, +42] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +1 unit [+0, +2] cluster [+0, +3] p=0.496 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -2 unit [-5, +0] cluster [-5, +0] p=0.501 G=42 n=100  (not established)
+- T5 succ unchanged, reform - none: -6 unit [-11, -2] cluster [-11, -2] p=0.032 G=42 n=100
+
+### claude-opus-4-5-20251101|claude
+- T6 prov absorbed, date - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: -3 unit [-9, +0] cluster [-9, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -3 unit [-9, +0] cluster [-9, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -4 unit [-13, +0] cluster [-13, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-opus-4-6|claude
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-opus-4-7|claude (knower)
+- T6 prov absorbed, date - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +78 unit [+68, +86] cluster [+66, +88] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +90 unit [+82, +96] cluster [+83, +96] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +44 unit [+34, +55] cluster [+30, +57] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +91 unit [+85, +96] cluster [+86, +96] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-opus-4-8|claude (knower)
+- T6 prov absorbed, date - none: +45 unit [+21, +66] cluster [+21, +69] p=0.002 G=29 n=29
+- T6 prov absorbed, reform - none: +59 unit [+38, +79] cluster [+38, +79] p=0.000 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +14 unit [+6, +21] cluster [+7, +22] p=0.004 G=24 n=80
+- T1 ward absorbed, reform - none: +60 unit [+49, +70] cluster [+45, +75] p=0.000 G=24 n=80
+- T1 ward kept, date - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-14, +0] cluster [-14, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +9 unit [+4, +15] cluster [+3, +16] p=0.033 G=24 n=80
+- T1np absorbed, reform - none: +24 unit [+15, +34] cluster [+12, +35] p=0.002 G=24 n=80
+- T1np kept, date - none: -8 unit [-18, +0] cluster [-17, +0] p=0.251 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: -6 unit [-17, +0] cluster [-25, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: -9 unit [-23, +0] cluster [-22, +0] p=0.491 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-opus-5-5|claude (knower)
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +48 unit [+42, +53] cluster [+39, +55] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +48 unit [+42, +53] cluster [+39, +55] p=0.000 G=29 n=300
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1np absorbed, date - none: +90 unit [+82, +96] cluster [+83, +96] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: -3 unit [-9, +2] cluster [-10, +3] p=0.347 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +0 unit [-5, +5] cluster [-5, +5] p=1.000 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: +3 unit [-2, +8] cluster [-2, +9] p=0.420 G=42 n=100  (not established)
+- T5 succ unchanged, reform - none: +2 unit [-3, +7] cluster [-3, +7] p=0.624 G=42 n=100  (not established)
+
+### claude-opus-5|claude (knower)
+- T6 prov absorbed, date - none: +24 unit [+10, +41] cluster [+10, +41] p=0.016 G=29 n=29
+- T6 prov absorbed, reform - none: +24 unit [+10, +41] cluster [+10, +41] p=0.016 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +90 unit [+84, +96] cluster [+82, +97] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +99 unit [+96, +100] cluster [+96, +100] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +80 unit [+71, +89] cluster [+68, +91] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +86 unit [+79, +92] cluster [+75, +95] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-sonnet-4-6|claude
+- T6 prov absorbed, date - none: +17 unit [+3, +31] cluster [+3, +31] p=0.063 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +17 unit [+3, +34] cluster [+3, +31] p=0.055 G=29 n=29  (not established)
+- T6 prov kept, date - none: -21 unit [-35, -9] cluster [-35, -9] p=0.015 G=34 n=34
+- T6 prov kept, reform - none: -26 unit [-41, -12] cluster [-41, -12] p=0.003 G=34 n=34
+- T6 prov kept unmerged, date - none: -27 unit [-55, +0] cluster [-55, +0] p=0.254 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -36 unit [-64, -9] cluster [-64, -9] p=0.124 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -17 unit [-35, -4] cluster [-35, -4] p=0.127 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -22 unit [-39, -4] cluster [-39, -4] p=0.064 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +5 unit [+1, +10] cluster [+0, +10] p=0.245 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -5 unit [-12, +0] cluster [-14, +0] p=0.510 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -6 unit [-17, +0] cluster [-25, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-14, +0] cluster [-14, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-sonnet-5-5|claude (knower)
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: -14 unit [-28, -3] cluster [-28, -3] p=0.132 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +91 unit [+87, +94] cluster [+88, +93] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +91 unit [+87, +94] cluster [+88, +93] p=0.000 G=29 n=300
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1np absorbed, date - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: -5 unit [-8, -1] cluster [-9, -1] p=0.024 G=61 n=296
+- T5 succ changed, reform - none: -2 unit [-6, +2] cluster [-7, +2] p=0.267 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -14 unit [-24, -5] cluster [-25, -4] p=0.015 G=42 n=100
+- T5 succ unchanged, reform - none: -10 unit [-20, +0] cluster [-20, +0] p=0.082 G=42 n=100  (not established)
+
+### claude-sonnet-5|claude (knower)
+- T6 prov absorbed, date - none: +21 unit [+7, +38] cluster [+7, +34] p=0.031 G=29 n=29
+- T6 prov absorbed, reform - none: +28 unit [+10, +48] cluster [+10, +45] p=0.021 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +40 unit [+28, +51] cluster [+27, +51] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +55 unit [+42, +68] cluster [+41, +68] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +61 unit [+50, +71] cluster [+50, +71] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +78 unit [+68, +86] cluster [+69, +85] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-fable-5-1|claude_none (knower)
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +98 unit [+97, +100] cluster [+97, +100] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +98 unit [+97, +100] cluster [+97, +100] p=0.000 G=29 n=300
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1np absorbed, date - none: +95 unit [+90, +99] cluster [+90, +99] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: -1 unit [-7, +4] cluster [-7, +5] p=0.714 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +2 unit [-4, +8] cluster [-3, +7] p=0.376 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -4 unit [-12, +5] cluster [-15, +7] p=0.561 G=42 n=100  (not established)
+- T5 succ unchanged, reform - none: -7 unit [-16, +2] cluster [-18, +4] p=0.288 G=42 n=100  (not established)
+
+### claude-sonnet-5-5|claude_nothink (knower)
+- T6 prov absorbed, date - none: +3 unit [-7, +14] cluster [-7, +14] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +7 unit [+0, +17] cluster [+0, +17] p=0.493 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +46 unit [+40, +52] cluster [+38, +54] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +48 unit [+42, +54] cluster [+40, +56] p=0.000 G=29 n=300
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1np absorbed, date - none: +84 unit [+76, +91] cluster [+74, +92] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +82 unit [+74, +90] cluster [+72, +92] p=0.000 G=24 n=80
+- T1np kept, date - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: -5 unit [-12, +0] cluster [-14, +0] p=0.504 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: -6 unit [-17, +0] cluster [-25, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -6 unit [-17, +0] cluster [-25, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: +2 unit [-1, +5] cluster [-1, +5] p=0.235 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +10 unit [+6, +14] cluster [+6, +15] p=0.000 G=61 n=296
+- T5 succ unchanged, date - none: -22 unit [-32, -13] cluster [-32, -10] p=0.001 G=42 n=100
+- T5 succ unchanged, reform - none: -33 unit [-43, -23] cluster [-43, -23] p=0.000 G=42 n=100
+
+### claude-haiku-5-5|claude_think (knower)
+- T6 prov absorbed, date - none: +79 unit [+62, +97] cluster [+59, +93] p=0.000 G=29 n=29
+- T6 prov absorbed, reform - none: +90 unit [+72, +100] cluster [+72, +100] p=0.000 G=29 n=29
+- T6 prov kept, date - none: +0 unit [-15, +15] cluster [-15, +15] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +3 unit [-9, +15] cluster [-9, +15] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-36, +18] cluster [-36, +18] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [-27, +27] cluster [-27, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +4 unit [-9, +17] cluster [-9, +17] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +4 unit [-9, +17] cluster [-9, +17] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +87 unit [+82, +91] cluster [+77, +94] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +88 unit [+84, +91] cluster [+80, +94] p=0.000 G=29 n=300
+- T1 ward kept, date - none: -4 unit [-8, +0] cluster [-10, +1] p=0.376 G=33 n=140  (not established)
+- T1 ward kept, reform - none: -4 unit [-9, -1] cluster [-11, +1] p=0.250 G=33 n=140  (not established)
+- T1 ward kept unmerged, date - none: -5 unit [-12, +0] cluster [-19, +0] p=0.506 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: -7 unit [-14, -2] cluster [-22, +0] p=0.254 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: -2 unit [-7, +1] cluster [-11, +3] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: -2 unit [-7, +1] cluster [-11, +3] p=1.000 G=22 n=82  (not established)
+- T1np absorbed, date - none: +81 unit [+72, +90] cluster [+63, +95] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +79 unit [+69, +88] cluster [+64, +89] p=0.000 G=24 n=80
+- T1np kept, date - none: -18 unit [-30, -8] cluster [-33, -6] p=0.032 G=22 n=40
+- T1np kept, reform - none: -10 unit [-20, -2] cluster [-24, +0] p=0.256 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: -11 unit [-28, +0] cluster [-40, +0] p=0.499 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -6 unit [-17, +0] cluster [-25, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: -23 unit [-41, -5] cluster [-43, -5] p=0.125 G=15 n=22  (not established)
+- T1np kept merged, reform - none: -14 unit [-32, +0] cluster [-33, +0] p=0.500 G=15 n=22  (not established)
+- T5 succ changed, date - none: +1 unit [+0, +2] cluster [+0, +3] p=0.503 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +1 unit [+0, +2] cluster [+0, +2] p=0.503 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -21 unit [-29, -13] cluster [-31, -13] p=0.000 G=42 n=100
+- T5 succ unchanged, reform - none: -61 unit [-71, -52] cluster [-71, -51] p=0.000 G=42 n=100
+
+### LFM2.5-8B-A1B-Q8_0|cpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +15 unit [-6, +35] cluster [-9, +35] p=0.260 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +41 unit [+24, +59] cluster [+24, +59] p=0.001 G=34 n=34
+- T6 prov kept unmerged, date - none: -9 unit [-45, +27] cluster [-45, +27] p=0.872 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +36 unit [+0, +73] cluster [+0, +73] p=0.156 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +26 unit [+0, +52] cluster [+0, +52] p=0.106 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +43 unit [+26, +61] cluster [+22, +65] p=0.003 G=23 n=23
+- T1 ward absorbed, date - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [-12, +12] cluster [-10, +10] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +10 unit [-2, +22] cluster [-2, +25] p=0.185 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +6 unit [+0, +17] cluster [+0, +22] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [-17, +17] cluster [-20, +18] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -5 unit [-23, +14] cluster [-20, +10] p=0.749 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +18 unit [+5, +36] cluster [+0, +38] p=0.247 G=15 n=22  (not established)
+
+### Ling-3.0-tiny-Q8_0|cpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +12 unit [+0, +26] cluster [+0, +26] p=0.227 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +9 unit [-6, +24] cluster [-6, +24] p=0.465 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +18 unit [+0, +45] cluster [+0, +45] p=0.500 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +18 unit [+0, +45] cluster [+0, +45] p=0.500 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +9 unit [-9, +26] cluster [-9, +26] p=0.615 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +4 unit [-13, +22] cluster [-13, +22] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: -10 unit [-22, +2] cluster [-26, +2] p=0.314 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -12 unit [-22, -2] cluster [-27, -2] p=0.124 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: -6 unit [-17, +0] cluster [-22, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -11 unit [-28, +0] cluster [-44, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -14 unit [-32, +5] cluster [-38, +5] p=0.504 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -14 unit [-27, +0] cluster [-29, +0] p=0.248 G=15 n=22  (not established)
+
+### MiniCPM5-2B-Q8_0|cpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -6 unit [-15, +0] cluster [-15, +0] p=0.501 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -9 unit [-22, +0] cluster [-22, +0] p=0.499 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +2 unit [+0, +8] cluster [+0, +8] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +2 unit [+0, +8] cluster [+0, +8] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +5 unit [+0, +14] cluster [+0, +13] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +5 unit [+0, +14] cluster [+0, +13] p=1.000 G=15 n=22  (not established)
+
+### Qwen3.6-35B-A3B-Q8_0|cpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +3 unit [+0, +9] cluster [+0, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +3 unit [+0, +9] cluster [+0, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +9 unit [+0, +27] cluster [+0, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +9 unit [+0, +27] cluster [+0, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### gpt-oss-20b-MXFP4|cpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: -6 unit [-29, +18] cluster [-29, +18] p=0.806 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -24 unit [-47, +0] cluster [-47, +0] p=0.094 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +27 unit [-9, +64] cluster [-9, +64] p=0.378 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -18 unit [-64, +27] cluster [-55, +27] p=0.627 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -22 unit [-48, +4] cluster [-48, +4] p=0.221 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -26 unit [-52, +0] cluster [-52, +0] p=0.094 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -6 unit [-17, +0] cluster [-25, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### granite-4.2-3b-Q8_0|cpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: -47 unit [-65, -29] cluster [-65, -29] p=0.000 G=34 n=34
+- T6 prov kept, reform - none: -68 unit [-82, -50] cluster [-85, -50] p=0.000 G=34 n=34
+- T6 prov kept unmerged, date - none: -45 unit [-73, -18] cluster [-73, -18] p=0.064 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -64 unit [-100, -27] cluster [-100, -27] p=0.039 G=11 n=11
+- T6 prov kept merged, date - none: -48 unit [-70, -30] cluster [-70, -26] p=0.001 G=23 n=23
+- T6 prov kept merged, reform - none: -70 unit [-87, -52] cluster [-87, -52] p=0.000 G=23 n=23
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +2 unit [+0, +8] cluster [+0, +9] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +2 unit [+0, +8] cluster [+0, +9] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +5 unit [+0, +14] cluster [+0, +14] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +5 unit [+0, +14] cluster [+0, +14] p=1.000 G=15 n=22  (not established)
+
+### granite-4.2-8b-Q8_0|cpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: -3 unit [-9, +0] cluster [-9, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -4 unit [-13, +0] cluster [-13, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### Llama-3.2-3B-Instruct|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +21 unit [+3, +38] cluster [+3, +38] p=0.068 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +12 unit [-3, +29] cluster [-3, +26] p=0.291 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +18 unit [+0, +45] cluster [+0, +45] p=0.508 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [-27, +27] cluster [-27, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +22 unit [-4, +43] cluster [+0, +43] p=0.179 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +17 unit [-4, +39] cluster [+0, +39] p=0.160 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +10 unit [+2, +20] cluster [+2, +19] p=0.124 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +8 unit [+0, +18] cluster [+0, +16] p=0.251 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +11 unit [+0, +28] cluster [+0, +27] p=0.505 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +6 unit [+0, +17] cluster [+0, +22] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +9 unit [+0, +23] cluster [+0, +20] p=0.494 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +9 unit [+0, +23] cluster [+0, +20] p=0.494 G=15 n=22  (not established)
+
+### MiMo-V2.6-Distill-Qwen-9B-Q8_0|gpu
+- T6 prov absorbed, date - none: -7 unit [-17, +0] cluster [-17, +0] p=0.494 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: -7 unit [-17, +0] cluster [-17, +0] p=0.494 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +1 unit [+0, +4] cluster [+0, +5] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -2 unit [-8, +0] cluster [-7, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -6 unit [-17, +0] cluster [-12, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +1 unit [-2, +5] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1np absorbed, reform - none: +0 unit [-4, +4] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1np kept, date - none: +5 unit [+0, +12] cluster [+0, +12] p=0.503 G=22 n=40  (not established)
+- T1np kept, reform - none: +5 unit [+0, +12] cluster [+0, +12] p=0.503 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +11 unit [+0, +28] cluster [+0, +28] p=0.497 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +11 unit [+0, +28] cluster [+0, +28] p=0.497 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### Ministral-3-8B-Instruct-2512-Q8_0|gpu
+- T6 prov absorbed, date - none: -3 unit [-10, +0] cluster [-10, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [-10, +10] cluster [-10, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +32 unit [+9, +53] cluster [+9, +53] p=0.019 G=34 n=34
+- T6 prov kept, reform - none: -12 unit [-35, +12] cluster [-35, +12] p=0.453 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +18 unit [-18, +55] cluster [-18, +55] p=0.252 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -27 unit [-64, +9] cluster [-64, +9] p=0.375 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +39 unit [+9, +65] cluster [+9, +65] p=0.036 G=23 n=23
+- T6 prov kept merged, reform - none: -4 unit [-35, +26] cluster [-30, +22] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -8 unit [-18, +0] cluster [-21, +0] p=0.500 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -14 unit [-27, +0] cluster [-35, +0] p=0.505 G=15 n=22  (not established)
+
+### Muse-Glimmer-30B-Q8_0-nodate|gpu (knower)
+- T6 prov absorbed, date - none: -3 unit [-21, +14] cluster [-21, +14] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +10 unit [-3, +24] cluster [-3, +24] p=0.251 G=29 n=29  (not established)
+- T6 prov kept, date - none: +3 unit [-15, +21] cluster [-18, +24] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -6 unit [-26, +15] cluster [-26, +15] p=0.780 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -27 unit [-64, +9] cluster [-64, +9] p=0.371 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -18 unit [-55, +18] cluster [-55, +18] p=0.496 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +17 unit [-4, +39] cluster [+0, +39] p=0.220 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [-26, +22] cluster [-22, +22] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +55 unit [+45, +66] cluster [+37, +73] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +61 unit [+50, +71] cluster [+46, +76] p=0.000 G=24 n=80
+- T1 ward kept, date - none: -20 unit [-32, -8] cluster [-39, +0] p=0.250 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -28 unit [-42, -15] cluster [-49, -4] p=0.124 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: -39 unit [-61, -17] cluster [-68, +0] p=0.498 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -56 unit [-78, -33] cluster [-85, -12] p=0.248 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +51 unit [+40, +62] cluster [+33, +70] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +64 unit [+54, +74] cluster [+45, +83] p=0.000 G=24 n=80
+- T1np kept, date - none: -25 unit [-38, -12] cluster [-46, -3] p=0.123 G=22 n=40  (not established)
+- T1np kept, reform - none: -28 unit [-42, -15] cluster [-46, -9] p=0.033 G=22 n=40
+- T1np kept unmerged, date - none: -50 unit [-72, -28] cluster [-81, -6] p=0.247 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -39 unit [-61, -17] cluster [-69, -6] p=0.247 G=7 n=18  (not established)
+- T1np kept merged, date - none: -5 unit [-14, +0] cluster [-14, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: -18 unit [-36, -5] cluster [-41, +0] p=0.246 G=15 n=22  (not established)
+
+### Muse-Glimmer-30B-Q8_0|gpu (knower)
+- T6 prov absorbed, date - none: +7 unit [-7, +21] cluster [-7, +21] p=0.622 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +10 unit [-7, +28] cluster [-7, +28] p=0.453 G=29 n=29  (not established)
+- T6 prov kept, date - none: -6 unit [-24, +12] cluster [-24, +12] p=0.752 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -12 unit [-29, +6] cluster [-29, +6] p=0.337 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-45, +27] cluster [-45, +27] p=0.746 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-36, +18] cluster [-36, +18] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -4 unit [-26, +13] cluster [-22, +13] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -13 unit [-35, +9] cluster [-35, +9] p=0.446 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +12 unit [+7, +17] cluster [+3, +21] p=0.020 G=29 n=300
+- T1 ward absorbed, reform - none: +17 unit [+11, +22] cluster [+8, +26] p=0.001 G=29 n=300
+- T1 ward kept, date - none: -3 unit [-9, +2] cluster [-8, +2] p=0.362 G=33 n=140  (not established)
+- T1 ward kept, reform - none: -12 unit [-19, -6] cluster [-23, -2] p=0.025 G=33 n=140
+- T1 ward kept unmerged, date - none: -10 unit [-22, +2] cluster [-22, -2] p=0.124 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: -22 unit [-33, -12] cluster [-40, -2] p=0.121 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +2 unit [-2, +7] cluster [+0, +6] p=0.506 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-12, +2] cluster [-12, +3] p=0.220 G=22 n=82  (not established)
+- T1np absorbed, date - none: +18 unit [+6, +30] cluster [+3, +31] p=0.034 G=24 n=80
+- T1np absorbed, reform - none: +25 unit [+14, +36] cluster [+13, +37] p=0.001 G=24 n=80
+- T1np kept, date - none: -15 unit [-30, +0] cluster [-37, +6] p=0.281 G=22 n=40  (not established)
+- T1np kept, reform - none: -8 unit [-22, +8] cluster [-23, +11] p=0.404 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: -33 unit [-56, -11] cluster [-65, +0] p=0.498 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -17 unit [-39, +6] cluster [-38, +20] p=0.498 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [-18, +18] cluster [-18, +19] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [-18, +18] cluster [-18, +19] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: +1 unit [-1, +3] cluster [-1, +3] p=0.737 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +3 unit [+1, +5] cluster [+1, +5] p=0.007 G=61 n=296
+- T5 succ unchanged, date - none: -20 unit [-29, -11] cluster [-28, -12] p=0.001 G=42 n=100
+- T5 succ unchanged, reform - none: -25 unit [-35, -16] cluster [-34, -15] p=0.000 G=42 n=100
+
+### NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Q8_0|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -3 unit [-9, +0] cluster [-9, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -4 unit [-13, +0] cluster [-13, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### Nemotron-SEA-LION-v4.8-30B-A3B-Q8_0|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +3 unit [+0, +9] cluster [+0, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +3 unit [+0, +9] cluster [+0, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +4 unit [+0, +13] cluster [+0, +13] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +4 unit [+0, +13] cluster [+0, +13] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: -8 unit [-15, +0] cluster [-20, +0] p=0.506 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: -6 unit [-17, +0] cluster [-22, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -9 unit [-23, +0] cluster [-29, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### Qwen-SEA-LION-v4.5-27B-IT-Q8_0|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: -5 unit [-12, +0] cluster [-17, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -5 unit [-12, +0] cluster [-17, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -9 unit [-23, +0] cluster [-29, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -9 unit [-23, +0] cluster [-29, +0] p=1.000 G=15 n=22  (not established)
+
+### Qwen3-1.7B|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +3 unit [+0, +9] cluster [+0, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [-9, +9] cluster [-9, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +4 unit [+0, +13] cluster [+0, +13] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [-13, +13] cluster [-13, +13] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [-8, +8] cluster [-6, +8] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [-8, +8] cluster [-6, +8] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: -6 unit [-17, +0] cluster [-12, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -6 unit [-17, +0] cluster [-12, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +5 unit [+0, +14] cluster [+0, +16] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +5 unit [+0, +14] cluster [+0, +16] p=1.000 G=15 n=22  (not established)
+
+### Qwen3-4B|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=1000  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=1000  (not established)
+- T1 ward kept, date - none: -0 unit [-1, +0] cluster [-1, +0] p=1.000 G=34 n=337  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=337  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=140  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=140  (not established)
+- T1 ward kept merged, date - none: -1 unit [-2, +0] cluster [-2, +0] p=1.000 G=23 n=197  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=197  (not established)
+- T5 succ changed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=63 n=592  (not established)
+- T5 succ changed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=63 n=592  (not established)
+- T5 succ unchanged, date - none: +2 unit [+1, +4] cluster [+1, +4] p=0.032 G=58 n=300
+- T5 succ unchanged, reform - none: +2 unit [+0, +4] cluster [+0, +4] p=0.096 G=58 n=300  (not established)
+
+### Qwen3-8B|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### Qwen3.5-2B|gpu
+- T6 prov absorbed, date - none: +10 unit [+0, +24] cluster [+0, +24] p=0.247 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: -6 unit [-18, +3] cluster [-18, +6] p=0.621 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +6 unit [-6, +18] cluster [-6, +18] p=0.624 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -9 unit [-26, +9] cluster [-26, +9] p=0.641 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +9 unit [-9, +26] cluster [-9, +26] p=0.630 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: -2 unit [-6, +0] cluster [-7, +0] p=0.502 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [-4, +4] cluster [-3, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: -15 unit [-30, -2] cluster [-35, +0] p=0.192 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -25 unit [-40, -12] cluster [-44, -9] p=0.014 G=22 n=40
+- T1 ward kept unmerged, date - none: +6 unit [+0, +17] cluster [+0, +16] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -11 unit [-28, +0] cluster [-32, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -32 unit [-50, -14] cluster [-57, -9] p=0.066 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -36 unit [-59, -18] cluster [-62, -12] p=0.030 G=15 n=22
+
+### Qwen3.5-4B|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +3 unit [+0, +9] cluster [+0, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +4 unit [+0, +13] cluster [+0, +13] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -10 unit [-20, -2] cluster [-22, +0] p=0.249 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -6 unit [-17, +0] cluster [-16, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -14 unit [-27, +0] cluster [-32, +0] p=0.494 G=15 n=22  (not established)
+
+### Qwen3.5-9B-Kimi-k3-Distilled.Q8_0|gpu
+- T6 prov absorbed, date - none: -3 unit [-10, +0] cluster [-10, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: -3 unit [-10, +0] cluster [-10, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +1 unit [+0, +4] cluster [+0, +5] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -8 unit [-18, +0] cluster [-18, +0] p=0.252 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -14 unit [-27, +0] cluster [-30, +0] p=0.249 G=15 n=22  (not established)
+- T1np absorbed, date - none: -5 unit [-10, -1] cluster [-13, +0] p=0.498 G=24 n=80  (not established)
+- T1np absorbed, reform - none: -5 unit [-11, +0] cluster [-14, +3] p=0.498 G=24 n=80  (not established)
+- T1np kept, date - none: +8 unit [+0, +18] cluster [+0, +19] p=0.245 G=22 n=40  (not established)
+- T1np kept, reform - none: +5 unit [+0, +12] cluster [+0, +15] p=0.490 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +17 unit [+0, +33] cluster [+3, +56] p=0.249 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +11 unit [+0, +28] cluster [+0, +42] p=0.501 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### Qwen3.5-9B|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [-8, +8] cluster [-7, +7] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +5 unit [+0, +12] cluster [+0, +17] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: -6 unit [-17, +0] cluster [-22, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +5 unit [+0, +14] cluster [+0, +14] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +9 unit [+0, +23] cluster [+0, +29] p=1.000 G=15 n=22  (not established)
+
+### Qwen3.8-27B-Q8_0|gpu
+- T6 prov absorbed, date - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +14 unit [+3, +28] cluster [+3, +28] p=0.126 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### SeaLLMs-v3-7B-Chat|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [-15, +15] cluster [-15, +15] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +6 unit [-6, +18] cluster [-6, +18] p=0.621 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +9 unit [+0, +27] cluster [+0, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +9 unit [+0, +27] cluster [+0, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -4 unit [-22, +13] cluster [-22, +13] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +4 unit [-9, +17] cluster [-9, +22] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: -5 unit [-12, +0] cluster [-12, +0] p=0.506 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -9 unit [-23, +0] cluster [-20, +0] p=0.500 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### gemma-3-4b-it-Q8_0|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +12 unit [+0, +26] cluster [+0, +26] p=0.222 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -9 unit [-26, +9] cluster [-26, +9] p=0.503 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -18 unit [-45, +0] cluster [-45, +0] p=0.510 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +22 unit [+4, +39] cluster [+9, +39] p=0.063 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -4 unit [-26, +17] cluster [-26, +17] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+
+### gemma-4-E4B-it-Q8_0|gpu
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### tiny-aya-global|gpu
+- T6 prov absorbed, date - none: -10 unit [-24, +0] cluster [-21, +0] p=0.248 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: -14 unit [-28, -3] cluster [-28, -3] p=0.122 G=29 n=29  (not established)
+- T6 prov kept, date - none: +15 unit [-3, +29] cluster [+0, +32] p=0.182 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +26 unit [+6, +47] cluster [+6, +47] p=0.025 G=34 n=34
+- T6 prov kept unmerged, date - none: +0 unit [-36, +36] cluster [-36, +36] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +27 unit [-9, +64] cluster [-9, +64] p=0.374 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +22 unit [+4, +39] cluster [+4, +39] p=0.066 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +26 unit [+0, +52] cluster [+0, +48] p=0.105 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: -0 unit [-1, +0] cluster [-1, +0] p=1.000 G=29 n=540  (not established)
+- T1 ward absorbed, reform - none: +0 unit [-1, +1] cluster [-1, +1] p=1.000 G=29 n=540  (not established)
+- T1 ward kept, date - none: +0 unit [-12, +12] cluster [-14, +13] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -12 unit [-28, +5] cluster [-35, +11] p=0.406 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +6 unit [-11, +28] cluster [-22, +28] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -11 unit [-39, +17] cluster [-39, +29] p=0.750 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -5 unit [-23, +9] cluster [-20, +10] p=0.748 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -14 unit [-36, +9] cluster [-42, +15] p=0.556 G=15 n=22  (not established)
+
+### Muse-Glimmer-30B-UD-IQ2_XXS|gpu
+- T6 prov absorbed, date - none: +7 unit [-10, +24] cluster [-10, +24] p=0.686 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +24 unit [+10, +41] cluster [+10, +41] p=0.014 G=29 n=29
+- T6 prov kept, date - none: +6 unit [-3, +18] cluster [-6, +18] p=0.623 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -15 unit [-29, +0] cluster [-32, +0] p=0.184 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +18 unit [+0, +45] cluster [+0, +45] p=0.502 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [-36, +36] cluster [-36, +36] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [-13, +13] cluster [-13, +13] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -22 unit [-39, -9] cluster [-39, -9] p=0.061 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +14 unit [+9, +18] cluster [+5, +24] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +24 unit [+19, +29] cluster [+14, +34] p=0.000 G=29 n=300
+- T1 ward kept, date - none: -14 unit [-21, -7] cluster [-26, -4] p=0.017 G=30 n=100
+- T1 ward kept, reform - none: -23 unit [-32, -14] cluster [-37, -12] p=0.000 G=30 n=100
+- T1 ward kept unmerged, date - none: -5 unit [-15, +5] cluster [-24, +4] p=0.749 G=10 n=40  (not established)
+- T1 ward kept unmerged, reform - none: -12 unit [-25, +0] cluster [-38, +0] p=0.247 G=10 n=40  (not established)
+- T1 ward kept merged, date - none: -20 unit [-30, -10] cluster [-36, -7] p=0.033 G=20 n=60
+- T1 ward kept merged, reform - none: -30 unit [-43, -18] cluster [-46, -16] p=0.002 G=20 n=60
+- T5 succ changed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=61 n=296  (not established)
+- T5 succ changed, reform - none: -0 unit [-1, +0] cluster [-1, +0] p=1.000 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -8 unit [-16, +0] cluster [-15, -1] p=0.058 G=42 n=100  (not established)
+- T5 succ unchanged, reform - none: -37 unit [-46, -27] cluster [-47, -27] p=0.000 G=42 n=100
+
+### Muse-Glimmer-30B-UD-Q2_K_XL|gpu (knower)
+- T6 prov absorbed, date - none: -14 unit [-28, -3] cluster [-28, -3] p=0.126 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: -17 unit [-31, -3] cluster [-31, -3] p=0.061 G=29 n=29  (not established)
+- T6 prov kept, date - none: -6 unit [-24, +12] cluster [-24, +12] p=0.752 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -3 unit [-15, +9] cluster [-15, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-36, +18] cluster [-36, +18] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +9 unit [+0, +27] cluster [+0, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -4 unit [-26, +17] cluster [-26, +17] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -9 unit [-26, +9] cluster [-26, +9] p=0.628 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +14 unit [+9, +20] cluster [+5, +25] p=0.013 G=29 n=300
+- T1 ward absorbed, reform - none: +14 unit [+9, +19] cluster [+4, +25] p=0.018 G=29 n=300
+- T1 ward kept, date - none: -17 unit [-26, -7] cluster [-29, -5] p=0.012 G=30 n=100
+- T1 ward kept, reform - none: -16 unit [-27, -5] cluster [-29, -5] p=0.012 G=30 n=100
+- T1 ward kept unmerged, date - none: -25 unit [-40, -12] cluster [-43, -5] p=0.125 G=10 n=40  (not established)
+- T1 ward kept unmerged, reform - none: -25 unit [-42, -8] cluster [-48, -12] p=0.017 G=10 n=40
+- T1 ward kept merged, date - none: -12 unit [-25, +0] cluster [-26, +2] p=0.100 G=20 n=60  (not established)
+- T1 ward kept merged, reform - none: -10 unit [-23, +3] cluster [-27, +6] p=0.245 G=20 n=60  (not established)
+- T5 succ changed, date - none: +1 unit [-1, +3] cluster [-1, +3] p=0.285 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +2 unit [+0, +4] cluster [-0, +5] p=0.149 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -40 unit [-50, -30] cluster [-47, -32] p=0.000 G=42 n=100
+- T5 succ unchanged, reform - none: -54 unit [-64, -44] cluster [-61, -46] p=0.000 G=42 n=100
+
+### Muse-Glimmer-30B-UD-Q3_K_XL|gpu (knower)
+- T6 prov absorbed, date - none: +10 unit [-7, +28] cluster [-7, +28] p=0.448 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: -10 unit [-31, +14] cluster [-31, +10] p=0.550 G=29 n=29  (not established)
+- T6 prov kept, date - none: -3 unit [-15, +9] cluster [-18, +9] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -6 unit [-21, +6] cluster [-21, +9] p=0.690 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-36, +18] cluster [-36, +18] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -27 unit [-55, +0] cluster [-55, +0] p=0.254 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [-13, +13] cluster [-13, +13] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +4 unit [-9, +17] cluster [-9, +17] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +12 unit [+7, +17] cluster [+2, +23] p=0.034 G=29 n=300
+- T1 ward absorbed, reform - none: +15 unit [+9, +20] cluster [+4, +27] p=0.015 G=29 n=300
+- T1 ward kept, date - none: -9 unit [-19, +0] cluster [-21, +3] p=0.200 G=30 n=100  (not established)
+- T1 ward kept, reform - none: -11 unit [-21, -2] cluster [-22, +0] p=0.094 G=30 n=100  (not established)
+- T1 ward kept unmerged, date - none: -20 unit [-35, -5] cluster [-37, -7] p=0.066 G=10 n=40  (not established)
+- T1 ward kept unmerged, reform - none: -20 unit [-35, -5] cluster [-36, -7] p=0.061 G=10 n=40  (not established)
+- T1 ward kept merged, date - none: -2 unit [-13, +10] cluster [-19, +15] p=0.969 G=20 n=60  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-17, +7] cluster [-21, +10] p=0.655 G=20 n=60  (not established)
+- T5 succ changed, date - none: +1 unit [-1, +2] cluster [-1, +2] p=0.501 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +2 unit [+0, +4] cluster [+0, +4] p=0.030 G=61 n=296
+- T5 succ unchanged, date - none: -46 unit [-56, -35] cluster [-56, -35] p=0.000 G=42 n=100
+- T5 succ unchanged, reform - none: -60 unit [-69, -50] cluster [-69, -50] p=0.000 G=42 n=100
+
+### Muse-Glimmer-30B-UD-Q4_K_XL|gpu (knower)
+- T6 prov absorbed, date - none: +3 unit [-10, +17] cluster [-10, +17] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: -3 unit [-17, +7] cluster [-14, +7] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: -9 unit [-24, +6] cluster [-24, +6] p=0.411 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -18 unit [-35, +0] cluster [-35, +0] p=0.110 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [-27, +27] cluster [-27, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -18 unit [-55, +18] cluster [-55, +18] p=0.625 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -13 unit [-30, +4] cluster [-30, +4] p=0.251 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -17 unit [-39, +0] cluster [-39, +0] p=0.218 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +12 unit [+6, +18] cluster [+3, +21] p=0.010 G=29 n=300
+- T1 ward absorbed, reform - none: +21 unit [+14, +27] cluster [+11, +31] p=0.001 G=29 n=300
+- T1 ward kept, date - none: -10 unit [-18, -2] cluster [-21, +0] p=0.132 G=30 n=100  (not established)
+- T1 ward kept, reform - none: -18 unit [-27, -10] cluster [-35, -4] p=0.021 G=30 n=100
+- T1 ward kept unmerged, date - none: -20 unit [-35, -10] cluster [-36, -3] p=0.131 G=10 n=40  (not established)
+- T1 ward kept unmerged, reform - none: -40 unit [-55, -25] cluster [-66, -11] p=0.029 G=10 n=40
+- T1 ward kept merged, date - none: -3 unit [-13, +7] cluster [-14, +6] p=0.629 G=20 n=60  (not established)
+- T1 ward kept merged, reform - none: -3 unit [-12, +5] cluster [-12, +5] p=0.558 G=20 n=60  (not established)
+- T5 succ changed, date - none: +1 unit [+0, +3] cluster [+0, +3] p=0.096 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +2 unit [+0, +4] cluster [+0, +4] p=0.033 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -12 unit [-23, -1] cluster [-22, -2] p=0.023 G=42 n=100
+- T5 succ unchanged, reform - none: -33 unit [-42, -24] cluster [-41, -24] p=0.000 G=42 n=100
+
+### Muse-Glimmer-30B-UD-Q5_K_M|gpu (knower)
+- T6 prov absorbed, date - none: +0 unit [-21, +21] cluster [-21, +17] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +7 unit [-14, +28] cluster [-10, +24] p=0.731 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [-12, +12] cluster [-12, +12] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -6 unit [-24, +12] cluster [-24, +9] p=0.728 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +4 unit [-9, +17] cluster [-9, +17] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -4 unit [-26, +17] cluster [-26, +17] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +12 unit [+7, +17] cluster [+5, +18] p=0.002 G=29 n=300
+- T1 ward absorbed, reform - none: +9 unit [+3, +14] cluster [+2, +16] p=0.024 G=29 n=300
+- T1 ward kept, date - none: -12 unit [-20, -5] cluster [-26, -1] p=0.152 G=30 n=100  (not established)
+- T1 ward kept, reform - none: -16 unit [-25, -7] cluster [-33, -1] p=0.092 G=30 n=100  (not established)
+- T1 ward kept unmerged, date - none: -28 unit [-40, -15] cluster [-51, +0] p=0.253 G=10 n=40  (not established)
+- T1 ward kept unmerged, reform - none: -32 unit [-48, -20] cluster [-59, -4] p=0.127 G=10 n=40  (not established)
+- T1 ward kept merged, date - none: -2 unit [-8, +3] cluster [-8, +4] p=1.000 G=20 n=60  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-15, +5] cluster [-17, +5] p=0.689 G=20 n=60  (not established)
+- T5 succ changed, date - none: +0 unit [-2, +2] cluster [-1, +2] p=0.621 G=61 n=296  (not established)
+- T5 succ changed, reform - none: -0 unit [-2, +2] cluster [-2, +1] p=0.967 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -12 unit [-22, -2] cluster [-21, -3] p=0.022 G=42 n=100
+- T5 succ unchanged, reform - none: -28 unit [-38, -19] cluster [-37, -19] p=0.000 G=42 n=100
+
+### Muse-Glimmer-30B-UD-Q6_K_XL|gpu (knower)
+- T6 prov absorbed, date - none: -3 unit [-17, +10] cluster [-17, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +3 unit [-10, +17] cluster [-10, +17] p=0.814 G=29 n=29  (not established)
+- T6 prov kept, date - none: -24 unit [-41, -6] cluster [-41, -9] p=0.020 G=34 n=34
+- T6 prov kept, reform - none: -26 unit [-47, -9] cluster [-44, -9] p=0.022 G=34 n=34
+- T6 prov kept unmerged, date - none: -36 unit [-73, +0] cluster [-73, +0] p=0.218 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -36 unit [-73, +0] cluster [-73, +0] p=0.218 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -17 unit [-35, -4] cluster [-35, -4] p=0.119 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -22 unit [-43, +0] cluster [-43, +0] p=0.131 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +10 unit [+5, +15] cluster [+2, +18] p=0.021 G=29 n=300
+- T1 ward absorbed, reform - none: +14 unit [+9, +19] cluster [+5, +24] p=0.008 G=29 n=300
+- T1 ward kept, date - none: -7 unit [-16, +1] cluster [-17, +3] p=0.240 G=30 n=100  (not established)
+- T1 ward kept, reform - none: -16 unit [-26, -7] cluster [-27, -6] p=0.005 G=30 n=100
+- T1 ward kept unmerged, date - none: -20 unit [-35, -5] cluster [-37, -7] p=0.062 G=10 n=40  (not established)
+- T1 ward kept unmerged, reform - none: -28 unit [-42, -15] cluster [-47, -7] p=0.062 G=10 n=40  (not established)
+- T1 ward kept merged, date - none: +2 unit [-8, +12] cluster [-10, +12] p=0.807 G=20 n=60  (not established)
+- T1 ward kept merged, reform - none: -8 unit [-20, +3] cluster [-17, +0] p=0.127 G=20 n=60  (not established)
+- T5 succ changed, date - none: +1 unit [-1, +4] cluster [-1, +4] p=0.245 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +3 unit [+1, +5] cluster [+1, +5] p=0.009 G=61 n=296
+- T5 succ unchanged, date - none: -9 unit [-19, +1] cluster [-17, -1] p=0.041 G=42 n=100
+- T5 succ unchanged, reform - none: -21 unit [-31, -11] cluster [-30, -11] p=0.000 G=42 n=100
+
+### claude-haiku-4.5|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=25 n=25  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=25 n=25  (not established)
+- T6 prov kept, date - none: +87 unit [+73, +97] cluster [+73, +97] p=0.000 G=30 n=30
+- T6 prov kept, reform - none: +87 unit [+73, +97] cluster [+73, +97] p=0.000 G=30 n=30
+- T6 prov kept unmerged, date - none: +82 unit [+55, +100] cluster [+55, +100] p=0.004 G=11 n=11
+- T6 prov kept unmerged, reform - none: +82 unit [+55, +100] cluster [+55, +100] p=0.004 G=11 n=11
+- T6 prov kept merged, date - none: +89 unit [+74, +100] cluster [+74, +100] p=0.000 G=19 n=19
+- T6 prov kept merged, reform - none: +89 unit [+74, +100] cluster [+74, +100] p=0.000 G=19 n=19
+
+### claude-opus-5.5|omni (knower)
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +45 unit [+36, +55] cluster [+36, +55] p=0.000 G=28 n=121
+- T1 ward absorbed, reform - none: +46 unit [+37, +54] cluster [+36, +56] p=0.000 G=28 n=120
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +90 unit [+82, +96] cluster [+84, +95] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### claude-sonnet-5.5|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=14 n=14  (not established)
+- T6 prov absorbed, reform - none: -7 unit [-21, +0] cluster [-21, +0] p=1.000 G=14 n=14  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=22  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=22  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+
+### deepseek-v4.1-flash|omni (knower)
+- T6 prov absorbed, date - none: +38 unit [+21, +55] cluster [+21, +55] p=0.001 G=29 n=29
+- T6 prov absorbed, reform - none: +86 unit [+72, +97] cluster [+72, +97] p=0.000 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -6 unit [-15, +0] cluster [-15, +0] p=0.506 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -9 unit [-22, +0] cluster [-22, +0] p=0.498 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +48 unit [+38, +59] cluster [+30, +68] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +64 unit [+52, +74] cluster [+43, +86] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +66 unit [+55, +76] cluster [+49, +85] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +60 unit [+49, +71] cluster [+41, +80] p=0.000 G=24 n=80
+- T1np kept, date - none: -5 unit [-12, +0] cluster [-11, +0] p=0.501 G=22 n=40  (not established)
+- T1np kept, reform - none: -5 unit [-12, +0] cluster [-11, +0] p=0.495 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: -6 unit [-17, +0] cluster [-12, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -11 unit [-28, +0] cluster [-21, +0] p=0.498 G=7 n=18  (not established)
+- T1np kept merged, date - none: -5 unit [-14, +0] cluster [-14, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### gemini-3.1-pro|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### gemini-3.8-flash|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### gemma-4-31b-it|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +6 unit [+0, +15] cluster [+0, +15] p=0.508 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +3 unit [-6, +12] cluster [-6, +15] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +18 unit [+0, +45] cluster [+0, +45] p=0.501 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +18 unit [+0, +45] cluster [+0, +45] p=0.501 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -4 unit [-13, +0] cluster [-13, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### glm-5.3-flash|omni (knower)
+- T6 prov absorbed, date - none: +31 unit [+10, +52] cluster [+10, +52] p=0.012 G=29 n=29
+- T6 prov absorbed, reform - none: +24 unit [+3, +45] cluster [+3, +45] p=0.066 G=29 n=29  (not established)
+- T6 prov kept, date - none: -12 unit [-29, +6] cluster [-29, +6] p=0.331 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +6 unit [-6, +18] cluster [-6, +18] p=0.625 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -27 unit [-73, +18] cluster [-73, +18] p=0.453 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +9 unit [-18, +36] cluster [-18, +36] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -4 unit [-17, +9] cluster [-17, +9] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +4 unit [+0, +13] cluster [+0, +13] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +81 unit [+72, +89] cluster [+71, +91] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +88 unit [+79, +95] cluster [+77, +96] p=0.000 G=24 n=80
+- T1 ward kept, date - none: -2 unit [-8, +0] cluster [-8, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -5 unit [-14, +0] cluster [-13, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +46 unit [+35, +57] cluster [+34, +59] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +78 unit [+68, +86] cluster [+67, +88] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [-8, +8] cluster [-6, +7] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: -2 unit [-12, +5] cluster [-12, +5] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: -6 unit [-17, +0] cluster [-12, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -6 unit [-17, +0] cluster [-18, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +5 unit [+0, +14] cluster [+0, +13] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [-14, +14] cluster [-15, +12] p=1.000 G=15 n=22  (not established)
+
+### glm-5.3|omni (knower)
+- T6 prov absorbed, date - none: +69 unit [+52, +86] cluster [+52, +86] p=0.000 G=29 n=29
+- T6 prov absorbed, reform - none: +66 unit [+48, +83] cluster [+48, +83] p=0.000 G=29 n=29
+- T6 prov kept, date - none: -21 unit [-38, -3] cluster [-38, -3] p=0.060 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -15 unit [-29, +0] cluster [-29, +0] p=0.127 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -27 unit [-55, +0] cluster [-55, +0] p=0.252 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -27 unit [-55, -9] cluster [-55, +0] p=0.256 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -17 unit [-39, +4] cluster [-39, +4] p=0.287 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -9 unit [-26, +9] cluster [-26, +9] p=0.630 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +71 unit [+65, +77] cluster [+58, +82] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +73 unit [+67, +79] cluster [+61, +83] p=0.000 G=29 n=300
+- T1 ward kept, date - none: -19 unit [-26, -11] cluster [-28, -10] p=0.000 G=33 n=140
+- T1 ward kept, reform - none: -19 unit [-27, -12] cluster [-31, -10] p=0.000 G=33 n=140
+- T1 ward kept unmerged, date - none: -14 unit [-28, -2] cluster [-29, -3] p=0.061 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: -17 unit [-29, -7] cluster [-40, -4] p=0.054 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: -22 unit [-32, -13] cluster [-35, -11] p=0.002 G=22 n=82
+- T1 ward kept merged, reform - none: -21 unit [-30, -11] cluster [-35, -9] p=0.005 G=22 n=82
+- T1np absorbed, date - none: +76 unit [+66, +85] cluster [+62, +87] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +72 unit [+61, +82] cluster [+56, +87] p=0.000 G=24 n=80
+- T1np kept, date - none: -28 unit [-42, -15] cluster [-47, -11] p=0.007 G=22 n=40
+- T1np kept, reform - none: -25 unit [-38, -12] cluster [-42, -12] p=0.004 G=22 n=40
+- T1np kept unmerged, date - none: -44 unit [-67, -22] cluster [-85, -16] p=0.064 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -17 unit [-39, +0] cluster [-36, -5] p=0.251 G=7 n=18  (not established)
+- T1np kept merged, date - none: -14 unit [-27, +0] cluster [-30, +0] p=0.253 G=15 n=22  (not established)
+- T1np kept merged, reform - none: -32 unit [-50, -14] cluster [-60, -12] p=0.029 G=15 n=22
+- T5 succ changed, date - none: -1 unit [-2, +1] cluster [-2, +1] p=0.624 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +1 unit [-1, +3] cluster [-1, +3] p=0.505 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: +6 unit [-6, +18] cluster [-6, +18] p=0.411 G=42 n=100  (not established)
+- T5 succ unchanged, reform - none: -14 unit [-25, -3] cluster [-26, -4] p=0.020 G=42 n=100
+
+### gpt-5.5|omni (knower)
+- T6 prov absorbed, date - none: +7 unit [+0, +17] cluster [+0, +17] p=0.495 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +7 unit [+0, +17] cluster [+0, +17] p=0.495 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### gpt-6-sol|omni (knower)
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +95 unit [+93, +98] cluster [+93, +97] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +95 unit [+93, +98] cluster [+93, +97] p=0.000 G=29 n=300
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1np absorbed, date - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T5 succ changed, date - none: +2 unit [-3, +7] cluster [-2, +6] p=0.427 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +4 unit [-1, +10] cluster [-1, +10] p=0.113 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -3 unit [-12, +6] cluster [-12, +7] p=0.503 G=42 n=100  (not established)
+- T5 succ unchanged, reform - none: -4 unit [-14, +6] cluster [-12, +5] p=0.327 G=42 n=100  (not established)
+
+### gpt-oss-120b|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +32 unit [+9, +53] cluster [+9, +56] p=0.020 G=34 n=34
+- T6 prov kept, reform - none: +9 unit [-12, +29] cluster [-12, +29] p=0.587 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +27 unit [-18, +64] cluster [-18, +73] p=0.449 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-45, +27] cluster [-45, +27] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +35 unit [+9, +61] cluster [+9, +61] p=0.038 G=23 n=23
+- T6 prov kept merged, reform - none: +17 unit [-4, +39] cluster [-4, +39] p=0.286 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +2 unit [+0, +8] cluster [+0, +9] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -8 unit [-18, +2] cluster [-20, +3] p=0.304 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -6 unit [-17, +0] cluster [-25, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +5 unit [+0, +14] cluster [+0, +14] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -9 unit [-27, +9] cluster [-26, +9] p=0.383 G=15 n=22  (not established)
+
+### grok-4.7|omni (knower)
+- T6 prov absorbed, date - none: +21 unit [+3, +38] cluster [+3, +38] p=0.071 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +28 unit [+7, +45] cluster [+10, +45] p=0.023 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -9 unit [-21, +0] cluster [-21, +0] p=0.242 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -18 unit [-45, +0] cluster [-45, +0] p=0.506 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -4 unit [-13, +0] cluster [-13, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +32 unit [+5, +59] cluster [+14, +53] p=0.032 G=12 n=22
+- T1 ward absorbed, reform - none: +45 unit [+18, +73] cluster [+21, +73] p=0.013 G=12 n=22
+- T1np absorbed, date - none: +69 unit [+44, +88] cluster [+38, +93] p=0.017 G=10 n=16
+- T1np absorbed, reform - none: +87 unit [+67, +100] cluster [+62, +100] p=0.009 G=10 n=15
+
+### kimi-k2.5|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +6 unit [+0, +15] cluster [+0, +15] p=0.495 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +6 unit [+0, +15] cluster [+0, +15] p=0.495 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +9 unit [+0, +22] cluster [+0, +22] p=0.499 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +9 unit [+0, +22] cluster [+0, +22] p=0.499 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### kimi-k3|omni (knower)
+- T6 prov absorbed, date - none: +41 unit [+21, +62] cluster [+21, +62] p=0.002 G=29 n=29
+- T6 prov absorbed, reform - none: +45 unit [+28, +62] cluster [+28, +62] p=0.000 G=29 n=29
+- T6 prov kept, date - none: -18 unit [-35, +0] cluster [-35, +0] p=0.111 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -12 unit [-24, -3] cluster [-24, -3] p=0.125 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -36 unit [-73, +0] cluster [-73, +0] p=0.222 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -36 unit [-64, -9] cluster [-64, -9] p=0.126 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -9 unit [-26, +9] cluster [-26, +9] p=0.619 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +80 unit [+75, +85] cluster [+73, +87] p=0.000 G=29 n=300
+- T1 ward absorbed, reform - none: +83 unit [+78, +87] cluster [+77, +88] p=0.000 G=29 n=300
+- T1 ward kept, date - none: -21 unit [-28, -13] cluster [-29, -13] p=0.000 G=33 n=120
+- T1 ward kept, reform - none: -18 unit [-25, -12] cluster [-26, -10] p=0.000 G=33 n=120
+- T1 ward kept unmerged, date - none: -31 unit [-44, -19] cluster [-47, -22] p=0.004 G=11 n=54
+- T1 ward kept unmerged, reform - none: -35 unit [-48, -22] cluster [-48, -27] p=0.003 G=11 n=54
+- T1 ward kept merged, date - none: -12 unit [-21, -5] cluster [-23, -4] p=0.028 G=22 n=66
+- T1 ward kept merged, reform - none: -5 unit [-11, +0] cluster [-11, +0] p=0.249 G=22 n=66  (not established)
+- T1np absorbed, date - none: +72 unit [+62, +82] cluster [+59, +84] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +89 unit [+81, +95] cluster [+79, +96] p=0.000 G=24 n=80
+- T1np kept, date - none: -25 unit [-40, -12] cluster [-37, -13] p=0.004 G=22 n=40
+- T1np kept, reform - none: -22 unit [-38, -10] cluster [-36, -10] p=0.015 G=22 n=40
+- T1np kept unmerged, date - none: -33 unit [-56, -11] cluster [-60, -16] p=0.063 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -44 unit [-67, -22] cluster [-75, -30] p=0.033 G=7 n=18
+- T1np kept merged, date - none: -18 unit [-36, -5] cluster [-33, -5] p=0.120 G=15 n=22  (not established)
+- T1np kept merged, reform - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+
+### mimo-v2.6-flash|omni
+- T6 prov absorbed, date - none: +7 unit [+0, +17] cluster [+0, +17] p=0.501 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +14 unit [+3, +28] cluster [+3, +28] p=0.121 G=29 n=29  (not established)
+- T6 prov kept, date - none: +47 unit [+29, +65] cluster [+29, +65] p=0.000 G=34 n=34
+- T6 prov kept, reform - none: +35 unit [+15, +53] cluster [+15, +56] p=0.005 G=34 n=34
+- T6 prov kept unmerged, date - none: +36 unit [+9, +64] cluster [+9, +64] p=0.130 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +36 unit [+9, +64] cluster [+9, +64] p=0.130 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +52 unit [+26, +74] cluster [+26, +74] p=0.001 G=23 n=23
+- T6 prov kept merged, reform - none: +35 unit [+9, +61] cluster [+9, +61] p=0.032 G=23 n=23
+- T1 ward absorbed, date - none: +8 unit [+2, +14] cluster [+1, +15] p=0.125 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +21 unit [+12, +31] cluster [+12, +32] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +5 unit [-10, +20] cluster [-8, +15] p=0.399 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -20 unit [-38, -2] cluster [-40, -4] p=0.057 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +11 unit [-17, +39] cluster [-10, +31] p=0.502 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [-33, +33] cluster [-22, +13] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [-14, +14] cluster [-15, +12] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -36 unit [-59, -18] cluster [-57, -14] p=0.036 G=15 n=22
+
+### mimo-v2.6-pro|omni
+- T6 prov absorbed, date - none: +10 unit [+0, +24] cluster [+0, +24] p=0.242 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +45 unit [+28, +62] cluster [+28, +62] p=0.000 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -9 unit [-21, +0] cluster [-21, +0] p=0.250 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -9 unit [-22, +0] cluster [-22, +0] p=0.500 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +19 unit [+10, +28] cluster [+8, +33] p=0.005 G=24 n=80
+- T1 ward kept, date - none: -5 unit [-12, +0] cluster [-12, +0] p=0.507 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -12 unit [-22, -2] cluster [-24, -4] p=0.064 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: -6 unit [-17, +0] cluster [-12, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -6 unit [-17, +0] cluster [-12, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -18 unit [-36, -5] cluster [-38, -4] p=0.126 G=15 n=22  (not established)
+
+### minimax-m2.7|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +9 unit [-6, +24] cluster [-6, +24] p=0.454 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -15 unit [-38, +9] cluster [-38, +9] p=0.327 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -27 unit [-64, +9] cluster [-64, +9] p=0.373 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +17 unit [+0, +35] cluster [+0, +39] p=0.217 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -9 unit [-39, +22] cluster [-39, +22] p=0.774 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -12 unit [-22, -2] cluster [-24, -3] p=0.065 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -11 unit [-28, +0] cluster [-36, +0] p=0.505 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -14 unit [-32, +0] cluster [-29, +0] p=0.251 G=15 n=22  (not established)
+
+### minimax-m3|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +38 unit [+21, +55] cluster [+21, +55] p=0.001 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -12 unit [-24, -3] cluster [-24, -3] p=0.131 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -13 unit [-26, +0] cluster [-26, +0] p=0.248 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +5 unit [+3, +7] cluster [+2, +8] p=0.002 G=29 n=417
+- T1 ward absorbed, reform - none: +43 unit [+39, +48] cluster [+32, +54] p=0.000 G=29 n=417
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=33 n=140  (not established)
+- T1 ward kept, reform - none: -4 unit [-8, -1] cluster [-8, -1] p=0.066 G=33 n=140  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=58  (not established)
+- T1 ward kept unmerged, reform - none: -3 unit [-9, +0] cluster [-8, +0] p=0.493 G=11 n=58  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=82  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-10, -1] cluster [-11, +0] p=0.253 G=22 n=82  (not established)
+- T5 succ changed, date - none: +1 unit [+0, +2] cluster [+0, +2] p=0.491 G=61 n=296  (not established)
+- T5 succ changed, reform - none: +0 unit [+0, +1] cluster [+0, +1] p=1.000 G=61 n=296  (not established)
+- T5 succ unchanged, date - none: -4 unit [-9, +1] cluster [-8, +0] p=0.064 G=42 n=100  (not established)
+- T5 succ unchanged, reform - none: -37 unit [-47, -27] cluster [-48, -26] p=0.000 G=42 n=100
+
+### qwen3.6-27b|omni
+- T6 prov absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +7 unit [+0, +17] cluster [+0, +17] p=0.498 G=29 n=29  (not established)
+- T6 prov kept, date - none: +9 unit [+0, +18] cluster [+0, +18] p=0.255 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -15 unit [-29, +0] cluster [-32, +3] p=0.182 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +13 unit [+0, +26] cluster [+0, +26] p=0.248 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -17 unit [-39, +4] cluster [-39, +4] p=0.301 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-14, +0] cluster [-14, +0] p=1.000 G=15 n=22  (not established)
+
+### qwen3.8-27b|omni
+- T6 prov absorbed, date - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +10 unit [+0, +21] cluster [+0, +24] p=0.256 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +4 unit [+0, +9] cluster [+0, +10] p=0.504 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +2 unit [+0, +6] cluster [+0, +6] p=0.501 G=24 n=80  (not established)
+- T1 ward kept, date - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+
+### qwen3.8-max|omni
+- T6 prov absorbed, date - none: +0 unit [-14, +14] cluster [-14, +14] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: -7 unit [-21, +7] cluster [-21, +7] p=0.628 G=29 n=29  (not established)
+- T6 prov kept, date - none: -29 unit [-47, -15] cluster [-44, -15] p=0.002 G=34 n=34
+- T6 prov kept, reform - none: -38 unit [-56, -24] cluster [-56, -24] p=0.000 G=34 n=34
+- T6 prov kept unmerged, date - none: -45 unit [-73, -18] cluster [-73, -18] p=0.062 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -55 unit [-82, -27] cluster [-82, -27] p=0.032 G=11 n=11
+- T6 prov kept merged, date - none: -22 unit [-39, -9] cluster [-39, -4] p=0.059 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: -30 unit [-48, -13] cluster [-52, -13] p=0.014 G=23 n=23
+- T1 ward absorbed, date - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward absorbed, reform - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1 ward kept, date - none: -2 unit [-8, +0] cluster [-8, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -10 unit [-20, -2] cluster [-20, -2] p=0.124 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: -6 unit [-17, +0] cluster [-16, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: -11 unit [-28, +0] cluster [-31, +0] p=0.503 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -9 unit [-23, +0] cluster [-22, +0] p=0.500 G=15 n=22  (not established)
+- T1np absorbed, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1np absorbed, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### deepseek-v4-pro|omni
+- T1np absorbed, date - none: +1 unit [+0, +4] cluster [+0, +4] p=1.000 G=24 n=80  (not established)
+- T1np absorbed, reform - none: +2 unit [+0, +6] cluster [+0, +6] p=0.491 G=24 n=80  (not established)
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: -6 unit [-17, +0] cluster [-25, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### google/gemini-4-argon|orouter
+
+### openai/gpt-5.6-terra|orouter (knower)
+- T6 prov absorbed, date - none: +52 unit [+34, +69] cluster [+34, +69] p=0.000 G=29 n=29
+- T6 prov absorbed, reform - none: +52 unit [+34, +69] cluster [+34, +69] p=0.000 G=29 n=29
+- T6 prov kept, date - none: -6 unit [-18, +6] cluster [-18, +6] p=0.621 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -3 unit [-15, +6] cluster [-15, +6] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: -9 unit [-26, +4] cluster [-26, +9] p=0.623 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [-13, +13] cluster [-13, +13] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +99 unit [+96, +100] cluster [+96, +100] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: -5 unit [-14, +0] cluster [-14, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +88 unit [+80, +94] cluster [+77, +95] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +100 unit [+100, +100] cluster [+100, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### openai/gpt-6-luna|orouter (knower)
+- T6 prov absorbed, date - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov absorbed, reform - none: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +76 unit [+68, +85] cluster [+67, +85] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +76 unit [+68, +85] cluster [+67, +85] p=0.000 G=24 n=80
+- T1 ward kept, date - none: -2 unit [-8, +0] cluster [-9, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +71 unit [+61, +81] cluster [+58, +84] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +96 unit [+91, +100] cluster [+91, +100] p=0.000 G=24 n=80
+- T1np kept, date - none: -5 unit [-12, +0] cluster [-14, +0] p=0.499 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: -6 unit [-17, +0] cluster [-22, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: -5 unit [-14, +0] cluster [-16, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### x-ai/grok-4.7|orouter (knower)
+- T6 prov absorbed, date - none: +24 unit [+10, +41] cluster [+10, +41] p=0.016 G=29 n=29
+- T6 prov absorbed, reform - none: +21 unit [+7, +34] cluster [+7, +34] p=0.029 G=29 n=29
+- T6 prov kept, date - none: -3 unit [-9, +0] cluster [-9, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: -6 unit [-15, +0] cluster [-15, +0] p=0.497 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: -9 unit [-27, +0] cluster [-27, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: -18 unit [-45, +0] cluster [-45, +0] p=0.506 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +54 unit [+42, +65] cluster [+38, +69] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +54 unit [+42, +65] cluster [+38, +69] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +80 unit [+71, +89] cluster [+70, +89] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +92 unit [+86, +98] cluster [+84, +99] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### tencent/hy4-preview|orouter (knower)
+- T6 prov absorbed, date - none: +48 unit [+28, +69] cluster [+28, +69] p=0.000 G=29 n=29
+- T6 prov absorbed, reform - none: +55 unit [+38, +72] cluster [+38, +72] p=0.000 G=29 n=29
+- T6 prov kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=34 n=34  (not established)
+- T6 prov kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=11 n=11  (not established)
+- T6 prov kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T6 prov kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=23 n=23  (not established)
+- T1 ward absorbed, date - none: +60 unit [+49, +70] cluster [+48, +74] p=0.000 G=24 n=80
+- T1 ward absorbed, reform - none: +66 unit [+56, +76] cluster [+53, +80] p=0.000 G=24 n=80
+- T1 ward kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1 ward kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1 ward kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1 ward kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np absorbed, date - none: +35 unit [+25, +46] cluster [+21, +49] p=0.000 G=24 n=80
+- T1np absorbed, reform - none: +57 unit [+46, +69] cluster [+38, +76] p=0.000 G=24 n=80
+- T1np kept, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=22 n=40  (not established)
+- T1np kept unmerged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept unmerged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=7 n=18  (not established)
+- T1np kept merged, date - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+- T1np kept merged, reform - none: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=15 n=22  (not established)
+
+### meituan/longcat-2.0|orouter
+
+### mistralai/mistral-large-4-0|orouter
+
+## Date placement: old-only against today's date in the system prompt
+
+- Muse-Glimmer-30B-Q8_0|gpu, T6 absorbed, sys0q - sys1: +0 unit [-10, +10] cluster [-10, +10] p=1.000 G=29 n=29  (not established)
+- Muse-Glimmer-30B-Q8_0|gpu, T6 absorbed, sys0qm - sys1: +7 unit [-10, +24] cluster [-10, +24] p=0.691 G=29 n=29  (not established)
+- Muse-Glimmer-30B-Q8_0|gpu, T6 absorbed, sysasof - sys1: +3 unit [+0, +10] cluster [+0, +10] p=1.000 G=29 n=29  (not established)
+- Muse-Glimmer-30B-Q8_0|gpu, T1 absorbed, sys0q - sys1: -12 unit [-22, -4] cluster [-23, -3] p=0.025 G=24 n=80
+- Muse-Glimmer-30B-Q8_0|gpu, T1 absorbed, sys0qm - sys1: -24 unit [-34, -14] cluster [-39, -9] p=0.006 G=24 n=80
+- Muse-Glimmer-30B-Q8_0|gpu, T1 absorbed, sysasof - sys1: -1 unit [-10, +9] cluster [-10, +8] p=0.737 G=24 n=80  (not established)
+- Muse-Glimmer-30B-Q8_0|gpu, T1np absorbed, sys0q - sys1: -18 unit [-29, -8] cluster [-31, -7] p=0.002 G=24 n=80
+- Muse-Glimmer-30B-Q8_0|gpu, T1np absorbed, sys0qm - sys1: -16 unit [-28, -4] cluster [-30, -4] p=0.027 G=24 n=80
+- Muse-Glimmer-30B-Q8_0|gpu, T1np absorbed, sysasof - sys1: +6 unit [-5, +18] cluster [-6, +17] p=0.265 G=24 n=80  (not established)
+- claude-fable-5-1|claude, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-fable-5-1|claude, T6 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-fable-5-1|claude, T6 absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-fable-5-1|claude, T1 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude, T1 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude, T1 absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude, T1np absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude, T1np absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude, T1np absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude_none, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-fable-5-1|claude_none, T6 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-fable-5-1|claude_none, T6 absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-fable-5-1|claude_none, T1 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude_none, T1 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude_none, T1 absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude_none, T1np absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude_none, T1np absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5-1|claude_none, T1np absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5|claude, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-fable-5|claude, T6 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-fable-5|claude, T1 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5|claude, T1 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5|claude, T1np absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-fable-5|claude, T1np absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-haiku-5-5|claude, T6 absorbed, sys0q - sys1: -66 unit [-83, -45] cluster [-83, -45] p=0.000 G=29 n=29
+- claude-haiku-5-5|claude, T6 absorbed, sys0qm - sys1: -38 unit [-59, -14] cluster [-59, -14] p=0.007 G=29 n=29
+- claude-haiku-5-5|claude, T6 absorbed, sysasof - sys1: -31 unit [-52, -14] cluster [-52, -10] p=0.010 G=29 n=29
+- claude-haiku-5-5|claude, T1 absorbed, sys0q - sys1: -30 unit [-40, -20] cluster [-41, -19] p=0.001 G=24 n=80
+- claude-haiku-5-5|claude, T1 absorbed, sys0qm - sys1: -4 unit [-9, +0] cluster [-8, +0] p=0.251 G=24 n=80  (not established)
+- claude-haiku-5-5|claude, T1 absorbed, sysasof - sys1: +0 unit [-4, +4] cluster [-4, +3] p=1.000 G=24 n=80  (not established)
+- claude-haiku-5-5|claude, T1np absorbed, sys0q - sys1: -12 unit [-21, -5] cluster [-24, -4] p=0.015 G=24 n=80
+- claude-haiku-5-5|claude, T1np absorbed, sys0qm - sys1: -4 unit [-10, +1] cluster [-11, +2] p=0.495 G=24 n=80  (not established)
+- claude-haiku-5-5|claude, T1np absorbed, sysasof - sys1: -2 unit [-8, +2] cluster [-12, +3] p=1.000 G=24 n=80  (not established)
+- claude-opus-4-7|claude, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-4-7|claude, T6 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-4-7|claude, T1 absorbed, sys0q - sys1: -9 unit [-16, -1] cluster [-20, +2] p=0.253 G=24 n=80  (not established)
+- claude-opus-4-7|claude, T1 absorbed, sys0qm - sys1: -4 unit [-12, +5] cluster [-15, +9] p=0.543 G=24 n=80  (not established)
+- claude-opus-4-7|claude, T1np absorbed, sys0q - sys1: -25 unit [-36, -14] cluster [-40, -11] p=0.004 G=24 n=80
+- claude-opus-4-7|claude, T1np absorbed, sys0qm - sys1: -11 unit [-24, +1] cluster [-28, +5] p=0.254 G=24 n=80  (not established)
+- claude-opus-4-8|claude, T6 absorbed, sys0q - sys1: -3 unit [-10, +0] cluster [-10, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-4-8|claude, T6 absorbed, sys0qm - sys1: -3 unit [-10, +0] cluster [-10, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-4-8|claude, T1 absorbed, sys0q - sys1: -49 unit [-60, -36] cluster [-65, -33] p=0.000 G=24 n=80
+- claude-opus-4-8|claude, T1 absorbed, sys0qm - sys1: -1 unit [-15, +12] cluster [-19, +14] p=0.930 G=24 n=80  (not established)
+- claude-opus-4-8|claude, T1np absorbed, sys0q - sys1: -41 unit [-54, -28] cluster [-58, -23] p=0.001 G=24 n=80
+- claude-opus-4-8|claude, T1np absorbed, sys0qm - sys1: -15 unit [-26, -4] cluster [-28, -1] p=0.064 G=24 n=80  (not established)
+- claude-opus-5-5|claude, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-5-5|claude, T6 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-5-5|claude, T6 absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-5-5|claude, T1 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-opus-5-5|claude, T1 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-opus-5-5|claude, T1 absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-opus-5-5|claude, T1np absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-opus-5-5|claude, T1np absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-opus-5-5|claude, T1np absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=24 n=80  (not established)
+- claude-opus-5|claude, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-5|claude, T6 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-opus-5|claude, T1 absorbed, sys0q - sys1: +0 unit [-4, +4] cluster [-4, +4] p=1.000 G=24 n=80  (not established)
+- claude-opus-5|claude, T1 absorbed, sys0qm - sys1: +6 unit [+0, +14] cluster [+0, +12] p=0.088 G=24 n=80  (not established)
+- claude-opus-5|claude, T1np absorbed, sys0q - sys1: -68 unit [-78, -56] cluster [-79, -54] p=0.000 G=24 n=80
+- claude-opus-5|claude, T1np absorbed, sys0qm - sys1: -25 unit [-36, -14] cluster [-33, -16] p=0.000 G=24 n=80
+- claude-sonnet-5-5|claude_nothink, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-sonnet-5-5|claude_nothink, T6 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-sonnet-5-5|claude_nothink, T6 absorbed, sysasof - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-sonnet-5-5|claude_nothink, T1 absorbed, sys0q - sys1: -1 unit [-4, +0] cluster [-4, +0] p=1.000 G=24 n=80  (not established)
+- claude-sonnet-5-5|claude_nothink, T1 absorbed, sys0qm - sys1: -1 unit [-4, +0] cluster [-4, +0] p=1.000 G=24 n=80  (not established)
+- claude-sonnet-5-5|claude_nothink, T1 absorbed, sysasof - sys1: -1 unit [-4, +0] cluster [-4, +0] p=1.000 G=24 n=80  (not established)
+- claude-sonnet-5-5|claude_nothink, T1np absorbed, sys0q - sys1: -18 unit [-28, -9] cluster [-28, -8] p=0.010 G=24 n=80
+- claude-sonnet-5-5|claude_nothink, T1np absorbed, sys0qm - sys1: -14 unit [-24, -5] cluster [-24, -5] p=0.010 G=24 n=80
+- claude-sonnet-5-5|claude_nothink, T1np absorbed, sysasof - sys1: -18 unit [-26, -10] cluster [-27, -8] p=0.010 G=24 n=80
+- claude-sonnet-5|claude, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-sonnet-5|claude, T6 absorbed, sys0qm - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- claude-sonnet-5|claude, T1 absorbed, sys0q - sys1: -46 unit [-59, -34] cluster [-57, -33] p=0.000 G=24 n=80
+- claude-sonnet-5|claude, T1 absorbed, sys0qm - sys1: -35 unit [-48, -21] cluster [-46, -24] p=0.000 G=24 n=80
+- claude-sonnet-5|claude, T1np absorbed, sys0q - sys1: -51 unit [-62, -38] cluster [-63, -38] p=0.000 G=24 n=80
+- claude-sonnet-5|claude, T1np absorbed, sys0qm - sys1: -32 unit [-46, -19] cluster [-43, -21] p=0.000 G=24 n=80
+- deepseek-flash|api, T6 absorbed, sys0q - sys1: -21 unit [-38, -7] cluster [-34, -7] p=0.033 G=29 n=29
+- deepseek-flash|api, T6 absorbed, sys0qm - sys1: -17 unit [-31, -3] cluster [-31, -3] p=0.060 G=29 n=29  (not established)
+- deepseek-flash|api, T6 absorbed, sysasof - sys1: +3 unit [-10, +17] cluster [-10, +21] p=1.000 G=29 n=29  (not established)
+- deepseek-flash|api, T1 absorbed, sys0q - sys1: -39 unit [-50, -29] cluster [-56, -24] p=0.000 G=24 n=80
+- deepseek-flash|api, T1 absorbed, sys0qm - sys1: -30 unit [-40, -20] cluster [-47, -16] p=0.001 G=24 n=80
+- deepseek-flash|api, T1 absorbed, sysasof - sys1: -15 unit [-24, -8] cluster [-26, -6] p=0.007 G=24 n=80
+- deepseek-flash|api, T1np absorbed, sys0q - sys1: -26 unit [-36, -16] cluster [-42, -13] p=0.001 G=24 n=80
+- deepseek-flash|api, T1np absorbed, sys0qm - sys1: -22 unit [-32, -12] cluster [-37, -11] p=0.001 G=24 n=80
+- deepseek-flash|api, T1np absorbed, sysasof - sys1: -16 unit [-25, -8] cluster [-30, -6] p=0.016 G=24 n=80
+- glm-5.3|omni, T6 absorbed, sys0q - sys1: -10 unit [-24, +0] cluster [-21, +0] p=0.245 G=29 n=29  (not established)
+- glm-5.3|omni, T1 absorbed, sys0q - sys1: -9 unit [-16, -4] cluster [-16, -2] p=0.062 G=24 n=80  (not established)
+- glm-5.3|omni, T1np absorbed, sys0q - sys1: -70 unit [-80, -60] cluster [-81, -59] p=0.000 G=24 n=80
+- gpt-5.6-terra|orouter, T1np absorbed, sys0q - sys1: -68 unit [-78, -56] cluster [-80, -52] p=0.000 G=24 n=80
+- gpt-5.6-terra|orouter, T1np absorbed, sys0qm - sys1: -21 unit [-32, -10] cluster [-32, -10] p=0.005 G=24 n=80
+- gpt-5.6-terra|orouter, T1np absorbed, sysasof - sys1: +12 unit [+4, +21] cluster [+4, +22] p=0.013 G=24 n=80
+- gpt-5.6-terra|orouter_think, T1np absorbed, sys0q - sys1: -60 unit [-71, -50] cluster [-72, -47] p=0.000 G=24 n=80
+- gpt-5.6-terra|orouter_think, T1np absorbed, sys0qm - sys1: -50 unit [-62, -39] cluster [-63, -38] p=0.000 G=24 n=80
+- gpt-5.6-terra|orouter_think, T1np absorbed, sysasof - sys1: +16 unit [+4, +29] cluster [+1, +30] p=0.056 G=24 n=80  (not established)
+- gpt-5.6-terra|orouter_think, T1np absorbed, sys1, reasoning on - off: -18 unit [-30, -6] cluster [-29, -3] p=0.024 G=24 n=80
+- gpt-5.6-terra|orouter_think, T1np absorbed, sys0q, reasoning on - off: -10 unit [-18, -4] cluster [-19, -4] p=0.015 G=24 n=80
+- gpt-5.6-terra|orouter_think, T1np absorbed, sys0qm, reasoning on - off: -46 unit [-59, -35] cluster [-60, -35] p=0.000 G=24 n=80
+- gpt-5.6-terra|orouter_think, T1np absorbed, sysasof, reasoning on - off: -14 unit [-22, -5] cluster [-23, -6] p=0.003 G=24 n=80
+- gpt-6-luna|orouter, T1np absorbed, sys0q - sys1: -69 unit [-78, -59] cluster [-78, -59] p=0.000 G=24 n=80
+- gpt-6-luna|orouter, T1np absorbed, sys0qm - sys1: -24 unit [-35, -14] cluster [-36, -12] p=0.001 G=24 n=80
+- gpt-6-luna|orouter, T1np absorbed, sysasof - sys1: -9 unit [-19, +1] cluster [-19, +0] p=0.108 G=24 n=80  (not established)
+- gpt-6-luna|orouter_think, T1np absorbed, sys0q - sys1: -29 unit [-39, -19] cluster [-37, -22] p=0.000 G=24 n=80
+- gpt-6-luna|orouter_think, T1np absorbed, sys0qm - sys1: -29 unit [-39, -19] cluster [-37, -22] p=0.000 G=24 n=80
+- gpt-6-luna|orouter_think, T1np absorbed, sysasof - sys1: -28 unit [-39, -18] cluster [-36, -20] p=0.000 G=24 n=80
+- gpt-6-luna|orouter_think, T1np absorbed, sys1, reasoning on - off: -59 unit [-70, -46] cluster [-67, -49] p=0.000 G=24 n=80
+- gpt-6-luna|orouter_think, T1np absorbed, sys0q, reasoning on - off: -19 unit [-28, -11] cluster [-28, -9] p=0.004 G=24 n=80
+- gpt-6-luna|orouter_think, T1np absorbed, sys0qm, reasoning on - off: -64 unit [-74, -52] cluster [-77, -50] p=0.000 G=24 n=80
+- gpt-6-luna|orouter_think, T1np absorbed, sysasof, reasoning on - off: -78 unit [-86, -68] cluster [-89, -64] p=0.000 G=24 n=80
+- gpt-6-sol|omni, T6 absorbed, sys0q - sys1: +0 unit [+0, +0] cluster [+0, +0] p=1.000 G=29 n=29  (not established)
+- gpt-6-sol|omni, T1 absorbed, sys0q - sys1: -9 unit [-15, -4] cluster [-16, -3] p=0.016 G=24 n=80
+- gpt-6-sol|omni, T1np absorbed, sys0q - sys1: -59 unit [-70, -49] cluster [-71, -47] p=0.000 G=24 n=80
+- gpt-6-sol|orouter, T1np absorbed, sys0q - sys1: -74 unit [-84, -64] cluster [-83, -66] p=0.000 G=24 n=80
+- gpt-6-sol|orouter, T1np absorbed, sys0qm - sys1: -76 unit [-86, -66] cluster [-86, -67] p=0.000 G=24 n=80
+- gpt-6-sol|orouter, T1np absorbed, sysasof - sys1: -30 unit [-42, -18] cluster [-48, -13] p=0.003 G=24 n=80
+- gpt-6-sol|orouter_think, T1np absorbed, sys0q - sys1: -70 unit [-80, -59] cluster [-78, -62] p=0.000 G=24 n=80
+- gpt-6-sol|orouter_think, T1np absorbed, sys0qm - sys1: -70 unit [-80, -59] cluster [-78, -62] p=0.000 G=24 n=80
+- gpt-6-sol|orouter_think, T1np absorbed, sysasof - sys1: -70 unit [-80, -59] cluster [-78, -62] p=0.000 G=24 n=80
+- gpt-6-sol|orouter_think, T1np absorbed, sys1, reasoning on - off: -21 unit [-32, -10] cluster [-31, -13] p=0.000 G=24 n=80
+- gpt-6-sol|orouter_think, T1np absorbed, sys0q, reasoning on - off: -18 unit [-26, -10] cluster [-23, -12] p=0.001 G=24 n=80
+- gpt-6-sol|orouter_think, T1np absorbed, sys0qm, reasoning on - off: -15 unit [-24, -8] cluster [-25, -6] p=0.007 G=24 n=80
+- gpt-6-sol|orouter_think, T1np absorbed, sysasof, reasoning on - off: -61 unit [-72, -50] cluster [-76, -46] p=0.000 G=24 n=80
+- hy4-preview|orouter, T1np absorbed, sys0q - sys1: -8 unit [-18, +1] cluster [-22, +8] p=0.440 G=24 n=80  (not established)
+- hy4-preview|orouter, T1np absorbed, sys0qm - sys1: +2 unit [-6, +11] cluster [-8, +14] p=0.848 G=24 n=80  (not established)
+- hy4-preview|orouter, T1np absorbed, sysasof - sys1: +1 unit [-5, +8] cluster [-5, +8] p=0.876 G=24 n=80  (not established)
+- hy4-preview|orouter_think, T1np absorbed, sys0q - sys1: -60 unit [-72, -48] cluster [-73, -44] p=0.000 G=24 n=80
+- hy4-preview|orouter_think, T1np absorbed, sys0qm - sys1: -20 unit [-32, -8] cluster [-32, -9] p=0.003 G=24 n=80
+- hy4-preview|orouter_think, T1np absorbed, sysasof - sys1: -6 unit [-19, +6] cluster [-20, +6] p=0.412 G=24 n=80  (not established)
+- hy4-preview|orouter_think, T1np absorbed, sys1, reasoning on - off: +4 unit [-8, +15] cluster [-12, +22] p=0.715 G=24 n=80  (not established)
+- hy4-preview|orouter_think, T1np absorbed, sys0q, reasoning on - off: -49 unit [-62, -35] cluster [-67, -29] p=0.000 G=24 n=80
+- hy4-preview|orouter_think, T1np absorbed, sys0qm, reasoning on - off: -19 unit [-31, -8] cluster [-33, -6] p=0.016 G=24 n=80
+- hy4-preview|orouter_think, T1np absorbed, sysasof, reasoning on - off: -4 unit [-15, +9] cluster [-24, +18] p=0.817 G=24 n=80  (not established)
+- kimi-k3|omni, T6 absorbed, sys0q - sys1: -3 unit [-10, +0] cluster [-10, +0] p=1.000 G=29 n=29  (not established)
+- kimi-k3|omni, T1 absorbed, sys0q - sys1: -11 unit [-19, -5] cluster [-18, -5] p=0.009 G=24 n=80
+- kimi-k3|omni, T1np absorbed, sys0q - sys1: -52 unit [-62, -41] cluster [-67, -38] p=0.000 G=24 n=80
+- kimi-k3|orouter, T1np absorbed, sys0q - sys1: -34 unit [-44, -24] cluster [-50, -20] p=0.000 G=24 n=80
+- kimi-k3|orouter, T1np absorbed, sys0qm - sys1: -14 unit [-22, -8] cluster [-21, -7] p=0.004 G=24 n=80
+- kimi-k3|orouter, T1np absorbed, sysasof - sys1: -1 unit [-4, +0] cluster [-4, +0] p=1.000 G=24 n=80  (not established)
+- kimi-k3|orouter_think, T1np absorbed, sys0q - sys1: -78 unit [-86, -68] cluster [-88, -68] p=0.000 G=24 n=80
+- kimi-k3|orouter_think, T1np absorbed, sys0qm - sys1: -78 unit [-86, -68] cluster [-88, -68] p=0.000 G=24 n=80
+- kimi-k3|orouter_think, T1np absorbed, sysasof - sys1: -44 unit [-56, -32] cluster [-58, -29] p=0.000 G=24 n=80
+- kimi-k3|orouter_think, T1np absorbed, sys1, reasoning on - off: -22 unit [-32, -14] cluster [-32, -12] p=0.001 G=24 n=80
+- kimi-k3|orouter_think, T1np absorbed, sys0q, reasoning on - off: -66 unit [-76, -56] cluster [-80, -50] p=0.000 G=24 n=80
+- kimi-k3|orouter_think, T1np absorbed, sys0qm, reasoning on - off: -86 unit [-92, -78] cluster [-93, -79] p=0.000 G=24 n=80
+- kimi-k3|orouter_think, T1np absorbed, sysasof, reasoning on - off: -65 unit [-76, -54] cluster [-79, -48] p=0.000 G=24 n=80
+
+## 300 absorbed T1np units (reasoning off): old-only against sys1
+
+- deepseek-flash, sys0q - sys1: -27 unit [-32, -22] cluster [-36, -19] p=0.000 G=29 n=300
+- deepseek-flash, sys0qm - sys1: -22 unit [-27, -17] cluster [-29, -16] p=0.000 G=29 n=300
+- deepseek-flash, sysasof - sys1: -10 unit [-14, -6] cluster [-15, -5] p=0.000 G=29 n=300
+- gpt-6-sol, sys0q - sys1: -76 unit [-81, -70] cluster [-82, -70] p=0.000 G=29 n=300
+- gpt-6-sol, sys0qm - sys1: -77 unit [-82, -73] cluster [-82, -72] p=0.000 G=29 n=300
+- gpt-6-sol, sysasof - sys1: -34 unit [-40, -28] cluster [-42, -26] p=0.000 G=29 n=300
+- kimi-k3, sys0q - sys1: -37 unit [-42, -31] cluster [-46, -28] p=0.000 G=29 n=300
+- kimi-k3, sys0qm - sys1: -13 unit [-17, -10] cluster [-19, -8] p=0.000 G=29 n=300
+- kimi-k3, sysasof - sys1: -4 unit [-6, -1] cluster [-6, -1] p=0.007 G=29 n=300
+- gpt-6-luna, sys0q - sys1: -69 unit [-74, -63] cluster [-74, -63] p=0.000 G=29 n=300
+- gpt-6-luna, sys0qm - sys1: -30 unit [-36, -24] cluster [-36, -24] p=0.000 G=29 n=300
+- gpt-6-luna, sysasof - sys1: -9 unit [-14, -5] cluster [-13, -6] p=0.000 G=29 n=300
+- gpt-5.6-terra, sys0q - sys1: -63 unit [-68, -57] cluster [-71, -53] p=0.000 G=29 n=300
+- gpt-5.6-terra, sys0qm - sys1: -24 unit [-30, -18] cluster [-31, -18] p=0.000 G=29 n=300
+- gpt-5.6-terra, sysasof - sys1: +11 unit [+7, +16] cluster [+7, +16] p=0.000 G=29 n=300
+- hy4-preview, sys0q - sys1: -12 unit [-17, -7] cluster [-21, -3] p=0.030 G=29 n=300
+- hy4-preview, sys0qm - sys1: +3 unit [-1, +6] cluster [-1, +7] p=0.269 G=29 n=300  (not established)
+- hy4-preview, sysasof - sys1: +1 unit [-3, +4] cluster [-3, +4] p=0.627 G=29 n=300  (not established)
+
+## Summary
+
+- knowers: 20 distinct models (32 runs); prespecified cue-dependence decisions changed by clustering: 0 []
+- over the 19 knower rows of the cue table, effects established at the unit level whose cluster interval includes zero: 10 (9 on kept units)
+- further effects that fail the wild test: 18
+- one-sided 97.5% Clopper-Pearson bound for 0 of k: k=24: 14.2%, k=29: 11.9%, k=80: 4.5%

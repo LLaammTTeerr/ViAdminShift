@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use ViAdminShift, please cite it as below."
+title: "ViAdminShift: A Vietnamese Benchmark for Event-Level Knowledge Updates Built from the 2025 Administrative Reform"
+type: dataset
+version: "1.0"
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/LLaammTTeerr/ViAdminShift"
+abstract: >-
+  ViAdminShift is a Vietnamese benchmark built from the administrative reform in force from 1 July 2025 (63 provinces
+  merged into 34, districts abolished, 10,035 communes reorganized into 3,321). It contains the benchmark items
+  (data version 2025-07-01), retrieval contexts, probing sets with the exact prompts, the model outputs behind every
+  reported result, annotation sheets, scorers and analysis code. Data, outputs and annotations are CC BY-SA 4.0
+  (tiny-aya-global outputs CC BY-NC-SA 4.0); code is MIT.
+keywords:
+  - Vietnamese
+  - benchmark
+  - knowledge updates
+  - temporal knowledge
+  - large language models
+  - administrative units
+authors:
+  - family-names: Phan
+    given-names: Binh Nguyen Lam
+    affiliation: "Faculty of Information Technology, University of Science, Vietnam National University, Ho Chi Minh City, Vietnam"
+  - family-names: Nguyen
+    given-names: Thai Anh
+    affiliation: "Faculty of Information Technology, Van Lang School of Technology, Van Lang University, Ho Chi Minh City, Vietnam"

@@ -121,6 +121,8 @@ def main(root="results/minitest", out="results/analysis/sysprompt"):
             if dd:
                 res[tag] = dict(zip(("delta", "lo", "hi", "n"), dd))
         rows[f"{model}|{src}"][name]["old_only_think_vs_off"] = res
+    if out is None:  # pairs only (clustered_ci.py)
+        return rows, olds
     os.makedirs(os.path.dirname(out), exist_ok=True)
     json.dump(rows, open(out + ".json", "w"), indent=1)
     fmt = lambda x: "  -- " if x is None else f"{x:5.2f}"
@@ -135,6 +137,7 @@ def main(root="results/minitest", out="results/analysis/sysprompt"):
                          + (f"   outdated: sys0 {fmt(v.get('sys0_outdated'))} sys2025 {fmt(v.get('sys2025_outdated'))} q2025 {fmt(v.get('q2025_outdated'))}" if "sys2025" in v or "q2025" in v else ""))
     open(out + ".md", "w").write("\n".join(lines) + "\n")
     print("\n".join(lines))
+    return rows, olds
 
 
 if __name__ == "__main__":

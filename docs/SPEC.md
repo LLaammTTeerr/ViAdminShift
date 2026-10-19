@@ -1,6 +1,6 @@
 # ViAdminShift — project specification
 
-Working title: *Did the Map Change? Benchmarking LLMs on Vietnam's 2025 Administrative Restructuring*.
+Title: *ViAdminShift: A Vietnamese Benchmark for Event-Level Knowledge Updates Built from the 2025 Administrative Reform*.
 
 ## Research questions
 - **RQ1 (closed-book):** Do LLMs know the post-1/7/2025 administrative structure? Is the

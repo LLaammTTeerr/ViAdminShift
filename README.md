@@ -1,6 +1,6 @@
 # ViAdminShift
 
-**Did the Map Change? Benchmarking LLMs on Vietnam's 2025 Administrative Restructuring**
+**ViAdminShift: A Vietnamese Benchmark for Event-Level Knowledge Updates Built from the 2025 Administrative Reform**
 
 On 1 July 2025 Vietnam reorganised its administrative map:
 
@@ -196,7 +196,8 @@ uv run pytest -q           # test suite
 ```
 
 `scripts/minitest.py` (except its `run-hf` subcommand, which needs torch), `scripts/analyze_*.py` and
-`scripts/agent_date.py` use only the standard library. Run them
+`scripts/agent_date.py` use only the standard library; `scripts/clustered_ci.py` also needs numpy (installed by
+`uv sync`). Run them
 with `python3` from the repository root, because they use relative paths. API keys are read from environment variables
 whose names are passed on the command line (e.g. `--api-key-env DS_TOKEN`). The shell wrappers in `scripts/*.sh`
 source them from a git-ignored `.env`.
@@ -307,7 +308,14 @@ python3 scripts/agent_date.py score   # agent settings
 python3 scripts/analyze_template.py   # Muse-Glimmer chat-template ablation
 python3 -c "import sys; sys.path.insert(0,'scripts'); import analyze_rag as r; r.main(); r.tex()"  # retrieval table
 python3 scripts/analyze_bench_extra.py  # 2x2 cells and per-question-type tables (run after analyze_rag)
+python3 scripts/clustered_ci.py       # province-clustered intervals and wild cluster tests (run after the above)
 ```
+
+**Intervals.** The scripts above give unit-level paired bootstrap intervals (B=2,000), on which the prespecified
+criteria were evaluated. Absorbed wards of one old province share their answer, so `scripts/clustered_ci.py` adds, for
+the same paired differences, a cluster bootstrap over old provinces (B=10,000) and a Rademacher wild cluster bootstrap
+test (B=10,000); an effect counts as established when the cluster interval excludes zero and p < 0.05. Per-model
+results with both kinds of interval are in `results/analysis/clustered.md` (and `.json`).
 
 **Scoring.**
 
@@ -419,10 +427,11 @@ administrative use.
 
 ```bibtex
 @misc{viadminshift2026,
-  title  = {Did the Map Change? Benchmarking {LLMs} on {Vietnam}'s 2025 Administrative Restructuring},
-  author = {{Author names to be added}},
+  title  = {{ViAdminShift}: A {Vietnamese} Benchmark for Event-Level Knowledge Updates Built from the 2025 Administrative Reform},
+  author = {Phan, Binh Nguyen Lam and Nguyen, Thai Anh},
   year   = {2026},
-  note   = {ViAdminShift benchmark, data version 2025-07-01. Venue and URL to be added}
+  note   = {Data version 2025-07-01, release v1.0},
+  url    = {https://github.com/LLaammTTeerr/ViAdminShift}
 }
 ```
 
